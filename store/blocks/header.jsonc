@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -14,7 +20,134 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#top-desktop",
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#top-desktop": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass":"top-header"
+    },
+    "children": [
+      "image#youtube-top",
+      "image#facebook-top",
+      "image#instagram-top",
+      "flex-layout.row#telefono-top",
+      "flex-layout.row#correo-top",
+      "flex-layout.row#tiendas-top"
+    ]
+  },
+  "image#youtube-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "image#facebook-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "image#instagram-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "flex-layout.row#telefono-top":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass":"contacto-top"
+    },
+    "children": [
+      "image#telefono-top",
+      "rich-text#telefono-top"
+    ]
+  },
+  "image#telefono-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "rich-text#telefono-top":{
+    "props":{
+      "text": "[+562244883000](tel:+562244883000)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top"
+    }
+  },
+  "flex-layout.row#correo-top":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass":"contacto-top"
+    },
+    "children": [
+      "image#correo-top",
+      "rich-text#correo-top"
+    ]
+  },
+  "image#correo-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "rich-text#correo-top":{
+    "props":{
+      "text": "[CONTACTO](mailto:contacto@hotmail.com)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top"
+    }
+  },
+  "flex-layout.row#tiendas-top":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass":"contacto-top"
+    },
+    "children": [
+      "image#tiendas-top",
+      "rich-text#tiendas-top"
+    ]
+  },
+  "image#tiendas-top":{
+    "props":{
+      "url":{
+        "link":"#"
+      },
+      "src": "https://dummyimage.com/20x20/000/fff",
+      "blockClass": "image-top-header"
+    }
+  },
+  "rich-text#tiendas-top":{
+    "props":{
+      "text": "[NUESTRAS TIENDAS](#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top"
+    }
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -22,13 +155,13 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass":"header-main"
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -48,15 +181,32 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://dummyimage.com/150x40/000/fff"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hasGoogleOneTap": true,
+      "hideIconLabel": true
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile"
+    ]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": [
+      "flex-layout.row#top-desktop",
+      "flex-layout.row#mobile",
+      "search-bar#mobile"
+    ]
   },
   "flex-layout.row#mobile": {
     "children": [
@@ -73,7 +223,24 @@
       "fullWidth": true
     }
   },
+  "search-bar#mobile":{
+    "props":{
+      "displayMode": "search-button",
+      "blockClass":"search-mobile"
+    }
+  },
   "drawer": {
-    "children": []
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-drawer"
+    }
   }
 }

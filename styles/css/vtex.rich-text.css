@@ -1,0 +1,11 @@
+/* HEADER */
+.paragraph--contacto-top {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.link--contacto-top {
+    text-decoration: none;
+    color: #606060;
+}

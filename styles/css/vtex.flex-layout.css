@@ -1,0 +1,11 @@
+/* HEADER */
+.flexRowContent--top-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    background: black;
+}
+
+.flexRowContent--contacto-top {
+    margin-left: 10px;
+}
