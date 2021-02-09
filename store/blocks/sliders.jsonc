@@ -1,0 +1,120 @@
+{
+    "slider-layout#home": {
+        "children": [
+          "image#slider-home-1",
+          "image#slider-home-2",
+          "image#slider-home-3",
+          "image#slider-home-4"
+        ],
+        "props": {
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1
+          },
+          "showPaginationDots": "never",
+          "fullWidth": true,
+          "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-1": {
+        "props": {
+          "src": "https://dummyimage.com/1920x700/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-2": {
+        "props": {
+          "src": "https://dummyimage.com/1920x700/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-3": {
+        "props": {
+          "src": "https://dummyimage.com/1920x700/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-4": {
+        "props": {
+          "src": "https://dummyimage.com/1920x700/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home"
+        }
+    },
+    /* MOBILE */
+    "slider-layout#home-mobile": {
+        "children": [
+          "image#slider-home-mobile-1",
+          "image#slider-home-mobile-2",
+          "image#slider-home-mobile-3",
+          "image#slider-home-mobile-4"
+        ],
+        "props": {
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "itemsPerPage": {
+            "phone": 1
+          },
+          "showPaginationDots": "always",
+          "fullWidth": true,
+          "blockClass": "slider-home-mobile"
+        }
+    },
+    "image#slider-home-mobile-1": {
+        "props": {
+          "src": "https://dummyimage.com/480x480/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home-mobile"
+        }
+    },
+    "image#slider-home-mobile-2": {
+        "props": {
+          "src": "https://dummyimage.com/480x480/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home-mobile"
+        }
+    },
+    "image#slider-home-mobile-3": {
+        "props": {
+          "src": "https://dummyimage.com/480x480/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home-mobile"
+        }
+    },
+    "image#slider-home-mobile-4": {
+        "props": {
+          "src": "https://dummyimage.com/480x480/000/fff",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "slider-home-mobile"
+        }
+    }
+}

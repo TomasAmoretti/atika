@@ -1,6 +1,37 @@
-
-
 /* HEADER */
 .imageElement--image-top-header {
     margin-left: 10px;
+}
+
+/* HOME */
+.imageElement--image-info {
+    margin-right: 8px;
+}
+
+.imageElement--imagen-inspiracion {
+    margin-bottom: -4px;
+}
+
+.imageElementLink--imagen-marcas {
+    margin: auto;
+    display: table;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.infoCardContainer--info-card-showroom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.infoCardHeadline--info-card-showroom {
+    font-family: 'Poppins';
+    color: black;
+    font-size: 32px;
+}
+
+.infoCardSubhead--info-card-showroom {
+    font-family: 'Poppins';
+    color: black;
+    font-size: 15px;
 }

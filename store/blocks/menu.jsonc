@@ -1,0 +1,14 @@
+{
+    "vtex.menu@2.x:menu#categorias-nav": {
+        "children": [
+            "menu-item#Categorias-Espacios",
+            "menu-item#Categorias-Productos",
+            "menu-item#Categorias-Inspiracion",
+            "menu-item#Categorias-Novedades",
+            "menu-item#Categorias-Ofertas"
+        ],
+        "props": {
+          "blockClass": "categorias-nav-header"
+        }
+    }
+}

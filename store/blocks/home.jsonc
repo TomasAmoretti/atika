@@ -1,15 +1,369 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "responsive-layout.desktop#desktop-home",
+      "responsive-layout.mobile#mobile-home"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
+  "responsive-layout.desktop#desktop-home": {
+    "children": [
+      "slider-layout#home",
+      "flex-layout.row#info-home",
+      "flex-layout.row#categorias",
+      "rich-text#titulo-shelf",
+      "flex-layout.row#destacados",
+      "rich-text#titulo-inspiracion",
+      "flex-layout.row#inspiracion",
+      "rich-text#titulo-sale",
+      "shelf#Sale",
+      "rich-text#sale-ver-mas",
+      "image#marcas",
+      "rich-text#titulo-interesar",
+      "shelf#Interesar",
+      "rich-text#interesar-ver-mas",
+      "info-card#Showroom"
+    ]
+  },
+  "flex-layout.row#info-home":{
+    "children":[
+      "flex-layout.row#info-1",
+      "flex-layout.row#info-2",
+      "flex-layout.row#info-3",
+      "flex-layout.row#info-4"
+    ],
+    "props":{
+      "blockClass":"info-home",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#info-1":{
+    "children":[
+      "image#info-1",
+      "rich-text#info-1"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#info-1":{
+    "props":{
+      "src": "https://dummyimage.com/35x35/000/fff",
+      "blockClass":"image-info"
+    }
+  },
+  "rich-text#info-1":{
+    "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "text": "Revisa el estado de tu despacho ",
+      "blockClass": "info-1"
     }
+  },
+  "flex-layout.row#info-2":{
+    "children":[
+      "image#info-2",
+      "rich-text#info-2"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#info-2":{
+    "props":{
+      "src": "https://dummyimage.com/35x35/000/fff",
+      "blockClass":"image-info"
+    }
+  },
+  "rich-text#info-2":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Servicios de instalación",
+      "blockClass": "info"
+    }
+  },
+  "flex-layout.row#info-3":{
+    "children":[
+      "image#info-3",
+      "rich-text#info-3"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#info-3":{
+    "props":{
+      "src": "https://dummyimage.com/35x35/000/fff",
+      "blockClass":"image-info"
+    }
+  },
+  "rich-text#info-3":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SPACEPLANNER by Atika",
+      "blockClass": "info"
+    }
+  },
+  "flex-layout.row#info-4":{
+    "children":[
+      "image#info-4",
+      "rich-text#info-4"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#info-4":{
+    "props":{
+      "src": "https://dummyimage.com/35x35/000/fff",
+      "blockClass":"image-info"
+    }
+  },
+  "rich-text#info-4":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cubiertas Dimensionadas",
+      "blockClass": "info"
+    }
+  },
+  "flex-layout.row#categorias":{
+    "children":[
+      "flex-layout.col#categorias"
+    ],
+    "props":{
+      "blockClass":"categorias"
+    }
+  },
+  "flex-layout.col#categorias":{
+    "children":[
+      "flex-layout.row#categorias-1",
+      "flex-layout.row#categorias-2"
+    ],
+    "props":{
+      "blockClass":"col-categorias"
+    }
+  },
+  "flex-layout.row#categorias-1":{
+    "children":[
+      "image#categoria-1",
+      "image#categoria-2",
+      "image#categoria-3"
+    ],
+    "props":{
+      "blockClass":"row-categorias"
+    }
+  },
+  "image#categoria-1":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-2":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-3":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "flex-layout.row#categorias-2":{
+    "children":[
+      "image#categoria-4",
+      "image#categoria-5",
+      "image#categoria-6"
+    ],
+    "props":{
+      "blockClass":"row-categorias"
+    }
+  },
+  "image#categoria-4":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-5":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "image#categoria-6":{
+    "props": {
+      "src": "https://dummyimage.com/380x250/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria"
+    }
+  },
+  "rich-text#titulo-shelf":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "PRODUCTOS DESTACADOS",
+      "blockClass": "titulo-shelf"
+    }
+  },
+  "flex-layout.row#destacados":{
+    "children":[
+      "shelf#Destacados-1",
+      "flex-layout.col#destacados"
+    ],
+    "props":{
+      "blockClass":"row-destacados"
+    }
+  },
+  "flex-layout.col#destacados":{
+    "children":[
+      "shelf#Destacados-2",
+      "shelf#Destacados-3"
+    ],
+    "props":{
+      "blockClass":"col-destacados"
+    }
+  },
+  "rich-text#titulo-inspiracion":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "INSPIRACIÓN",
+      "blockClass": "titulo-shelf"
+    }
+  },
+  "flex-layout.row#inspiracion":{
+    "children":[
+      "image#inspiracion-1",
+      "flex-layout.col#inspiracion"
+    ],
+    "props":{
+      "blockClass":"row-inspiracion",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#inspiracion":{
+    "children":[
+      "image#inspiracion-2",
+      "image#inspiracion-3"
+    ],
+    "props":{
+      "blockClass":"col-inspiracion",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#inspiracion-1":{
+    "props": {
+      "src": "https://dummyimage.com/600x600/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-inspiracion"
+    }
+  },
+  "image#inspiracion-2":{
+    "props": {
+      "src": "https://dummyimage.com/600x300/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-inspiracion"
+    }
+  },
+  "image#inspiracion-3":{
+    "props": {
+      "src": "https://dummyimage.com/600x300/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-inspiracion"
+    }
+  },
+  "rich-text#titulo-sale":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Sale** \n\n Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat",
+      "blockClass": "titulo-sale"
+    }
+  },
+  "rich-text#sale-ver-mas":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más ofertas >](#)",
+      "blockClass": "sale-ver-mas"
+    }
+  },
+  "image#marcas":{
+    "props": {
+      "src": "https://dummyimage.com/1200x600/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-marcas"
+    }
+  },
+  "rich-text#titulo-interesar":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Te podría interesar?** \n\n Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat",
+      "blockClass": "titulo-sale"
+    }
+  },
+  "rich-text#interesar-ver-mas":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver más ofertas >](#)",
+      "blockClass": "sale-ver-mas"
+    }
+  },
+  "info-card#Showroom": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "headline": "SHOWROOM",
+      "subhead": "Is simply dummy text of the printing and typesetting industry. Lorem impsum has been the industrys standard dummy text ever since 1500s",
+      "imageUrl": "https://dummyimage.com/600x350/000/fff",
+      "mobileImageUrl": "https://dummyimage.com/240x240/000/fff",
+      "callToActionMode": "none",
+      "blockClass": "info-card-showroom",
+      "textAlignment": "center"
+    }
+  },
+  /* MOBILE */
+  "responsive-layout.mobile#mobile-home": {
+    "children": [
+      "slider-layout#home-mobile"
+    ]
   }
 }

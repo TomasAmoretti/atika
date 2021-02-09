@@ -9,3 +9,29 @@
 .flexRowContent--contacto-top {
     margin-left: 10px;
 }
+
+.flexRow--header-main {
+    background: white;
+}
+
+/* HOME */
+.flexRowContent--info-item-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRowContent--info-home {
+    width: 95%;
+    margin: auto;
+}
+
+.flexRow--categorias {
+    width: 95%;
+    margin: auto;
+}
+
+.flexRowContent--row-inspiracion {
+    display: flex;
+    justify-content: center;
+}

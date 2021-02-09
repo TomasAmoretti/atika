@@ -1,0 +1,73 @@
+{
+    "menu-item#Categorias-Espacios": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "ESPACIOS"
+          },
+          "iconPosition": "right",
+          "iconProps": {
+            "id": "mpa-play",
+            "size": 13,
+            "viewBox": "0 0 16 16",
+            "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "categoria-header"
+        }
+    },
+    "menu-item#Categorias-Productos": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "PRODUCTOS"
+          },
+          "iconPosition": "right",
+          "iconProps": {
+            "id": "mpa-play",
+            "size": 13,
+            "viewBox": "0 0 16 16",
+            "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "categoria-header"
+        }
+    },
+    "menu-item#Categorias-Inspiracion": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "INSPIRACIÓN"
+          },
+          "iconPosition": "right",
+          "iconProps": {
+            "id": "mpa-play",
+            "size": 13,
+            "viewBox": "0 0 16 16",
+            "mutedClassName": "c-action-primary"
+          },
+          "blockClass": "categoria-header"
+        }
+    },
+    "menu-item#Categorias-Novedades": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "NOVEDADES"
+          },
+          "blockClass": "categoria-header"
+        }
+    },
+    "menu-item#Categorias-Ofertas": {
+        "props": {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "text": "OFERTAS"
+          },
+          "blockClass": "categoria-header-ofertas"
+        }
+    }
+}

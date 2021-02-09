@@ -9,3 +9,41 @@
     text-decoration: none;
     color: #606060;
 }
+
+/* HOME */
+.container--titulo-shelf {
+    width: 95%;
+    margin: auto;
+}
+
+.paragraph--titulo-shelf {
+    font-family: 'Poppins Bold';
+    font-size: 19px;
+    color: black;
+    border-bottom: solid #C90512;
+}
+
+.strong--titulo-sale {
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins';
+}
+
+.paragraph--titulo-sale {
+    font-family: 'Poppins';
+    font-size: 13px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.link--sale-ver-mas {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.container--titulo-sale {
+    margin-top: 40px;
+}

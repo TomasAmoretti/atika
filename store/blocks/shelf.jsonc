@@ -1,0 +1,163 @@
+{
+    "product-summary.shelf#main": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "flex-layout.row#contenedor-shelf"
+        ],
+        "props": {
+          "blockClass": "product-summary"
+        }
+    },
+    "product-list-price":{
+        "props":{
+          "markers":[
+            "list-price"
+          ],
+          "message":"{listPriceValue}"
+        }
+    },
+    "product-price": {
+        "props": {
+          "showSavings": false,
+          "showListPrice": false,
+          "showInstallments": false,
+          "blockClass": "product-price-vitrina"
+        }
+    },
+    "flex-layout.row#contenedor-shelf":{
+        "children":[
+            "flex-layout.col#Precio-shelf",
+            "add-to-cart-button#shelf"
+        ],
+        "props":{
+          "blockClass":"row-price-shelf",
+          "preventHorizontalStretch":true
+        }
+    },
+    "flex-layout.col#Precio-shelf":{
+        "children":[
+          "product-list-price",
+          "product-price"
+        ],
+        "props":{
+          "blockClass":"row-price-shelf",
+          "preventHorizontalStretch":true
+        }
+    },
+    "add-to-cart-button#shelf": {
+        "props": {
+          "text": "VER MÁS",
+          "unavailableText": "AGOTADO",
+          "showTooltipOnSkuNotSelected": true,
+          /*"showToast": true,*/
+          "blockClass": "product-buy-button"
+        }
+    },
+    "product-summary-price": {
+        "props": {
+          "showLabels": false,
+          "showInstallments": false
+        }
+    },
+    "shelf#Destacados-1": {
+        "blocks": [
+          "product-summary.shelf#main"
+        ],
+        "props": {
+          "category": 1,
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "none",
+          "simulationBehavour":"default",
+          "productList": {
+            "maxItems": 1,
+            "itemsPerPage": 1,
+            "minItemsPerPage": 1,
+            "scroll": "ONE_BY_ONE",
+            "arrows": false,
+            "titleText": ""
+          },
+          "blockClass": "shelf-destacados"
+        }
+    },
+    "shelf#Destacados-2": {
+        "blocks": [
+          "product-summary.shelf#main"
+        ],
+        "props": {
+          "category": 1,
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "none",
+          "simulationBehavour":"default",
+          "productList": {
+            "maxItems": 2,
+            "itemsPerPage": 2,
+            "minItemsPerPage": 2,
+            "scroll": "ONE_BY_ONE",
+            "arrows": false,
+            "titleText": ""
+          },
+          "blockClass": "shelf-destacados"
+        }
+    },
+    "shelf#Destacados-3": {
+        "blocks": [
+          "product-summary.shelf#main"
+        ],
+        "props": {
+          "category": 1,
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "none",
+          "simulationBehavour":"default",
+          "productList": {
+            "maxItems": 2,
+            "itemsPerPage": 2,
+            "minItemsPerPage": 2,
+            "scroll": "ONE_BY_ONE",
+            "arrows": false,
+            "titleText": ""
+          },
+          "blockClass": "shelf-destacados"
+        }
+    },
+    "shelf#Sale": {
+      "blocks": [
+        "product-summary.shelf#main"
+      ],
+      "props": {
+        "category": 1,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "none",
+        "simulationBehavour":"default",
+        "productList": {
+          "maxItems": 15,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "ONE_BY_ONE",
+          "arrows": true,
+          "titleText": ""
+        },
+        "blockClass": "shelf-sale"
+      }
+    },
+    "shelf#Interesar": {
+      "blocks": [
+        "product-summary.shelf#main"
+      ],
+      "props": {
+        "category": 1,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "none",
+        "simulationBehavour":"default",
+        "productList": {
+          "maxItems": 15,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "ONE_BY_ONE",
+          "arrows": true,
+          "titleText": ""
+        },
+        "blockClass": "shelf-sale"
+      }
+    }
+}

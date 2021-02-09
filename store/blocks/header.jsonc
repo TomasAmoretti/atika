@@ -22,7 +22,8 @@
     },
     "children": [
       "flex-layout.row#top-desktop",
-      "flex-layout.row#desktop"
+      "flex-layout.row#desktop",
+      "vtex.menu@2.x:menu#categorias-nav"
     ]
   },
   "flex-layout.row#top-desktop": {
