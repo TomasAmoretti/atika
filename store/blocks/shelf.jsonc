@@ -2,6 +2,7 @@
     "product-summary.shelf#main": {
         "children": [
           "product-summary-image",
+          "product-summary-brand",
           "product-summary-name",
           "flex-layout.row#contenedor-shelf"
         ],

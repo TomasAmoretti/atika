@@ -246,7 +246,8 @@
       "shelf#Destacados-3"
     ],
     "props":{
-      "blockClass":"col-destacados"
+      "blockClass":"col-destacados",
+      "preventVerticalStretch": true
     }
   },
   "rich-text#titulo-inspiracion":{

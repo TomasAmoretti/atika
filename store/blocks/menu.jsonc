@@ -10,5 +10,44 @@
         "props": {
           "blockClass": "categorias-nav-header"
         }
+    },
+    "vtex.menu@2.x:menu#footer-nosotros": {
+        "children": [
+            "menu-item#footer-somos",
+            "menu-item#footer-trabaja",
+            "menu-item#footer-productos",
+            "menu-item#footer-servicios",
+            "menu-item#footer-tiendas",
+            "menu-item#footer-blog"
+        ],
+        "props": {
+          "blockClass": "footer-col",
+          "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-cliente": {
+        "children": [
+            "menu-item#footer-contacto",
+            "menu-item#footer-medios-pago",
+            "menu-item#footer-politicas-privacidad",
+            "menu-item#footer-politicas-cambio",
+            "menu-item#footer-promociones"
+        ],
+        "props": {
+          "blockClass": "footer-col",
+          "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-cuenta": {
+        "children": [
+            "menu-item#footer-sesion",
+            "menu-item#footer-pedidos",
+            "menu-item#footer-seguimiento",
+            "menu-item#footer-despacho"
+        ],
+        "props": {
+          "blockClass": "footer-col",
+          "orientation": "vertical"
+        }
     }
 }

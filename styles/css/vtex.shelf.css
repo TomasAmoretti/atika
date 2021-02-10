@@ -1,0 +1,32 @@
+.container--shelf-destacados, .title--shelf-sale {
+    padding: 0;
+}
+
+.title--shelf-destacados {
+    padding: 10px;
+}
+
+.slide--shelf-sale {
+    padding: 5px;
+}
+
+.container--shelf-sale {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.caretIcon--shelf-sale {
+    color: white;
+    background: #606060;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.arrowLeft--shelf-sale {
+    margin-left: -11px;
+}
+
+.arrowRight--shelf-sale {
+    margin-right: -11px;
+}

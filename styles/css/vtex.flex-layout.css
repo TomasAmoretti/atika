@@ -35,3 +35,53 @@
     display: flex;
     justify-content: center;
 }
+
+.flexColChild--row-price-shelf {
+    display: flex;
+    margin-left: 9px;
+    font-family: 'Poppins';
+    color: #606060;
+    font-size: 13px;
+}
+
+.flexRowContent--row-price-shelf {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+/* FOOTER */
+.flexRowContent--footer-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.flexRow--footer-news {
+    border-top: solid 1px #606060;
+    border-bottom: solid 1px #606060;
+}
+
+.flexRow--footer-general {
+    background: #606060;
+}
+
+.flexRowContent--footer-general {
+    padding: 60px 0;
+    width: 95%;
+    margin: auto;
+}
+
+.flexRowContent--footer-row-contacto {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.flexRow--row-footer-rrss {
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+}
+
+.flexRow--footer-general-fila-2 {
+    margin-top: 25px;
+}

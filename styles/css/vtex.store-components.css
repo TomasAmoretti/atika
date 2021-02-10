@@ -35,3 +35,34 @@
     color: black;
     font-size: 15px;
 }
+
+.price_sellingPrice--product-price-vitrina {
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black;
+}
+
+.discountInsideContainer {
+    font-family: 'Poppins';
+    background: #C90512;
+}
+
+.imageElementLink--footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageElementLink--footer-partner {
+    margin-right: 10px;
+}
+
+.imageElementLink--footer-rrss {
+    margin-right: 10px;
+}
+
+.imageElementLink--imagen-contacto {
+    align-items: center;
+    display: flex;
+}

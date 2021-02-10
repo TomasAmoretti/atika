@@ -18,4 +18,15 @@
 
 .menuContainerNav--categorias-nav-header {
     background: white;
+    border-bottom: solid 1px black;
+}
+
+.styledLinkContent--footer-item {
+    color: #dcdcdc;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.styledLinkContent--footer-item :hover{
+    color: #C90512;
 }

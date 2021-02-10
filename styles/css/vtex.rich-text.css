@@ -1,3 +1,7 @@
+.link :hover {
+    color: #C90512;
+}
+
 /* HEADER */
 .paragraph--contacto-top {
     margin: 0;
@@ -46,4 +50,38 @@
 
 .container--titulo-sale {
     margin-top: 40px;
+}
+
+/* FOOTER */
+.strong--footer-newsletter-text {
+    font-family: 'Poppins Bold';
+    font-size: 30px;
+    color: black;
+}
+
+.paragraph--footer-newsletter-text {
+    margin: 0;
+}
+
+.paragraph--footer-newsletter-text {
+    font-family: 'Poppins';
+    color: #606060;
+    font-size: 15px;
+}
+
+.paragraph--titulo-footer {
+    margin-left: 1.5rem;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.link--footer-contacto {
+    color: #dad9d9;
+    font-family: 'Poppins';
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.paragraph--footer-contacto {
+    margin: 0;
 }

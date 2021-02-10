@@ -4,23 +4,385 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer#newsletter",
+      "flex-layout.row#footer-general",
+      "flex-layout.row#footer-bottom"
     ]
+  },
+  "flex-layout.row#footer-general":{
+    "children":[
+      "flex-layout.col#footer-general"
+    ],
+    "props":{
+      "blockClass": "footer-general"
+    }
+  },
+  "flex-layout.col#footer-general":{
+    "children":[
+      "flex-layout.row#footer-general-fila-1",
+      "flex-layout.row#footer-general-fila-2"
+    ],
+    "props":{
+      "blockClass": "col-footer-general"
+    }
+  },
+  "flex-layout.row#footer-general-fila-1":{
+    "children":[
+      "image#logo-footer",
+      "flex-layout.col#footer-general-item-1",
+      "flex-layout.col#footer-general-item-2",
+      "flex-layout.col#footer-general-item-3",
+      "flex-layout.col#footer-general-item-4"
+    ],
+    "props":{
+      "blockClass": "footer-general-fila-1"
+    }
+  },
+  "image#logo-footer":{
+    "props": {
+      "src": "https://dummyimage.com/150x40/000/fff",
+      "link":{
+        "url":"/"
+      },
+      "blockClass": "footer-logo"
+    }
+  },
+  "flex-layout.col#footer-general-item-1":{
+    "children":[
+      "rich-text#footer-titulo-contacto",
+      "flex-layout.row#footer-rrss",
+      "flex-layout.row#footer-whatsapp",
+      "flex-layout.row#footer-telefono",
+      "flex-layout.row#footer-email"
+    ],
+    "props":{
+      "blockClass": "col-item-footer"
+    }
+  },
+  "rich-text#footer-titulo-contacto":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "CONTÁCTANOS",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.row#footer-rrss":{
+    "children":[
+      "image#footer-youtube",
+      "image#footer-facebook",
+      "image#footer-instagram"
+    ],
+    "props":{
+      "blockClass": "row-footer-rrss",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#footer-youtube":{
+    "props": {
+      "src": "https://dummyimage.com/30x30/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-facebook":{
+    "props": {
+      "src": "https://dummyimage.com/30x30/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-instagram":{
+    "props": {
+      "src": "https://dummyimage.com/30x30/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "flex-layout.row#footer-whatsapp":{
+    "children":[
+      "image#footer-whatsapp",
+      "rich-text#footer-whatsapp"
+    ],
+    "props":{
+      "blockClass": "footer-row-contacto",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#footer-whatsapp":{
+    "props": {
+      "src": "https://dummyimage.com/15x15/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-contacto"
+    }
+  },
+  "rich-text#footer-whatsapp":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[+569 5441 7419](tel:+56954417419)",
+      "blockClass": "footer-contacto"
+    }
+  },
+  "flex-layout.row#footer-telefono":{
+    "children":[
+      "image#footer-telefono",
+      "rich-text#footer-telefono"
+    ],
+    "props":{
+      "blockClass": "footer-row-contacto",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#footer-telefono":{
+    "props": {
+      "src": "https://dummyimage.com/15x15/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-contacto"
+    }
+  },
+  "rich-text#footer-telefono":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[+562 2 4488 3000](tel:+562244883000)",
+      "blockClass": "footer-contacto"
+    }
+  },
+  "flex-layout.row#footer-email":{
+    "children":[
+      "image#footer-email",
+      "rich-text#footer-email"
+    ],
+    "props":{
+      "blockClass": "footer-row-contacto",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#footer-email":{
+    "props": {
+      "src": "https://dummyimage.com/15x15/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-contacto"
+    }
+  },
+  "rich-text#footer-email":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[info@atika.cl](mailto:info@atika.cl)",
+      "blockClass": "footer-contacto"
+    }
+  },
+  "flex-layout.col#footer-general-item-2":{
+    "children":[
+      "rich-text#footer-titulo-nosotros",
+      "vtex.menu@2.x:menu#footer-nosotros"
+    ],
+    "props":{
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-nosotros":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "ATIKA",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.col#footer-general-item-3":{
+    "children":[
+      "rich-text#footer-titulo-cliente",
+      "vtex.menu@2.x:menu#footer-cliente"
+    ],
+    "props":{
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-cliente":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "SERVICIO AL CLIENTE",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.col#footer-general-item-4":{
+    "children":[
+      "rich-text#footer-titulo-cuenta",
+      "vtex.menu@2.x:menu#footer-cuenta"
+    ],
+    "props":{
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-cuenta":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "MI CUENTA",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.row#footer-general-fila-2":{
+    "children":[
+      "rich-text#partners",
+      "flex-layout.row#footer-general-bottom"
+    ],
+    "props":{
+      "blockClass": "footer-general-fila-2"
+    }
+  },
+  "rich-text#partners":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "NUESTROS PARTNERS",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "flex-layout.row#footer-general-bottom":{
+    "children":[
+      "image#partner-1",
+      "image#partner-2",
+      "image#partner-3",
+      "image#partner-4"
+    ],
+    "props":{
+      "blockClass": "footer-general-bottom",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#partner-1":{
+    "props": {
+      "src": "https://dummyimage.com/80x45/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#partner-2":{
+    "props": {
+      "src": "https://dummyimage.com/80x45/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#partner-3":{
+    "props": {
+      "src": "https://dummyimage.com/80x45/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#partner-4":{
+    "props": {
+      "src": "https://dummyimage.com/80x45/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-partner"
+    }
+  },
+  "flex-layout.row#footer#newsletter":{
+    "children":[
+      "rich-text#Newsletter",
+      "flex-layout.row#formNewsletter"
+    ],
+    "props":{
+      "horizontalAlign":"center",
+      "fullWidth": true,
+      "blockClass": "footer-news"
+    }
+  },
+  "rich-text#Newsletter": {
+    "props": {
+      "textPosition": "CENTER",
+      "text": "**NEWSLETTER** \n\n Suscribite al newsletter y no te pierdas los lanzamientos de Atika!",
+      "blockClass": "footer-newsletter-text"
+    }
+  },
+  "flex-layout.row#formNewsletter": {
+    "children": [
+      "flex-layout.col#formNewsletter"
+    ],
+    "props":{
+      "blockClass": "row-newsletter"
+    }
+  },
+  "flex-layout.col#formNewsletter": {
+    "children": [
+      "newsletter"
+    ],
+    "props":{
+      "blockClass": "form-newsletter"
+    }
+  },
+  "newsletter":{
+    "props":{
+      "hideLabel": true,
+      "submit": "Enviar",
+      "placeholder":"Email",
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.row#footer-bottom": { 
+    "children": [
+      "image#vtex",
+      "image#ko-logo"
+    ],
+    "props":{
+      "blockClass":"footer-bottom",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url":{
+        "link":"https://vtex.com/"
+      },
+      "blockClass": "logo-vtex"
+    }
+  },
+  "image#ko-logo": {
+    "props": {
+      "src": "/arquivos/logo_ko.png",
+      "url":{
+        "link":"https://knownonline.com/"
+      },
+      "width": 150,
+      "height": 30,
+      "blockClass": "logo-ko"
+    }
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer#newsletter",
+      "flex-layout.row#footer-bottom"
     ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
   }
 }

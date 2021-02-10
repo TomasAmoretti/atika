@@ -69,5 +69,155 @@
           },
           "blockClass": "categoria-header-ofertas"
         }
+    },
+    "menu-item#footer-somos": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Quiénes Somos"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-trabaja": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Trabaja con Nosotros"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-productos": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Productos"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-servicios": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Servicios"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-tiendas": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Tiendas"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-blog": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Blog"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-contacto": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Contacto"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-medios-pago": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Medios de Pago"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-politicas-privacidad": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Políticas de Privacidad"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-politicas-cambio": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Políticas de Cambio y Garantía"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-promociones": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Promociones y Concursos"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-sesion": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Iniciar Sesión"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-pedidos": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Mis Pedidos"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-seguimiento": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Seguimiento de mi Compra"
+        },
+        "blockClass": "footer-item"
+      }
+    },
+    "menu-item#footer-despacho": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Estado de mi Despacho"
+        },
+        "blockClass": "footer-item"
+      }
     }
 }
