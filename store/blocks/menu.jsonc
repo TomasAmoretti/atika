@@ -11,6 +11,100 @@
           "blockClass": "categorias-nav-header"
         }
     },
+    "vtex.menu@2.x:submenu#Espacios":{
+        "children":[
+            "menu-item#Espacios-Cocina",
+            "menu-item#Espacios-Baño",
+            "menu-item#Espacios-Comedor",
+            "menu-item#Espacios-Dormitorio",
+            "menu-item#Espacios-Exterior",
+            "menu-item#Espacios-Recintos"
+        ],
+        "props":{
+            "blockClass":"submenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Cocina":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-cocina":{
+        "children":[
+            "flex-layout.col#submenu-cocina",
+            "image#submenu-cocina"
+        ],
+        "props":{
+            "blockClass": "row-submenu"
+        }
+    },
+    "flex-layout.col#submenu-cocina":{
+        "children":[
+            "menu-item#Cocina-porcelanato",
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-cocina":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Baño":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Comedor":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Dormitorio":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Exterior":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Recintos":{
+        "children":[
+            "flex-layout.row#submenu-cocina"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
     "vtex.menu@2.x:menu#footer-nosotros": {
         "children": [
             "menu-item#footer-somos",

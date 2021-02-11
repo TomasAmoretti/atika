@@ -30,3 +30,15 @@
 .arrowRight--shelf-sale {
     margin-right: -11px;
 }
+
+.relatedProducts--shelf-relacionados {
+    margin-bottom: 50px;
+    width: 95%;
+    margin: auto;
+}
+
+.title--shelf-relacionados {
+    color: black;
+    font-family: 'Poppins Bold';
+    font-size: 16px;
+}

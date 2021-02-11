@@ -1,0 +1,36 @@
+.searchResultContainer {
+    width: 95%;
+    margin: auto;
+}
+
+.galleryTitle--layout {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 28px;
+}
+
+.selectedCategoryName {
+    color: #C90512;
+    font-family: 'Poppins';
+}
+
+.filterTitle {
+    font-family: 'Poppins';
+}
+
+.categoryItemName {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.filterMessage {
+    font-family: 'Poppins';
+}
+
+.totalProducts--layout {
+    font-family: 'Poppins';
+}
+
+.filterPopupTitle {
+    font-family: 'Poppins';
+}

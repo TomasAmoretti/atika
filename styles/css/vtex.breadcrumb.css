@@ -1,0 +1,22 @@
+.term--breadcrumb {
+    color: #C90512;
+    font-family: 'Poppins Bold';
+}
+
+.container--breadcrumb {
+    font-family: 'Poppins';
+    font-size: 11px;
+}
+
+.arrow, .link {
+    color: black;
+}
+
+.link:hover {
+    color: #C90512;
+}
+
+.container {
+    font-size: 13px;
+    font-family: 'Poppins';
+}

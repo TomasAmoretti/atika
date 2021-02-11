@@ -61,6 +61,23 @@
           "showInstallments": false
         }
     },
+    "shelf.relatedProducts": {
+      "blocks": [
+        "product-summary.shelf#main"
+      ],
+      "props": {
+          "recommendation": "view",
+          "productList": {
+              "titleText": "Otro también buscaron...",
+              "maxItems": 20,
+              "itemsPerPage": 5,
+              "minItemsPerPage": 1,
+              "scroll": "BY_PAGE",
+              "arrows": true
+          },
+          "blockClass": "shelf-relacionados"
+      }
+    },
     "shelf#Destacados-1": {
         "blocks": [
           "product-summary.shelf#main"

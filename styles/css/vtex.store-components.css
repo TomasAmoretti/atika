@@ -66,3 +66,64 @@
     align-items: center;
     display: flex;
 }
+
+/* PRODUCTO */
+.price_sellingPrice--product-price {
+    padding: 0;
+    display: flex;
+}
+
+.currencyContainer--product-price {
+    font-family: 'Poppins Bold';
+    color: black;
+    font-size: 23px;
+}
+
+.productDescriptionTitle {
+    display: none;
+}
+
+.productBrandName--marca-product {
+    color: #606060;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins';
+}
+
+.productBrandContainer--marca-product {
+    margin-bottom: 10px;
+}
+
+.productBrand--product-name {
+    font-family: 'Poppins Bold';
+    font-size: 22px;
+    border-bottom: solid #C90512;
+}
+
+.productNameContainer--product-name {
+    margin-bottom: 30px;
+}
+
+.product-identifier--productReference {
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #606060;
+}
+
+.productDescriptionContainer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.productDescriptionText {
+    color: black;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.carouselContainer--image-producto {
+    border: solid 1px;
+}
+
+.shippingContainer {
+    margin-top: 40px;
+}

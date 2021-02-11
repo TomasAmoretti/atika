@@ -27,6 +27,48 @@
     font-size: 12px;
 }
 
-.styledLinkContent--footer-item :hover{
+.styledLinkContent--footer-item:hover{
+    color: #C90512;
+}
+
+.submenuWrapper--submenu-header--isOpen {
+    width: 100%;
+}
+
+.submenuContainer--submenu-header {
+    width: 100%;
+    display: contents;
+}
+
+.submenu--submenu-header {
+    justify-content: end;
+}
+
+.styledLinkContent--submenu {
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.styledLinkContainer--submenu {
+    padding: 0;
+}
+
+.submenuWrapper--itemmenu-header--isOpen {
+    width: 550px;
+    border: solid 1px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.styledLinkContent--item-submenu {
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.styledLinkContainer--item-submenu {
+    padding: 0;
+}
+
+.styledLinkContent:hover {
     color: #C90512;
 }

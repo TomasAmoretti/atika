@@ -14,8 +14,193 @@
             "mutedClassName": "c-action-primary"
           },
           "blockClass": "categoria-header"
-        }
+        },
+        "blocks":[
+          "vtex.menu@2.x:submenu#Espacios"
+        ]
     },
+    /* Items Espacios */
+    "menu-item#Espacios-Cocina":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "COCINA"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Cocina"
+      ]
+    },
+    /* Items cocina */
+    "menu-item#Cocina-porcelanato":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PORCELANATOS & CERÁMICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-cubiertas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "CUBIERTAS ULTRA COMPACTAS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-cuarzo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "CUARZO"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-granito":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "GRANITO"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-pisos-organicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PISOS ORGÁNICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-pisos-vinilicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PISOS VINÍLICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-mosaicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "MOSAICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-griferia":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "GRIFERÍA"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-lavaplatos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "LAVAPLATOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Cocina-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "VER TODO >"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    /* End Items cocina*/
+    "menu-item#Espacios-Baño":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "BAÑO"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Baño"
+      ]
+    },
+    "menu-item#Espacios-Comedor":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "LIVING/COMEDOR"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Comedor"
+      ]
+    },
+    "menu-item#Espacios-Dormitorio":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "DORMITORIO"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Dormitorio"
+      ]
+    },
+    "menu-item#Espacios-Exterior":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "EXTERIOR"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Exterior"
+      ]
+    },
+    "menu-item#Espacios-Recintos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "RECINTOS PÚBLICOS"
+        },
+        "blockClass": "submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Recintos"
+      ]
+    },
+    /* End Items Espacios*/
     "menu-item#Categorias-Productos": {
         "props": {
           "type": "custom",
