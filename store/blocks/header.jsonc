@@ -209,6 +209,25 @@
       "search-bar#mobile"
     ]
   },
+  "flex-layout.row#top-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass":"top-header"
+    },
+    "children": [
+      "rich-text#top-mobile"
+    ]
+  },
+  "rich-text#top-mobile":{
+    "props":{
+      "text": "Mensaje para los clientes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top"
+    }
+  },
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
