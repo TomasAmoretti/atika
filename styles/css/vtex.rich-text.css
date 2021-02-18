@@ -90,3 +90,19 @@
 .paragraph--footer-contacto {
     margin: 0;
 }
+
+/* MOBILE */
+.wrapper--footer-newsletter-text-mobile {
+    text-align: center;
+    width: 95%;
+}
+
+.strong--footer-newsletter-text-mobile {
+    font-family: 'Poppins Bold';
+    font-size: 25px;
+}
+
+.paragraph--footer-newsletter-text-mobile {
+    font-family: 'Poppins';
+    margin-bottom: 0;
+}

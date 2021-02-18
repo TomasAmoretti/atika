@@ -117,3 +117,9 @@
     width: 95%;
     margin: auto;
 }
+
+/* MOBILE */
+.flexRowContent--main-header-mobile {
+    display: flex;
+    align-items: center;
+}

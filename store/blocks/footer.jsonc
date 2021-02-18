@@ -308,6 +308,27 @@
       "blockClass": "footer-partner"
     }
   },
+  "flex-layout.row#footer-general-fila-2-mobile":{
+    "children":[
+      "rich-text#partners",
+      "flex-layout.row#footer-general-bottom-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-general-fila-2"
+    }
+  },
+  "flex-layout.row#footer-general-bottom-mobile":{
+    "children":[
+      "image#partner-1",
+      "image#partner-2",
+      "image#partner-3",
+      "image#partner-4"
+    ],
+    "props":{
+      "blockClass": "footer-general-bottom-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
   "flex-layout.row#footer#newsletter":{
     "children":[
       "rich-text#Newsletter",
@@ -384,9 +405,36 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer#newsletter",
-      "flex-layout.row#footer-general",
+      "flex-layout.row#footer#newsletter-mobile",
+      "flex-layout.col#footer-general-mobile",
       "flex-layout.row#footer-bottom"
     ]
+  },
+  "flex-layout.col#footer-general-mobile":{
+    "children":[
+      "flex-layout.row#footer-general-fila-1",
+      "flex-layout.row#footer-general-fila-2-mobile"
+    ],
+    "props":{
+      "blockClass": "col-footer-general"
+    }
+  },
+  "flex-layout.row#footer#newsletter-mobile":{
+    "children":[
+      "rich-text#Newsletter-mobile",
+      "flex-layout.row#formNewsletter"
+    ],
+    "props":{
+      "horizontalAlign":"center",
+      "fullWidth": true,
+      "blockClass": "footer-news"
+    }
+  },
+  "rich-text#Newsletter-mobile": {
+    "props": {
+      "textPosition": "CENTER",
+      "text": "**NEWSLETTER** \n\n Suscribite al newsletter y no te pierdas los lanzamientos de Atika!",
+      "blockClass": "footer-newsletter-text-mobile"
+    }
   }
 }

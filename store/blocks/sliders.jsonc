@@ -72,11 +72,11 @@
             "stopOnHover": false
           },
           "infinite": true,
-          "showNavigationArrows": "never",
+          "showNavigationArrows": "always",
           "itemsPerPage": {
             "phone": 1
           },
-          "showPaginationDots": "always",
+          "showPaginationDots": "never",
           "fullWidth": true,
           "blockClass": "slider-home-mobile"
         }

@@ -204,10 +204,13 @@
   },
   "sticky-layout#mobile": {
     "children": [
-      "flex-layout.row#top-desktop",
+      "flex-layout.row#top-mobile",
       "flex-layout.row#mobile",
       "search-bar#mobile"
-    ]
+    ],
+    "props":{
+      "blockClass":"sticky-mobile"
+    }
   },
   "flex-layout.row#top-mobile": {
     "props": {

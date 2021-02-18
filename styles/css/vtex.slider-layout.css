@@ -1,3 +1,21 @@
 .caretIcon--slider-home {
     color: white;
 }
+
+.caretIcon--slider-home-mobile {
+    color: white;
+    background: #606060;
+    border-radius: 20px;
+    padding: 10px;
+    width: 22px;
+}
+
+/* MOBILE */
+.paginationDotsContainer--slider-home-mobile {
+    bottom: 20px;
+}
+
+.paginationDot--slider-home-mobile--isActive {
+    background: transparent;
+    border: solid 1px white;
+}
