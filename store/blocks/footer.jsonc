@@ -406,13 +406,21 @@
   "footer-layout.mobile": { 
     "children": [
       "flex-layout.row#footer#newsletter-mobile",
-      "flex-layout.col#footer-general-mobile",
+      "flex-layout.row#footer-general-mobile",
       "flex-layout.row#footer-bottom"
     ]
   },
+  "flex-layout.row#footer-general-mobile":{
+    "children":[
+      "flex-layout.col#footer-general-mobile"
+    ],
+    "props":{
+      "blockClass":"row-general-footer-mobile"
+    }
+  },
   "flex-layout.col#footer-general-mobile":{
     "children":[
-      "flex-layout.row#footer-general-fila-1",
+      "flex-layout.row#footer-general-fila-1-mobile",
       "flex-layout.row#footer-general-fila-2-mobile"
     ],
     "props":{
@@ -435,6 +443,41 @@
       "textPosition": "CENTER",
       "text": "**NEWSLETTER** \n\n Suscribite al newsletter y no te pierdas los lanzamientos de Atika!",
       "blockClass": "footer-newsletter-text-mobile"
+    }
+  },
+  "flex-layout.row#footer-general-fila-1-mobile":{
+    "children":[
+      "image#logo-footer",
+      "flex-layout.col#footer-general-item-1-mobile",
+      "flex-layout.col#footer-general-item-2",
+      "flex-layout.col#footer-general-item-3",
+      "flex-layout.col#footer-general-item-4"
+    ],
+    "props":{
+      "blockClass": "footer-general-fila-1"
+    }
+  },
+  "flex-layout.col#footer-general-item-1-mobile":{
+    "children":[
+      "rich-text#footer-titulo-contacto",
+      "flex-layout.row#footer-rrss-mobile",
+      "flex-layout.row#footer-whatsapp",
+      "flex-layout.row#footer-telefono",
+      "flex-layout.row#footer-email"
+    ],
+    "props":{
+      "blockClass": "col-item-footer"
+    }
+  },
+  "flex-layout.row#footer-rrss-mobile":{
+    "children":[
+      "image#footer-youtube",
+      "image#footer-facebook",
+      "image#footer-instagram"
+    ],
+    "props":{
+      "blockClass": "row-footer-rrss-mobile",
+      "preventHorizontalStretch": true
     }
   }
 }

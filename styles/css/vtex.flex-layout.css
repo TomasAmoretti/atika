@@ -123,3 +123,23 @@
     display: flex;
     align-items: center;
 }
+
+.flexRowContent--top-header-mobile {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--row-general-footer-mobile {
+    background: #606060;
+    padding: 20px;
+}
+
+.flexRowContent--footer-general-bottom-mobile {
+    display: flex;
+}
+
+.flexRowContent--row-footer-rrss-mobile {
+    display: flex;
+    margin-left: 1.5rem;
+}

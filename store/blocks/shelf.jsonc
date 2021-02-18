@@ -51,6 +51,7 @@
           "text": "VER MÁS",
           "unavailableText": "AGOTADO",
           "showTooltipOnSkuNotSelected": true,
+          "onClickBehavior": "go-to-product-page",
           /*"showToast": true,*/
           "blockClass": "product-buy-button"
         }

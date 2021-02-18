@@ -217,7 +217,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "fullWidth": true,
-      "blockClass":"top-header"
+      "blockClass":"top-header-mobile"
     },
     "children": [
       "rich-text#top-mobile"
@@ -228,7 +228,7 @@
       "text": "Mensaje para los clientes",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "contacto-top"
+      "blockClass": "contacto-top-mobile"
     }
   },
   "flex-layout.row#mobile": {

@@ -67,6 +67,10 @@
     display: flex;
 }
 
+.infoCardImageContainer--info-card-showroom {
+    margin-top: 20px;
+}
+
 /* PRODUCTO */
 .price_sellingPrice--product-price {
     padding: 0;

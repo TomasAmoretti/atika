@@ -355,7 +355,7 @@
       "headline": "SHOWROOM",
       "subhead": "Is simply dummy text of the printing and typesetting industry. Lorem impsum has been the industrys standard dummy text ever since 1500s",
       "imageUrl": "https://dummyimage.com/600x350/000/fff",
-      "mobileImageUrl": "https://dummyimage.com/240x240/000/fff",
+      "mobileImageUrl": "https://dummyimage.com/480x400/000/fff",
       "callToActionMode": "none",
       "blockClass": "info-card-showroom",
       "textAlignment": "center"
@@ -364,7 +364,38 @@
   /* MOBILE */
   "responsive-layout.mobile#mobile-home": {
     "children": [
-      "slider-layout#home-mobile"
+      "slider-layout#home-mobile",
+      "flex-layout.row#categorias",
+      "rich-text#titulo-shelf",
+      "shelf#Destacados-1",
+      "rich-text#titulo-inspiracion",
+      "image#inspiracion-mobile",
+      "rich-text#titulo-sale",
+      "shelf#Sale",
+      "rich-text#sale-ver-mas",
+      "image#marcas-mobile",
+      "rich-text#titulo-interesar",
+      "shelf#Interesar",
+      "rich-text#interesar-ver-mas",
+      "info-card#Showroom"
     ]
+  },
+  "image#inspiracion-mobile":{
+    "props": {
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-inspiracion"
+    }
+  },
+  "image#marcas-mobile":{
+    "props": {
+      "src": "https://dummyimage.com/480x480/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-marcas"
+    }
   }
 }
