@@ -182,7 +182,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://dummyimage.com/150x40/000/fff"
+      "url": "/arquivos/logo.png"
     }
   },
   "login": {

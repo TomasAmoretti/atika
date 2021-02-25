@@ -43,7 +43,7 @@
   },
   "image#logo-footer":{
     "props": {
-      "src": "https://dummyimage.com/150x40/000/fff",
+      "src": "/arquivos/logo.png",
       "link":{
         "url":"/"
       },
