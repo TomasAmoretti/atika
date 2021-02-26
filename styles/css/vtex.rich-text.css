@@ -16,7 +16,13 @@
     font-family: 'Poppins Light';
 }
 
-.paragraph--contacto-top {
+.paragraph--visualizador-top {
+    font-size: 9px;
+    color: white;
+    font-family: 'Poppins Light';
+}
+
+.link--visualizador-top {
     font-size: 9px;
     color: white;
     font-family: 'Poppins Light';
