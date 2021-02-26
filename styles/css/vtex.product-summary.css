@@ -5,10 +5,10 @@
 }
 
 .productBrandName {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Bold';
     border: solid 1px;
     padding: 0 4px;
-    font-size: 12px;
+    font-size: 9px;
     margin-left: 9px;
 }
 
@@ -21,11 +21,12 @@
     display: flex;
     justify-content: end;
     margin-left: 9px;
+    padding-bottom: 15px;
 }
 
 .brandName {
-    font-family: 'Poppins';
-    font-size: 13px;
+    font-family: 'NotoSans Regular';
+    font-size: 16px;
     color: black;
 }
 

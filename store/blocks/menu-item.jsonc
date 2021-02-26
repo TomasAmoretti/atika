@@ -255,6 +255,23 @@
           "blockClass": "categoria-header-ofertas"
         }
     },
+    "menu-item#Categorias-Servicios": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "NUESTROS SERVICIOS"
+        },
+        "blockClass": "categoria-header",
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
+        }
+      }
+  },
     "menu-item#footer-somos": {
       "props": {
         "type": "custom",

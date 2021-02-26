@@ -34,6 +34,18 @@
       "blockClass":"top-header"
     },
     "children": [
+      "flex-layout.row#top-desktop-left",
+      "flex-layout.row#top-desktop-right"
+    ]
+  },
+  "flex-layout.row#top-desktop-left": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass":"top-header-left"
+    },
+    "children": [
       "image#youtube-top",
       "image#facebook-top",
       "image#instagram-top",
@@ -148,6 +160,25 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
+    }
+  },
+  "flex-layout.row#top-desktop-right": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass":"top-header-left"
+    },
+    "children": [
+      "rich-text#visualizador-top"
+    ]
+  },
+  "rich-text#visualizador-top":{
+    "props":{
+      "text": "PRUEBA NUESTRO VISUALIZADOR DE ESPACIOS [AQUÍ](#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "visualizador-top"
     }
   },
   "flex-layout.row#desktop": {

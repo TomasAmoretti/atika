@@ -23,7 +23,7 @@
 
 .styledLinkContent--footer-item {
     color: #dcdcdc;
-    font-family: 'Poppins';
+    font-family: 'NotoSans Regular';
     font-size: 12px;
 }
 
@@ -51,6 +51,13 @@
 
 .styledLinkContainer--submenu {
     padding: 0;
+}
+
+.menuContainer--categorias-nav-header {
+    padding-bottom: 20px;
+    border-top: solid 1.5px black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .submenuWrapper--itemmenu-header--isOpen {

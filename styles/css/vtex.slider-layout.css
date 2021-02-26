@@ -10,6 +10,18 @@
     width: 22px;
 }
 
+.caretIcon--slider-home {
+    width: 20px;
+}
+
+.sliderRightArrow--slider-home {
+    padding-right: 50px;
+}
+
+.sliderLeftArrow--slider-home {
+    padding-left: 50px;
+}
+
 /* MOBILE */
 .paginationDotsContainer--slider-home-mobile {
     bottom: 20px;

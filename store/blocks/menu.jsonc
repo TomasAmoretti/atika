@@ -1,15 +1,38 @@
 {
     "vtex.menu@2.x:menu#categorias-nav": {
         "children": [
+            "flex-layout.row#categorias-nav-left",
+            "flex-layout.row#categorias-nav-right"
+        ],
+        "props": {
+          "blockClass": "categorias-nav-header"
+        }
+    },
+    "flex-layout.row#categorias-nav-left": {
+        "props": {
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "fullWidth": true,
+          "blockClass":"categorias-nav-left"
+        },
+        "children": [
             "menu-item#Categorias-Espacios",
             "menu-item#Categorias-Productos",
             "menu-item#Categorias-Inspiracion",
             "menu-item#Categorias-Novedades",
             "menu-item#Categorias-Ofertas"
-        ],
+        ]
+    },
+    "flex-layout.row#categorias-nav-right": {
         "props": {
-          "blockClass": "categorias-nav-header"
-        }
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "fullWidth": true,
+          "blockClass":"categorias-nav-right"
+        },
+        "children": [
+            "menu-item#Categorias-Servicios"
+        ]
     },
     "vtex.menu@2.x:submenu#Espacios":{
         "children":[

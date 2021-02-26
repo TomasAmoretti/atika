@@ -161,7 +161,7 @@
   },
   "image#categoria-1":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -170,7 +170,7 @@
   },
   "image#categoria-2":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -179,7 +179,7 @@
   },
   "image#categoria-3":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -198,7 +198,7 @@
   },
   "image#categoria-4":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -207,7 +207,7 @@
   },
   "image#categoria-5":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -216,7 +216,7 @@
   },
   "image#categoria-6":{
     "props": {
-      "src": "https://dummyimage.com/380x250/000/fff",
+      "src": "https://dummyimage.com/405x250/000/fff",
       "link":{
         "url":"#"
       },
@@ -281,7 +281,7 @@
   },
   "image#inspiracion-1":{
     "props": {
-      "src": "https://dummyimage.com/600x600/000/fff",
+      "src": "https://dummyimage.com/700x600/000/fff",
       "link":{
         "url":"#"
       },
