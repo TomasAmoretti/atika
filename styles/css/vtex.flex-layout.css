@@ -23,6 +23,11 @@
     align-items: center;
 }
 
+.flexRowContent--header-main {
+    display: flex;
+    align-items: center;
+}
+
 /* HOME */
 .flexRowContent--info-item-home {
     display: flex;

@@ -228,6 +228,13 @@
       "hideIconLabel": true
     }
   },
+  "search-bar":{
+    "props":{
+      "maxWidth": 600,
+      "compactMode": false,
+      "blockClass":"search-desktop"
+    }
+  },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#mobile"

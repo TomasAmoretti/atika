@@ -1,0 +1,13 @@
+.wishlistIconContainer {
+    position: relative;
+    top: 45px;
+    margin-top: -40px;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wishlistIconContainer--whish-product {
+    top: 60px;
+    right: 0px;
+}

@@ -1,6 +1,7 @@
 {
     "product-summary.shelf#main": {
         "children": [
+          "add-to-list-btn",
           "product-summary-image",
           "product-summary-brand",
           "product-summary-name",

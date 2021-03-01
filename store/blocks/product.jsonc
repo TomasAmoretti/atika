@@ -56,6 +56,7 @@
   },
   "flex-layout.col#left": {
     "children": [
+      "add-to-list-btn#producto",
       "product-images#product-page",
       "flex-layout.row#descripcion-producto"
     ]
@@ -65,6 +66,11 @@
       "displayThumbnailsArrows": false,
       "zoomMode": "in-place-hover",
       "blockClass": "image-producto"
+    }
+  },
+  "add-to-list-btn#producto":{
+    "props":{
+      "blockClass":"whish-product"
     }
   },
   "flex-layout.col#right": {

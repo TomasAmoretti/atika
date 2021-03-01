@@ -138,3 +138,8 @@
 .shippingContainer {
     margin-top: 40px;
 }
+
+/* HEADER */
+.searchBarInnerContainer--search-desktop {
+    width: 600px;
+}
