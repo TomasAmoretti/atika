@@ -67,6 +67,10 @@
     padding-bottom: 0;
 }
 
+.submenu--itemmenu-header {
+    max-width: 730px;
+}
+
 .styledLinkContent--item-submenu {
     font-family: 'Poppins';
     font-size: 13px;

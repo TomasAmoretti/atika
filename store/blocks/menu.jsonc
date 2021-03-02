@@ -61,7 +61,9 @@
             "image#submenu-cocina"
         ],
         "props":{
-            "blockClass": "row-submenu"
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
         }
     },
     "flex-layout.col#submenu-cocina":{
@@ -90,11 +92,20 @@
     },
     "vtex.menu@2.x:submenu#Baño":{
         "children":[
+            "flex-layout.row#submenu-baño"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-baño":{
+        "children":[
             "flex-layout.col#submenu-baño",
             "image#submenu-baño"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true
         }
     },
     "flex-layout.col#submenu-baño":{

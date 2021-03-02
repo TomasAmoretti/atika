@@ -22,9 +22,13 @@
 }
 
 .flexCol--col-submenu {
-    display: inline-block;
+    display: flex;
     max-height: 300px;
-    width: min-content;
+    max-width: 480px;
+}
+
+.flexRow--row-submenu {
+    display: contents;
 }
 
 .flexRow--top-header-left {
@@ -39,6 +43,8 @@
 
 .flexRowContent--row-submenu {
     width: max-content;
+    max-width: 730px;
+    min-width: 480px;
 }
 
 /* HOME */
@@ -186,4 +192,12 @@
 .flexRowContent--row-footer-rrss-mobile {
     display: flex;
     margin-left: 1.5rem;
+}
+
+/* HOME */
+.flexRowContent--row-destacados {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
 }

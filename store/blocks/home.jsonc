@@ -233,11 +233,21 @@
   },
   "flex-layout.row#destacados":{
     "children":[
-      "shelf#Destacados-1",
+      "image#destacados",
       "flex-layout.col#destacados"
     ],
     "props":{
-      "blockClass":"row-destacados"
+      "blockClass":"row-destacados",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#destacados":{
+    "props": {
+      "src": "https://dummyimage.com/650x870/000/fff",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-destacados"
     }
   },
   "flex-layout.col#destacados":{

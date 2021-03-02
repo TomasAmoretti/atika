@@ -1,5 +1,6 @@
 .container--shelf-destacados, .title--shelf-sale {
-    padding: 0;
+    padding-bottom: 5px;
+    padding-top: 0;
 }
 
 .title--shelf-destacados {
