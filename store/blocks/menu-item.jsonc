@@ -148,6 +148,178 @@
         "vtex.menu@2.x:submenu#Baño"
       ]
     },
+    /* Items Baños */
+    "menu-item#Baños-marmol":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "MÁRMOL"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-cubiertas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "CUBIERTAS ULTRA COMPACTAS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-cuarzo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "CUARZO"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-granito":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "GRANITO"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-porcelanato":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PORCELANATOS & CERÁMICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-pisos-organicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PISOS ORGÁNICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-pisos-vinilicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "PISOS VINÍLICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-mosaicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "MOSAICOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-griferia":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "GRIFERÍA"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-accesorios":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "ACCESORIOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-accesibilidad":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "ACCESIBILIDAD UNIVERSAL"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-sanitarios":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "SANITARIOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-lavamanos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "LAVAMANOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-tinas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "TINAS Y RECEPTÁCULOS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-mamparas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "MAMPARAS"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-muebles-de-baño":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "MUEBLES DE BAÑO"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Baños-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "VER TODO >"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    /* End Items baños*/
     "menu-item#Espacios-Comedor":{
       "props": {
         "type": "custom",

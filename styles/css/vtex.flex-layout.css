@@ -16,6 +16,15 @@
 
 .flexColChild--col-submenu {
     margin: 5px 0;
+    display: inline-block;
+    width: 240px;
+
+}
+
+.flexCol--col-submenu {
+    display: inline-block;
+    max-height: 300px;
+    width: min-content;
 }
 
 .flexRow--top-header-left {
@@ -26,6 +35,10 @@
 .flexRowContent--header-main {
     display: flex;
     align-items: center;
+}
+
+.flexRowContent--row-submenu {
+    width: max-content;
 }
 
 /* HOME */

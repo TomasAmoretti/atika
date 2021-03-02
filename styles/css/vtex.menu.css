@@ -61,10 +61,10 @@
 }
 
 .submenuWrapper--itemmenu-header--isOpen {
-    width: 550px;
     border: solid 1px;
-    margin-left: 5px;
-    margin-top: 10px;
+    width: max-content;
+    max-height: 300px;
+    padding-bottom: 0;
 }
 
 .styledLinkContent--item-submenu {

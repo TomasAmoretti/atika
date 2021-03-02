@@ -6,17 +6,17 @@
     },
     "my-account-page.wishlist-page": {
       "children": [
-        "flex-layout.row#top", 
+        "flex-layout.row#top-wishlist", 
         "list-context.wishlist"
       ]
     },
     "store.wishlist": {
       "blocks": [
-        "flex-layout.row#top", 
+        "flex-layout.row#top-wishlist", 
         "list-context.wishlist"
       ]
     },
-    "flex-layout.row#top": {
+    "flex-layout.row#top-wishlist": {
       "children": [
         "flex-layout.col#title"
       ]

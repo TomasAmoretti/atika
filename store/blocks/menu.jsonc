@@ -90,10 +90,42 @@
     },
     "vtex.menu@2.x:submenu#Baño":{
         "children":[
-            "flex-layout.row#submenu-cocina"
+            "flex-layout.col#submenu-baño",
+            "image#submenu-baño"
         ],
         "props":{
             "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.col#submenu-baño":{
+        "children":[
+            "menu-item#Baños-granito",
+            "menu-item#Baños-marmol",
+            "menu-item#Baños-cuarzo",
+            "menu-item#Baños-cubiertas",
+            "menu-item#Baños-porcelanato",
+            "menu-item#Baños-pisos-organicos",
+            "menu-item#Baños-pisos-vinilicos",
+            "menu-item#Baños-mosaicos",
+            "menu-item#Baños-griferia",
+            "menu-item#Baños-accesorios",
+            "menu-item#Baños-accesibilidad",
+            "menu-item#Baños-sanitarios",
+            "menu-item#Baños-lavamanos",
+            "menu-item#Baños-tinas",
+            "menu-item#Baños-mamparas",
+            "menu-item#Baños-muebles-de-baño",
+            "menu-item#Baños-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-baño":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
         }
     },
     "vtex.menu@2.x:submenu#Comedor":{
