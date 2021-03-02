@@ -22,7 +22,7 @@
 }
 
 .flexCol--col-submenu {
-    display: flex;
+    display: inline-block;
     max-height: 300px;
     max-width: 480px;
 }
