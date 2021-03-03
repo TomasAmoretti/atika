@@ -243,7 +243,7 @@
   },
   "image#destacados":{
     "props": {
-      "src": "https://dummyimage.com/650x870/000/fff",
+      "src": "https://dummyimage.com/650x900/000/fff",
       "link":{
         "url":"#"
       },

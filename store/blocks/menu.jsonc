@@ -141,36 +141,629 @@
     },
     "vtex.menu@2.x:submenu#Comedor":{
         "children":[
-            "flex-layout.row#submenu-cocina"
+            "flex-layout.row#submenu-comedor"
         ],
         "props":{
             "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-comedor":{
+        "children":[
+            "flex-layout.col#submenu-comedor",
+            "image#submenu-comedor"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true
+        }
+    },
+    "flex-layout.col#submenu-comedor":{
+        "children":[
+            "menu-item#Comedor-marmol",
+            "menu-item#Comedor-piedras",
+            "menu-item#Comedor-revestimientos",
+            "menu-item#Comedor-pisos-madera",
+            "menu-item#Comedor-pisos-organicos",
+            "menu-item#Comedor-pisos-vinilicos",
+            "menu-item#Comedor-pisos-fotolaminados",
+            "menu-item#Comedor-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-comedor":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
         }
     },
     "vtex.menu@2.x:submenu#Dormitorio":{
         "children":[
-            "flex-layout.row#submenu-cocina"
+            "flex-layout.row#submenu-dormitorio"
         ],
         "props":{
             "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-dormitorio":{
+        "children":[
+            "flex-layout.col#submenu-dormitorio",
+            "image#submenu-dormitorio"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true
+        }
+    },
+    "flex-layout.col#submenu-dormitorio":{
+        "children":[
+            "menu-item#Dormitorio-marmol",
+            "menu-item#Dormitorio-piedras",
+            "menu-item#Dormitorio-revestimientos",
+            "menu-item#Dormitorio-pisos-madera",
+            "menu-item#Dormitorio-pisos-organicos",
+            "menu-item#Dormitorio-pisos-vinilicos",
+            "menu-item#Dormitorio-pisos-fotolaminados",
+            "menu-item#Dormitorio-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-dormitorio":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
         }
     },
     "vtex.menu@2.x:submenu#Exterior":{
         "children":[
-            "flex-layout.row#submenu-cocina"
+            "flex-layout.row#submenu-exterior"
         ],
         "props":{
             "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-exterior":{
+        "children":[
+            "flex-layout.col#submenu-exterior",
+            "image#submenu-exterior"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true
+        }
+    },
+    "flex-layout.col#submenu-exterior":{
+        "children":[
+            "menu-item#Exterior-revestimientos",
+            "menu-item#Exterior-mosaicos",
+            "menu-item#Exterior-deck",
+            "menu-item#Exterior-marmol",
+            "menu-item#Exterior-piedras",
+            "menu-item#Exterior-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-exterior":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
         }
     },
     "vtex.menu@2.x:submenu#Recintos":{
         "children":[
-            "flex-layout.row#submenu-cocina"
+            "flex-layout.row#submenu-recintos"
         ],
         "props":{
             "blockClass":"itemmenu-header"
         }
     },
+    "flex-layout.row#submenu-recintos":{
+        "children":[
+            "flex-layout.col#submenu-recintos",
+            "image#submenu-recintos"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true
+        }
+    },
+    "flex-layout.col#submenu-recintos":{
+        "children":[
+            "menu-item#Recintos-granito",
+            "menu-item#Recintos-marmol",
+            "menu-item#Recintos-revestimientos",
+            "menu-item#Recintos-griferias",
+            "menu-item#Recintos-lavamanos",
+            "menu-item#Recintos-sanitarios",
+            "menu-item#Recintos-tinas",
+            "menu-item#Recintos-pisos-madera",
+            "menu-item#Recintos-pisos-organicos",
+            "menu-item#Recintos-pisos-vinilicos",
+            "menu-item#Recintos-pisos-fotolaminados",
+            "menu-item#Recintos-deck",
+            "menu-item#Recintos-accesorios-baño",
+            "menu-item#Recintos-mosaicos",
+            "menu-item#Recintos-piedras-naturales",
+            "menu-item#Recintos-cuarzo",
+            "menu-item#Recintos-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-recintos":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    /* PRODUCTOS */
+    "vtex.menu@2.x:submenu#Productos":{
+        "children":[
+            "menu-item#Productos-Pisos",
+            "menu-item#Productos-Pisos-Flotantes",
+            "menu-item#Productos-Griferia",
+            "menu-item#Productos-Sanitarios",
+            "menu-item#Productos-Cubiertas",
+            "menu-item#Productos-Accesorios",
+            "menu-item#Productos-Mamparas",
+            "menu-item#Productos-Muebles-baño",
+            "menu-item#Productos-Piedras-naturales"
+        ],
+        "props":{
+            "blockClass":"submenu-header"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Pisos":{
+        "children":[
+            "flex-layout.row#submenu-productos-pisos"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-pisos":{
+        "children":[
+            "flex-layout.col#submenu-productos-pisos",
+            "image#submenu-productos-pisos"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-pisos":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-pisos":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Pisos-flotantes":{
+        "children":[
+            "flex-layout.row#submenu-productos-pisos-flotantes"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-pisos-flotantes":{
+        "children":[
+            "flex-layout.col#submenu-productos-pisos-flotantes",
+            "image#submenu-productos-pisos-flotantes"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-pisos-flotantes":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-pisos-flotantes":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Griferia":{
+        "children":[
+            "flex-layout.row#submenu-productos-griferia"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-griferia":{
+        "children":[
+            "flex-layout.col#submenu-productos-griferia",
+            "image#submenu-productos-griferia"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-griferia":{
+        "children":[
+            "menu-item#Productos-Griferia-cocina",
+            "menu-item#Productos-Griferia-lavamanos",
+            "menu-item#Productos-Griferia-bidet",
+            "menu-item#Productos-Griferia-tinas",
+            "menu-item#Productos-Griferia-institucional",
+            "menu-item#Productos-Griferia-piezas",
+            "menu-item#Productos-Griferia-sifones",
+            "menu-item#Productos-Griferia-otros",
+            "menu-item#Productos-Griferia-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-griferia":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Sanitarios":{
+        "children":[
+            "flex-layout.row#submenu-productos-sanitarios"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-sanitarios":{
+        "children":[
+            "flex-layout.col#submenu-productos-sanitarios",
+            "image#submenu-productos-sanitarios"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-sanitarios":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-sanitarios":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Cubiertas":{
+        "children":[
+            "flex-layout.row#submenu-productos-cubiertas"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-cubiertas":{
+        "children":[
+            "flex-layout.col#submenu-productos-cubiertas",
+            "image#submenu-productos-cubiertas"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-cubiertas":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-cubiertas":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Accesorios":{
+        "children":[
+            "flex-layout.row#submenu-productos-accesorios"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-accesorios":{
+        "children":[
+            "flex-layout.col#submenu-productos-accesorios",
+            "image#submenu-productos-accesorios"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-accesorios":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-accesorios":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Mamparas":{
+        "children":[
+            "flex-layout.row#submenu-productos-mamparas"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-mamparas":{
+        "children":[
+            "flex-layout.col#submenu-productos-mamparas",
+            "image#submenu-productos-mamparas"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-mamparas":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-mamparas":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Muebles-baño":{
+        "children":[
+            "flex-layout.row#submenu-productos-muebles-baño"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-muebles-baño":{
+        "children":[
+            "flex-layout.col#submenu-productos-muebles-baño",
+            "image#submenu-productos-muebles-baño"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-muebles-baño":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-muebles-baño":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-Piedras-naturales":{
+        "children":[
+            "flex-layout.row#submenu-productos-piedras-naturales"
+        ],
+        "props":{
+            "blockClass":"itemmenu-header"
+        }
+    },
+    "flex-layout.row#submenu-productos-piedras-naturales":{
+        "children":[
+            "flex-layout.col#submenu-productos-piedras-naturales",
+            "image#submenu-productos-piedras-naturales"
+        ],
+        "props":{
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch":true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-productos-piedras-naturales":{
+        "children":[
+            "menu-item#Cocina-cubiertas",
+            "menu-item#Cocina-cuarzo",
+            "menu-item#Cocina-granito",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-griferia",
+            "menu-item#Cocina-lavaplatos",
+            "menu-item#Cocina-vertodo"
+        ],
+        "props":{
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#submenu-productos-piedras-naturales":{
+        "props": {
+            "src": "https://dummyimage.com/250x300/000/fff",
+            "blockClass": "imagen-submenu"
+        }
+    },
+    /* END PRODUCTOS */
+    /* INSPIRACION */
+    "vtex.menu@2.x:submenu#Inspiracion":{
+        "children":[
+            "flex-layout.row#menu-inspiracion"
+        ],
+        "props":{
+            "blockClass":"submenu-header"
+        }
+    },
+    "flex-layout.row#menu-inspiracion":{
+        "children": [
+            "image#menu-inspiracion-1",
+            "image#menu-inspiracion-2",
+            "image#menu-inspiracion-3",
+            "image#menu-inspiracion-4"
+        ],
+        "props": {
+            "blockClass": "flex-row-inspiracion",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#menu-inspiracion-1":{
+        "props": {
+            "src": "/arquivos/menu-eyewear-2.png",
+            "link":{
+              "url":"/eyewear/mujer"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-inspiracion-2":{
+        "props": {
+            "src": "/arquivos/menu-eyewear-1.png",
+            "link":{
+              "url":"/eyewear/hombre"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-inspiracion-3":{
+        "props": {
+            "src": "/arquivos/menu-eyewear-3.png",
+            "link":{
+              "url":"/eyewear"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-inspiracion-4":{
+        "props": {
+            "src": "/arquivos/menu-eyewear-4.png",
+            "link":{
+              "url":"/eyewear"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    /* END INSPIRACION */
     "vtex.menu@2.x:menu#footer-nosotros": {
         "children": [
             "menu-item#footer-somos",

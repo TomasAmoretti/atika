@@ -64,7 +64,7 @@
     border: solid 1px;
     width: max-content;
     max-height: 300px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
 }
 
 .submenu--itemmenu-header {
