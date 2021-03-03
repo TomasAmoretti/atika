@@ -47,6 +47,16 @@
     min-width: 480px;
 }
 
+.flexRowContent--flex-row-inspiracion {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.flexRow--flex-row-inspiracion {
+    width: 100%;
+}
+
 /* HOME */
 .flexRowContent--info-item-home {
     display: flex;

@@ -1057,7 +1057,10 @@
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
         }
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Servicios"
+      ]
   },
     "menu-item#footer-somos": {
       "props": {

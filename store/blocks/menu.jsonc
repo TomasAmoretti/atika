@@ -716,7 +716,8 @@
             "image#menu-inspiracion-1",
             "image#menu-inspiracion-2",
             "image#menu-inspiracion-3",
-            "image#menu-inspiracion-4"
+            "image#menu-inspiracion-4",
+            "image#menu-inspiracion-5"
         ],
         "props": {
             "blockClass": "flex-row-inspiracion",
@@ -725,9 +726,9 @@
     },
     "image#menu-inspiracion-1":{
         "props": {
-            "src": "/arquivos/menu-eyewear-2.png",
+            "src": "https://dummyimage.com/200x220/000/fff",
             "link":{
-              "url":"/eyewear/mujer"
+              "url":"#"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -735,9 +736,9 @@
     },
     "image#menu-inspiracion-2":{
         "props": {
-            "src": "/arquivos/menu-eyewear-1.png",
+            "src": "https://dummyimage.com/200x220/000/fff",
             "link":{
-              "url":"/eyewear/hombre"
+              "url":"#"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -745,9 +746,9 @@
     },
     "image#menu-inspiracion-3":{
         "props": {
-            "src": "/arquivos/menu-eyewear-3.png",
+            "src": "https://dummyimage.com/200x220/000/fff",
             "link":{
-              "url":"/eyewear"
+              "url":"#"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -755,15 +756,98 @@
     },
     "image#menu-inspiracion-4":{
         "props": {
-            "src": "/arquivos/menu-eyewear-4.png",
+            "src": "https://dummyimage.com/200x220/000/fff",
             "link":{
-              "url":"/eyewear"
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-inspiracion-5":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
           }
     },
     /* END INSPIRACION */
+    /* SERVICIOS */
+    "vtex.menu@2.x:submenu#Servicios":{
+        "children":[
+            "flex-layout.row#menu-servicios"
+        ],
+        "props":{
+            "blockClass":"submenu-header"
+        }
+    },
+    "flex-layout.row#menu-servicios":{
+        "children": [
+            "image#menu-servicios-1",
+            "image#menu-servicios-2",
+            "image#menu-servicios-3",
+            "image#menu-servicios-4",
+            "image#menu-servicios-5"
+        ],
+        "props": {
+            "blockClass": "flex-row-inspiracion",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#menu-servicios-1":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-servicios-2":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-servicios-3":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-servicios-4":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    "image#menu-servicios-5":{
+        "props": {
+            "src": "https://dummyimage.com/200x220/000/fff",
+            "link":{
+              "url":"#"
+            },
+            "blockClass": "menu-inspiracion",
+            "minWidth": 150
+          }
+    },
+    /* END SERVICIOS */
     "vtex.menu@2.x:menu#footer-nosotros": {
         "children": [
             "menu-item#footer-somos",
