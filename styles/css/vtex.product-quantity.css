@@ -5,3 +5,7 @@
 .quantitySelectorStepper--product-qty {
     margin-right: 10px;
 }
+
+.quantitySelectorContainer--product-qty {
+    margin-bottom: 0px;
+}

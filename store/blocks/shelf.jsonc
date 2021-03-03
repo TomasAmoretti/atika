@@ -80,6 +80,23 @@
           "blockClass": "shelf-relacionados"
       }
     },
+    "shelf.relatedProducts#comprar-junto": {
+      "blocks": [
+        "product-summary.shelf#main"
+      ],
+      "props": {
+          "recommendation": "similars",
+          "productList": {
+              "titleText": "Complementos a tu compra",
+              "maxItems": 12,
+              "itemsPerPage": 2,
+              "minItemsPerPage": 1,
+              "scroll": "BY_PAGE",
+              "arrows": false
+          },
+          "blockClass": "shelf-relacionados"
+      }
+    },
     "shelf#Destacados-1": {
         "blocks": [
           "product-summary.shelf#main"

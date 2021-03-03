@@ -19,6 +19,7 @@
 .menuContainerNav--categorias-nav-header {
     background: white;
     border-bottom: solid 1px black;
+    border-top: solid 1.5px black;
 }
 
 .styledLinkContent--footer-item {
@@ -42,6 +43,8 @@
 
 .submenu--submenu-header {
     justify-content: end;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .styledLinkContent--submenu {
@@ -55,9 +58,10 @@
 
 .menuContainer--categorias-nav-header {
     padding-bottom: 20px;
-    border-top: solid 1.5px black;
     display: flex;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .submenuWrapper--itemmenu-header--isOpen {

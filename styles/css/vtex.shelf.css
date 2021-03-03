@@ -12,7 +12,7 @@
 }
 
 .container--shelf-sale {
-    width: 90%;
+    max-width: 1280px;
     margin: auto;
     padding-bottom: 0;
 }
@@ -34,7 +34,7 @@
 
 .relatedProducts--shelf-relacionados {
     margin-bottom: 50px;
-    width: 95%;
+    max-width: 1280px;
     margin: auto;
 }
 

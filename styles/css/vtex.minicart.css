@@ -5,3 +5,10 @@
 .cartIcon {
     color: black;
 }
+
+.minicartTitle {
+    font-family: 'Poppins';
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}

@@ -84,7 +84,9 @@
       "flex-layout.col#spacer-producto2",
       "flex-layout.row#cart-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "rich-text#texto-shipping",
+      "shipping-simulator",
+      "shelf.relatedProducts#comprar-junto"
     ],
     "props": {
       "verticalAlign": "top",
@@ -216,6 +218,14 @@
       "blockClass": "espaciador"
     }
   },
+  "rich-text#texto-shipping":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Calcular el envio",
+      "blockClass": "titulo-shipping"
+    }
+  },
   "shipping-simulator": {
     "props": {
       "blockClass": "simulador"
@@ -264,7 +274,8 @@
       "product-quantity",
       "add-to-cart-button#product",
       "product-rating-inline",
-      "availability-subscriber"
+      "availability-subscriber",
+      "shelf.relatedProducts#comprar-junto"
     ],
     "props": {
       "verticalAlign": "top",

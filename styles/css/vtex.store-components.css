@@ -17,11 +17,14 @@
     display: table;
     margin-top: 40px;
     margin-bottom: 40px;
+    max-width: 1280px;
 }
 
 .infoCardContainer--info-card-showroom {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .infoCardHeadline--info-card-showroom {
@@ -87,7 +90,7 @@
 .currencyContainer--product-price {
     font-family: 'Poppins Bold';
     color: black;
-    font-size: 23px;
+    font-size: 27px;
 }
 
 .productDescriptionTitle {
@@ -95,9 +98,10 @@
 }
 
 .productBrandName--marca-product {
-    color: #606060;
+    color: #d8d7d5;
     letter-spacing: 0.5px;
-    font-family: 'Poppins';
+    font-family: 'Poppins Light';
+    font-size: 22px;
 }
 
 .productBrandContainer--marca-product {
@@ -105,8 +109,8 @@
 }
 
 .productBrand--product-name {
-    font-family: 'Poppins Bold';
-    font-size: 22px;
+    font-family: 'Poppins';
+    font-size: 24px;
     border-bottom: solid #C90512;
 }
 
@@ -136,7 +140,38 @@
 }
 
 .shippingContainer {
-    margin-top: 40px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 20px 0;
+}
+
+.specificationsTableContainer--specifications-product {
+    padding: 0;
+    margin-top: 50px;
+    color: black;
+}
+
+.specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
+    color: black;
+    font-family: 'NotoSans Bold';
+    font-size: 14px;
+    border: none;
+}
+
+.specificationsTableRow--specifications-product {
+    border-bottom: solid 1px black!important;
+    display: flex;
+    font-family: 'NotoSans Regular';
+    font-size: 14px;
+}
+
+.specificationsTitle--specifications-product {
+    font-family: 'Poppins Bold';
+    font-size: 16px;
+}
+
+.container--specifications-product {
+    border-top: solid 1px black;
 }
 
 /* HEADER */
