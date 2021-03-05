@@ -148,6 +148,15 @@
     border-top: solid 2px;
     border-bottom: solid 2px;
     padding: 20px 0;
+    width: 70%;
+}
+
+.showMoreButton--specifications-product {
+    color: #C90512;
+    background: none;
+    border: solid 1px black;
+    padding: 4px;
+    font-size: 13px;
 }
 
 .specificationsTableContainer--specifications-product {
