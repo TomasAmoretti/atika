@@ -59,7 +59,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-yt.png",
       "blockClass": "image-top-header"
     }
   },
@@ -68,7 +68,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-facebook.png",
       "blockClass": "image-top-header"
     }
   },
@@ -77,7 +77,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-instagram.png",
       "blockClass": "image-top-header"
     }
   },
@@ -96,7 +96,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-telefono.png",
       "blockClass": "image-top-header"
     }
   },
@@ -123,7 +123,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-mail.png",
       "blockClass": "image-top-header"
     }
   },
@@ -150,7 +150,7 @@
       "url":{
         "link":"#"
       },
-      "src": "https://dummyimage.com/20x20/000/fff",
+      "src": "/arquivos/icono-ubicacion.png",
       "blockClass": "image-top-header"
     }
   },

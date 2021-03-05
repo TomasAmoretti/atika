@@ -81,6 +81,11 @@
     margin-top: 20px;
 }
 
+.imageElementLink--imagen-categoria {
+    display: flex;
+    justify-content: center;
+}
+
 /* PRODUCTO */
 .price_sellingPrice--product-price {
     padding: 0;

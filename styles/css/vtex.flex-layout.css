@@ -121,6 +121,11 @@
     align-items: center;
 }
 
+.flexRowContent--row-categorias {
+    display: flex;
+    justify-content: center;
+}
+
 /* FOOTER */
 .flexRowContent--footer-bottom {
     display: flex;

@@ -64,6 +64,11 @@
     margin: auto;
 }
 
+.submenuContainer--itemmenu-header-2 {
+    position: absolute!important;
+    left: 45%;
+}
+
 .submenuWrapper--itemmenu-header--isOpen {
     border: solid 1px;
     width: max-content;

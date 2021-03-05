@@ -83,7 +83,7 @@
   },
   "image#footer-youtube":{
     "props": {
-      "src": "https://dummyimage.com/30x30/000/fff",
+      "src": "/arquivos/footer-yt.png",
       "link":{
         "url":"#"
       },
@@ -92,7 +92,7 @@
   },
   "image#footer-facebook":{
     "props": {
-      "src": "https://dummyimage.com/30x30/000/fff",
+      "src": "/arquivos/footer-facebook.png",
       "link":{
         "url":"#"
       },
@@ -101,7 +101,7 @@
   },
   "image#footer-instagram":{
     "props": {
-      "src": "https://dummyimage.com/30x30/000/fff",
+      "src": "/arquivos/footer-instagram.png",
       "link":{
         "url":"#"
       },
@@ -120,7 +120,7 @@
   },
   "image#footer-whatsapp":{
     "props": {
-      "src": "https://dummyimage.com/15x15/000/fff",
+      "src": "/arquivos/footer-whatsapp.png",
       "link":{
         "url":"#"
       },
@@ -147,7 +147,7 @@
   },
   "image#footer-telefono":{
     "props": {
-      "src": "https://dummyimage.com/15x15/000/fff",
+      "src": "/arquivos/footer-telefono.png",
       "link":{
         "url":"#"
       },
@@ -174,7 +174,7 @@
   },
   "image#footer-email":{
     "props": {
-      "src": "https://dummyimage.com/15x15/000/fff",
+      "src": "/arquivos/footer-mail.png",
       "link":{
         "url":"#"
       },

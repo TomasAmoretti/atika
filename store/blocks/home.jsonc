@@ -48,7 +48,7 @@
   },
   "image#info-1":{
     "props":{
-      "src": "https://dummyimage.com/35x35/000/fff",
+      "src": "/arquivos/icono-camion.png",
       "blockClass":"image-info"
     }
   },
@@ -72,7 +72,7 @@
   },
   "image#info-2":{
     "props":{
-      "src": "https://dummyimage.com/35x35/000/fff",
+      "src": "/arquivos/icono-herramientas.png",
       "blockClass":"image-info"
     }
   },
@@ -96,7 +96,7 @@
   },
   "image#info-3":{
     "props":{
-      "src": "https://dummyimage.com/35x35/000/fff",
+      "src": "/arquivos/icono-espacio.png",
       "blockClass":"image-info"
     }
   },
@@ -120,7 +120,7 @@
   },
   "image#info-4":{
     "props":{
-      "src": "https://dummyimage.com/35x35/000/fff",
+      "src": "/arquivos/icono-usuario.png",
       "blockClass":"image-info"
     }
   },

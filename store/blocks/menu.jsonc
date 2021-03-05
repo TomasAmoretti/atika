@@ -538,7 +538,7 @@
             "flex-layout.row#submenu-productos-accesorios"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"itemmenu-header-2"
         }
     },
     "flex-layout.row#submenu-productos-accesorios":{
@@ -580,7 +580,7 @@
             "flex-layout.row#submenu-productos-mamparas"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"itemmenu-header-2"
         }
     },
     "flex-layout.row#submenu-productos-mamparas":{
@@ -622,7 +622,7 @@
             "flex-layout.row#submenu-productos-muebles-baño"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"itemmenu-header-2"
         }
     },
     "flex-layout.row#submenu-productos-muebles-baño":{
@@ -664,7 +664,7 @@
             "flex-layout.row#submenu-productos-piedras-naturales"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"itemmenu-header-2"
         }
     },
     "flex-layout.row#submenu-productos-piedras-naturales":{
