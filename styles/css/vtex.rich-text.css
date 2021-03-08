@@ -44,6 +44,11 @@
     font-size: 14px;
 }
 
+.paragraph--info {
+    font-family: 'NotoSans Regular';
+    font-size: 14px;
+}
+
 .paragraph--titulo-shelf {
     font-family: 'Poppins Bold';
     font-size: 19px;

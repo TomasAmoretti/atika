@@ -1,3 +1,8 @@
 .profileIcon {
     color: black;
 }
+
+.formTitle {
+    font-family: 'Poppins Light';
+    font-size: 14px;
+}
