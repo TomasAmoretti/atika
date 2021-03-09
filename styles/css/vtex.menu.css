@@ -56,7 +56,6 @@
 }
 
 .menuContainer--categorias-nav-header {
-    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     max-width: 1280px;
