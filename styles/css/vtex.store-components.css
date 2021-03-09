@@ -117,7 +117,13 @@
     font-family: 'Poppins';
     font-size: 24px;
     line-height: 33px;
-    border-bottom: solid #C90512;
+}
+
+.productBrand--product-name::after {
+    border-bottom: solid 2px red;
+    width: 75px;
+    content: "";
+    display: block;
 }
 
 .productNameContainer--product-name {

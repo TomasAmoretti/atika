@@ -53,7 +53,13 @@
     font-family: 'Poppins Bold';
     font-size: 19px;
     color: black;
-    border-bottom: solid #C90512;
+}
+
+.paragraph--titulo-shelf::after {
+    border-bottom: solid 2px red;
+    width: 75px;
+    content: "";
+    display: block;
 }
 
 .strong--titulo-sale {
