@@ -62,6 +62,10 @@
     margin: auto;
 }
 
+.styledLinkContainer--categoria-header {
+    margin: 0 1rem;
+}
+
 .submenuContainer--itemmenu-header-2 {
     position: absolute!important;
     left: 45%;
