@@ -84,6 +84,7 @@
   "image#footer-youtube":{
     "props": {
       "src": "/arquivos/footer-yt.png",
+      "width": 39,
       "link":{
         "url":"#"
       },
@@ -93,6 +94,7 @@
   "image#footer-facebook":{
     "props": {
       "src": "/arquivos/footer-facebook.png",
+      "width": 39,
       "link":{
         "url":"#"
       },
@@ -102,6 +104,7 @@
   "image#footer-instagram":{
     "props": {
       "src": "/arquivos/footer-instagram.png",
+      "width": 39,
       "link":{
         "url":"#"
       },

@@ -70,7 +70,7 @@
       "props": {
           "recommendation": "view",
           "productList": {
-              "titleText": "Otro también buscaron...",
+              "titleText": "Otros también buscaron...",
               "maxItems": 20,
               "itemsPerPage": 5,
               "minItemsPerPage": 1,

@@ -59,7 +59,10 @@
       "add-to-list-btn#producto",
       "product-images#product-page",
       "flex-layout.row#descripcion-producto"
-    ]
+    ],
+    "props":{
+      "blockClass":"col-right"
+    }
   },
   "product-images#product-page": {
     "props": {

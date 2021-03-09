@@ -8,7 +8,7 @@
     margin: auto;
     background: black;
     justify-content: space-between;
-    max-width: 1320px;
+    max-width: 1280px;
 }
 
 .flexRowContent--contacto-top {
@@ -44,7 +44,7 @@
 .flexRowContent--header-main {
     display: flex;
     align-items: center;
-    max-width: 1300px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -62,6 +62,11 @@
 
 .flexRow--flex-row-inspiracion {
     width: 100%;
+}
+
+.flexRowContent--top-header-left {
+    display: flex;
+    align-items: center;
 }
 
 /* HOME */
@@ -188,6 +193,7 @@
 
 .flexCol--product-lef-col {
     margin-left: 40px;
+    width: 75%!important;
 }
 
 .flexRow--producto-main {
@@ -197,6 +203,11 @@
 
 .flexRow--breadcrumb {
     max-width: 1280px;
+    margin: auto;
+}
+
+.flexRow--especificaciones {
+    width: 80%;
     margin: auto;
 }
 

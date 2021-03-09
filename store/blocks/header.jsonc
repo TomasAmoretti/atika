@@ -59,6 +59,8 @@
       "url":{
         "link":"#"
       },
+      "width": 30,
+      "height": 28,
       "src": "/arquivos/icono-yt.png",
       "blockClass": "image-top-header"
     }
@@ -68,6 +70,7 @@
       "url":{
         "link":"#"
       },
+      "width": 30,
       "src": "/arquivos/icono-facebook.png",
       "blockClass": "image-top-header"
     }
@@ -77,6 +80,7 @@
       "url":{
         "link":"#"
       },
+      "width": 30,
       "src": "/arquivos/icono-instagram.png",
       "blockClass": "image-top-header"
     }
