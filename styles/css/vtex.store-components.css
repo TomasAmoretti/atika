@@ -120,7 +120,7 @@
 }
 
 .productBrand--product-name::after {
-    border-bottom: solid 2px red;
+    border-bottom: solid 4px red;
     width: 75px;
     content: "";
     display: block;
