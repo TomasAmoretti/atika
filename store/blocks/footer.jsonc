@@ -43,7 +43,7 @@
   },
   "image#logo-footer":{
     "props": {
-      "src": "/arquivos/logo.png",
+      "src": "/arquivos/logo-atika.svg",
       "link":{
         "url":"/"
       },
