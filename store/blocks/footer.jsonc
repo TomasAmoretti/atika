@@ -252,7 +252,8 @@
       "flex-layout.row#footer-general-bottom"
     ],
     "props":{
-      "blockClass": "footer-general-fila-2"
+      "blockClass": "footer-general-fila-2",
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#partners":{
@@ -277,7 +278,8 @@
   },
   "image#partner-1":{
     "props": {
-      "src": "https://dummyimage.com/80x45/000/fff",
+      "src": "/arquivos/aoa.svg",
+      "width": 100,
       "link":{
         "url":"#"
       },
@@ -286,7 +288,8 @@
   },
   "image#partner-2":{
     "props": {
-      "src": "https://dummyimage.com/80x45/000/fff",
+      "src": "/arquivos/add.svg",
+      "width": 100,
       "link":{
         "url":"#"
       },
@@ -295,7 +298,8 @@
   },
   "image#partner-3":{
     "props": {
-      "src": "https://dummyimage.com/80x45/000/fff",
+      "src": "/arquivos/plataforma-arquitectura.svg",
+      "width": 100,
       "link":{
         "url":"#"
       },
@@ -304,7 +308,8 @@
   },
   "image#partner-4":{
     "props": {
-      "src": "https://dummyimage.com/80x45/000/fff",
+      "src": "/arquivos/banco-de-chile.svg",
+      "width": 125,
       "link":{
         "url":"#"
       },

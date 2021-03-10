@@ -54,6 +54,11 @@
       "flex-layout.row#tiendas-top"
     ]
   },
+  "icon#youtube":{
+    "props":{
+      "id":"mpa-youtube"
+    }
+  },
   "image#youtube-top":{
     "props":{
       "url":{
@@ -211,13 +216,25 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
+  },
+  "icon#logo":{
+    "props":{
+      "blockClass":"ico-logo",
+      "id":"hpa-logo",
+      "href": "/"
+    }
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/logo.png"
+      "url": "/arquivos/logo-atika.svg",
+      "width": 205,
+      "height": 100,
+      "blockClass":"logo"
     }
   },
   "login": {

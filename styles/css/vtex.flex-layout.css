@@ -178,6 +178,15 @@
     margin: auto;
 }
 
+.flexRowContent--footer-general-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--footer-general-fila-2 {
+    justify-content: space-evenly;
+}
+
 /* PRODUCTO */
 .flexRow--row-button {
     margin-top: 20px;
