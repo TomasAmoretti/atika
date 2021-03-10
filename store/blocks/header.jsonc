@@ -64,9 +64,7 @@
       "url":{
         "link":"#"
       },
-      "width": 30,
-      "height": 28,
-      "src": "/arquivos/icono-yt.png",
+      "src": "/arquivos/icono-youtube.svg",
       "blockClass": "image-top-header"
     }
   },
@@ -75,8 +73,7 @@
       "url":{
         "link":"#"
       },
-      "width": 30,
-      "src": "/arquivos/icono-facebook.png",
+      "src": "/arquivos/icono-facebook.svg",
       "blockClass": "image-top-header"
     }
   },
@@ -85,8 +82,7 @@
       "url":{
         "link":"#"
       },
-      "width": 30,
-      "src": "/arquivos/icono-instagram.png",
+      "src": "/arquivos/icono-instagram.svg",
       "blockClass": "image-top-header"
     }
   },
@@ -105,7 +101,7 @@
       "url":{
         "link":"#"
       },
-      "src": "/arquivos/icono-telefono.png",
+      "src": "/arquivos/icono-telefono.svg",
       "blockClass": "image-top-header"
     }
   },
@@ -132,7 +128,7 @@
       "url":{
         "link":"#"
       },
-      "src": "/arquivos/icono-mail.png",
+      "src": "/arquivos/icono-mail.svg",
       "blockClass": "image-top-header"
     }
   },
@@ -159,7 +155,7 @@
       "url":{
         "link":"#"
       },
-      "src": "/arquivos/icono-ubicacion.png",
+      "src": "/arquivos/icono-gps.svg",
       "blockClass": "image-top-header"
     }
   },
