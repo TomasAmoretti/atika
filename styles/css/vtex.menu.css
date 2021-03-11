@@ -95,3 +95,12 @@
 .styledLinkContent:hover {
     color: #C90512;
 }
+
+/* MOBILE */
+.submenu--itemmenu-header-mobile {
+    display: block;
+}
+
+.submenuWrapper--itemmenu-header-mobile--isOpen {
+    display: contents;
+}
