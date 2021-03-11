@@ -5,11 +5,20 @@
 }
 
 .productBrandName {
-    font-family: 'NotoSans Bold';
+    font-family: 'Poppins Light';
     border: solid 1px;
     padding: 0 4px;
     font-size: 9px;
     margin-left: 9px;
+}
+
+.productBrandLogo {
+    height: 40px!important;
+}
+
+.productBrandLogoWrapper {
+    height: 40px!important;
+    margin-left: 10px;
 }
 
 .productBrandContainer {

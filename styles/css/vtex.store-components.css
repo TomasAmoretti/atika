@@ -202,6 +202,10 @@
     border-top: solid 1px black;
 }
 
+.productBrandLogo--marca-product {
+    height: 50px!important;
+}
+
 /* HEADER */
 .searchBarInnerContainer--search-desktop {
     width: 600px;
