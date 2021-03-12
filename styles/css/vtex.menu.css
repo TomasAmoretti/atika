@@ -101,6 +101,21 @@
     display: block;
 }
 
-.submenuWrapper--itemmenu-header-mobile--isOpen {
-    display: contents;
+.submenuWrapper--submenu-header-mobile--isOpen {
+    display: block;
+    width: 100%;
+    position: inherit;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.submenu--submenu-header-mobile {
+    display: block;
+}
+
+.submenu--itemmenu-header-mobile {
+    display: block;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    background: #b9b3b3;
 }
