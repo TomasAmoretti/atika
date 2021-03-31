@@ -3,3 +3,13 @@
     font-family: 'Poppins Light';
     font-size: 13px;
 }
+
+:global(.vtex-product-identifier-0-x-product-identifier__label) {
+    visibility: hidden;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier__label)::before {
+    visibility: visible;
+    content: "Codigo";
+    margin-right: -65px;
+}
