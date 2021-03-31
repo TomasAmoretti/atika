@@ -11,6 +11,13 @@
           "blockClass": "product-summary"
         }
     },
+    "product-brand": {
+      "props": {
+        "displayMode": "text",
+        "height": "30px",
+        "blockClass": "marca-product"
+      }
+    },
     "product-list-price":{
         "props":{
           "markers":[

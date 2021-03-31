@@ -156,13 +156,6 @@
       "blockClass": "product-buy-button"
     }
   },
-  "product-brand": {
-    "props": {
-      "displayMode": "logo",
-      "height": "30px",
-      "blockClass": "marca-product"
-    }
-  },
   "share": {
     "props": {
       "className": "social-product",
