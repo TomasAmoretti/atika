@@ -22,14 +22,15 @@
 .flexColChild--col-submenu {
     margin: 5px 0;
     display: inline-block;
-    width: 240px;
+    width: 370px;
 
 }
 
 .flexCol--col-submenu {
     display: inline-block;
-    max-height: 300px;
-    max-width: 480px;
+    max-height: 400px;
+    max-width: 390px;
+    overflow-y: scroll;
 }
 
 .flexRow--row-submenu {
@@ -50,8 +51,18 @@
 
 .flexRowContent--row-submenu {
     width: max-content;
-    max-width: 730px;
+    max-width: 640px;
     min-width: 480px;
+}
+
+.flexCol--col-submenu::-webkit-scrollbar {
+    width: 7px;
+}
+
+.flexCol--col-submenu::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
 }
 
 .flexRowContent--flex-row-inspiracion {
@@ -264,4 +275,8 @@
     max-width: 1280px;
     margin: auto;
     padding: 0 20px;
+}
+
+.flexCol--search-result-filtros {
+    min-width: 225px;
 }

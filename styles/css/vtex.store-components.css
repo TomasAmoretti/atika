@@ -92,6 +92,11 @@
     justify-content: center;
 }
 
+.imageElement--imagen-submenu {
+    min-width: 250px;
+    max-height: 300px;
+}
+
 /* PRODUCTO */
 .price_sellingPrice--product-price {
     padding: 0;
@@ -172,6 +177,20 @@
     font-size: 13px;
     font-family: 'Poppins Light';
 }
+
+.subscriberContainer {
+    margin-top: 50px;
+}
+
+.subscriberContainer .form {
+    margin-top: 20px;
+}
+
+.subscriberContainer .form .content {
+    display: contents;
+}
+
+
 
 .specificationsTableContainer--specifications-product {
     padding: 0;

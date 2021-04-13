@@ -151,7 +151,7 @@
   "add-to-cart-button#product": {
     "props": {
       "text": "AGREGAR AL CARRITO",
-      "unavailableText": "AGOTADO",
+      "unavailableText": "SOLO CATALOGO",
       "showTooltipOnSkuNotSelected": true,
       "blockClass": "product-buy-button"
     }
