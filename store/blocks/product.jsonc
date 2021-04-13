@@ -57,6 +57,7 @@
   "flex-layout.col#left": {
     "children": [
       "add-to-list-btn#producto",
+      "vtex.product-highlights@2.x:product-highlights#product",
       "product-images#product-page",
       "flex-layout.row#descripcion-producto"
     ],
@@ -76,6 +77,20 @@
   "add-to-list-btn#producto":{
     "props":{
       "blockClass":"whish-product"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#product":{
+    "children":[
+      "product-highlight-text#producto"
+    ],
+    "props":{
+      "blockClass": "product-highlight"
+    }
+  },
+  "product-highlight-text#producto": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass":"texto-highlight"
     }
   },
   "flex-layout.col#right": {

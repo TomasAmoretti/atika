@@ -208,7 +208,7 @@
 }
 
 .specificationsTableRow--specifications-product {
-    border-bottom: solid 1px black!important;
+    border-bottom: solid 1px #a0a0a0!important;
     display: flex;
     font-family: 'NotoSans Regular';
     font-size: 14px;
@@ -217,6 +217,10 @@
 .specificationsTitle--specifications-product {
     font-family: 'Poppins Bold';
     font-size: 16px;
+}
+
+.specificationItemProperty--specifications-product, .specificationItemSpecifications--specifications-product, .specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
+    padding: 0.5rem;
 }
 
 .container--specifications-product {
