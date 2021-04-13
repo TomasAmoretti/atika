@@ -67,6 +67,8 @@
   "product-images#product-page": {
     "props": {
       "displayThumbnailsArrows": false,
+      "position": "bottom",
+      "thumbnailsOrientation": "horizontal",
       "zoomMode": "in-place-hover",
       "blockClass": "image-producto"
     }
