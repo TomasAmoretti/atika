@@ -190,13 +190,6 @@
     display: contents;
 }
 
-.flexRowContent--row-button ::global(.vtex-button.bw1.ba.fw5.v-mid.relative.pa0.lh-solid.br2.min-h-regular.t-action.bg-disabled.b--muted-5.c-on-disabled.w-100) {
-    width: 450px;
-    height: 50px;
-    background: #c4c4c4;
-    color: white;
-}
-
 .subscriberContainer .title {
     font-size: 14px;
 }

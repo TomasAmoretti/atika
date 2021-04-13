@@ -266,7 +266,6 @@
   "flex-layout.col#right-mobile": {
     "children": [
       "flex-layout.row#Precio",
-      /*"product-installments#product",*/
       "product-description#mobile",
       "sku-selector#mobile",
       "product-quantity",
