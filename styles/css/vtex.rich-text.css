@@ -155,3 +155,7 @@
 .container--titulo-shipping {
     margin-top: 20px;
 }
+
+.wrapper--glosario-titulo, .wrapper--glosario {
+    margin: auto;
+}

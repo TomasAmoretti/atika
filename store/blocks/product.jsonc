@@ -59,8 +59,9 @@
       "add-to-list-btn#producto",
       "vtex.product-highlights@2.x:product-highlights#product",
       "product-images#product-page",
-      "descripcion-larga",
-      "flex-layout.row#descripcion-producto"
+      "product-description",
+      "flex-layout.row#descripcion-producto",
+      "modal-trigger#glosario"
     ],
     "props":{
       "blockClass":"col-right"
@@ -99,7 +100,7 @@
       "product-brand",
       "product-name#product",
       "product-identifier.product",
-      "product-description",
+      "descripcion-larga",
       "sku-selector",
       "flex-layout.row#Precio",
       "flex-layout.col#spacer-producto2",
@@ -221,6 +222,332 @@
       "collapseContent": false
     }
   },
+  "modal-trigger#glosario": {
+    "children": [
+      "rich-text#glosario",
+      "modal-layout#glosario"
+    ],
+    "props":{
+      "blockClass": "modal-glosario"
+    }
+  },
+  "rich-text#glosario": {
+    "props": {
+      "text": "Glosario",
+      "blockClass": "glosario-button"
+    }
+  },
+  "modal-layout#glosario": {
+    "children": [
+      "modal-header",
+      "modal-content#glosario"
+    ],
+    "props":{
+      "blockClass": "layout-glosario"
+    }
+  },
+  "modal-content#glosario":{
+    "children":[
+      "flex-layout.row#modal-glosario"
+    ],
+    "props":{
+      "blockClass": "content-glosario"
+    }
+  },
+  "flex-layout.row#modal-glosario":{
+    "children":[
+      "flex-layout.col#glosario"
+    ],
+    "props":{
+      "blockClass": "row-modal-glosario"
+    }
+  },
+  "flex-layout.col#glosario":{
+    "children":[
+      "flex-layout.row#glosario-row-1",
+      "flex-layout.row#glosario-row-2",
+      "flex-layout.row#glosario-row-3",
+      "flex-layout.row#glosario-row-4",
+      "flex-layout.row#glosario-row-5",
+      "flex-layout.row#glosario-row-6",
+      "flex-layout.row#glosario-row-7",
+      "flex-layout.row#glosario-row-8",
+      "flex-layout.row#glosario-row-titulo-2",
+      "flex-layout.row#glosario-row-9",
+      "flex-layout.row#glosario-row-10",
+      "flex-layout.row#glosario-row-11",
+      "flex-layout.row#glosario-row-12"
+    ],
+    "props":{
+      "blockClass":"col-glosario"
+    }
+  },
+  "flex-layout.row#glosario-row-1":{
+    "children":[
+      "rich-text#titulo-glosario",
+      "rich-text#titulo2-glosario"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#titulo-glosario":{
+    "props":{
+      "text": "**ESPECIFICACIÓN**",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#titulo2-glosario":{
+    "props":{
+      "text": "**SIGNIFICADO/EXPLICACION**",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-2":{
+    "children":[
+      "rich-text#glosario-2",
+      "rich-text#glosario-22"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-2":{
+    "props":{
+      "text": "HERRAJES",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-22":{
+    "props":{
+      "text": "Conjunto de piezas de menor tamaño que incluye el mueble.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-3":{
+    "children":[
+      "rich-text#glosario-3",
+      "rich-text#glosario-33"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-3":{
+    "props":{
+      "text": "REBALSE",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-33":{
+    "props":{
+      "text": "Si un lavamano o bidet tiene rebalse, el desagüe que se instale también debe tener rebalse. Por el contrario, si el sanitario no tiene rebalse, el desagüe tambien debe ser sin rebalse.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-4":{
+    "children":[
+      "rich-text#glosario-4",
+      "rich-text#glosario-44"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-4":{
+    "props":{
+      "text": "RECTIFICADO",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-44":{
+    "props":{
+      "text": "Si una pieza es rectificada significa que sus bordes fueron cortados de forma recta. Esto influye en la junta mínima recomendada para instalar. Si el producto es rectificado, la junta mínima es 2 mm. Si no es rectificado, la junta mínima es de 3 mm. Y si se trata de una cerámica pasta roja no rectificada, la junta mínima es de 5 mm.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-5":{
+    "children":[
+      "rich-text#glosario-5",
+      "rich-text#glosario-55"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-5":{
+    "props":{
+      "text": "VARIACIÓN TONAL",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-55":{
+    "props":{
+      "text": "Según el diseño de una serie, las palmetas pueden tener distintos niveles de variación de tonalidad entre sí. Hay productos cuyo diseño son de colores más bien planos (V1), así como hay otros con matices suaves y otros que presentan una variación intensa entre las piezas de una misma caja (V4). La recomendación es elegir el producto viendo un paño del producto y siempre presentar varias cajas en el lugar real donde irá instalado, para confirmar que lo elegido logra una composición armoniosa antes de instalar. ",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-6":{
+    "children":[
+      "rich-text#glosario-6",
+      "rich-text#glosario-66"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-6":{
+    "props":{
+      "text": "BISELADO",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-66":{
+    "props":{
+      "text": "Corte oblicuo en los bordes de la cerámica.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-7":{
+    "children":[
+      "rich-text#glosario-7",
+      "rich-text#glosario-77"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-7":{
+    "props":{
+      "text": "TRÁFICO",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-77":{
+    "props":{
+      "text": "Indica el tráfico recomendado para el cual está pensado el piso",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-8":{
+    "children":[
+      "rich-text#glosario-8",
+      "rich-text#glosario-88"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-8":{
+    "props":{
+      "text": "APTO PARA LOSA RADIANTE",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-88":{
+    "props":{
+      "text": "El producto puede instalarse sobre una superficie que cuenta con sistema de calefacción incorporado.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-titulo-2":{
+    "children":[
+      "rich-text#titulo3-glosario"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#titulo3-glosario":{
+    "props":{
+      "text": "**TERMINACIONES BOEN**",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-9":{
+    "children":[
+      "rich-text#glosario-9",
+      "rich-text#glosario-99"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-9":{
+    "props":{
+      "text": "LIVE PURE",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-99":{
+    "props":{
+      "text": "Live Pure es un nuevo desarrollo de BOEN: para pisos de roble con acabado natural, ultra mate y con excelente protección. Live Pure protege el piso de polvo, suciedad y líquidos gracias a un tratamiento especial que deja el piso suave y natural, casi como madera no tratada.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-10":{
+    "children":[
+      "rich-text#glosario-10",
+      "rich-text#glosario-1010"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-10":{
+    "props":{
+      "text": "LIVE MATT",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-1010":{
+    "props":{
+      "text": "Live Matt es un acabado de 6 capas de barniz con muy bajo nivel de brillo, que da al piso el aspecto de “aceitado”. El look natural con ventajas de acabajo resistente al desgaste.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-11":{
+    "children":[
+      "rich-text#glosario-11",
+      "rich-text#glosario-1111"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-11":{
+    "props":{
+      "text": "LIVE NATURAL",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-1111":{
+    "props":{
+      "text": "Live Natural es un acabado natural que contiene aceites de girasol, y ceras naturales. El piso está listo para el uso inmediato después de la instalación y cuenta con una excelente protección de líquidos comparado con otros productos.",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "flex-layout.row#glosario-row-12":{
+    "children":[
+      "rich-text#glosario-12",
+      "rich-text#glosario-1212"
+    ],
+    "props":{
+      "blockClass": "row--glosario"
+    }
+  },
+  "rich-text#glosario-12":{
+    "props":{
+      "text": "DUELAS GENT Y PLANK",
+      "blockClass": "glosario-titulo"
+    }
+  },
+  "rich-text#glosario-1212":{
+    "props":{
+      "text": "¿Qué es una duela GENT? Las duelas GENT se crean con el fin de aprovechar el 100% de la madera. Su diferencia con las duelas PLANK es que presentan un pequeño corte vertical en la duela, mientras que la PLANK no tiene esos cortes. El corte mínimo es de 70 cm",
+      "blockClass": "glosario-titulo"
+    }
+  },
   "flex-layout.col#spacer-producto": {
     "props": {
       "width": "small"
@@ -288,6 +615,8 @@
       "add-to-cart-button#product",
       "product-rating-inline",
       "availability-subscriber",
+      "flex-layout.row#descripcion-producto",
+      "modal-trigger#glosario",
       "shelf.relatedProducts#comprar-junto"
     ],
     "props": {

@@ -12,7 +12,7 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
   const CSS_HANDLES = ['descripcionLarga']
   const handles = useCssHandles(CSS_HANDLES)
   const { product } = useProduct()
-  const { data, loading, error } = useQuery(productSpecs, {
+  const { data, error } = useQuery(productSpecs, {
     variables: {
       slug: product?.linkText,
     },
@@ -27,13 +27,7 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
       </div>
     )
   }
-  if (loading) {
-    return (
-      <div>
-        <span>Loading...</span>
-      </div>
-    )
-  }
+
   if (error) {
     return (
       <div>
@@ -44,7 +38,7 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
 
   return (
     <div className={`${handles.descripcionLarga} db tc`}>
-      Descripcion: {`${data.product.metaTagDescription}`}
+      {`${data.product.items.complementName}`}
     </div>
   )
 

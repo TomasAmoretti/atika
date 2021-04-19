@@ -280,3 +280,7 @@
 .flexCol--search-result-filtros {
     min-width: 225px;
 }
+
+.flexRowContent--row--glosario {
+    border-bottom: solid 1px;
+}
