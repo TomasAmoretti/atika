@@ -93,7 +93,7 @@
         "product-summary.shelf#main"
       ],
       "props": {
-          "recommendation": "similars",
+          "recommendation": "suggestions",
           "productList": {
               "titleText": "Complementos a tu compra",
               "maxItems": 12,

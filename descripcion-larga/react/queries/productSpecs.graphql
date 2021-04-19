@@ -1,0 +1,5 @@
+query productSpecs($slug: String) {
+  product(slug: $slug) {
+    metaTagDescription
+  }
+}

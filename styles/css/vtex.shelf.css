@@ -51,3 +51,7 @@
 .dot--isActive--shelf-relacionados {
     display: none;
 }
+
+.sliderContainer--shelf-relacionados {
+    height: 100%;
+}

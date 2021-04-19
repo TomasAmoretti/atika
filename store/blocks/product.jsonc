@@ -59,6 +59,7 @@
       "add-to-list-btn#producto",
       "vtex.product-highlights@2.x:product-highlights#product",
       "product-images#product-page",
+      "descripcion-larga",
       "flex-layout.row#descripcion-producto"
     ],
     "props":{
