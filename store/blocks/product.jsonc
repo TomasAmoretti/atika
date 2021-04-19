@@ -100,7 +100,7 @@
       "product-brand",
       "product-name#product",
       "product-identifier.product",
-      "descripcion-larga",
+      /*"descripcion-larga",*/
       "sku-selector",
       "flex-layout.row#Precio",
       "flex-layout.col#spacer-producto2",
