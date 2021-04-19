@@ -56,8 +56,8 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "add-to-list-btn#producto",
       "vtex.product-highlights@2.x:product-highlights#product",
+      "add-to-list-btn#producto",
       "product-images#product-page",
       "product-description",
       "flex-layout.row#descripcion-producto",
