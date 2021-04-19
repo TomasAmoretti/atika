@@ -19,6 +19,14 @@
         "blockClass": "marca-product"
       }
     },
+    "product-summary-image":{
+      "props":{
+        "hoverImage":{
+          "criteria": "index",
+          "index": 1
+        }
+      }
+    },
     "product-list-price":{
         "props":{
           "markers":[
