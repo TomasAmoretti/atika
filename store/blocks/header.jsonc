@@ -235,14 +235,16 @@
   },
   "login": {
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "E-mail",
-      "passwordPlaceholder": "password",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "hasGoogleOneTap": true,
-      "hideIconLabel": true
+      "hideIconLabel": true,
+      "optionsTitle": "Elije una opción para ingresar",
+      "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
     }
   },
   "search-bar":{

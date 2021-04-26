@@ -16,6 +16,10 @@
     color: #C90512;
 }
 
+.link {
+    font-family: 'NotoSans Light';
+}
+
 .container {
     font-size: 13px;
     font-family: 'NotoSans Light';

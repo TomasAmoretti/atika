@@ -10,32 +10,38 @@
 
 .galleryTitle--layout {
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     font-size: 28px;
 }
 
 .selectedCategoryName {
     color: #C90512;
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
 }
 
 .filterTitle {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
+    font-size: 14px;
 }
 
 .categoryItemName {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     font-size: 15px;
 }
 
 .filterMessage {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
 }
 
 .totalProducts--layout {
-    font-family: 'Poppins';
+    font-family: 'Poppins Regular';
 }
 
 .filterPopupTitle {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
+}
+
+.categoryItemChildren {
+    font-family: 'NotoSans Light';
+    font-size: 13px;
 }
