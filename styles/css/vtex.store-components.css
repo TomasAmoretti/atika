@@ -240,3 +240,7 @@
 .imageElementLink--menu-inspiracion {
     margin-left: 13px;
 }
+
+:global(.vtex-numeric-stepper__minus-button) {
+    border: solid 1px #000000;
+}
