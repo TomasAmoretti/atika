@@ -2425,12 +2425,12 @@ body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart
     align-items: center;
     box-sizing: border-box;
     padding: 10px;
-    background: rgba(225, 7, 7, .1)
+    background: #627583;
 }
 
 body:not([data-current=email]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable-message,
 body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable-message {
-    color: #e10707;
+    color: white;
     font-size: 11px;
     line-height: 14px;
     display: -webkit-box;
@@ -2445,7 +2445,7 @@ body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart
 
 body:not([data-current=email]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable-message .icon-warning-sign,
 body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable-message .icon-warning-sign {
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 56.2 (81672) - https://sketch.com --%3E%3Ctitle%3Eicn_alert%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M5.84,7.14 C5.8066665,7.14 5.77833345,7.12833345 5.755,7.105 C5.73166655,7.08166655 5.72,7.0533335 5.72,7.02 L5.61,2.62 C5.61,2.5866665 5.62166655,2.55833345 5.645,2.535 C5.66833345,2.51166655 5.6966665,2.5 5.73,2.5 L6.65,2.5 C6.6833335,2.5 6.71166655,2.51166655 6.735,2.535 C6.75833345,2.55833345 6.77,2.5866665 6.77,2.62 L6.66,7.02 C6.66,7.0533335 6.64833345,7.08166655 6.625,7.105 C6.60166655,7.12833345 6.5733335,7.14 6.54,7.14 L5.84,7.14 Z M6.13,9.48 C5.9233323,9.48 5.75500065,9.413334 5.625,9.28 C5.49499935,9.146666 5.43,8.9766677 5.43,8.77 C5.43,8.5633323 5.49499935,8.39500065 5.625,8.265 C5.75500065,8.13499935 5.9233323,8.07 6.13,8.07 C6.3366677,8.07 6.506666,8.13499935 6.64,8.265 C6.773334,8.39500065 6.84,8.5633323 6.84,8.77 C6.84,8.9766677 6.773334,9.146666 6.64,9.28 C6.506666,9.413334 6.3366677,9.48 6.13,9.48 Z M6,12 C2.6862915,12 0,9.3137085 0,6 C0,2.6862915 2.6862915,0 6,0 C9.3137085,0 12,2.6862915 12,6 C12,9.3137085 9.3137085,12 6,12 Z M6,11 C8.76142375,11 11,8.76142375 11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_alert' fill='%23e10707' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 56.2 (81672) - https://sketch.com --%3E%3Ctitle%3Eicn_alert%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M5.84,7.14 C5.8066665,7.14 5.77833345,7.12833345 5.755,7.105 C5.73166655,7.08166655 5.72,7.0533335 5.72,7.02 L5.61,2.62 C5.61,2.5866665 5.62166655,2.55833345 5.645,2.535 C5.66833345,2.51166655 5.6966665,2.5 5.73,2.5 L6.65,2.5 C6.6833335,2.5 6.71166655,2.51166655 6.735,2.535 C6.75833345,2.55833345 6.77,2.5866665 6.77,2.62 L6.66,7.02 C6.66,7.0533335 6.64833345,7.08166655 6.625,7.105 C6.60166655,7.12833345 6.5733335,7.14 6.54,7.14 L5.84,7.14 Z M6.13,9.48 C5.9233323,9.48 5.75500065,9.413334 5.625,9.28 C5.49499935,9.146666 5.43,8.9766677 5.43,8.77 C5.43,8.5633323 5.49499935,8.39500065 5.625,8.265 C5.75500065,8.13499935 5.9233323,8.07 6.13,8.07 C6.3366677,8.07 6.506666,8.13499935 6.64,8.265 C6.773334,8.39500065 6.84,8.5633323 6.84,8.77 C6.84,8.9766677 6.773334,9.146666 6.64,9.28 C6.506666,9.413334 6.3366677,9.48 6.13,9.48 Z M6,12 C2.6862915,12 0,9.3137085 0,6 C0,2.6862915 2.6862915,0 6,0 C9.3137085,0 12,2.6862915 12,6 C12,9.3137085 9.3137085,12 6,12 Z M6,11 C8.76142375,11 11,8.76142375 11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_alert' fill='%23ffffff' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     width: 13px;
@@ -2461,7 +2461,7 @@ body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart
 body:not([data-current=email]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable .help-arrow.top-arrow,
 body:not([data-current=cart]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable .help-arrow.top-arrow {
     top: -20px;
-    border-bottom-color: rgba(225, 7, 7, .1)
+    border-bottom-color: #627583
 }
 
 body:not([data-current=email]) .cart-template.mini-cart .cart-fixed .summary-cart-template-holder .item-unavailable span,
@@ -5779,17 +5779,18 @@ div#payment-data {
 .client-company-ie{display:none}
 
 .vtex-omnishipping-1-x-warning {
-  border-radius: 0;
+  border-radius: 0!important;
   margin-top: 5px;
-  border: solid 1px #C90512!important;
+  background: #627583;
+  border: solid 1px #627583!important;
 }
 
 .vtex-omnishipping-1-x-unavailableIcon {
-  border: 1px solid#C90512!important;
+  border: 1px solid#ffffff!important;
 }
 
 .vtex-omnishipping-1-x-unavailableIcon svg g {
-  fill: #C90512!important;
+  fill: #ffffff!important;
 }
 
 h2.empty-cart-title {
@@ -5801,4 +5802,26 @@ h2.empty-cart-title {
 .empty-cart-message p {
   font-family: 'Noto Sans JP';
   font-weight: 400;
+}
+
+tr.item-unavailable {
+  background: #627583;
+}
+
+.unavailable.lookatme {
+  background: #627583;
+}
+
+.item-unavailable .top-arrow {
+  border-bottom-color: #627583;
+}
+
+.unavailable .item-link-remove {
+  color: white;
+  font-size: 22px;
+}
+
+a#remove-unavailable-items {
+  color: white;
+  background-color: unset;
 }
