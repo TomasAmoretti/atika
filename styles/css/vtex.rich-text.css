@@ -13,23 +13,23 @@
     text-decoration: none;
     font-size: 10px;
     color: white;
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
 }
 
 .paragraph--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
 }
 
 .paragraph {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
 }
 
 .link--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
 }
 
 /* HOME */
@@ -40,12 +40,12 @@
 }
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
-    font-family: 'NotoSans Regular';
+    font-family: 'NotoSans Light';
     font-size: 14px;
 }
 
 .paragraph--info {
-    font-family: 'NotoSans Regular';
+    font-family: 'NotoSans Light';
     font-size: 14px;
 }
 
@@ -79,7 +79,7 @@
 .link--sale-ver-mas {
     text-decoration: underline;
     color: black;
-    font-family: 'NotoSans Bold';
+    font-family: 'NotoSans Light';
     font-size: 17px;
 }
 
@@ -96,7 +96,7 @@
 
 /* FOOTER */
 .strong--footer-newsletter-text {
-    font-family: 'Poppins Bold';
+    font-family: 'NotoSans Light';
     font-size: 30px;
     color: black;
 }
@@ -106,7 +106,7 @@
 }
 
 .paragraph--footer-newsletter-text {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     color: #606060;
     font-size: 15px;
 }
@@ -121,7 +121,7 @@
 
 .link--footer-contacto {
     color: #dad9d9;
-    font-family: 'NotoSans Regular';
+    font-family: 'NotoSans Light';
     font-size: 10px;
     margin-left: 8px;
     text-decoration: none;
@@ -143,7 +143,7 @@
 }
 
 .paragraph--footer-newsletter-text-mobile {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     margin-bottom: 0;
 }
 
@@ -158,4 +158,10 @@
 
 .wrapper--glosario-titulo, .wrapper--glosario {
     margin: auto;
+}
+
+.paragraph--glosario-button {
+    border: solid 1px;
+    padding: 5px;
+    cursor: pointer;
 }

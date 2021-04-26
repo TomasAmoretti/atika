@@ -5,13 +5,13 @@
 
 .styledLinkContent--categoria-header-ofertas {
     color: #C90512;
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
     font-size: 13px;
 }
 
 .styledLinkContent--categoria-header {
     color: #000;
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
     font-size: 13px;
 }
 
@@ -23,7 +23,7 @@
 
 .styledLinkContent--footer-item {
     color: #dcdcdc;
-    font-family: 'NotoSans Regular';
+    font-family: 'NotoSans Light';
     font-size: 12px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .styledLinkContent--item-submenu {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     font-size: 13px;
 }
 

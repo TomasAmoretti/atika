@@ -1,10 +1,10 @@
 .term--breadcrumb {
     color: #C90512;
-    font-family: 'Poppins Bold';
+    font-family: 'NotoSans Light';
 }
 
 .container--breadcrumb {
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
     font-size: 11px;
 }
 
@@ -18,5 +18,5 @@
 
 .container {
     font-size: 13px;
-    font-family: 'Poppins';
+    font-family: 'NotoSans Light';
 }

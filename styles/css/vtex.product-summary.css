@@ -5,7 +5,7 @@
 }
 
 .productBrandName {
-    font-family: 'Poppins Light';
+    font-family: 'NotoSans Light';
     border: solid 1px;
     padding: 0 4px;
     font-size: 9px;
@@ -34,7 +34,7 @@
 }
 
 .brandName {
-    font-family: 'NotoSans Regular';
+    font-family: 'NotoSans Light';
     font-size: 14px;
     color: black;
 }
