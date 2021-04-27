@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 .summarySmallContent {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
 }
 
 .price {
@@ -7,9 +8,9 @@
 }
 
 .summarySmallDisclaimer {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
 }
 
 .summaryItemLabel {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
 }

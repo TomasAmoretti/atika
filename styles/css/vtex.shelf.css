@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 .container--shelf-destacados, .title--shelf-sale {
     padding-bottom: 5px;
     padding-top: 0;
@@ -40,7 +41,8 @@
 
 .title--shelf-relacionados {
     color: black;
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 16px;
 }
 

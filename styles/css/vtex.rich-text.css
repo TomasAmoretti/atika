@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 .link:hover {
     color: #C90512;
 }
@@ -13,23 +14,27 @@
     text-decoration: none;
     font-size: 10px;
     color: white;
-    font-family: 'NotoSans Light';
+    font-weight: 400;
+    font-family: 'Noto Sans JP';
 }
 
 .paragraph--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
 }
 
 .paragraph {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
 }
 
 .link--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
 }
 
 /* HOME */
@@ -40,17 +45,20 @@
 }
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     font-size: 14px;
 }
 
 .paragraph--info {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     font-size: 14px;
 }
 
 .paragraph--titulo-shelf {
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 19px;
     color: black;
 }
@@ -66,10 +74,12 @@
     font-size: 30px;
     color: black;
     font-family: 'Poppins';
+    font-weight: 400;
 }
 
 .paragraph--titulo-sale {
     font-family: 'Poppins';
+    font-weight: 400;
     font-size: 13px;
     width: 60%;
     margin: auto;
@@ -79,7 +89,8 @@
 .link--sale-ver-mas {
     text-decoration: underline;
     color: black;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     font-size: 17px;
 }
 
@@ -96,7 +107,8 @@
 
 /* FOOTER */
 .strong--footer-newsletter-text {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     font-size: 30px;
     color: black;
 }
@@ -106,7 +118,8 @@
 }
 
 .paragraph--footer-newsletter-text {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     color: #606060;
     font-size: 15px;
 }
@@ -114,14 +127,16 @@
 .paragraph--titulo-footer {
     margin-left: 1.5rem;
     color: white;
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 13px;
     letter-spacing: 1px;
 }
 
 .link--footer-contacto {
     color: #dad9d9;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
     font-size: 10px;
     margin-left: 8px;
     text-decoration: none;
@@ -138,12 +153,14 @@
 }
 
 .strong--footer-newsletter-text-mobile {
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 25px;
 }
 
 .paragraph--footer-newsletter-text-mobile {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 600;
     margin-bottom: 0;
 }
 

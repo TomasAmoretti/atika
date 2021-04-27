@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 .buttonText--product-buy-button {
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 13px;
 }

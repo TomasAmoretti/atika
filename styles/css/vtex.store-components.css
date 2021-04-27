@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 /* HEADER */
 .imageElement--image-top-header {
     margin-left: 10px;
@@ -34,14 +35,14 @@
 }
 
 .infoCardHeadline--info-card-showroom {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     color: black;
     letter-spacing: 2px;
     font-size: 34px;
 }
 
 .infoCardSubhead--info-card-showroom {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     color: black;
     font-size: 17px;
     width: 75%;
@@ -49,13 +50,13 @@
 
 .price_sellingPrice--product-price-vitrina {
     padding: 0;
-    font-family: 'Poppins Bold';
+    font-family: 'Poppins';
     font-size: 17px;
     color: black;
 }
 
 .discountInsideContainer {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     background: #C90512;
     position: absolute;
     left: 0px;
@@ -104,7 +105,8 @@
 }
 
 .currencyContainer--product-price {
-    font-family: 'Poppins Regular';
+    font-family: 'Poppins';
+    font-weight: 400;
     color: black;
     font-size: 27px;
 }
@@ -116,7 +118,7 @@
 .productBrandName--marca-product {
     color: #d8d7d5;
     letter-spacing: 0.5px;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     font-size: 22px;
 }
 
@@ -125,7 +127,7 @@
 }
 
 .productBrand--product-name {
-    font-family: 'Poppins Regular'; 
+    font-family: 'Poppins'; 
     font-size: 24px;
     line-height: 33px;
 }
@@ -142,7 +144,7 @@
 }
 
 .product-identifier--productReference {
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     font-size: 12px;
     color: #606060;
 }
@@ -154,7 +156,7 @@
 
 .productDescriptionText {
     color: black;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
     font-size: 13px;
 }
 
@@ -175,7 +177,7 @@
     border: solid 1px black;
     padding: 4px;
     font-size: 13px;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
 }
 
 .subscriberContainer {
@@ -203,7 +205,7 @@
 
 .specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
     color: black;
-    font-family: 'NotoSans Bold';
+    font-family: 'Noto Sans JP';
     font-size: 14px;
     border: none;
 }
@@ -211,17 +213,18 @@
 .specificationsTableRow--specifications-product {
     border-bottom: solid 1px #a0a0a0!important;
     display: flex;
-    font-family: 'NotoSans Light';
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
     font-size: 14px;
 }
 
 .specificationsTitle--specifications-product {
-    font-family: 'NotoSans Bold';
+    font-family: 'Noto Sans JP';
     font-size: 16px;
 }
 
 .specificationItemProperty--specifications-product, .specificationItemSpecifications--specifications-product, .specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 .container--specifications-product {
