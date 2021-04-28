@@ -19,9 +19,11 @@
 
 .link {
     font-family: 'Noto Sans JP';
+    font-weight: 200;
 }
 
 .container {
     font-size: 13px;
     font-family: 'Noto Sans JP';
+    font-weight: 200;
 }

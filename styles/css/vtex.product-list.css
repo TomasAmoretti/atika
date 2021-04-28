@@ -1,0 +1,22 @@
+.availabilityMessageText {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.productListUnavailableItemsMessage {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.productBrandName {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+}
+
+.productName {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 14px;
+}

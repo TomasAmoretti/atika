@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
 
+*{
+  font-family: 'Noto Sans JP';
+}
+
 .home__promo {
     padding: 20px;
     display: flex;
@@ -3389,7 +3393,7 @@ a#is-corporate-client {
 
 #client-profile-data .accordion-group.filled .accordion-heading .accordion-toggle .icon-user:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53 (72520) - https://sketchapp.com --%3E%3Ctitle%3Eicn_login%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Home' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M30.4928571,14.9655667 C30.4928571,18.6729207 27.5105035,21.6811334 23.8285714,21.6811334 C20.1463747,21.6811334 17.1642857,18.6730498 17.1642857,14.9655667 C17.1642857,11.2580836 20.1463747,8.25 23.8285714,8.25 C27.5105035,8.25 30.4928571,11.2582128 30.4928571,14.9655667 Z M28.9928571,14.9655667 C28.9928571,12.0837549 26.6791636,9.75 23.8285714,9.75 C20.97773,9.75 18.6642857,12.0836105 18.6642857,14.9655667 C18.6642857,17.8475229 20.97773,20.1811334 23.8285714,20.1811334 C26.6791636,20.1811334 28.9928571,17.8473786 28.9928571,14.9655667 Z M35.75,37 L35.75,37.75 L11.25,37.75 L11.25,37 C11.25,30.3590276 16.7378929,24.9817073 23.5,24.9817073 C30.2621071,24.9817073 35.75,30.3590276 35.75,37 Z M23.5,26.4817073 C17.817579,26.4817073 13.1699286,30.7938785 12.7769182,36.25 L34.2230818,36.25 C33.8300714,30.7938785 29.182421,26.4817073 23.5,26.4817073 Z' id='icn_login' fill='%232B486E' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53 (72520) - https://sketchapp.com --%3E%3Ctitle%3Eicn_login%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Home' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M30.4928571,14.9655667 C30.4928571,18.6729207 27.5105035,21.6811334 23.8285714,21.6811334 C20.1463747,21.6811334 17.1642857,18.6730498 17.1642857,14.9655667 C17.1642857,11.2580836 20.1463747,8.25 23.8285714,8.25 C27.5105035,8.25 30.4928571,11.2582128 30.4928571,14.9655667 Z M28.9928571,14.9655667 C28.9928571,12.0837549 26.6791636,9.75 23.8285714,9.75 C20.97773,9.75 18.6642857,12.0836105 18.6642857,14.9655667 C18.6642857,17.8475229 20.97773,20.1811334 23.8285714,20.1811334 C26.6791636,20.1811334 28.9928571,17.8473786 28.9928571,14.9655667 Z M35.75,37 L35.75,37.75 L11.25,37.75 L11.25,37 C11.25,30.3590276 16.7378929,24.9817073 23.5,24.9817073 C30.2621071,24.9817073 35.75,30.3590276 35.75,37 Z M23.5,26.4817073 C17.817579,26.4817073 13.1699286,30.7938785 12.7769182,36.25 L34.2230818,36.25 C33.8300714,30.7938785 29.182421,26.4817073 23.5,26.4817073 Z' id='icn_login' fill='%23C90512' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3428,7 +3432,7 @@ label.checkbox.exempt-si-label {
 
 #client-profile-data .accordion-group.filled .accordion-heading .accordion-toggle a i.icon-edit:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%232B486E' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%23C90512' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4036,7 +4040,7 @@ body[data-current=email] #client-profile-data {
     -ms-flex-align: center;
     align-items: center;
     padding: 0;
-    color: #2B486E;
+    color: #C90512;
     font-size: 0
 }
 
@@ -4047,7 +4051,7 @@ body[data-current=email] #client-profile-data {
 
 #shipping-data .accordion-group .accordion-heading .accordion-toggle .icon-home:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_delivery%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M33.5,13.4142136 L32.7928932,12.7071068 L38.5,7 L39.2071068,7.70710678 L33.5,13.4142136 Z M23.8434026,16.267767 L23.8434026,26.1721431 C23.8434026,26.7181777 23.2785508,27.0811942 22.7818556,26.8543736 L18.9989778,25.1268865 L15.3181809,26.851305 C14.8208518,27.084299 14.25,26.7213448 14.25,26.1721431 L14.25,16.267767 L8.5,16.267767 L8.5,37.267767 L29.5,37.267767 L29.5,16.267767 L23.8434026,16.267767 Z M22.3434026,16.267767 L15.75,16.267767 L15.75,24.9925486 L18.6767702,23.6213844 C18.8760625,23.5280179 19.1063056,23.5268959 19.3064982,23.6183158 L22.3434026,25.0051471 L22.3434026,16.267767 Z M31,14.767767 L31,38.767767 L7,38.767767 L7,14.767767 L31,14.767767 Z M34.5,21.4142136 L33.7928932,20.7071068 L39.5,15 L40.2071068,15.7071068 L34.5,21.4142136 Z M25.5,12.4142136 L24.7928932,11.7071068 L30.5,6 L31.2071068,6.70710678 L25.5,12.4142136 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_delivery' fill='%23e1001c' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_delivery%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M33.5,13.4142136 L32.7928932,12.7071068 L38.5,7 L39.2071068,7.70710678 L33.5,13.4142136 Z M23.8434026,16.267767 L23.8434026,26.1721431 C23.8434026,26.7181777 23.2785508,27.0811942 22.7818556,26.8543736 L18.9989778,25.1268865 L15.3181809,26.851305 C14.8208518,27.084299 14.25,26.7213448 14.25,26.1721431 L14.25,16.267767 L8.5,16.267767 L8.5,37.267767 L29.5,37.267767 L29.5,16.267767 L23.8434026,16.267767 Z M22.3434026,16.267767 L15.75,16.267767 L15.75,24.9925486 L18.6767702,23.6213844 C18.8760625,23.5280179 19.1063056,23.5268959 19.3064982,23.6183158 L22.3434026,25.0051471 L22.3434026,16.267767 Z M31,14.767767 L31,38.767767 L7,38.767767 L7,14.767767 L31,14.767767 Z M34.5,21.4142136 L33.7928932,20.7071068 L39.5,15 L40.2071068,15.7071068 L34.5,21.4142136 Z M25.5,12.4142136 L24.7928932,11.7071068 L30.5,6 L31.2071068,6.70710678 L25.5,12.4142136 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_delivery' fill='%23C90512' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4081,7 +4085,7 @@ body[data-current=email] #client-profile-data {
 
 #shipping-data .accordion-group .accordion-heading .accordion-toggle a i.icon-edit:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%232B486E' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%23C90512' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4196,7 +4200,7 @@ body[data-shipping=null] #shipping-data .accordion-group .accordion-heading .acc
 }
 
 body[data-shipping=null] #shipping-data .accordion-group .accordion-heading .accordion-toggle .icon-home:after {
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_delivery%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M33.5,13.4142136 L32.7928932,12.7071068 L38.5,7 L39.2071068,7.70710678 L33.5,13.4142136 Z M23.8434026,16.267767 L23.8434026,26.1721431 C23.8434026,26.7181777 23.2785508,27.0811942 22.7818556,26.8543736 L18.9989778,25.1268865 L15.3181809,26.851305 C14.8208518,27.084299 14.25,26.7213448 14.25,26.1721431 L14.25,16.267767 L8.5,16.267767 L8.5,37.267767 L29.5,37.267767 L29.5,16.267767 L23.8434026,16.267767 Z M22.3434026,16.267767 L15.75,16.267767 L15.75,24.9925486 L18.6767702,23.6213844 C18.8760625,23.5280179 19.1063056,23.5268959 19.3064982,23.6183158 L22.3434026,25.0051471 L22.3434026,16.267767 Z M31,14.767767 L31,38.767767 L7,38.767767 L7,14.767767 L31,14.767767 Z M34.5,21.4142136 L33.7928932,20.7071068 L39.5,15 L40.2071068,15.7071068 L34.5,21.4142136 Z M25.5,12.4142136 L24.7928932,11.7071068 L30.5,6 L31.2071068,6.70710678 L25.5,12.4142136 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_delivery' fill='%239b9b9b' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_delivery%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M33.5,13.4142136 L32.7928932,12.7071068 L38.5,7 L39.2071068,7.70710678 L33.5,13.4142136 Z M23.8434026,16.267767 L23.8434026,26.1721431 C23.8434026,26.7181777 23.2785508,27.0811942 22.7818556,26.8543736 L18.9989778,25.1268865 L15.3181809,26.851305 C14.8208518,27.084299 14.25,26.7213448 14.25,26.1721431 L14.25,16.267767 L8.5,16.267767 L8.5,37.267767 L29.5,37.267767 L29.5,16.267767 L23.8434026,16.267767 Z M22.3434026,16.267767 L15.75,16.267767 L15.75,24.9925486 L18.6767702,23.6213844 C18.8760625,23.5280179 19.1063056,23.5268959 19.3064982,23.6183158 L22.3434026,25.0051471 L22.3434026,16.267767 Z M31,14.767767 L31,38.767767 L7,38.767767 L7,14.767767 L31,14.767767 Z M34.5,21.4142136 L33.7928932,20.7071068 L39.5,15 L40.2071068,15.7071068 L34.5,21.4142136 Z M25.5,12.4142136 L24.7928932,11.7071068 L30.5,6 L31.2071068,6.70710678 L25.5,12.4142136 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_delivery' fill='%23C90512' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E")
 }
 
 body[data-shipping=null] #shipping-data .accordion-group .accordion-inner .shipping-summary-info {
@@ -4286,7 +4290,7 @@ body[data-shipping=null] #shipping-data .accordion-group .accordion-inner .shipp
 
 #payment-data .accordion-group.active .accordion-heading .accordion-toggle .icon-credit-card:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_payment%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M39.5,18.4917484 L39.5,15.1233274 L6.5,15.1233274 L6.5,18.4917484 L39.5,18.4917484 Z M39.5,19.9917484 L6.5,19.9917484 L6.5,34 C6.5,34.2761424 6.72385763,34.5 7,34.5 L39,34.5 C39.2761424,34.5 39.5,34.2761424 39.5,34 L39.5,19.9917484 Z M39.5,13.6233274 L39.5,12 C39.5,11.7238576 39.2761424,11.5 39,11.5 L7,11.5 C6.72385763,11.5 6.5,11.7238576 6.5,12 L6.5,13.6233274 L39.5,13.6233274 Z M7,10 L39,10 C40.1045695,10 41,10.8954305 41,12 L41,34 C41,35.1045695 40.1045695,36 39,36 L7,36 C5.8954305,36 5,35.1045695 5,34 L5,12 C5,10.8954305 5.8954305,10 7,10 Z M9.5,27.5657895 L9.5,26.5657895 L20.5,26.5657895 L20.5,27.5657895 L9.5,27.5657895 Z M9.5,30.4868421 L9.5,29.4868421 L14.7001494,29.4868421 L14.7001494,30.4868421 L9.5,30.4868421 Z M32.5,31.1315789 C30.5670034,31.1315789 29,29.5645756 29,27.6315789 C29,25.6985823 30.5670034,24.1315789 32.5,24.1315789 C34.4329966,24.1315789 36,25.6985823 36,27.6315789 C36,29.5645756 34.4329966,31.1315789 32.5,31.1315789 Z M32.5,30.1315789 C33.8807119,30.1315789 35,29.0122908 35,27.6315789 C35,26.2508671 33.8807119,25.1315789 32.5,25.1315789 C31.1192881,25.1315789 30,26.2508671 30,27.6315789 C30,29.0122908 31.1192881,30.1315789 32.5,30.1315789 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_payment' fill='%232B486E' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_payment%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M39.5,18.4917484 L39.5,15.1233274 L6.5,15.1233274 L6.5,18.4917484 L39.5,18.4917484 Z M39.5,19.9917484 L6.5,19.9917484 L6.5,34 C6.5,34.2761424 6.72385763,34.5 7,34.5 L39,34.5 C39.2761424,34.5 39.5,34.2761424 39.5,34 L39.5,19.9917484 Z M39.5,13.6233274 L39.5,12 C39.5,11.7238576 39.2761424,11.5 39,11.5 L7,11.5 C6.72385763,11.5 6.5,11.7238576 6.5,12 L6.5,13.6233274 L39.5,13.6233274 Z M7,10 L39,10 C40.1045695,10 41,10.8954305 41,12 L41,34 C41,35.1045695 40.1045695,36 39,36 L7,36 C5.8954305,36 5,35.1045695 5,34 L5,12 C5,10.8954305 5.8954305,10 7,10 Z M9.5,27.5657895 L9.5,26.5657895 L20.5,26.5657895 L20.5,27.5657895 L9.5,27.5657895 Z M9.5,30.4868421 L9.5,29.4868421 L14.7001494,29.4868421 L14.7001494,30.4868421 L9.5,30.4868421 Z M32.5,31.1315789 C30.5670034,31.1315789 29,29.5645756 29,27.6315789 C29,25.6985823 30.5670034,24.1315789 32.5,24.1315789 C34.4329966,24.1315789 36,25.6985823 36,27.6315789 C36,29.5645756 34.4329966,31.1315789 32.5,31.1315789 Z M32.5,30.1315789 C33.8807119,30.1315789 35,29.0122908 35,27.6315789 C35,26.2508671 33.8807119,25.1315789 32.5,25.1315789 C31.1192881,25.1315789 30,26.2508671 30,27.6315789 C30,29.0122908 31.1192881,30.1315789 32.5,30.1315789 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_payment' fill='%23C90512' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4320,7 +4324,7 @@ body[data-shipping=null] #shipping-data .accordion-group .accordion-inner .shipp
 
 #payment-data .accordion-group.active .accordion-heading .accordion-toggle a i.icon-edit:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%232B486E' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_edit%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M2,20 L20,20 L20,19.0010688 L2,19.0010688 L2,20 Z M3.01579006,15.9832976 L3.01579006,13.4570005 L3.94050928,12.5459752 L6.46647392,15.0343129 L5.52674302,15.9832976 L3.01579006,15.9832976 Z M13.4378961,3.18998546 L15.8567775,5.56144817 L14.2345157,7.19869644 L11.8006227,4.80226044 L13.4378961,3.18998546 Z M7.17102191,14.3240728 L4.65206272,11.8447255 L11.0890693,5.50351016 L13.5299678,7.90893653 L7.17102191,14.3240728 Z M16.9216057,5.9080773 C17.1157567,5.71128785 17.1147559,5.39562559 16.9176026,5.20183293 C16.9176026,5.20183293 16.9166018,5.200834 16.915601,5.200834 L16.9166018,5.19983507 L13.7971756,2.14210661 L13.786167,2.15409378 C13.7841655,2.15209592 13.7841655,2.15009806 13.7821639,2.1481002 C13.5880129,1.95230968 13.2707662,1.95031182 13.0746136,2.14410447 L2.01501168,13.0394473 L2.01501168,16.9822288 L5.94406761,16.9822288 L16.9216057,5.9080773 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_edit' fill='%23C90512' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4626,7 +4630,7 @@ a#payment-group-promissoryPaymentGroup:nth-child(3) .payment-group-item-text {
 
 #payment-data .accordion-group .accordion-heading .accordion-toggle .icon-credit-card:after {
     content: '';
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_payment%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M39.5,18.4917484 L39.5,15.1233274 L6.5,15.1233274 L6.5,18.4917484 L39.5,18.4917484 Z M39.5,19.9917484 L6.5,19.9917484 L6.5,34 C6.5,34.2761424 6.72385763,34.5 7,34.5 L39,34.5 C39.2761424,34.5 39.5,34.2761424 39.5,34 L39.5,19.9917484 Z M39.5,13.6233274 L39.5,12 C39.5,11.7238576 39.2761424,11.5 39,11.5 L7,11.5 C6.72385763,11.5 6.5,11.7238576 6.5,12 L6.5,13.6233274 L39.5,13.6233274 Z M7,10 L39,10 C40.1045695,10 41,10.8954305 41,12 L41,34 C41,35.1045695 40.1045695,36 39,36 L7,36 C5.8954305,36 5,35.1045695 5,34 L5,12 C5,10.8954305 5.8954305,10 7,10 Z M9.5,27.5657895 L9.5,26.5657895 L20.5,26.5657895 L20.5,27.5657895 L9.5,27.5657895 Z M9.5,30.4868421 L9.5,29.4868421 L14.7001494,29.4868421 L14.7001494,30.4868421 L9.5,30.4868421 Z M32.5,31.1315789 C30.5670034,31.1315789 29,29.5645756 29,27.6315789 C29,25.6985823 30.5670034,24.1315789 32.5,24.1315789 C34.4329966,24.1315789 36,25.6985823 36,27.6315789 C36,29.5645756 34.4329966,31.1315789 32.5,31.1315789 Z M32.5,30.1315789 C33.8807119,30.1315789 35,29.0122908 35,27.6315789 C35,26.2508671 33.8807119,25.1315789 32.5,25.1315789 C31.1192881,25.1315789 30,26.2508671 30,27.6315789 C30,29.0122908 31.1192881,30.1315789 32.5,30.1315789 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_payment' fill='%239b9b9b' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='46px' height='46px' viewBox='0 0 46 46' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --%3E%3Ctitle%3Eicn_payment%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M39.5,18.4917484 L39.5,15.1233274 L6.5,15.1233274 L6.5,18.4917484 L39.5,18.4917484 Z M39.5,19.9917484 L6.5,19.9917484 L6.5,34 C6.5,34.2761424 6.72385763,34.5 7,34.5 L39,34.5 C39.2761424,34.5 39.5,34.2761424 39.5,34 L39.5,19.9917484 Z M39.5,13.6233274 L39.5,12 C39.5,11.7238576 39.2761424,11.5 39,11.5 L7,11.5 C6.72385763,11.5 6.5,11.7238576 6.5,12 L6.5,13.6233274 L39.5,13.6233274 Z M7,10 L39,10 C40.1045695,10 41,10.8954305 41,12 L41,34 C41,35.1045695 40.1045695,36 39,36 L7,36 C5.8954305,36 5,35.1045695 5,34 L5,12 C5,10.8954305 5.8954305,10 7,10 Z M9.5,27.5657895 L9.5,26.5657895 L20.5,26.5657895 L20.5,27.5657895 L9.5,27.5657895 Z M9.5,30.4868421 L9.5,29.4868421 L14.7001494,29.4868421 L14.7001494,30.4868421 L9.5,30.4868421 Z M32.5,31.1315789 C30.5670034,31.1315789 29,29.5645756 29,27.6315789 C29,25.6985823 30.5670034,24.1315789 32.5,24.1315789 C34.4329966,24.1315789 36,25.6985823 36,27.6315789 C36,29.5645756 34.4329966,31.1315789 32.5,31.1315789 Z M32.5,30.1315789 C33.8807119,30.1315789 35,29.0122908 35,27.6315789 C35,26.2508671 33.8807119,25.1315789 32.5,25.1315789 C31.1192881,25.1315789 30,26.2508671 30,27.6315789 C30,29.0122908 31.1192881,30.1315789 32.5,30.1315789 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Home-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='icn_payment' fill='%23C90512' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5479,17 +5483,17 @@ body.body-cart table.table.cart-items th {
 }
 
 body.body-cart table.table.cart-items td.product-name a {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0.5px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    font-family: 'Noto Sans JP';
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: 'Noto Sans JP';
 }
 body.body-cart .summary-template-holder {
     width: 30%;
@@ -5588,30 +5592,32 @@ body.body-cart a#cart-choose-more-products {
 
 body.body-cart a#cart-choose-more-products::before {
   content: "Seguir comprando";
-  font-size: 13px;
+  font-size: 14px;
   margin-right: -60px;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 body.body-cart span.link-choose-more-products-wrapper {
     margin-left: 44px!important;
-    padding: 10px!important;
     margin-bottom: 10px!important;
 }
 
 body.body-cart span.btn-place-order-wrapper a.btn-success {
-    box-shadow: none;
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    background-color: #C90512!important;
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    width: 78%;
-    border-radius: 0px;
-    transition: all 250ms cubic-bezier(0.4, 0, 1, 1) 0s;
-    background-image: none;
-    margin-left: 45px;
-    text-align: center;
+  box-shadow: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #C90512!important;
+  color: rgb(255, 255, 255);
+  width: 78%;
+  border-radius: 0px;
+  transition: all 250ms cubic-bezier(0.4, 0, 1, 1) 0s;
+  background-image: none;
+  margin-left: 45px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 body.body-cart .cart-active .summary-coupon {
@@ -5809,7 +5815,7 @@ tr.item-unavailable {
 }
 
 .unavailable.lookatme {
-  background: #627583;
+  background: unset;
 }
 
 .item-unavailable .top-arrow {
@@ -5817,8 +5823,8 @@ tr.item-unavailable {
 }
 
 .unavailable .item-link-remove {
-  color: white;
-  font-size: 22px;
+  color: black;
+  font-size: 20px;
 }
 
 a#remove-unavailable-items {
@@ -5836,3 +5842,11 @@ div#unavailable-delivery-disclaimer::before {
   font-family: 'Noto Sans JP';
 }
 
+td.item-unavailable-message span {
+  font-family: 'Noto Sans JP';
+  font-weight: 200;
+}
+
+td.quantity input {
+  border-radius: 0;
+}

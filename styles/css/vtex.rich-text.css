@@ -14,7 +14,7 @@
     text-decoration: none;
     font-size: 10px;
     color: white;
-    font-weight: 400;
+    font-weight: 200;
     font-family: 'Noto Sans JP';
 }
 
@@ -22,19 +22,19 @@
     font-size: 9px;
     color: white;
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .paragraph {
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .link--visualizador-top {
     font-size: 9px;
     color: white;
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
 }
 
 /* HOME */
@@ -46,13 +46,13 @@
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
     font-size: 14px;
 }
 
 .paragraph--info {
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
     font-size: 14px;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .paragraph--titulo-sale {
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
     font-size: 13px;
     width: 60%;
     margin: auto;
@@ -90,7 +90,7 @@
     text-decoration: underline;
     color: black;
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
     font-size: 17px;
 }
 
@@ -107,8 +107,8 @@
 
 /* FOOTER */
 .strong--footer-newsletter-text {
-    font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 30px;
     color: black;
 }
@@ -119,7 +119,7 @@
 
 .paragraph--footer-newsletter-text {
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
     color: #606060;
     font-size: 15px;
 }
@@ -136,7 +136,7 @@
 .link--footer-contacto {
     color: #dad9d9;
     font-family: 'Noto Sans JP';
-    font-weight: 400;
+    font-weight: 200;
     font-size: 10px;
     margin-left: 8px;
     text-decoration: none;

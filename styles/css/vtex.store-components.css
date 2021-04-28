@@ -35,7 +35,8 @@
 }
 
 .infoCardHeadline--info-card-showroom {
-    font-family: 'Noto Sans JP';
+    font-family: 'Poppins';
+    font-weight: 600;   
     color: black;
     letter-spacing: 2px;
     font-size: 34px;
@@ -43,6 +44,7 @@
 
 .infoCardSubhead--info-card-showroom {
     font-family: 'Noto Sans JP';
+    font-weight: 200;
     color: black;
     font-size: 17px;
     width: 75%;
@@ -106,7 +108,7 @@
 
 .currencyContainer--product-price {
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     font-size: 27px;
 }
@@ -119,11 +121,12 @@
     color: #d8d7d5;
     letter-spacing: 0.5px;
     font-family: 'Noto Sans JP';
-    font-size: 22px;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 .productBrandContainer--marca-product {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .productBrand--product-name {
@@ -206,6 +209,7 @@
 .specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
     color: black;
     font-family: 'Noto Sans JP';
+    font-weight: 600;
     font-size: 14px;
     border: none;
 }
@@ -219,7 +223,8 @@
 }
 
 .specificationsTitle--specifications-product {
-    font-family: 'Noto Sans JP';
+    font-family: 'Poppins';
+    font-weight: 600;
     font-size: 16px;
 }
 
