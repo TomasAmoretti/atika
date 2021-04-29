@@ -46,54 +46,30 @@
       "blockClass":"top-header-left"
     },
     "children": [
-      "image#youtube-top",
-      "image#facebook-top",
-      "image#instagram-top",
-      "flex-layout.row#telefono-top",
-      "flex-layout.row#correo-top",
-      "flex-layout.row#tiendas-top"
+      "rich-text#texto-top"
     ]
+  },
+  "rich-text#texto-top":{
+    "props":{
+      "text": "MENSAJE PARA LOS CLIENTES / SPACEPLANNER U OTROS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top-texto"
+    }
   },
   "icon#youtube":{
     "props":{
       "id":"mpa-youtube"
     }
   },
-  "image#youtube-top":{
-    "props":{
-      "url":{
-        "link":"#"
-      },
-      "src": "/arquivos/icono-youtube.svg",
-      "blockClass": "image-top-header"
-    }
-  },
-  "image#facebook-top":{
-    "props":{
-      "url":{
-        "link":"#"
-      },
-      "src": "/arquivos/icono-facebook.svg",
-      "blockClass": "image-top-header"
-    }
-  },
-  "image#instagram-top":{
-    "props":{
-      "url":{
-        "link":"#"
-      },
-      "src": "/arquivos/icono-instagram.svg",
-      "blockClass": "image-top-header"
-    }
-  },
-  "flex-layout.row#telefono-top":{
+  "flex-layout.row#seguir-pedido-top":{
     "props": {
       "preventHorizontalStretch": true,
       "blockClass":"contacto-top"
     },
     "children": [
-      "image#telefono-top",
-      "rich-text#telefono-top"
+      /*"image#telefono-top",*/
+      "rich-text#seguir-pedido-top"
     ]
   },
   "image#telefono-top":{
@@ -105,9 +81,9 @@
       "blockClass": "image-top-header"
     }
   },
-  "rich-text#telefono-top":{
+  "rich-text#seguir-pedido-top":{
     "props":{
-      "text": "[+562244883000](tel:+562244883000)",
+      "text": "[Sigue tu pedido](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
@@ -119,7 +95,7 @@
       "blockClass":"contacto-top"
     },
     "children": [
-      "image#correo-top",
+      /*"image#correo-top",*/
       "rich-text#correo-top"
     ]
   },
@@ -134,7 +110,7 @@
   },
   "rich-text#correo-top":{
     "props":{
-      "text": "[CONTACTO](mailto:contacto@hotmail.com)",
+      "text": "[Contacto](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
@@ -146,7 +122,7 @@
       "blockClass":"contacto-top"
     },
     "children": [
-      "image#tiendas-top",
+      /*"image#tiendas-top",*/
       "rich-text#tiendas-top"
     ]
   },
@@ -161,7 +137,7 @@
   },
   "rich-text#tiendas-top":{
     "props":{
-      "text": "[NUESTRAS TIENDAS](#)",
+      "text": "[Tiendas](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
@@ -175,16 +151,10 @@
       "blockClass":"top-header-left"
     },
     "children": [
-      "rich-text#visualizador-top"
+      "flex-layout.row#seguir-pedido-top",
+      "flex-layout.row#correo-top",
+      "flex-layout.row#tiendas-top"
     ]
-  },
-  "rich-text#visualizador-top":{
-    "props":{
-      "text": "PRUEBA NUESTRO VISUALIZADOR DE ESPACIOS [AQUÍ](#)",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "visualizador-top"
-    }
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -200,6 +170,7 @@
       "flex-layout.col#spacer",
       "search-bar",
       "login",
+      "menu-item#favoritos-icon",
       "minicart.v2"
     ]
   },
@@ -282,7 +253,7 @@
   },
   "rich-text#top-mobile":{
     "props":{
-      "text": "Mensaje para los clientes",
+      "text": "MENSAJE PARA LOS CLIENTES / SPACEPLANNER U OTROS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top-mobile"
@@ -293,6 +264,7 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
+      "menu-item#favoritos-icon",
       "login",
       "minicart.v2"
     ],
@@ -301,6 +273,29 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "menu-item#favoritos-icon":{
+    "props":{
+      "type": "custom",
+        "itemProps": {
+        "href": "/account#/wishlist",
+        "text": " "
+      },
+          "iconProps": {
+            "id": "mpa-heart",
+            "size": 14,
+            "viewBox": "0 0 16 16",
+            "mutedClassName": "c-action-primary"
+          },
+      "blockClass": "icon-favoritos"
+    }
+  },
+  "icon#heart":{
+    "props":{
+      "id":"mpa-heart",
+      "href": "#",
+      "blockClass": "icon-favoritos"
     }
   },
   "search-bar#mobile":{
@@ -316,6 +311,7 @@
   },
   "menu#drawer": {
     "children": [
+      "search-bar#mobile-drawer",
       "menu-item#Categorias-Espacios-mobile",
       "menu-item#Categorias-Productos-mobile",
       "menu-item#Categorias-Inspiracion-mobile",
@@ -326,6 +322,12 @@
     "props": {
       "orientation": "vertical",
       "blockClass": "menu-drawer"
+    }
+  },
+  "search-bar#mobile-drawer":{
+    "props":{
+      "displayMode": "search-button",
+      "blockClass":"search-mobile-drawer"
     }
   }
 }

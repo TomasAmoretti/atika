@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* HEADER */
 .flexRow--top-header {
     background: black;
@@ -9,7 +8,7 @@
     padding: 3px 0;
     margin: auto;
     background: black;
-    justify-content: space-between;
+    justify-content: flex-end;
     max-width: 1280px;
 }
 
@@ -31,8 +30,9 @@
     display: inline-block;
     max-height: 430px;
     min-height: 429px;
-    overflow-y: hidden;
+    width: inherit;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .flexRow--row-submenu {
@@ -53,7 +53,7 @@
 
 .flexRowContent--row-submenu {
     width: max-content;
-    max-width: 225px;
+    max-width: 240px;
     min-width: 220px;
 }
 
@@ -222,6 +222,10 @@
 .flexRow--producto-main {
     max-width: 1280px;
     margin: auto;
+}
+
+.flexRowContent--breadcrumb {
+    margin-top: 0;
 }
 
 .flexRow--breadcrumb {

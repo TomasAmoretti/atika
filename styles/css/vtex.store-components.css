@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700;900&family=Poppins:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* HEADER */
 .imageElement--image-top-header {
     margin-left: 10px;
@@ -130,20 +130,22 @@
 }
 
 .productBrand--product-name {
-    font-family: 'Poppins'; 
+    font-family: 'Poppins';
     font-size: 24px;
+    font-weight: 500;
     line-height: 33px;
 }
 
 .productBrand--product-name::after {
-    border-bottom: solid 4px red;
+    border-bottom: solid 4px #C90512;
     width: 75px;
     content: "";
     display: block;
+    margin-top: 7px;
 }
 
 .productNameContainer--product-name {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .product-identifier--productReference {
@@ -242,15 +244,15 @@
     width: 94%;
     margin: auto;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 .productBrandName--marca-product-shelf {
     text-align: initial;
     font-family: 'Noto Sans JP';
     font-weight: 200;
-    font-size: 13px;
-    border: solid 1px;
+    font-size: 12px;
+    color: #b5b3b3;
     padding: 2px;
 }
 
@@ -261,4 +263,9 @@
 
 .imageElementLink--menu-inspiracion {
     margin-left: 13px;
+}
+
+.autoCompleteOuterContainer--search-mobile-drawer {
+    width: 95%;
+    margin: auto;
 }

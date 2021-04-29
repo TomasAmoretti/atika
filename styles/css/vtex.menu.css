@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* HEADER */
 .styledLinkIcon--categoria-header {
     margin-left: 7px;
@@ -13,8 +13,8 @@
 
 .menuContainerNav--categorias-nav-header {
     background: white;
-    border-bottom: solid 1px black;
-    border-top: solid 1.5px black;
+    border-bottom: 1px solid #d2cfcf;
+    border-top: 1px solid #d2cfcf;
 }
 
 .styledLinkContent--footer-item {
@@ -29,6 +29,7 @@
 
 .submenuWrapper--submenu-header--isOpen {
     width: 100%;
+    margin-top: 1px;
 }
 
 .submenuWrapper--item-submenu-nivel2--isOpen {
@@ -64,7 +65,7 @@
 
 .submenu--submenu-header {
     justify-content: end;
-    margin: auto;
+    padding-left: 3%;
     width: 100%;
 }
 
@@ -136,6 +137,7 @@
     position: inherit;
     border-top: solid 1px;
     border-bottom: solid 1px;
+    background: #e8e8e8;
 }
 
 .submenu--submenu-header-mobile {
@@ -152,4 +154,33 @@
 .submenuWrapper--itemmenu-header-mobile--isOpen {
     position: initial;
     padding-bottom: 0;
+}
+
+.menuContainerNav--menu-drawer {
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    padding-top: 10px;
+}
+
+.menuItem--categoria-header-mobile {
+    border-top: solid 1px #848484;
+}
+
+.styledLinkContainer--categoria-header-mobile {
+    padding: 20px 0;
+}
+
+.styledLinkContent--categoria-header-mobile {
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+}
+
+.styledLinkContainer--icon-favoritos {
+    margin: 0;
+}
+
+.styledLinkContent:hover .styledLinkIcon {
+    transform: unset!important;
 }

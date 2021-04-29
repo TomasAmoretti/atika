@@ -1,11 +1,19 @@
 $(document).ready(function(){
     $.ajaxSetup({
-      complete: function() {          
-        $(".checkout-container .cart-template.active .cart-select-gift-placeholder").insertAfter($( ".table.table.cart-items" )); 
+      complete: function() {
+        $(".checkout-container .cart-template.active .cart-select-gift-placeholder").insertAfter($( ".table.table.cart-items" ));
       }
     });
     function quitarDecimales(precio) {
         return precio.split(",").shift();
+    }
+    if(window.location.href.includes('cart')) {
+      if(document.querySelectorAll(".item-link-remove") != null){
+        let remove = document.querySelectorAll(".item-link-remove");
+        remove.forEach((itemremove) => {
+            itemremove.children[0].className = "icon icon-trash item-remove-ico";
+        });
+      }
     }
 
 });

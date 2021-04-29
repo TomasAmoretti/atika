@@ -8,7 +8,7 @@
           },
           "iconPosition": "right",
           "iconProps": {
-            "id": "mpa-play",
+            "id": "nav-plus",
             "size": 13,
             "viewBox": "0 0 16 16",
             "mutedClassName": "c-action-primary"
@@ -70,7 +70,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -120,7 +120,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -225,7 +225,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -295,7 +295,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -397,7 +397,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -611,7 +611,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -641,7 +641,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -721,7 +721,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -793,7 +793,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -855,7 +855,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -1049,7 +1049,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -1263,11 +1263,11 @@
           "type": "custom",
           "itemProps": {
             "href": "#",
-            "text": "INSPIRACIÓN"
+            "text": "INSPIRACION"
           },
           "iconPosition": "right",
           "iconProps": {
-            "id": "mpa-play",
+            "id": "nav-plus",
             "size": 13,
             "viewBox": "0 0 16 16",
             "mutedClassName": "c-action-primary"
@@ -1308,7 +1308,7 @@
         "blockClass": "categoria-header",
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -1478,7 +1478,7 @@
         },
         "iconPosition": "right",
         "iconProps": {
-          "id": "mpa-play",
+          "id": "nav-plus",
           "size": 13,
           "viewBox": "0 0 16 16",
           "mutedClassName": "c-action-primary"
@@ -3035,7 +3035,7 @@
       },
       "iconPosition": "right",
       "iconProps": {
-        "id": "mpa-play",
+        "id": "nav-plus",
         "size": 13,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
@@ -3266,7 +3266,7 @@
       },
       "iconPosition": "right",
       "iconProps": {
-        "id": "mpa-play",
+        "id": "nav-plus",
         "size": 13,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
@@ -3294,7 +3294,7 @@
         "href": "#",
         "text": "SALE"
       },
-      "blockClass": "categoria-header-ofertas-mobile"
+      "blockClass": "categoria-header-mobile"
     }
   },
   "menu-item#Inspiracion-1-mobile":{
@@ -3347,7 +3347,7 @@
       "blockClass": "categoria-header-mobile",
       "iconPosition": "right",
       "iconProps": {
-        "id": "mpa-play",
+        "id": "nav-plus",
         "size": 13,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
