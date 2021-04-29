@@ -24,16 +24,15 @@
 .flexColChild--col-submenu {
     margin: 5px 0;
     display: inline-block;
-    width: 245px;
-
+    width: 222px;
 }
 
 .flexCol--col-submenu {
     display: inline-block;
     max-height: 430px;
     min-height: 429px;
-    overflow-y: scroll;
-    overflow-x: unset;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .flexRow--row-submenu {
@@ -54,8 +53,8 @@
 
 .flexRowContent--row-submenu {
     width: max-content;
-    max-width: 640px;
-    min-width: 480px;
+    max-width: 225px;
+    min-width: 220px;
 }
 
 .flexCol--col-submenu::-webkit-scrollbar {
@@ -132,6 +131,7 @@
 .flexRowContent--row-price-shelf {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 10px;
 }
 

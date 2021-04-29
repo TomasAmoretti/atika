@@ -7,7 +7,7 @@
 .styledLinkContent--categoria-header, .styledLinkContent--categoria-header-ofertas {
     color: #000;
     font-family: 'Noto Sans JP';
-    font-weight: 800;
+    font-weight: 600;
     font-size: 13px;
 }
 
@@ -45,6 +45,18 @@
     display: flex;
 }
 
+.styledLinkContainer--item-submenu-ver-todo {
+    padding: 0;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.styledLinkContent--item-submenu-ver-todo {
+    font-family: 'Noto Sans JP';
+    font-size: 13px;
+}
+
 .submenuContainer--submenu-header {
     width: 100%;
     display: contents;
@@ -52,8 +64,13 @@
 
 .submenu--submenu-header {
     justify-content: end;
-    max-width: 1280px;
     margin: auto;
+    width: 100%;
+}
+
+.styledLinkContainer--item-submenu {
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 .styledLinkContent--submenu {

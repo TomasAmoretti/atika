@@ -50,6 +50,7 @@
         ],
         "props":{
           "blockClass":"row-price-shelf",
+          "preventVerticalStretch":true,
           "preventHorizontalStretch":true
         }
     },

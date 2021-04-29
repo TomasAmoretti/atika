@@ -147,7 +147,6 @@ body[data-current=payment] {
 
 .Items td.info {
     font-size: 14px!important;
-    color: #e1252b!important;
 }
 
 @media (max-width:1023px) {
@@ -5548,24 +5547,27 @@ body.body-cart tbody.totalizers-list .info {
     letter-spacing: 0.5px;
     text-align: left!important;
     padding-left: 15%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
 }
 
 body.body-cart tbody.totalizers-list .monetary {
     font-size: 15px;
     width: 100%;
+    font-family: 'Poppins';
 }
-
-body.body-cart tbody.totalizers-list {}
 
 body.body-cart .full-cart .totalizers tfoot td.info {
     text-align: left;
     padding-left: 15%;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 body.body-cart .full-cart .totalizers tfoot td {
     font-weight: bold;
     font-size: 17px;
+    font-family: 'Poppins';
 }
 
 body.body-cart span.link-choose-more-products-wrapper {
@@ -5618,6 +5620,11 @@ body.body-cart span.btn-place-order-wrapper a.btn-success {
   text-align: center;
   font-family: 'Poppins';
   font-weight: 600;
+}
+
+span.new-product-price, del.old-product-price.muted, span.total-selling-price {
+  font-family: 'Poppins';
+  font-weight: 500;
 }
 
 body.body-cart .cart-active .summary-coupon {

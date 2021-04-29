@@ -158,7 +158,7 @@
           "href": "#",
           "text": "Ver todo >"
         },
-        "blockClass": "item-submenu"
+        "blockClass": "item-submenu-ver-todo"
       }
     },
     /* End Items cocina*/
@@ -381,9 +381,9 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
         },
-        "blockClass": "item-submenu"
+        "blockClass": "item-submenu-ver-todo"
       }
     },
     /* End Items baños*/
@@ -505,7 +505,7 @@
           "href": "#",
           "text": "Ver todo >"
         },
-        "blockClass": "item-submenu"
+        "blockClass": "item-submenu-ver-todo"
       }
     },
     /* End Items comedor*/
@@ -597,7 +597,7 @@
           "href": "#",
           "text": "Ver todo >"
         },
-        "blockClass": "item-submenu"
+        "blockClass": "item-submenu-ver-todo"
       }
     },
     /* End Items exterior*/
@@ -779,7 +779,7 @@
           "href": "#",
           "text": "Ver todo >"
         },
-        "blockClass": "item-submenu"
+        "blockClass": "item-submenu-ver-todo"
       }
     },
     /* End Items Recintos */
@@ -805,52 +805,125 @@
       ]
     },
     /* ITEMS PRODUCTOS */
-    "menu-item#Productos-Pisos":{
+    /* Items producto revestimientos */
+    "menu-item#Productos-revestimientos-porcelanatos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS"
+          "text": "Porcelanatos"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Pisos"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Pisos-Flotantes":{
+    "menu-item#Productos-revestimientos-ceramicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS FLOTANTES"
+          "text": "Ceramicos"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Pisos-flotantes"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Griferia":{
+    "menu-item#Productos-revestimientos-gres":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA"
+          "text": "Gres"
         },
-        "blockClass": "submenu"
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-mosaicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Mosaicos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-pisos-madera":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Pisos de Madera"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
+        },
+        "blockClass": "item-submenu"
       },
       "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Griferia"
+        "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera"
       ]
     },
+    "menu-item#Productos-revestimientos-pisos-organicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Pisos Orgánicos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-pisos-fotolaminados":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Pisos Fotolaminados"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-pisos-vinilicos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Pisos Vinilicos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-limpieza":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Limpieza y Mantención de Pisos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-revestimientos-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto revestimientos*/
     /* Items producto griferia */
     "menu-item#Productos-Griferia-cocina":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFOS DE COCINA"
+          "text": "Grifería de Cocina y Lavadero"
         },
         "blockClass": "item-submenu"
       }
@@ -860,7 +933,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFOS LAVAMANOS"
+          "text": "Grifería Lavamanos"
         },
         "blockClass": "item-submenu"
       }
@@ -870,7 +943,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFOS DE BIDET"
+          "text": "Griferías de Bidet"
         },
         "blockClass": "item-submenu"
       }
@@ -880,7 +953,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA TINAS & DUCHAS"
+          "text": "Griferías de Ducha y Tina"
         },
         "blockClass": "item-submenu"
       }
@@ -890,37 +963,17 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA INSTITUCIONAL"
+          "text": "Grifería Institucional"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Productos-Griferia-piezas":{
+    "menu-item#Productos-Griferia-limpieza":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PIEZAS INTERNAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Productos-Griferia-sifones":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "SIFONES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Productos-Griferia-otros":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "OTROS"
+          "text": "Limpieza y Mantencion de Griferías"
         },
         "blockClass": "item-submenu"
       }
@@ -930,90 +983,280 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto griferia*/
+    /* Items producto baño */
+    "menu-item#Productos-baño-muebles":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Muebles de Baño"
         },
         "blockClass": "item-submenu"
       }
     },
-    /* End items producto griferia*/
-    "menu-item#Productos-Sanitarios":{
+    "menu-item#Productos-baño-wc":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "SANITARIOS"
+          "text": "WC"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Sanitarios"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Cubiertas":{
+    "menu-item#Productos-baño-urinarios":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CUBIERTAS"
+          "text": "Urinarios"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Cubiertas"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Accesorios":{
+    "menu-item#Productos-baño-lavamanos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "ACCESORIOS"
+          "text": "Lavamanos"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Accesorios"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Mamparas":{
+    "menu-item#Productos-baño-receptaculos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MAMPARAS"
+          "text": "Receptáculos"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Mamparas"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
-    "menu-item#Productos-Muebles-baño":{
+    "menu-item#Productos-baño-jacuzzi":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MUEBLES DE BAÑO"
+          "text": "Jacuzzi"
         },
-        "blockClass": "submenu"
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
+        },
+        "blockClass": "item-submenu"
       },
       "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Muebles-baño"
+        "vtex.menu@2.x:submenu#Productos-baño-jacuzzi"
       ]
     },
-    "menu-item#Productos-Piedras-naturales":{
+    "menu-item#Productos-baño-mamparas":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PIEDRAS NATURALES"
+          "text": "Mamparas de Ducha"
         },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Productos-Piedras-naturales"
-      ]
+        "blockClass": "item-submenu"
+      }
     },
+    "menu-item#Productos-baño-tinas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Tinas"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-baño-accesorios":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Accesorios de Baño"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-baño-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto baño*/
+    /* Items producto cubiertas */
+    "menu-item#Productos-cubiertas-adoquines":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Adoquines"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-fachaletas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Fachaletas"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-marmol":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Mármol"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-granito":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Granito"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-cuarzo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Cuarzo"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-superficies-compactas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Superficies Ultra Compactas"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-limpieza":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Limpieza y Mantención de Cubiertas"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-lavaplatos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Lavaplatos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-cubiertas-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto cubiertas*/
+    /* items producto lavaplatos*/
+    "menu-item#Productos-lavaplatos-lavaplatos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Lavaplatos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-lavaplatos-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto lavaplatos*/
+    /* Items producto limpieza */
+    "menu-item#Productos-limpieza-griferias":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Limpieza y Mantención de Griferías"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-limpieza-pisos":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Limpieza y Mantención de Pisos"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-limpieza-cubiertas":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Limpieza y Mantención de Cubiertas"
+        },
+        "blockClass": "item-submenu"
+      }
+    },
+    "menu-item#Productos-limpieza-vertodo":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Ver todo >"
+        },
+        "blockClass": "item-submenu-ver-todo"
+      }
+    },
+    /* End items producto limpieza*/
     /* END ITEMS PRODUCTOS */
     "menu-item#Categorias-Inspiracion": {
         "props": {

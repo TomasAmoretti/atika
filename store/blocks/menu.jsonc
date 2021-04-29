@@ -340,31 +340,20 @@
     /* PRODUCTOS */
     "vtex.menu@2.x:submenu#Productos":{
         "children":[
-            "menu-item#Productos-Pisos",
-            "menu-item#Productos-Pisos-Flotantes",
-            "menu-item#Productos-Griferia",
-            "menu-item#Productos-Sanitarios",
-            "menu-item#Productos-Cubiertas",
-            "menu-item#Productos-Accesorios",
-            "menu-item#Productos-Mamparas",
-            "menu-item#Productos-Muebles-baño",
-            "menu-item#Productos-Piedras-naturales"
+            "flex-layout.row#submenu-productos-revestimientos",
+            "flex-layout.row#submenu-productos-griferia",
+            "flex-layout.row#submenu-productos-baño",
+            "flex-layout.row#submenu-productos-cubiertas",
+            /*"flex-layout.row#submenu-productos-lavaplatos",*/
+            "flex-layout.row#submenu-productos-limpieza"
         ],
         "props":{
             "blockClass":"submenu-header"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Pisos":{
+    "flex-layout.row#submenu-productos-revestimientos":{
         "children":[
-            "flex-layout.row#submenu-productos-pisos"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header"
-        }
-    },
-    "flex-layout.row#submenu-productos-pisos":{
-        "children":[
-            "flex-layout.col#submenu-productos-pisos"
+            "flex-layout.col#submenu-productos-revestimientos"
         ],
         "props":{
             "blockClass": "row-submenu",
@@ -372,64 +361,38 @@
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-pisos":{
+    "flex-layout.col#submenu-productos-revestimientos":{
         "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
+            "rich-text#titulo-menu-productos-revestimiento",
+            "menu-item#Productos-revestimientos-porcelanatos",
+            "menu-item#Productos-revestimientos-ceramicos",
+            "menu-item#Productos-revestimientos-gres",
+            "menu-item#Productos-revestimientos-mosaicos",
+            "menu-item#Productos-revestimientos-pisos-madera",
+            "menu-item#Productos-revestimientos-limpieza",
+            "menu-item#Productos-revestimientos-vertodo"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Pisos-flotantes":{
-        "children":[
-            "flex-layout.row#submenu-productos-pisos-flotantes"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header"
-        }
+    "rich-text#titulo-menu-productos-revestimiento":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "REVESTIMIENTOS",
+            "blockClass": "titulo-menu"
+          }
     },
-    "flex-layout.row#submenu-productos-pisos-flotantes":{
+    "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera":{
         "children":[
-            "flex-layout.col#submenu-productos-pisos-flotantes"
+            "menu-item#Productos-revestimientos-pisos-organicos",
+            "menu-item#Productos-revestimientos-pisos-fotolaminados",
+            "menu-item#Productos-revestimientos-pisos-vinilicos"
         ],
         "props":{
-            "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
-            "fullWidth": true
-        }
-    },
-    "flex-layout.col#submenu-productos-pisos-flotantes":{
-        "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
-        ],
-        "props":{
-            "blockClass": "col-submenu",
-            "preventVerticalStretch": true
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-Griferia":{
-        "children":[
-            "flex-layout.row#submenu-productos-griferia"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"item-submenu-nivel2"
         }
     },
     "flex-layout.row#submenu-productos-griferia":{
@@ -444,32 +407,32 @@
     },
     "flex-layout.col#submenu-productos-griferia":{
         "children":[
+            "rich-text#titulo-menu-productos-griferia",
+            "menu-item#Productos-Griferia-tinas",
             "menu-item#Productos-Griferia-cocina",
             "menu-item#Productos-Griferia-lavamanos",
-            "menu-item#Productos-Griferia-bidet",
-            "menu-item#Productos-Griferia-tinas",
+            "menu-item#Productos-Griferia-bidet",   
             "menu-item#Productos-Griferia-institucional",
-            "menu-item#Productos-Griferia-piezas",
-            "menu-item#Productos-Griferia-sifones",
-            "menu-item#Productos-Griferia-otros",
-            "menu-item#Productos-Griferia-vertodo"
+            "menu-item#Productos-Griferia-limpieza",
+            "menu-item#Productos-Griferia-vertodo",
+            "flex-layout.col#submenu-productos-lavaplatos"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Sanitarios":{
-        "children":[
-            "flex-layout.row#submenu-productos-sanitarios"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header"
-        }
+    "rich-text#titulo-menu-productos-griferia":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "GRIFERÍAS",
+            "blockClass": "titulo-menu"
+          }
     },
-    "flex-layout.row#submenu-productos-sanitarios":{
+    "flex-layout.row#submenu-productos-baño":{
         "children":[
-            "flex-layout.col#submenu-productos-sanitarios"
+            "flex-layout.col#submenu-productos-baño"
         ],
         "props":{
             "blockClass": "row-submenu",
@@ -477,29 +440,41 @@
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-sanitarios":{
+    "flex-layout.col#submenu-productos-baño":{
         "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
+            "rich-text#titulo-menu-productos-baño",
+            "menu-item#Productos-baño-muebles",
+            "menu-item#Productos-baño-wc",
+            "menu-item#Productos-baño-urinarios",
+            "menu-item#Productos-baño-lavamanos",
+            "menu-item#Productos-baño-receptaculos",
+            "menu-item#Productos-baño-mamparas",
+            "menu-item#Productos-baño-tinas",
+            "menu-item#Productos-baño-jacuzzi",
+            "menu-item#Productos-Griferia-tinas",
+            "menu-item#Productos-Griferia-lavamanos",
+            "menu-item#Productos-Griferia-bidet",
+            "menu-item#Productos-baño-vertodo"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Cubiertas":{
+    "rich-text#titulo-menu-productos-baño":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "BAÑO",
+            "blockClass": "titulo-menu"
+          }
+    },
+    "vtex.menu@2.x:submenu#Productos-baño-jacuzzi":{
         "children":[
-            "flex-layout.row#submenu-productos-cubiertas"
+            "menu-item#Productos-baño-accesorios"
         ],
         "props":{
-            "blockClass":"itemmenu-header"
+            "blockClass":"item-submenu-nivel2"
         }
     },
     "flex-layout.row#submenu-productos-cubiertas":{
@@ -514,74 +489,33 @@
     },
     "flex-layout.col#submenu-productos-cubiertas":{
         "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
+            "rich-text#titulo-menu-productos-cubiertas",
+            "menu-item#Productos-cubiertas-adoquines",
+            "menu-item#Productos-cubiertas-fachaletas",
+            "menu-item#Productos-cubiertas-marmol",
+            "menu-item#Productos-cubiertas-granito",
+            "menu-item#Productos-cubiertas-cuarzo",
+            "menu-item#Productos-cubiertas-superficies-compactas",
+            "menu-item#Productos-cubiertas-limpieza",
+            "menu-item#Productos-cubiertas-lavaplatos",
+            "menu-item#Productos-cubiertas-vertodo"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Accesorios":{
-        "children":[
-            "flex-layout.row#submenu-productos-accesorios"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2"
-        }
-    },
-    "flex-layout.row#submenu-productos-accesorios":{
-        "children":[
-            "flex-layout.col#submenu-productos-accesorios",
-            "image#submenu-productos-accesorios"
-        ],
-        "props":{
-            "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
-            "fullWidth": true
-        }
-    },
-    "flex-layout.col#submenu-productos-accesorios":{
-        "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
-        ],
-        "props":{
-            "blockClass": "col-submenu",
-            "preventVerticalStretch": true
-        }
-    },
-    "image#submenu-productos-accesorios":{
+    "rich-text#titulo-menu-productos-cubiertas":{
         "props": {
-            "src": "https://dummyimage.com/250x300/000/fff",
-            "blockClass": "imagen-submenu"
-        }
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "CUBIERTAS",
+            "blockClass": "titulo-menu"
+          }
     },
-    "vtex.menu@2.x:submenu#Productos-Mamparas":{
+    "flex-layout.row#submenu-productos-lavaplatos":{
         "children":[
-            "flex-layout.row#submenu-productos-mamparas"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2"
-        }
-    },
-    "flex-layout.row#submenu-productos-mamparas":{
-        "children":[
-            "flex-layout.col#submenu-productos-mamparas"
+            "flex-layout.col#submenu-productos-lavaplatos"
         ],
         "props":{
             "blockClass": "row-submenu",
@@ -589,76 +523,28 @@
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-mamparas":{
+    "flex-layout.col#submenu-productos-lavaplatos":{
         "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
+            "rich-text#titulo-menu-productos-lavaplatos",
+            "menu-item#Productos-lavaplatos-lavaplatos",
+            "menu-item#Productos-lavaplatos-vertodo"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Muebles-baño":{
-        "children":[
-            "flex-layout.row#submenu-productos-muebles-baño"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2"
-        }
-    },
-    "flex-layout.row#submenu-productos-muebles-baño":{
-        "children":[
-            "flex-layout.col#submenu-productos-muebles-baño",
-            "image#submenu-productos-muebles-baño"
-        ],
-        "props":{
-            "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
-            "fullWidth": true
-        }
-    },
-    "flex-layout.col#submenu-productos-muebles-baño":{
-        "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
-        ],
-        "props":{
-            "blockClass": "col-submenu",
-            "preventVerticalStretch": true
-        }
-    },
-    "image#submenu-productos-muebles-baño":{
+    "rich-text#titulo-menu-productos-lavaplatos":{
         "props": {
-            "src": "https://dummyimage.com/250x300/000/fff",
-            "blockClass": "imagen-submenu"
-        }
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "LAVAPLATOS",
+            "blockClass": "titulo-menu"
+          }
     },
-    "vtex.menu@2.x:submenu#Productos-Piedras-naturales":{
+    "flex-layout.row#submenu-productos-limpieza":{
         "children":[
-            "flex-layout.row#submenu-productos-piedras-naturales"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2"
-        }
-    },
-    "flex-layout.row#submenu-productos-piedras-naturales":{
-        "children":[
-            "flex-layout.col#submenu-productos-piedras-naturales"
+            "flex-layout.col#submenu-productos-limpieza"
         ],
         "props":{
             "blockClass": "row-submenu",
@@ -666,22 +552,26 @@
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-piedras-naturales":{
+    "flex-layout.col#submenu-productos-limpieza":{
         "children":[
-            "menu-item#Cocina-cubiertas",
-            "menu-item#Cocina-cuarzo",
-            "menu-item#Cocina-granito",
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-mosaicos",
-            "menu-item#Cocina-griferia",
-            "menu-item#Cocina-lavaplatos",
-            "menu-item#Cocina-vertodo"
+            "rich-text#titulo-menu-productos-limpieza",
+            "menu-item#Productos-limpieza-griferias",
+            "menu-item#Productos-limpieza-pisos",
+            "menu-item#Productos-limpieza-cubiertas",
+            "menu-item#Productos-limpieza-vertodo"
         ],
         "props":{
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
+    },
+    "rich-text#titulo-menu-productos-limpieza":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "LIMPIEZA Y MANTENCIÓN",
+            "blockClass": "titulo-menu"
+          }
     },
     /* END PRODUCTOS */
     /* INSPIRACION */
