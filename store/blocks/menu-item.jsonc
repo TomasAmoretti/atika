@@ -20,26 +20,13 @@
         ]
     },
     /* Items Espacios */
-    "menu-item#Espacios-Cocina":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COCINA"
-        },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Cocina"
-      ]
-    },
     /* Items cocina */
     "menu-item#Cocina-porcelanato":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PORCELANATOS & CERÁMICOS"
+          "text": "Porcelanatos & Cerámicos"
         },
         "blockClass": "item-submenu"
       }
@@ -49,7 +36,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CUBIERTAS ULTRA COMPACTAS"
+          "text": "Cubiertas Ultra Compactas"
         },
         "blockClass": "item-submenu"
       }
@@ -59,7 +46,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CUARZO"
+          "text": "Cuarzo"
         },
         "blockClass": "item-submenu"
       }
@@ -69,7 +56,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRANITO"
+          "text": "Granito"
         },
         "blockClass": "item-submenu"
       }
@@ -79,37 +66,27 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "SUPERFICIES ULTRA COMPACTAS"
+          "text": "Superficies Ultra Compactas"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-ceramicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "CERÁMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-gres":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRES"
-        },
-        "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Cocina-compactas"
+      ]
     },
     "menu-item#Cocina-pisos-organicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS ORGÁNICOS"
+          "text": "Pisos Orgánicos"
         },
         "blockClass": "item-submenu"
       }
@@ -119,27 +96,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS VINÍLICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-complementos-pisos-organicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS ORGÁNICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-complementos-pisos-vinilicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS VINÍLICOS"
+          "text": "Pisos Vinílicos"
         },
         "blockClass": "item-submenu"
       }
@@ -149,7 +106,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PRODUCTOS DE LIMPIEZA Y MANTENCION DE PISOS"
+          "text": "Limpieza y mantencion"
         },
         "blockClass": "item-submenu"
       }
@@ -159,37 +116,27 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MOSAICOS"
+          "text": "Mosaicos"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Cocina-mosaicos"
+      ]
     },
     "menu-item#Cocina-griferia":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-complementos-griferia":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE GRIFERÍA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Cocina-limpieza-griferia":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PRODUCTOS DE LIMPIEZA DE GRIFERÍA"
+          "text": "Griferías de Cocina y Lavadero"
         },
         "blockClass": "item-submenu"
       }
@@ -199,7 +146,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "LAVAPLATOS"
+          "text": "Lavaplatos"
         },
         "blockClass": "item-submenu"
       }
@@ -209,7 +156,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
         },
         "blockClass": "item-submenu"
       }
@@ -220,7 +167,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "BAÑO"
+          "text": "Baño"
         },
         "blockClass": "submenu"
       },
@@ -229,52 +176,22 @@
       ]
     },
     /* Items Baños */
-    "menu-item#Baños-marmol":{
+    "menu-item#Baños-piedras-y-cubiertas":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MÁRMOL"
+          "text": "Piedras y Cubiertas"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Baños-cubiertas":{
+    "menu-item#Baños-porcelanato-y-ceramicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CUBIERTAS ULTRA COMPACTAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-cuarzo":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "CUARZO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-granito":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRANITO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-porcelanato":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PORCELANATOS & CERÁMICOS"
+          "text": "Porcelanatos & Cerámicos"
         },
         "blockClass": "item-submenu"
       }
@@ -284,7 +201,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS ORGÁNICOS"
+          "text": "Pisos Orgánicos"
         },
         "blockClass": "item-submenu"
       }
@@ -294,7 +211,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS VINÍLICOS"
+          "text": "Pisos Vinílicos"
         },
         "blockClass": "item-submenu"
       }
@@ -304,27 +221,27 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MOSAICOS"
+          "text": "Mosaicos"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Baños-mosaicos"
+      ]
     },
     "menu-item#Baños-accesorios":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "ACCESORIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-accesibilidad":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ACCESIBILIDAD UNIVERSAL"
+          "text": "Accesorios de Baño"
         },
         "blockClass": "item-submenu"
       }
@@ -334,7 +251,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "SANITARIOS"
+          "text": "Ssanitarios"
         },
         "blockClass": "item-submenu"
       }
@@ -344,7 +261,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "LAVAMANOS"
+          "text": "Lavamanos"
         },
         "blockClass": "item-submenu"
       }
@@ -354,7 +271,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "TINAS Y RECEPTÁCULOS"
+          "text": "Tinas y Receptáculos"
         },
         "blockClass": "item-submenu"
       }
@@ -364,7 +281,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MAMPARAS"
+          "text": "Mamparas"
         },
         "blockClass": "item-submenu"
       }
@@ -374,27 +291,27 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MUEBLES DE BAÑO"
+          "text": "Muebles de Baño"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-bidet":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "BIDET"
-        },
-        "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Baños-muebles-de-baño"
+      ]
     },
     "menu-item#Baños-jacuzzi":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "JACUZZI"
+          "text": "Jacuzzi"
         },
         "blockClass": "item-submenu"
       }
@@ -404,7 +321,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "RECEPTACULOS"
+          "text": "Receptaculos"
         },
         "blockClass": "item-submenu"
       }
@@ -414,7 +331,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "URINARIOS"
+          "text": "Urinarios"
         },
         "blockClass": "item-submenu"
       }
@@ -429,112 +346,12 @@
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Baños-complementos-sanitarios":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE SANITARIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-escobillas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ESCOBILLAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-espejos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ESPEJOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-jaboneras-vasos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "JABONERAS Y VASOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-organizadores":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ORGANIZADORES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-perchas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PERCHAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-portapapeles":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PORTAPAPELES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-toalleros":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "TOALLEROS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-superficies-compactas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "SUPERFICIES ULTRA COMPACTAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-griferia-bidet":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE BIDET"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
     "menu-item#Baños-griferia-ducha":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA DE DUCHA Y TINA"
+          "text": "Grifería de Ducha y Tina"
         },
         "blockClass": "item-submenu"
       }
@@ -544,77 +361,17 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA DE LAVAMANOS"
+          "text": "Grifería de Lavamanos"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Baños-complementos-griferia":{
+    "menu-item#Baños-limpieza-pisos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "COMPLEMENTOS DE GRIFERÍA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-limpieza-griferia":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PRODUCTOS DE LIMPIEZA DE GRIFERÍA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-ceramicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "CERÁMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-gres":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-complementos-organicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS ORGÁNICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-complementos-vinilicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS VINÍLICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Baños-complementos-limpieza-pisos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE LIMPIEZA Y MANTENCION DE PISOS"
+          "text": "Limpieza y Mantencion de Pisos"
         },
         "blockClass": "item-submenu"
       }
@@ -630,66 +387,33 @@
       }
     },
     /* End Items baños*/
-    "menu-item#Espacios-Comedor":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "LIVING/COMEDOR/DORMITORIO"
-        },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Comedor"
-      ]
-    },
     /* Items comedor */
-    "menu-item#Comedor-marmol":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "MÁRMOL"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-piedras":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PIEDRAS NATURALES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-revestimientos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "REVESTIMIENTOS Y CERAMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
     "menu-item#Comedor-pisos-madera":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS DE MADERA"
+          "text": "Pisos de Madera"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Comedor-pisos-madera"
+      ]
     },
     "menu-item#Comedor-pisos-organicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS ORGÁNICOS"
+          "text": "Pisos Orgánicos"
         },
         "blockClass": "item-submenu"
       }
@@ -699,7 +423,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS VINILICOS"
+          "text": "Pisos Vinilicos"
         },
         "blockClass": "item-submenu"
       }
@@ -709,7 +433,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS FOTOLAMINADOS"
+          "text": "Pisos Fotolaminados"
         },
         "blockClass": "item-submenu"
       }
@@ -719,7 +443,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PORCELANATOS"
+          "text": "Porcelanatos"
         },
         "blockClass": "item-submenu"
       }
@@ -729,7 +453,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CERÁMICOS"
+          "text": "Cerámicos"
         },
         "blockClass": "item-submenu"
       }
@@ -739,7 +463,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRES"
+          "text": "Gres"
         },
         "blockClass": "item-submenu"
       }
@@ -749,37 +473,17 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MOSAICOS"
+          "text": "Mosaicos"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Comedor-complementos-fotolaminados":{
+    "menu-item#Comedor-piedras-y-cubiertas":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "COMPLEMENTOS DE PISOS FOTOLAMINADOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-complementos-organicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS ORGÁNICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-complementos-vinilicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS VINILICOS"
+          "text": "Piedras y Cubiertas"
         },
         "blockClass": "item-submenu"
       }
@@ -789,37 +493,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PRODUCTOS DE LIMPIEZA Y MANTENCION DE PISOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-cuarzo":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "CUARZO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-fachaletas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "FACHALETAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Comedor-granito":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRANITO"
+          "text": "Limpieza y Mantención"
         },
         "blockClass": "item-submenu"
       }
@@ -829,72 +503,19 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
         },
         "blockClass": "item-submenu"
       }
     },
     /* End Items comedor*/
-    "menu-item#Espacios-Exterior":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "EXTERIOR"
-        },
-        "blockClass": "submenu"
-      },
-      "blocks":[
-        "vtex.menu@2.x:submenu#Exterior"
-      ]
-    },
     /* Items exterior */
-    "menu-item#Exterior-revestimientos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "REVESTIMIENTOS Y CERAMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
     "menu-item#Exterior-mosaicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MOSAICOS PARA PISCINAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Exterior-deck":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "DECK"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Exterior-marmol":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "MÁRMOL"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Exterior-piedras":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PIEDRAS NATURALES"
+          "text": "Mosaicos"
         },
         "blockClass": "item-submenu"
       }
@@ -904,7 +525,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "ADOQUINES"
+          "text": "Adoquines"
         },
         "blockClass": "item-submenu"
       }
@@ -914,7 +535,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "FACHALETAS"
+          "text": "Fachaletas"
         },
         "blockClass": "item-submenu"
       }
@@ -924,7 +545,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "SUPERFICIES ULTRA COMPACTAS"
+          "text": "Superficies Ultra Compactas"
         },
         "blockClass": "item-submenu"
       }
@@ -934,7 +555,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PORCELANATOS"
+          "text": "Porcelanatos"
         },
         "blockClass": "item-submenu"
       }
@@ -944,7 +565,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CERÁMICOS"
+          "text": "Cerámicos"
         },
         "blockClass": "item-submenu"
       }
@@ -954,27 +575,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Exterior-griferia-cocina-lavadero":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE COCINA Y LAVADERO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Exterior-complementos-griferia":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE GRIFERÍA"
+          "text": "Gres"
         },
         "blockClass": "item-submenu"
       }
@@ -984,7 +585,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "LAVAPLATOS"
+          "text": "Lavaplatos"
         },
         "blockClass": "item-submenu"
       }
@@ -994,92 +595,39 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
         },
         "blockClass": "item-submenu"
       }
     },
     /* End Items exterior*/
-    "menu-item#Espacios-Recintos":{
+    /* Items Institucional y comercial */
+    "menu-item#Recintos-lavaplatos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "RECINTOS PÚBLICOS Y COMERCIALES"
+          "text": "Lavaplatos"
         },
-        "blockClass": "submenu"
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
+        },
+        "blockClass": "item-submenu"
       },
       "blocks":[
-        "vtex.menu@2.x:submenu#Recintos"
+        "vtex.menu@2.x:submenu#Institucional-lavaplatos"
       ]
     },
-    /* Items Recintos */
-    "menu-item#Recintos-granito":{
+    "menu-item#Recintos-sanitarios-artefactos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRANITO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-marmol":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "MÁRMOL"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-revestimientos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "REVESTIMIENTOS Y CERÁMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferias":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-lavamanos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "LAVAMANOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-sanitarios":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "SANITARIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-tinas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "TINAS Y RECEPTÁCULOS DE DUCHAS"
+          "text": "Sanitarios y Artefactos de Baño"
         },
         "blockClass": "item-submenu"
       }
@@ -1089,17 +637,27 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS DE MADERA"
+          "text": "Pisos de Madera"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
         },
         "blockClass": "item-submenu"
-      }
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Institucional-pisos-madera"
+      ]
     },
     "menu-item#Recintos-pisos-organicos":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS ORGÁNICOS"
+          "text": "Pisos Orgánicos"
         },
         "blockClass": "item-submenu"
       }
@@ -1109,7 +667,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS VINILICOS"
+          "text": "Pisos Vinílicos"
         },
         "blockClass": "item-submenu"
       }
@@ -1119,27 +677,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PISOS FOTOLAMINADOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-deck":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "DECK"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-accesorios-baño":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ACCESORIOS DE BAÑO"
+          "text": "Pisos Fotolaminados"
         },
         "blockClass": "item-submenu"
       }
@@ -1149,27 +687,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "MOSAICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-piedras-naturales":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PIEDRAS NATURALES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-cuarzo":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "CUARZO"
+          "text": "Mosaicos"
         },
         "blockClass": "item-submenu"
       }
@@ -1179,7 +697,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "ACCESIBILIDAD UNIVERSAL"
+          "text": "Accesibilidad Universal"
         },
         "blockClass": "item-submenu"
       }
@@ -1189,257 +707,47 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "ACCESORIOS INSTITUCIONALES"
+          "text": "Accesorios Institucionales"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Recintos-griferia-institucional-lavamanos":{
+    "menu-item#Recintos-griferia-institucional":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA INSTITUCIONAL DE LAVAMANOS"
+          "text": "Grifería Institucional"
+        },
+        "iconPosition": "right",
+        "iconProps": {
+          "id": "mpa-play",
+          "size": 13,
+          "viewBox": "0 0 16 16",
+          "mutedClassName": "c-action-primary"
+        },
+        "blockClass": "item-submenu"
+      },
+      "blocks":[
+        "vtex.menu@2.x:submenu#Institucional-griferia"
+      ]
+    },
+    "menu-item#Recintos-accesorios-baño":{
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Accesorios de baño"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Recintos-griferia-institucional-wc":{
+    "menu-item#Recintos-piedras-cubiertas":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "GRIFERÍA INSTITUCIONAL DE WC Y URINARIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferia-institucional-ducha":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA INSTITUCIONAL DE DUCHA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferia-bidet":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE BIDET"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferia-cocina":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE COCINA Y LAVADERO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferia-ducha":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE DUCHA Y TINA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-griferia-lavamanos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRIFERÍA DE LAVAMANOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-bidet":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "BIDET"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-jacuzzi":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "JACUZZI"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-mampara":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "MAMPARA DE DUCHA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-muebles-banio":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "MUEBLES DE BAÑO"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-receptaculos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "RECEPTACULOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-urinarios":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "URINARIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-wc":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "WC"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-complementos-sanitarios":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE SANITARIOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-escobillas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ESCOBILLAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-espejos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ESPEJOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-jabones-vasos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "JABONERAS Y VASOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-organizadores":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ORGANIZADORES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-perchas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PERCHAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-portapapeles":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PORTAPAPELES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-toalleros":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "TOALLEROS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-adoquines":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "ADOQUINES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-fachaletas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "FACHALETAS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-superficies-compactas":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "SUPERFICIES ULTRA COMPACTAS"
+          "text": "Piedras y Cubiertas"
         },
         "blockClass": "item-submenu"
       }
@@ -1449,87 +757,17 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "PORCELANATOS"
+          "text": "Porcelanatos"
         },
         "blockClass": "item-submenu"
       }
     },
-    "menu-item#Recintos-ceramicos":{
+    "menu-item#Recintos-limpieza-mantencion":{
       "props": {
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "CERÁMICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-gres":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "GRES"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-complementos-pisos-fotolaminados":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS FOTOLAMINADOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-complementos-pisos-organicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS ORGÁNICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-complementos-pisos-vinilicos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE PISOS VINILICOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-productos-limpíeza-pisos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "PRODUCTOS DE LIMPIEZA Y MANTENCION DE PISOS"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-complementos-griferia":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "COMPLEMENTOS DE GRIFERÍA"
-        },
-        "blockClass": "item-submenu"
-      }
-    },
-    "menu-item#Recintos-lavaplatos":{
-      "props": {
-        "type": "custom",
-        "itemProps": {
-          "href": "#",
-          "text": "LAVAPLATOS"
+          "text": "Limpieza y Mantención"
         },
         "blockClass": "item-submenu"
       }
@@ -1539,7 +777,7 @@
         "type": "custom",
         "itemProps": {
           "href": "#",
-          "text": "VER TODO >"
+          "text": "Ver todo >"
         },
         "blockClass": "item-submenu"
       }
@@ -1797,22 +1035,22 @@
           "vtex.menu@2.x:submenu#Inspiracion"
         ]
     },
-    "menu-item#Categorias-Novedades": {
+    "menu-item#Categorias-new-arrival": {
         "props": {
           "type": "custom",
           "itemProps": {
             "href": "#",
-            "text": "NOVEDADES"
+            "text": "NEW ARRIVAL"
           },
           "blockClass": "categoria-header"
         }
     },
-    "menu-item#Categorias-Ofertas": {
+    "menu-item#Categorias-sale": {
         "props": {
           "type": "custom",
           "itemProps": {
             "href": "#",
-            "text": "OFERTAS"
+            "text": "SALE"
           },
           "blockClass": "categoria-header-ofertas"
         }
@@ -3796,22 +3034,22 @@
       "vtex.menu@2.x:submenu#Inspiracion-mobile"
     ]
   },
-  "menu-item#Categorias-Novedades-mobile": {
+  "menu-item#Categorias-new-arrival-mobile": {
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "NOVEDADES"
+        "text": "NEW ARRIVAL"
       },
       "blockClass": "categoria-header-mobile"
     }
   },
-  "menu-item#Categorias-Ofertas-mobile": {
+  "menu-item#Categorias-sale-mobile": {
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "OFERTAS"
+        "text": "SALE"
       },
       "blockClass": "categoria-header-ofertas-mobile"
     }

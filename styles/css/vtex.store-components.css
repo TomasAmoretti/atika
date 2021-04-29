@@ -236,8 +236,22 @@
     border-top: solid 1px black;
 }
 
-.productBrandLogo--marca-product {
-    height: 50px!important;
+.productBrandContainer--marca-product-shelf {
+    justify-content: initial;
+    display: flex;
+    width: 94%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.productBrandName--marca-product-shelf {
+    text-align: initial;
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 13px;
+    border: solid 1px;
+    padding: 2px;
 }
 
 /* HEADER */

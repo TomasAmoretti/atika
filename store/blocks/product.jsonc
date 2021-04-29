@@ -97,7 +97,7 @@
   },
   "flex-layout.col#right": {
     "children": [
-      "product-brand",
+      "product-brand#product",
       "product-name#product",
       "product-identifier.product",
       /*"descripcion-larga",*/
@@ -114,6 +114,13 @@
       "verticalAlign": "top",
       "preventVerticalStretch": false,
       "blockClass": "product-lef-col"
+    }
+  },
+  "product-brand#product": {
+    "props": {
+      "displayMode": "logo",
+      "height": "30px",
+      "blockClass": "marca-product"
     }
   },
   "product-name#product": {

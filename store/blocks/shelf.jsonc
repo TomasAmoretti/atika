@@ -3,7 +3,7 @@
         "children": [
           "add-to-list-btn",
           "product-summary-image",
-          "product-summary-brand",
+          "product-brand#shelf",
           "product-summary-name",
           "flex-layout.row#contenedor-shelf"
         ],
@@ -11,12 +11,12 @@
           "blockClass": "product-summary"
         }
     },
-    "product-brand": {
+    "product-brand#shelf": {
       "props": {
         "displayMode": "text",
         "loadingPlaceholder": "text",
         "height": "30px",
-        "blockClass": "marca-product"
+        "blockClass": "marca-product-shelf"
       }
     },
     "product-summary-image":{

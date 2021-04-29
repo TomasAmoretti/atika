@@ -37,6 +37,18 @@
     font-weight: 200;
 }
 
+.container--titulo-menu {
+    margin-left: 9%;
+}
+
+.paragraph--titulo-menu {
+    margin: 0;
+    font-family: 'Noto Sans JP';
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
 /* HOME */
 .container--titulo-shelf {
     max-width: 1280px;

@@ -319,8 +319,8 @@
       "menu-item#Categorias-Espacios-mobile",
       "menu-item#Categorias-Productos-mobile",
       "menu-item#Categorias-Inspiracion-mobile",
-      "menu-item#Categorias-Novedades-mobile",
-      "menu-item#Categorias-Ofertas-mobile",
+      "menu-item#Categorias-new-arrival-mobile",
+      "menu-item#Categorias-sale-mobile",
       "menu-item#Categorias-Servicios-mobile"
     ],
     "props": {

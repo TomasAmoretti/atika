@@ -24,15 +24,16 @@
 .flexColChild--col-submenu {
     margin: 5px 0;
     display: inline-block;
-    width: 370px;
+    width: 245px;
 
 }
 
 .flexCol--col-submenu {
     display: inline-block;
-    max-height: 400px;
-    max-width: 390px;
+    max-height: 430px;
+    min-height: 429px;
     overflow-y: scroll;
+    overflow-x: unset;
 }
 
 .flexRow--row-submenu {
