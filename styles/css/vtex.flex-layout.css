@@ -26,6 +26,10 @@
     width: 222px;
 }
 
+.flexCol--spacer-mobile {
+    width: 90px;
+}
+
 .flexCol--col-submenu {
     display: inline-block;
     max-height: 430px;

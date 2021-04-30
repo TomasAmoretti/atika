@@ -269,3 +269,7 @@
     width: 95%;
     margin: auto;
 }
+
+.searchBarContainer {
+    padding-top: 0;
+}

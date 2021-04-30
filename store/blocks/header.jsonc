@@ -262,10 +262,10 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "menu-item#favoritos-icon",
+      "logo#mobile",
+      "flex-layout.col#spacer-2",
       "login",
+      "menu-item#favoritos-icon",
       "minicart.v2"
     ],
     "props": {
@@ -273,6 +273,14 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-atika.svg",
+      "blockClass":"logo"
     }
   },
   "menu-item#favoritos-icon":{
@@ -302,6 +310,12 @@
     "props":{
       "displayMode": "search-button",
       "blockClass":"search-mobile"
+    }
+  },
+  "flex-layout.col#spacer-2": {
+    "props": {
+      "width": "small",
+      "blockClass": "spacer-mobile"
     }
   },
   "drawer": {

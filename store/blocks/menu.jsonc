@@ -751,8 +751,8 @@
     /* MOBILE */
     "vtex.menu@2.x:submenu#Espacios-mobile":{
         "children":[
-            "menu-item#Espacios-Cocina-mobile",
             "menu-item#Espacios-Baño-mobile",
+            "menu-item#Espacios-Cocina-mobile",
             "menu-item#Espacios-Comedor-mobile",
             "menu-item#Espacios-Exterior-mobile",
             "menu-item#Espacios-Recintos-mobile"
@@ -763,71 +763,73 @@
     },
     "vtex.menu@2.x:submenu#Cocina-mobile":{
         "children":[
+            "menu-item#Cocina-griferia-mobile",
+            "menu-item#Cocina-lavaplatos-mobile",
             "menu-item#Cocina-cuarzo-mobile",
             "menu-item#Cocina-granito-mobile",
             "menu-item#Cocina-compactas-mobile",
-            "menu-item#Cocina-porcelanato-mobile",
-            "menu-item#Cocina-ceramicos-mobile",
-            "menu-item#Cocina-gres-mobile",
             "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-complementos-pisos-organicos-mobile",
-            "menu-item#Cocina-complementos-pisos-vinilicos-mobile",
-            "menu-item#Cocina-productos-limpieza-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-complementos-griferia-mobile",
-            "menu-item#Cocina-limpieza-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
             "menu-item#Cocina-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
         }
     },
+    "vtex.menu@2.x:submenu#Espacios-Cocina-Compactas-mobile":{
+        "children":[
+            "menu-item#Cocina-porcelanato-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-Cocina-Mosaicos-mobile":{
+        "children":[
+            "menu-item#Cocina-pisos-organicos-mobile",
+            "menu-item#Cocina-pisos-vinilicos-mobile",
+            "menu-item#Cocina-productos-limpieza-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
+        }
+    },
     "vtex.menu@2.x:submenu#Baño-mobile":{
         "children":[
-            "menu-item#Baños-bidet-mobile",
-            "menu-item#Baños-jacuzzi-mobile",
-            "menu-item#Baños-lavamanos-mobile",
-            "menu-item#Baños-mamparas-mobile",
-            "menu-item#Baños-muebles-de-baño-mobile",
-            "menu-item#Baños-receptaculos-mobile",
-            "menu-item#Baños-tinas-mobile",
-            "menu-item#Baños-urinarios-mobile",
-            "menu-item#Baños-WC-mobile",
-            "menu-item#Baños-complementos-sanitarios-mobile",
-            "menu-item#Baños-accesibilidad-mobile",
-            "menu-item#Baños-accesorios-mobile",
-            "menu-item#Baños-escobillas-mobile",
-            "menu-item#Baños-espejos-mobile",
-            "menu-item#Baños-jaboneras-vasos-mobile",
-            "menu-item#Baños-organizadores-mobile",
-            "menu-item#Baños-perchas-mobile",
-            "menu-item#Baños-portapapeles-mobile",
-            "menu-item#Baños-toalleros-mobile",
-            "menu-item#Baños-cuarzo-mobile",
-            "menu-item#Baños-granito-mobile",
-            "menu-item#Baños-marmol-mobile",
-            "menu-item#Baños-superficies-compactas-mobile",
-            "menu-item#Baños-griferia-bidet-mobile",
             "menu-item#Baños-griferia-ducha-mobile",
             "menu-item#Baños-griferia-lavamanos-mobile",
-            "menu-item#Baños-complementos-griferia-mobile",
-            "menu-item#Baños-limpieza-griferia-mobile",
-            "menu-item#Baños-porcelanato-mobile",
-            "menu-item#Baños-ceramicos-mobile",
-            "menu-item#Baños-gres-mobile",
+            "menu-item#Baños-lavamanos-mobile",
+            "menu-item#Baños-tinas-mobile",
+            "menu-item#Baños-jacuzzi-mobile",
+            "menu-item#Baños-receptaculos-mobile",
+            "menu-item#Baños-mamparas-mobile",
+            "menu-item#Baños-WC-mobile",
+            "menu-item#Baños-urinarios-mobile",
+            "menu-item#Baños-muebles-de-baño-mobile",
             "menu-item#Baños-mosaicos-mobile",
-            "menu-item#Baños-pisos-organicos-mobile",
-            "menu-item#Baños-pisos-vinilicos-mobile",
-            "menu-item#Baños-complementos-organicos-mobile",
-            "menu-item#Baños-complementos-vinilicos-mobile",
-            "menu-item#Baños-complementos-limpieza-pisos-mobile",
             "menu-item#Baños-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-Baño-muebles-mobile":{
+        "children":[
+            "menu-item#Baños-accesorios-mobile",
+            "menu-item#Baños-porcelanato-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-Baño-mosaicos-mobile":{
+        "children":[
+            "menu-item#Baños-pisos-organicos-mobile",
+            "menu-item#Baños-pisos-vinilicos-mobile",
+            "menu-item#Baños-piedras-mobile",
+            "menu-item#Baños-limpieza-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Comedor-mobile":{
@@ -836,35 +838,34 @@
             "menu-item#Comedor-ceramicos-mobile",
             "menu-item#Comedor-gres-mobile",
             "menu-item#Comedor-mosaicos-mobile",
-            "menu-item#Comedor-pisos-organicos-mobile",
-            "menu-item#Comedor-pisos-vinilicos-mobile",
             "menu-item#Comedor-pisos-madera-mobile",
-            "menu-item#Comedor-pisos-fotolaminados-mobile",
-            "menu-item#Comedor-complementos-fotolaminados-mobile",
-            "menu-item#Comedor-complementos-organicos-mobile",
-            "menu-item#Comedor-complementos-vinilicos-mobile",
-            "menu-item#Comedor-limpieza-pisos-mobile",
-            "menu-item#Comedor-cuarzo-mobile",
-            "menu-item#Comedor-fachaletas-mobile",
-            "menu-item#Comedor-granito-mobile",
-            "menu-item#Comedor-marmol-mobile",
-            "menu-item#Comedor-vertodo-mobile"
+            "menu-item#Comedor-vertodo-mobile"   
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-Comedor-pisos-madera-mobile":{
+        "children":[
+            "menu-item#Comedor-pisos-organicos-mobile",
+            "menu-item#Comedor-pisos-vinilicos-mobile",
+            "menu-item#Comedor-pisos-fotolaminados-mobile",
+            "menu-item#Comedor-piedras-mobile",
+            "menu-item#Comedor-limpieza-pisos-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Exterior-mobile":{
         "children":[
             "menu-item#Exterior-adoquines-mobile",
             "menu-item#Exterior-fachaletas-mobile",
-            "menu-item#Exterior-superficies-compactas-mobile",
             "menu-item#Exterior-porcelanatos-mobile",
             "menu-item#Exterior-ceramicos-mobile",
             "menu-item#Exterior-gres-mobile",
             "menu-item#Exterior-mosaicos-mobile",
-            "menu-item#Exterior-griferia-cocina-lavadero-mobile",
-            "menu-item#Exterior-complementos-griferia-mobile",
+            "menu-item#Exterior-superficies-compactas-mobile",
             "menu-item#Exterior-lavaplatos-mobile",
             "menu-item#Exterior-vertodo-mobile"
         ],
@@ -876,54 +877,43 @@
         "children":[
             "menu-item#Recintos-accesibilidad-mobile",
             "menu-item#Recintos-accesorios-institucionales-mobile",
-            "menu-item#Recintos-griferia-institucional-lavamanos-mobile",
-            "menu-item#Recintos-griferia-institucional-wc-mobile",
-            "menu-item#Recintos-griferia-institucional-ducha-mobile",
-            "menu-item#Recintos-griferia-bidet-mobile",
-            "menu-item#Recintos-griferia-cocina-mobile",
-            "menu-item#Recintos-griferia-ducha-mobile",
-            "menu-item#Recintos-griferia-lavamanos-mobile",
-            "menu-item#Recintos-bidet-mobile",
-            "menu-item#Recintos-jacuzzi-mobile",
-            "menu-item#Recintos-lavamanos-mobile",
-            "menu-item#Recintos-mampara-mobile",
-            "menu-item#Recintos-muebles-banio-mobile",
-            "menu-item#Recintos-receptaculos-mobile",
-            "menu-item#Recintos-tinas-mobile",
-            "menu-item#Recintos-urinarios-mobile",
-            "menu-item#Recintos-wc-mobile",
-            "menu-item#Recintos-complementos-sanitarios-mobile",
-            "menu-item#Recintos-escobillas-mobile",
-            "menu-item#Recintos-espejos-mobile",
-            "menu-item#Recintos-jabones-vasos-mobile",
-            "menu-item#Recintos-organizadores-mobile",
-            "menu-item#Recintos-perchas-mobile",
-            "menu-item#Recintos-portapapeles-mobile",
-            "menu-item#Recintos-toalleros-mobile",
-            "menu-item#Recintos-adoquines-mobile",
-            "menu-item#Recintos-cuarzo-mobile",
-            "menu-item#Recintos-fachaletas-mobile",
-            "menu-item#Recintos-granito-mobile",
-            "menu-item#Recintos-marmol-mobile",
-            "menu-item#Recintos-superficies-compactas-mobile",
-            "menu-item#Recintos-porcelanatos-mobile",
-            "menu-item#Recintos-ceramicos-mobile",
-            "menu-item#Recintos-gres-mobile",
+            "menu-item#Recintos-griferia-institucional-mobile",
             "menu-item#Recintos-mosaicos-mobile",
-            "menu-item#Recintos-pisos-organicos-mobile",
-            "menu-item#Recintos-pisos-vinilicos-mobile",
             "menu-item#Recintos-pisos-madera-mobile",
-            "menu-item#Recintos-pisos-fotolaminados-mobile",
-            "menu-item#Recintos-complementos-pisos-fotolaminados-mobile",
-            "menu-item#Recintos-complementos-pisos-organicos-mobile",
-            "menu-item#Recintos-complementos-pisos-vinilicos-mobile",
-            "menu-item#Recintos-productos-limpíeza-pisos-mobile",
-            "menu-item#Recintos-complementos-griferia-mobile",
             "menu-item#Recintos-lavaplatos-mobile",
             "menu-item#Recintos-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-griferia-institucional-mobile":{
+        "children":[
+            "menu-item#Recintos-accesorios-mobile",
+            "menu-item#Recintos-piedras-cubiertas-mobile",
+            "menu-item#Recintos-porcelanatos-mobile",
+            "menu-item#Recintos-sanitarios-artefactos-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-pisos-madera-mobile":{
+        "children":[
+            "menu-item#Recintos-pisos-organicos-mobile",
+            "menu-item#Recintos-pisos-vinilicos-mobile",
+            "menu-item#Recintos-pisos-fotolaminados-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Espacios-lavaplatos-mobile":{
+        "children":[
+            "menu-item#Recintos-limpíeza-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-mobile":{

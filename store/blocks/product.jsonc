@@ -119,7 +119,7 @@
   "product-brand#product": {
     "props": {
       "displayMode": "logo",
-      "height": "30px",
+      "height": "60px",
       "blockClass": "marca-product"
     }
   },
