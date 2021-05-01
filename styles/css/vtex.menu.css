@@ -154,6 +154,11 @@
     max-height: 350px;
 }
 
+.submenu--submenu-header-mobile {
+    max-height: 350px;
+    overflow: scroll;
+}
+
 .submenuWrapper--itemmenu-header-mobile--isOpen {
     position: initial;
     padding-bottom: 0;

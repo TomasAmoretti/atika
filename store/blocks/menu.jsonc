@@ -918,62 +918,49 @@
     },
     "vtex.menu@2.x:submenu#Productos-mobile":{
         "children":[
-            "menu-item#Productos-Pisos-mobile",
-            "menu-item#Productos-Pisos-Flotantes-mobile",
+            "menu-item#Productos-Revestimientos-mobile",
             "menu-item#Productos-Griferia-mobile",
             "menu-item#Productos-Sanitarios-mobile",
             "menu-item#Productos-Cubiertas-mobile",
-            "menu-item#Productos-Accesorios-mobile",
-            "menu-item#Productos-Mamparas-mobile",
-            "menu-item#Productos-Muebles-baño-mobile",
-            "menu-item#Productos-Piedras-naturales-mobile"
+            "menu-item#Productos-Lavaplatos-mobile",
+            "menu-item#Productos-limpieza-mobile"
         ],
         "props":{
             "blockClass":"submenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Pisos-mobile":{
+    "vtex.menu@2.x:submenu#Productos-Revestimientos-mobile":{
         "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
+            "menu-item#Productos-revestimiento-porcelanato-mobile",
+            "menu-item#Productos-revestimiento-ceramicos-mobile",
+            "menu-item#Productos-revestimiento-gres-mobile",
+            "menu-item#Productos-revestimiento-mosaicos-mobile",
+            "menu-item#Productos-revestimiento-pisos-madera-mobile",
+            "menu-item#Productos-revestimiento-limpieza-mobile",
+            "menu-item#Productos-revestimiento-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Pisos-flotantes-mobile":{
+    "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera-mobile":{
         "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
+            "menu-item#Productos-revestimiento-pisos-organicos-mobile",
+            "menu-item#Productos-revestimiento-pisos-fotolaminados-mobile",
+            "menu-item#Productos-revestimiento-pisos-vinilicos-mobile"
         ],
         "props":{
-            "blockClass":"itemmenu-header-mobile"
+            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-Griferia-mobile":{
         "children":[
+            "menu-item#Productos-Griferia-tinas-mobile",
             "menu-item#Productos-Griferia-cocina-mobile",
             "menu-item#Productos-Griferia-lavamanos-mobile",
             "menu-item#Productos-Griferia-bidet-mobile",
-            "menu-item#Productos-Griferia-tinas-mobile",
             "menu-item#Productos-Griferia-institucional-mobile",
-            "menu-item#Productos-Griferia-piezas-mobile",
-            "menu-item#Productos-Griferia-sifones-mobile",
-            "menu-item#Productos-Griferia-otros-mobile",
+            "menu-item#Productos-Griferia-limpieza-mobile",
             "menu-item#Productos-Griferia-vertodo-mobile"
         ],
         "props":{
@@ -982,98 +969,56 @@
     },
     "vtex.menu@2.x:submenu#Productos-Sanitarios-mobile":{
         "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
+            "menu-item#Productos-baño-muebles-mobile",
+            "menu-item#Productos-baño-wc-mobile",
+            "menu-item#Productos-baño-urinarios-mobile",
+            "menu-item#Productos-baño-lavamanos-mobile",
+            "menu-item#Productos-baño-receptaculos-mobile",
+            "menu-item#Productos-baño-mamparas-mobile",
+            "menu-item#Productos-baño-tinas-mobile",
+            "menu-item#Productos-baño-jacuzzi-mobile",
+            "menu-item#Productos-baño-griferias-ducha-mobile",
+            "menu-item#Productos-baño-griferias-lavamanos-mobile",
+            "menu-item#Productos-baño-griferias-bidet-mobile",
+            "menu-item#Productos-baño-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
+        }
+    },
+    "vtex.menu@2.x:submenu#Productos-baño-jacuzzi-mobile":{
+        "children":[
+            "menu-item#Productos-baño-accesorios-mobile"
+        ],
+        "props":{
+            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-Cubiertas-mobile":{
         "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
+            "menu-item#Productos-cubierta-adoquines-mobile",
+            "menu-item#Productos-cubierta-fachaletass-mobile",
+            "menu-item#Productos-cubierta-marmol-mobile",
+            "menu-item#Productos-cubierta-granito-mobile",
+            "menu-item#Productos-cubierta-cuarzo-mobile",
+            "menu-item#Productos-cubierta-superficies-compactas-mobile",
+            "menu-item#Productos-cubierta-limpieza-mobile",
+            "menu-item#Productos-cubierta-lavaplatos-mobile",
+            "menu-item#Productos-cubierta-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Accesorios-mobile":{
+    "vtex.menu@2.x:submenu#Productos-limpieza-mobile":{
         "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
+            "menu-item#Productos-limpieza-griferias-mobile",
+            "menu-item#Productos-limpieza-pisos-mobile",
+            "menu-item#Productos-limpieza-cubiertas-mobile",
+            "menu-item#Productos-limpieza-vertodo-mobile"
         ],
         "props":{
-            "blockClass":"itemmenu-header-2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-Mamparas-mobile":{
-        "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-Muebles-baño-mobile":{
-        "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-Piedras-naturales-mobile":{
-        "children":[
-            "menu-item#Cocina-cubiertas-mobile",
-            "menu-item#Cocina-cuarzo-mobile",
-            "menu-item#Cocina-granito-mobile",
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-mosaicos-mobile",
-            "menu-item#Cocina-griferia-mobile",
-            "menu-item#Cocina-lavaplatos-mobile",
-            "menu-item#Cocina-vertodo-mobile"
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-2-mobile"
+            "blockClass":"itemmenu-header-mobile"
         }
     },
     /* END PRODUCTOS */

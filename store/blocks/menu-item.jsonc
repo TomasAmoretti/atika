@@ -2446,38 +2446,161 @@
     ]
   },
   /* ITEMS PRODUCTOS */
-  "menu-item#Productos-Pisos-mobile":{
+  "menu-item#Productos-Revestimientos-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "PISOS"
+        "text": "REVESTIMIENTOS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "submenu-mobile"
     },
     "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Pisos-mobile"
+      "vtex.menu@2.x:submenu#Productos-Revestimientos-mobile"
     ]
   },
-  "menu-item#Productos-Pisos-Flotantes-mobile":{
+  /* Items producto revestimiento */
+  "menu-item#Productos-revestimiento-porcelanato-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "PISOS FLOTANTES"
+        "text": "PORCELANATOS"
       },
-      "blockClass": "submenu-mobile"
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-ceramicos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "CERÁMICOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-gres-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "GRES"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-mosaicos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MOSAICOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-pisos-madera-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "PISOS DE MADERA"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "item-submenu-mobile"
     },
     "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Pisos-flotantes-mobile"
+        "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera-mobile"
     ]
+  },
+  "menu-item#Productos-revestimiento-pisos-organicos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Pisos Orgánicos"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-pisos-fotolaminados-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Pisos Fotolaminados"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-pisos-vinilicos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Pisos Vinílicos"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-limpieza-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMPIEZA Y MANTENCIÓN DE PISOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-revestimiento-vertodo-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "VER TODO >"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  /* End items producto revestimiento */
+  "menu-item#Productos-Lavaplatos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LAVAPLATOS"
+      },
+      "blockClass": "submenu-mobile"
+    }
   },
   "menu-item#Productos-Griferia-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "GRIFERÍA"
+        "text": "GRIFERÍAS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "submenu-mobile"
     },
@@ -2536,32 +2659,12 @@
       "blockClass": "item-submenu-mobile"
     }
   },
-  "menu-item#Productos-Griferia-piezas-mobile":{
+  "menu-item#Productos-Griferia-limpieza-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "PIEZAS INTERNAS"
-      },
-      "blockClass": "item-submenu-mobile"
-    }
-  },
-  "menu-item#Productos-Griferia-sifones-mobile":{
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "#",
-        "text": "SIFONES"
-      },
-      "blockClass": "item-submenu-mobile"
-    }
-  },
-  "menu-item#Productos-Griferia-otros-mobile":{
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "#",
-        "text": "OTROS"
+        "text": "LIMPIEZA Y MANTENCIÓN"
       },
       "blockClass": "item-submenu-mobile"
     }
@@ -2582,7 +2685,14 @@
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "SANITARIOS"
+        "text": "BAÑO"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "submenu-mobile"
     },
@@ -2590,12 +2700,161 @@
       "vtex.menu@2.x:submenu#Productos-Sanitarios-mobile"
     ]
   },
+  /* Items producto baño */
+  "menu-item#Productos-baño-muebles-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MUEBLES DE BAÑO"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-wc-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "WC"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-urinarios-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "URINARIOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-lavamanos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LAVAMANOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-jacuzzi-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "JACUZZI"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "item-submenu-mobile"
+    },
+    "blocks":[
+        "vtex.menu@2.x:submenu#Productos-baño-jacuzzi-mobile"
+    ]
+  },
+  "menu-item#Productos-baño-accesorios-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Accesorios de baño"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-receptaculos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "RECEPTÁCULOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-mamparas-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MAMPARAS DE DUCHA"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-tinas-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "TINAS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-griferias-ducha-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "GRIFERÍAS DE DUCHA"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-griferias-lavamanos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "GRIFERÍAS DE LAVAMANOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-griferias-bidet-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "GRIFERÍAS DE BIDET"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-baño-vertodo-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "VER TODO >"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  /* End items producto baño */
   "menu-item#Productos-Cubiertas-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "CUBIERTAS"
+        "text": "PIEDRAS Y CUBIERTAS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "submenu-mobile"
     },
@@ -2603,58 +2862,160 @@
       "vtex.menu@2.x:submenu#Productos-Cubiertas-mobile"
     ]
   },
-  "menu-item#Productos-Accesorios-mobile":{
+  /* Items producto cubierta */
+  "menu-item#Productos-cubierta-adoquines-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "ACCESORIOS"
+        "text": "ADOQUINES"
       },
-      "blockClass": "submenu-mobile"
-    },
-    "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Accesorios-mobile"
-    ]
+      "blockClass": "item-submenu-mobile"
+    }
   },
-  "menu-item#Productos-Mamparas-mobile":{
+  "menu-item#Productos-cubierta-fachaletass-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "MAMPARAS"
+        "text": "FACHALETAS"
       },
-      "blockClass": "submenu-mobile"
-    },
-    "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Mamparas-mobile"
-    ]
+      "blockClass": "item-submenu-mobile"
+    }
   },
-  "menu-item#Productos-Muebles-baño-mobile":{
+  "menu-item#Productos-cubierta-marmol-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "MUEBLES DE BAÑO"
+        "text": "MÁRMOL"
       },
-      "blockClass": "submenu-mobile"
-    },
-    "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Muebles-baño-mobile"
-    ]
+      "blockClass": "item-submenu-mobile"
+    }
   },
-  "menu-item#Productos-Piedras-naturales-mobile":{
+  "menu-item#Productos-cubierta-granito-mobile":{
     "props": {
       "type": "custom",
       "itemProps": {
         "href": "#",
-        "text": "PIEDRAS NATURALES"
+        "text": "GRANITO"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-cubierta-cuarzo-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "CUARZO"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-cubierta-superficies-compactas-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "SUPERFICIES ULTRA COMPACTAS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-cubierta-limpieza-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMPIEZA Y MANTENCIÓN"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-cubierta-lavaplatos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LAVAPLATOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-cubierta-vertodo-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "VER TODO >"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  /* End items producto cubierta*/
+  "menu-item#Productos-limpieza-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMPIEZA Y MANTENCIÓN"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 13,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
       },
       "blockClass": "submenu-mobile"
     },
     "blocks":[
-      "vtex.menu@2.x:submenu#Productos-Piedras-naturales-mobile"
+      "vtex.menu@2.x:submenu#Productos-limpieza-mobile"
     ]
   },
+  /* Items producto limpieza */
+  "menu-item#Productos-limpieza-griferias-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMP. Y MANTEN. DE GRIFERÍAS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-limpieza-pisos-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMP. Y MANTEN. DE PISOS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-limpieza-cubiertas-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "LIMP. Y MANTEN. DE CUBIERTAS"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  "menu-item#Productos-limpieza-vertodo-mobile":{
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "VER TODO >"
+      },
+      "blockClass": "item-submenu-mobile"
+    }
+  },
+  /* End items producto cubierta*/
   /* END ITEMS PRODUCTOS */
   "menu-item#Categorias-Inspiracion-mobile": {
     "props": {
