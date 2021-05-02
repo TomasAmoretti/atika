@@ -177,6 +177,42 @@
     margin: 0;
 }
 
+.paragraph--titulo-informativo {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.paragraph--titulo-informativo::after {
+    width: 50px;
+    content: "";
+    display: block;
+    border-bottom: 4px solid #C90512;
+    margin: auto;
+}
+
+.paragraph--texto-newsletter {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.paragraph--titulo-footer-partner, .paragraph--titulo-footer-medios {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.paragraph--texto-medios-pago-footer {
+    color: white;
+    margin: 0;
+}
+
 /* MOBILE */
 .wrapper--footer-newsletter-text-mobile {
     text-align: center;

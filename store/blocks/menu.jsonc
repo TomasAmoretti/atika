@@ -712,11 +712,9 @@
     "vtex.menu@2.x:menu#footer-nosotros": {
         "children": [
             "menu-item#footer-somos",
-            "menu-item#footer-trabaja",
-            "menu-item#footer-productos",
             "menu-item#footer-servicios",
-            "menu-item#footer-tiendas",
-            "menu-item#footer-blog"
+            "menu-item#footer-spaceplanner",
+            "menu-item#footer-inspiracion"
         ],
         "props": {
           "blockClass": "footer-col",
@@ -726,10 +724,10 @@
     "vtex.menu@2.x:menu#footer-cliente": {
         "children": [
             "menu-item#footer-contacto",
-            "menu-item#footer-medios-pago",
-            "menu-item#footer-politicas-privacidad",
+            "menu-item#footer-tiendas",
+            "menu-item#footer-faq",
             "menu-item#footer-politicas-cambio",
-            "menu-item#footer-promociones"
+            "menu-item#footer-terminos-condiciones"
         ],
         "props": {
           "blockClass": "footer-col",

@@ -81,6 +81,22 @@
     margin-right: 10px;
 }
 
+.container--newsletter {
+    padding: 0;
+}
+
+::global(.vtex-button__label) {
+    font-size: 24px!important;
+}
+
+.inputGroup--newsletter ::global(.vtex-input-prefix__group) {
+    border: unset!important;
+}
+
+.buttonContainer--newsletter {
+    padding: 0;
+}
+
 .imageElementLink--imagen-contacto {
     align-items: center;
     display: flex;
