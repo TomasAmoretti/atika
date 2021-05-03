@@ -469,10 +469,11 @@
   "flex-layout.row#footer-general-fila-2-mobile":{
     "children":[
       "rich-text#footer-medios-pago",
-      "flex-layout.row#footer-general-bottom-mobile"
+      "flex-layout.row#footer-general-bottom-mobile",
+      "rich-text#footer-medios-pago-cuotas"
     ],
     "props":{
-      "blockClass": "footer-general-fila-2"
+      "blockClass": "footer-general-fila-2-mobile"
     }
   },
   "flex-layout.row#footer-general-bottom-mobile":{
@@ -503,7 +504,7 @@
   },
   "rich-text#Newsletter": {
     "props": {
-      "textPosition": "CENTER",
+      "textPosition": "LEFT",
       "text": "NEWSLETTER",
       "blockClass": "titulo-footer"
     }
@@ -573,7 +574,6 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer#newsletter-mobile",
       "flex-layout.row#footer-general-mobile",
       "flex-layout.row#footer-bottom"
     ]
@@ -589,7 +589,10 @@
   "flex-layout.col#footer-general-mobile":{
     "children":[
       "flex-layout.row#footer-general-fila-1-mobile",
-      "flex-layout.row#footer-general-fila-2-mobile"
+      "flex-layout.row#footer#newsletter-mobile",
+      "flex-layout.row#footer-general-fila-2-mobile",
+      "flex-layout.col#footer-general-item-1-mobile",
+      "flex-layout.col#footer-partners-mobile"
     ],
     "props":{
       "blockClass": "col-footer-general"
@@ -598,6 +601,7 @@
   "flex-layout.row#footer#newsletter-mobile":{
     "children":[
       "rich-text#Newsletter-mobile",
+      "rich-text#Newsletter-texto",
       "flex-layout.row#formNewsletter"
     ],
     "props":{
@@ -608,20 +612,49 @@
   },
   "rich-text#Newsletter-mobile": {
     "props": {
-      "textPosition": "CENTER",
-      "text": "**NEWSLETTER** \n\n Suscribite al newsletter y no te pierdas los lanzamientos de Atika!",
-      "blockClass": "footer-newsletter-text-mobile"
+      "textPosition": "LEFT",
+      "text": "NEWSLETTER",
+      "blockClass": "titulo-footer"
     }
   },
   "flex-layout.row#footer-general-fila-1-mobile":{
     "children":[
-      "flex-layout.col#footer-general-item-1-mobile",
-      "flex-layout.col#footer-general-item-2",
-      "flex-layout.col#footer-general-item-3",
-      "flex-layout.col#footer-general-item-4"
+      "disclosure-layout#servicio-cliente",
+      "disclosure-layout#cuenta",
+      "disclosure-layout#atika"
     ],
     "props":{
       "blockClass": "footer-general-fila-1"
+    }
+  },
+  "flex-layout.row#footer-general-servicio-cliente":{
+    "children":[
+      "rich-text#footer-titulo-cuenta",
+      "icon#plus"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-general-cuenta":{
+    "children":[
+      "rich-text#footer-titulo-cliente",
+      "icon#plus"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-general-atika":{
+    "children":[
+      "rich-text#footer-titulo-nosotros",
+      "icon#plus"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.col#footer-general-item-1-mobile":{
@@ -636,10 +669,34 @@
     "children":[
       "image#footer-youtube",
       "image#footer-facebook",
-      "image#footer-instagram"
+      "image#footer-instagram",
+      "image#footer-pinterest",
+      "image#footer-whatsapp"
     ],
     "props":{
       "blockClass": "row-footer-rrss-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#footer-partners-mobile":{
+    "children":[
+      "rich-text#footer-titulo-partners",
+      "flex-layout.row#footer-partners-row-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-partners-mobile",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#footer-partners-row-mobile":{
+    "children":[
+      "image#footer-partners-add",
+      "image#footer-partners-aoa",
+      "image#footer-partners-arquitectura",
+      "image#footer-partners-banco"
+    ],
+    "props":{
+      "blockClass": "row-footer-partners",
       "preventHorizontalStretch": true
     }
   }

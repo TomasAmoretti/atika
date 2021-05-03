@@ -155,17 +155,6 @@
     align-items: center;
 }
 
-.flexRow--footer-news {
-    border-top: solid 1px #606060;
-    border-bottom: solid 1px #606060;
-    margin-top: 40px;
-}
-
-.flexRowContent--footer-news {
-    max-width: 1280px;
-    margin: auto;
-}
-
 .flexRow--footer-general {
     background: #2b2b2b;
 }
@@ -174,6 +163,10 @@
     padding: 60px 0;
     max-width: 1280px;
     margin: auto;
+}
+
+.flexRow--footer-general-fila-2-mobile {
+    margin-left: 1.5rem;
 }
 
 .flexRowContent--footer-row-contacto {
@@ -217,6 +210,22 @@
 
 .flexRow--footer-informativo {
     padding-bottom: 35px;
+    border-top: solid 1px #d0d0d0;
+    border-left: solid 1px #d0d0d0;
+    border-right: solid 1px #d0d0d0;
+    padding-top: 35px;
+}
+
+.flexRowContent--footer-informativo .stretchChildrenWidth {
+    border-right: solid 1px #d0d0d0;
+}
+
+.flexRowContent--footer-informativo .stretchChildrenWidth:last-child {
+    border: unset;
+}
+
+.flexRow--row-newsletter {
+    margin-left: 1.5rem;
 }
 
 /* PRODUCTO */
@@ -271,6 +280,13 @@
 .flexRow--row-general-footer-mobile {
     background: #2b2b2b;
     padding: 20px;
+    margin-top: 50px;
+}
+
+.flexRowContent--row-item-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .flexRowContent--footer-general-bottom-mobile {
@@ -279,6 +295,21 @@
 
 .flexRowContent--row-footer-rrss-mobile {
     display: flex;
+}
+
+.flexRow--row-footer-rrss-mobile {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px white;
+    margin-left: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.flexRowContent--row-footer-partners {
+    display: flex;
+}
+
+.flexColChild--footer-partners-mobile {
     margin-left: 1.5rem;
 }
 

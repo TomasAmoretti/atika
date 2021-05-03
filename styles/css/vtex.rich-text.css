@@ -211,6 +211,11 @@
 .paragraph--texto-medios-pago-footer {
     color: white;
     margin: 0;
+    font-size: 13px;
+}
+
+.container--texto-newsletter {
+    margin-left: 1.5rem;
 }
 
 /* MOBILE */

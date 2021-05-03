@@ -1,0 +1,82 @@
+{
+    "disclosure-layout#servicio-cliente": {
+        "children": [
+            "disclosure-trigger#servicio-cliente", 
+            "disclosure-content#servicio-cliente"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#servicio-cliente": {
+        "children": [
+            "flex-layout.row#footer-general-servicio-cliente"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "icon#plus":{
+        "props":{
+          "id":"nav-plus"
+        }
+    },
+    "disclosure-content#servicio-cliente": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-cliente"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    "disclosure-layout#cuenta": {
+        "children": [
+            "disclosure-trigger#cuenta", 
+            "disclosure-content#cuenta"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#cuenta": {
+        "children": [
+            "flex-layout.row#footer-general-cuenta"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#cuenta": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-cuenta"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    "disclosure-layout#atika": {
+        "children": [
+            "disclosure-trigger#atika", 
+            "disclosure-content#atika"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#atika": {
+        "children": [
+            "flex-layout.row#footer-general-atika"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#atika": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-nosotros"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    }
+}

@@ -85,8 +85,9 @@
     padding: 0;
 }
 
-::global(.vtex-button__label) {
+.buttonContainer--newsletter ::global(.vtex-button__label) {
     font-size: 24px!important;
+    padding: 12px!important;
 }
 
 .inputGroup--newsletter ::global(.vtex-input-prefix__group) {
@@ -114,6 +115,14 @@
 .imageElement--imagen-submenu {
     min-width: 250px;
     max-height: 300px;
+}
+
+.inputGroup--newsletter {
+    display: flex;
+}
+
+.form--newsletter {
+    padding: 0;
 }
 
 /* PRODUCTO */
