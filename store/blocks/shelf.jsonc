@@ -144,8 +144,8 @@
           "paginationDotsVisibility": "none",
           "simulationBehavour":"default",
           "productList": {
-            "maxItems": 2,
-            "itemsPerPage": 2,
+            "maxItems": 3,
+            "itemsPerPage": 3,
             "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",
             "arrows": false,
@@ -164,8 +164,8 @@
           "paginationDotsVisibility": "none",
           "simulationBehavour":"default",
           "productList": {
-            "maxItems": 2,
-            "itemsPerPage": 2,
+            "maxItems": 3,
+            "itemsPerPage": 3,
             "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",
             "arrows": false,
@@ -175,26 +175,6 @@
         }
     },
     "shelf#Sale": {
-      "blocks": [
-        "product-summary.shelf#main"
-      ],
-      "props": {
-        "category": 1,
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "none",
-        "simulationBehavour":"default",
-        "productList": {
-          "maxItems": 15,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "ONE_BY_ONE",
-          "arrows": true,
-          "titleText": ""
-        },
-        "blockClass": "shelf-sale"
-      }
-    },
-    "shelf#Interesar": {
       "blocks": [
         "product-summary.shelf#main"
       ],

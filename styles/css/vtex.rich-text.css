@@ -91,9 +91,23 @@
 }
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Poppins';
+    font-weight: 900;
     font-size: 14px;
+    margin: 0;
+}
+
+.paragraph--info-1::after, .paragraph--info-2::after, .paragraph--info-3::after, .paragraph--info-4::after {
+    content: "";
+    width: 25px;
+    display: block;
+    border-bottom: solid 2px #C90512;
+}
+
+.paragraph--info-1-texto {
+    margin: 0;
+    font-size: 10px;
+    color: black;
 }
 
 .paragraph--info {

@@ -2,9 +2,7 @@
     "slider-layout#home": {
         "children": [
           "image#slider-home-1",
-          "image#slider-home-2",
-          "image#slider-home-3",
-          "image#slider-home-4"
+          "image#slider-home-2"
         ],
         "props": {
           "autoplay": {
@@ -24,7 +22,7 @@
     },
     "image#slider-home-1": {
         "props": {
-          "src": "https://dummyimage.com/1920x700/000/fff",
+          "src": "/arquivos/SLIDER-1.png",
           "link": {
             "url": "#"
           },
@@ -33,25 +31,7 @@
     },
     "image#slider-home-2": {
         "props": {
-          "src": "https://dummyimage.com/1920x700/000/fff",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": "slider-home"
-        }
-    },
-    "image#slider-home-3": {
-        "props": {
-          "src": "https://dummyimage.com/1920x700/000/fff",
-          "link": {
-            "url": "#"
-          },
-          "blockClass": "slider-home"
-        }
-    },
-    "image#slider-home-4": {
-        "props": {
-          "src": "https://dummyimage.com/1920x700/000/fff",
+          "src": "/arquivos/SLIDER-2.png",
           "link": {
             "url": "#"
           },

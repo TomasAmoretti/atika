@@ -23,6 +23,25 @@
     padding-left: 50px;
 }
 
+.paginationDot--slider-home {
+    width: 100%!important;
+    padding: 0!important;
+    margin: 0!important;
+    border-radius: 0;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.paginationDot--slider-home--isActive {
+    background: #C90512;
+    transition: 0.3s;
+}
+
+.paginationDotsContainer--slider-home {
+    width: 100%;
+    bottom: 4px;
+}
+
 /* MOBILE */
 .paginationDotsContainer--slider-home-mobile {
     bottom: 20px;

@@ -18,9 +18,6 @@
       "shelf#Sale",
       "rich-text#sale-ver-mas",
       "image#marcas",
-      "rich-text#titulo-interesar",
-      "shelf#Interesar",
-      "rich-text#interesar-ver-mas",
       "info-card#Showroom"
     ]
   },
@@ -39,7 +36,7 @@
   "flex-layout.row#info-1":{
     "children":[
       "image#info-1",
-      "rich-text#info-1"
+      "flex-layout.col#info-1"
     ],
     "props":{
       "blockClass":"info-item-home",
@@ -48,22 +45,42 @@
   },
   "image#info-1":{
     "props":{
-      "src": "/arquivos/icono-camion.png",
+      "src": "/arquivos/despacho.png",
+      "width": 40,
       "blockClass":"image-info"
+    }
+  },
+  "flex-layout.col#info-1":{
+    "children":[
+      "rich-text#info-1",
+      "rich-text#info-1-descriptivo"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     }
   },
   "rich-text#info-1":{
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Revisa el estado de tu despacho ",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SIGUE TU PEDIDO",
       "blockClass": "info-1"
+    }
+  },
+  "rich-text#info-1-descriptivo":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Seguimiento del despacho en línea",
+      "blockClass": "info-1-texto"
     }
   },
   "flex-layout.row#info-2":{
     "children":[
       "image#info-2",
-      "rich-text#info-2"
+      "flex-layout.col#info-2"
     ],
     "props":{
       "blockClass":"info-item-home",
@@ -72,22 +89,42 @@
   },
   "image#info-2":{
     "props":{
-      "src": "/arquivos/icono-herramientas.png",
+      "src": "/arquivos/pago.png",
+      "width": 40,
       "blockClass":"image-info"
+    }
+  },
+  "flex-layout.col#info-2":{
+    "children":[
+      "rich-text#info-2",
+      "rich-text#info-2-descriptivo"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     }
   },
   "rich-text#info-2":{
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Servicios de instalación",
-      "blockClass": "info"
+      "text": "HASTA 9 CUOTAS SIN INTERÉS",
+      "blockClass": "info-2"
+    }
+  },
+  "rich-text#info-2-descriptivo":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Con todos los medios de pago",
+      "blockClass": "info-1-texto"
     }
   },
   "flex-layout.row#info-3":{
     "children":[
       "image#info-3",
-      "rich-text#info-3"
+      "flex-layout.col#info-3"
     ],
     "props":{
       "blockClass":"info-item-home",
@@ -96,22 +133,42 @@
   },
   "image#info-3":{
     "props":{
-      "src": "/arquivos/icono-espacio.png",
+      "src": "/arquivos/tiendas.png",
+      "width": 40,
       "blockClass":"image-info"
+    }
+  },
+  "flex-layout.col#info-3":{
+    "children":[
+      "rich-text#info-3",
+      "rich-text#info-3-descriptivo"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     }
   },
   "rich-text#info-3":{
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "SPACEPLANNER by Atika",
-      "blockClass": "info"
+      "text": "NUESTROS SHOWROOMS",
+      "blockClass": "info-3"
+    }
+  },
+  "rich-text#info-3-descriptivo":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Encuentra tu tienda más cercana",
+      "blockClass": "info-1-texto"
     }
   },
   "flex-layout.row#info-4":{
     "children":[
       "image#info-4",
-      "rich-text#info-4"
+      "flex-layout.col#info-4"
     ],
     "props":{
       "blockClass":"info-item-home",
@@ -120,48 +177,54 @@
   },
   "image#info-4":{
     "props":{
-      "src": "/arquivos/icono-usuario.png",
+      "src": "/arquivos/splanner.png",
+      "width": 40,
       "blockClass":"image-info"
+    }
+  },
+  "flex-layout.col#info-4":{
+    "children":[
+      "rich-text#info-4",
+      "rich-text#info-4-descriptivo"
+    ],
+    "props":{
+      "blockClass":"info-item-home",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     }
   },
   "rich-text#info-4":{
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Cubiertas Dimensionadas",
-      "blockClass": "info"
+      "text": "INSPÍRATE EN TU ESPACIO",
+      "blockClass": "info-4"
+    }
+  },
+  "rich-text#info-4-descriptivo":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Visualizador de Espacios SPACEPLANNER",
+      "blockClass": "info-1-texto"
     }
   },
   "flex-layout.row#categorias":{
     "children":[
-      "flex-layout.col#categorias"
+      "image#categoria-1",
+      "image#categoria-2",
+      "image#categoria-3",
+      "image#categoria-4",
+      "image#categoria-5",
+      "image#categoria-6"
     ],
     "props":{
       "blockClass":"categorias"
     }
   },
-  "flex-layout.col#categorias":{
-    "children":[
-      "flex-layout.row#categorias-1",
-      "flex-layout.row#categorias-2"
-    ],
-    "props":{
-      "blockClass":"col-categorias"
-    }
-  },
-  "flex-layout.row#categorias-1":{
-    "children":[
-      "image#categoria-1",
-      "image#categoria-2",
-      "image#categoria-3"
-    ],
-    "props":{
-      "blockClass":"row-categorias"
-    }
-  },
   "image#categoria-1":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/COCINA.png",
       "link":{
         "url":"#"
       },
@@ -170,7 +233,7 @@
   },
   "image#categoria-2":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/BAÑO.png",
       "link":{
         "url":"#"
       },
@@ -179,26 +242,16 @@
   },
   "image#categoria-3":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/SALA DE ESTAR.png",
       "link":{
         "url":"#"
       },
       "blockClass": "imagen-categoria"
     }
   },
-  "flex-layout.row#categorias-2":{
-    "children":[
-      "image#categoria-4",
-      "image#categoria-5",
-      "image#categoria-6"
-    ],
-    "props":{
-      "blockClass":"row-categorias"
-    }
-  },
   "image#categoria-4":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/DORMITORIO.png",
       "link":{
         "url":"#"
       },
@@ -207,7 +260,7 @@
   },
   "image#categoria-5":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/EXTERIOR.png",
       "link":{
         "url":"#"
       },
@@ -216,7 +269,7 @@
   },
   "image#categoria-6":{
     "props": {
-      "src": "https://dummyimage.com/405x250/000/fff",
+      "src": "/arquivos/RECINTOS-PUBLICOS.png",
       "link":{
         "url":"#"
       },
@@ -238,12 +291,12 @@
     ],
     "props":{
       "blockClass":"row-destacados",
-      "preventVerticalStretch": true
+      "preventHorizontalStretch": true
     }
   },
   "image#destacados":{
     "props": {
-      "src": "https://dummyimage.com/650x900/000/fff",
+      "src": "/arquivos/NEW-ARRIVAL.png",
       "link":{
         "url":"#"
       },
@@ -257,7 +310,8 @@
     ],
     "props":{
       "blockClass":"col-destacados",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#titulo-inspiracion":{
@@ -271,7 +325,8 @@
   "flex-layout.row#inspiracion":{
     "children":[
       "image#inspiracion-1",
-      "flex-layout.col#inspiracion"
+      "image#inspiracion-2",
+      "image#inspiracion-3"
     ],
     "props":{
       "blockClass":"row-inspiracion",
@@ -279,19 +334,9 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#inspiracion":{
-    "children":[
-      "image#inspiracion-2",
-      "image#inspiracion-3"
-    ],
-    "props":{
-      "blockClass":"col-inspiracion",
-      "preventVerticalStretch": true
-    }
-  },
   "image#inspiracion-1":{
     "props": {
-      "src": "https://dummyimage.com/700x600/000/fff",
+      "src": "/arquivos/INSPIRACIÓN-1-2.png",
       "link":{
         "url":"#"
       },
@@ -300,7 +345,7 @@
   },
   "image#inspiracion-2":{
     "props": {
-      "src": "https://dummyimage.com/600x300/000/fff",
+      "src": "/arquivos/INSPIRACIÓN-2-2.png",
       "link":{
         "url":"#"
       },
@@ -309,7 +354,7 @@
   },
   "image#inspiracion-3":{
     "props": {
-      "src": "https://dummyimage.com/600x300/000/fff",
+      "src": "/arquivos/INSPIRACIÓN-3-2.png",
       "link":{
         "url":"#"
       },
@@ -334,27 +379,11 @@
   },
   "image#marcas":{
     "props": {
-      "src": "https://dummyimage.com/1200x600/000/fff",
+      "src": "/arquivos/BANNER-DCTO.png",
       "link":{
         "url":"#"
       },
       "blockClass": "imagen-marcas"
-    }
-  },
-  "rich-text#titulo-interesar":{
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**Te podría interesar?** \n\n Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat",
-      "blockClass": "titulo-sale"
-    }
-  },
-  "rich-text#interesar-ver-mas":{
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[Ver más ofertas >](#)",
-      "blockClass": "sale-ver-mas"
     }
   },
   "info-card#Showroom": {
@@ -384,9 +413,6 @@
       "shelf#Sale",
       "rich-text#sale-ver-mas",
       "image#marcas-mobile",
-      "rich-text#titulo-interesar",
-      "shelf#Interesar",
-      "rich-text#interesar-ver-mas",
       "info-card#Showroom"
     ]
   },

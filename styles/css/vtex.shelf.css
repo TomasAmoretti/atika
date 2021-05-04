@@ -5,7 +5,13 @@
 }
 
 .title--shelf-destacados {
-    padding: 10px;
+    padding: 0;
+}
+
+.slide--shelf-destacados {
+    padding: 18px;
+    padding-top: 0;
+    padding-bottom: 5px;
 }
 
 .slide--shelf-sale {

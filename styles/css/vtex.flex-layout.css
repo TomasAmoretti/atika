@@ -96,18 +96,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-right: solid 1px black;
+}
+
+.flexRowContent--info-home .stretchChildrenWidth:last-child .flexRowContent--info-item-home {
+    border-right: unset;
 }
 
 .flexRowContent--info-home {
-    width: 95%;
+    max-width: 1280px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
+.flexRowContent--categorias {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol--col-destacados {
+    max-width: 760px;
+    max-height: 700px;
+}
+
 .flexRow--categorias {
     margin: auto;
     max-width: 1280px;
+    margin-top: 30px;
 }
 
 .flexRow--row-categorias {
