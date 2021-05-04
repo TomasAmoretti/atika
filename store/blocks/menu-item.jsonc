@@ -9,7 +9,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -68,18 +68,8 @@
         "href": "#",
         "text": "Superficies Ultra Compactas"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Cocina-compactas"
-    ]
+    }
   },
   "menu-item#Cocina-pisos-organicos": {
     "props": {
@@ -118,18 +108,8 @@
         "href": "#",
         "text": "Mosaicos"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Cocina-mosaicos"
-    ]
+    }
   },
   "menu-item#Cocina-griferia": {
     "props": {
@@ -223,18 +203,8 @@
         "href": "#",
         "text": "Mosaicos"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Baños-mosaicos"
-    ]
+    }
   },
   "menu-item#Baños-accesorios": {
     "props": {
@@ -293,18 +263,8 @@
         "href": "#",
         "text": "Muebles de Baño"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Baños-muebles-de-baño"
-    ]
+    }
   },
   "menu-item#Baños-jacuzzi": {
     "props": {
@@ -395,18 +355,8 @@
         "href": "#",
         "text": "Pisos de Madera"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Comedor-pisos-madera"
-    ]
+    }
   },
   "menu-item#Comedor-pisos-organicos": {
     "props": {
@@ -609,18 +559,8 @@
         "href": "#",
         "text": "Lavaplatos"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Institucional-lavaplatos"
-    ]
+    }
   },
   "menu-item#Recintos-sanitarios-artefactos": {
     "props": {
@@ -639,18 +579,8 @@
         "href": "#",
         "text": "Pisos de Madera"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Institucional-pisos-madera"
-    ]
+    }
   },
   "menu-item#Recintos-pisos-organicos": {
     "props": {
@@ -719,18 +649,8 @@
         "href": "#",
         "text": "Grifería Institucional"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Institucional-griferia"
-    ]
+    }
   },
   "menu-item#Recintos-accesorios-baño": {
     "props": {
@@ -794,7 +714,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -853,18 +773,8 @@
         "href": "#",
         "text": "Pisos de Madera"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera"
-    ]
+    }
   },
   "menu-item#Productos-revestimientos-pisos-organicos": {
     "props": {
@@ -1047,18 +957,8 @@
         "href": "#",
         "text": "Jacuzzi"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Productos-baño-jacuzzi"
-    ]
+    }
   },
   "menu-item#Productos-baño-mamparas": {
     "props": {
@@ -1268,7 +1168,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1309,7 +1209,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       }
@@ -1459,7 +1359,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1480,7 +1380,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1625,7 +1525,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1686,7 +1586,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1766,7 +1666,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1877,7 +1777,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -1898,7 +1798,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2019,7 +1919,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2171,7 +2071,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2222,7 +2122,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2312,7 +2212,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2383,7 +2283,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2415,7 +2315,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2436,7 +2336,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2494,18 +2394,8 @@
         "href": "#",
         "text": "PISOS DE MADERA"
       },
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-plus",
-        "size": 13,
-        "viewBox": "0 0 16 16",
-        "mutedClassName": "c-action-primary"
-      },
       "blockClass": "item-submenu-mobile"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera-mobile"
-    ]
+    }
   },
   "menu-item#Productos-revestimiento-pisos-organicos-mobile": {
     "props": {
@@ -2578,7 +2468,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2670,7 +2560,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2731,7 +2621,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2832,7 +2722,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -2944,7 +2834,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -3007,7 +2897,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },
@@ -3088,7 +2978,7 @@
       "iconPosition": "right",
       "iconProps": {
         "id": "nav-plus",
-        "size": 13,
+        "size": 10,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       }

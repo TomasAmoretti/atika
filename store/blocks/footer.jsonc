@@ -574,6 +574,8 @@
   },
   "footer-layout.mobile": { 
     "children": [
+      "flex-layout.row#footer-informacion-mobile",
+      "flex-layout.row#footer-general-fila-1-mobile",
       "flex-layout.row#footer-general-mobile",
       "flex-layout.row#footer-bottom"
     ]
@@ -588,7 +590,6 @@
   },
   "flex-layout.col#footer-general-mobile":{
     "children":[
-      "flex-layout.row#footer-general-fila-1-mobile",
       "flex-layout.row#footer#newsletter-mobile",
       "flex-layout.row#footer-general-fila-2-mobile",
       "flex-layout.col#footer-general-item-1-mobile",
@@ -617,14 +618,145 @@
       "blockClass": "titulo-footer"
     }
   },
+  "flex-layout.row#footer-informacion-mobile":{
+    "children":[
+      "flex-layout.col#footer-informacion-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-informacion-mobile"
+    }
+  },
+  "flex-layout.col#footer-informacion-mobile":{
+    "children":[
+      "disclosure-layout#informacion-pedido",
+      "disclosure-layout#informacion-showrooms",
+      "disclosure-layout#informacion-contacto"
+    ],
+    "props":{
+      "blockClass": "footer-informacion-mobile-col"
+    }
+  },
+  "flex-layout.row#footer-informacion-pedido":{
+    "children":[
+      "flex-layout.row#footer-informacion-pedido-texto",
+      "icon#plus-negro"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-informacion-pedido-texto":{
+    "children":[
+      "image#informativo-pedido-mobile",
+      "rich-text#informativo-titulo-pedido-mobile"
+    ],
+    "props":{
+      "blockClass": "row-item-footer-informativo",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#informativo-pedido-mobile":{
+    "props": {
+      "src": "/arquivos/despacho.png",
+      "width": 38,
+      "blockClass": "footer-informativo"
+    }
+  },
+  "rich-text#informativo-titulo-pedido-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SIGUE TU PEDIDO",
+      "blockClass": "titulo-informativo-mobile"
+    }
+  },
+  "flex-layout.row#footer-informacion-showrooms":{
+    "children":[
+      "flex-layout.row#footer-informacion-showrooms-texto",
+      "icon#plus-negro"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-informacion-showrooms-texto":{
+    "children":[
+      "image#informativo-showrooms-mobile",
+      "rich-text#informativo-titulo-showrooms-mobile"
+    ],
+    "props":{
+      "blockClass": "row-item-footer-informativo",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#informativo-showrooms-mobile":{
+    "props": {
+      "src": "/arquivos/tiendas.png",
+      "width": 38,
+      "blockClass": "footer-informativo"
+    }
+  },
+  "rich-text#informativo-titulo-showrooms-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "NUESTROS SHOWROOMS",
+      "blockClass": "titulo-informativo-mobile"
+    }
+  },
+  "flex-layout.row#footer-informacion-contacto":{
+    "children":[
+      "flex-layout.row#footer-informacion-contacto-texto",
+      "icon#plus-negro"
+    ],
+    "props":{
+      "blockClass": "row-item-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-informacion-contacto-texto":{
+    "children":[
+      "image#informativo-contacto-mobile",
+      "rich-text#informativo-titulo-contacto-mobile"
+    ],
+    "props":{
+      "blockClass": "row-item-footer-informativo",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#informativo-contacto-mobile":{
+    "props": {
+      "src": "/arquivos/contactanos.png",
+      "width": 38,
+      "blockClass": "footer-informativo"
+    }
+  },
+  "rich-text#informativo-titulo-contacto-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CONTÁCTANOS",
+      "blockClass": "titulo-informativo-mobile"
+    }
+  },
   "flex-layout.row#footer-general-fila-1-mobile":{
+    "children":[
+      "flex-layout.col#footer-general-fila-1-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-general-fila-1"
+    }
+  },
+  "flex-layout.col#footer-general-fila-1-mobile":{
     "children":[
       "disclosure-layout#servicio-cliente",
       "disclosure-layout#cuenta",
       "disclosure-layout#atika"
     ],
     "props":{
-      "blockClass": "footer-general-fila-1"
+      "blockClass": "footer-general-fila-1-col"
     }
   },
   "flex-layout.row#footer-general-servicio-cliente":{

@@ -66,8 +66,10 @@
 
 .submenu--submenu-header {
     justify-content: end;
-    padding-left: 3%;
+    padding-left: 5px;
     width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .styledLinkContainer--item-submenu {

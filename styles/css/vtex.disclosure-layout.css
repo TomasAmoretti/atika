@@ -1,0 +1,15 @@
+.trigger--trigger-footer {
+    background: transparent;
+    border: unset;
+}
+
+.trigger--trigger-footer {
+    width: 100%;
+    border-bottom: solid 1px #606060;
+    border-top: solid 1px #606060;
+    padding: 5px 15px 5px 5px;
+}
+
+.content--contenido-footer--visible {
+    padding: 5px;
+}

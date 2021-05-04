@@ -72,7 +72,11 @@
             "menu-item#Cocina-cuarzo",
             "menu-item#Cocina-granito",
             "menu-item#Cocina-compactas",
+            "menu-item#Cocina-porcelanato",
             "menu-item#Cocina-mosaicos",
+            "menu-item#Cocina-pisos-organicos",
+            "menu-item#Cocina-pisos-vinilicos",
+            "menu-item#Cocina-productos-limpieza",
             "menu-item#Cocina-vertodo"
         ],
         "props":{
@@ -87,24 +91,6 @@
             "text": "COCINA",
             "blockClass": "titulo-menu"
           }
-    },
-    "vtex.menu@2.x:submenu#Cocina-compactas":{
-        "children":[
-            "menu-item#Cocina-porcelanato"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },
-    "vtex.menu@2.x:submenu#Cocina-mosaicos":{
-        "children":[
-            "menu-item#Cocina-pisos-organicos",
-            "menu-item#Cocina-pisos-vinilicos",
-            "menu-item#Cocina-productos-limpieza"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
     },
     "vtex.menu@2.x:submenu#Baño":{
         "children":[
@@ -136,7 +122,13 @@
             "menu-item#Baños-WC",
             "menu-item#Baños-urinarios",
             "menu-item#Baños-muebles-de-baño",
+            "menu-item#Baños-accesorios",
+            "menu-item#Baños-porcelanato-y-ceramicos",
             "menu-item#Baños-mosaicos",
+            "menu-item#Baños-pisos-organicos",
+            "menu-item#Baños-pisos-vinilicos",
+            "menu-item#Baños-piedras-y-cubiertas",
+            "menu-item#Baños-limpieza-pisos",
             "menu-item#Baños-vertodo"
         ],
         "props":{
@@ -151,27 +143,7 @@
             "text": "BAÑO",
             "blockClass": "titulo-menu"
           }
-    },
-    "vtex.menu@2.x:submenu#Baños-muebles-de-baño":{
-        "children":[
-            "menu-item#Baños-accesorios",
-            "menu-item#Baños-porcelanato-y-ceramicos"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },
-    "vtex.menu@2.x:submenu#Baños-mosaicos":{
-        "children":[
-            "menu-item#Baños-pisos-organicos",
-            "menu-item#Baños-pisos-vinilicos",
-            "menu-item#Baños-piedras-y-cubiertas",
-            "menu-item#Baños-limpieza-pisos"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },    
+    }, 
     "vtex.menu@2.x:submenu#Comedor":{
         "children":[
             "flex-layout.row#submenu-comedor"
@@ -197,6 +169,11 @@
             "menu-item#Comedor-gres",
             "menu-item#Comedor-mosaicos",
             "menu-item#Comedor-pisos-madera",
+            "menu-item#Comedor-pisos-organicos",
+            "menu-item#Comedor-pisos-vinilicos",
+            "menu-item#Comedor-pisos-fotolaminados",
+            "menu-item#Comedor-piedras-y-cubiertas",
+            "menu-item#Comedor-limpieza-pisos",
             "menu-item#Comedor-vertodo"
         ],
         "props":{
@@ -211,18 +188,6 @@
             "text": "ESTAR Y DORMITORIO",
             "blockClass": "titulo-menu"
           }
-    },
-    "vtex.menu@2.x:submenu#Comedor-pisos-madera":{
-        "children":[
-            "menu-item#Comedor-pisos-organicos",
-            "menu-item#Comedor-pisos-vinilicos",
-            "menu-item#Comedor-pisos-fotolaminados",
-            "menu-item#Comedor-piedras-y-cubiertas",
-            "menu-item#Comedor-limpieza-pisos"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
     },
     "vtex.menu@2.x:submenu#Exterior":{
         "children":[
@@ -290,9 +255,17 @@
             "menu-item#Recintos-accesibilidad",
             "menu-item#Recintos-accesorios-institucionales",
             "menu-item#Recintos-griferia-institucional",
+            "menu-item#Recintos-accesorios-baño",
+            "menu-item#Recintos-piedras-cubiertas",
+            "menu-item#Recintos-porcelanatos",
+            "menu-item#Recintos-sanitarios-artefactos",
             "menu-item#Recintos-mosaicos",
             "menu-item#Recintos-pisos-madera",
+            "menu-item#Recintos-pisos-organicos",
+            "menu-item#Recintos-pisos-vinilicos",
+            "menu-item#Recintos-pisos-fotolaminados",
             "menu-item#Recintos-lavaplatos",
+            "menu-item#Recintos-limpieza-mantencion",
             "menu-item#Recintos-vertodo"
         ],
         "props":{
@@ -308,35 +281,6 @@
             "blockClass": "titulo-menu"
           }
     },
-    "vtex.menu@2.x:submenu#Institucional-griferia":{
-        "children":[
-            "menu-item#Recintos-accesorios-baño",
-            "menu-item#Recintos-piedras-cubiertas",
-            "menu-item#Recintos-porcelanatos",
-            "menu-item#Recintos-sanitarios-artefactos"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },
-    "vtex.menu@2.x:submenu#Institucional-pisos-madera":{
-        "children":[
-            "menu-item#Recintos-pisos-organicos",
-            "menu-item#Recintos-pisos-vinilicos",
-            "menu-item#Recintos-pisos-fotolaminados"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },
-    "vtex.menu@2.x:submenu#Institucional-lavaplatos":{
-        "children":[
-            "menu-item#Recintos-limpieza-mantencion"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
-    },
     /* PRODUCTOS */
     "vtex.menu@2.x:submenu#Productos":{
         "children":[
@@ -344,7 +288,6 @@
             "flex-layout.row#submenu-productos-griferia",
             "flex-layout.row#submenu-productos-baño",
             "flex-layout.row#submenu-productos-cubiertas",
-            /*"flex-layout.row#submenu-productos-lavaplatos",*/
             "flex-layout.row#submenu-productos-limpieza"
         ],
         "props":{
@@ -369,6 +312,9 @@
             "menu-item#Productos-revestimientos-gres",
             "menu-item#Productos-revestimientos-mosaicos",
             "menu-item#Productos-revestimientos-pisos-madera",
+            "menu-item#Productos-revestimientos-pisos-organicos",
+            "menu-item#Productos-revestimientos-pisos-fotolaminados",
+            "menu-item#Productos-revestimientos-pisos-vinilicos",
             "menu-item#Productos-revestimientos-limpieza",
             "menu-item#Productos-revestimientos-vertodo"
         ],
@@ -384,16 +330,6 @@
             "text": "REVESTIMIENTOS",
             "blockClass": "titulo-menu"
           }
-    },
-    "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera":{
-        "children":[
-            "menu-item#Productos-revestimientos-pisos-organicos",
-            "menu-item#Productos-revestimientos-pisos-fotolaminados",
-            "menu-item#Productos-revestimientos-pisos-vinilicos"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
     },
     "flex-layout.row#submenu-productos-griferia":{
         "children":[
@@ -451,6 +387,7 @@
             "menu-item#Productos-baño-mamparas",
             "menu-item#Productos-baño-tinas",
             "menu-item#Productos-baño-jacuzzi",
+            "menu-item#Productos-baño-accesorios",
             "menu-item#Productos-Griferia-tinas",
             "menu-item#Productos-Griferia-lavamanos",
             "menu-item#Productos-Griferia-bidet",
@@ -468,14 +405,6 @@
             "text": "BAÑO",
             "blockClass": "titulo-menu"
           }
-    },
-    "vtex.menu@2.x:submenu#Productos-baño-jacuzzi":{
-        "children":[
-            "menu-item#Productos-baño-accesorios"
-        ],
-        "props":{
-            "blockClass":"item-submenu-nivel2"
-        }
     },
     "flex-layout.row#submenu-productos-cubiertas":{
         "children":[

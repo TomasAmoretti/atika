@@ -32,7 +32,7 @@
 
 .flexCol--col-submenu {
     display: inline-block;
-    max-height: 430px;
+    max-height: 460px;
     min-height: 429px;
     width: inherit;
     overflow-x: hidden;
@@ -211,9 +211,16 @@
 .flexRow--footer-informativo {
     padding-bottom: 35px;
     border-top: solid 1px #d0d0d0;
-    border-left: solid 1px #d0d0d0;
-    border-right: solid 1px #d0d0d0;
     padding-top: 35px;
+}
+
+.flexRowContent--footer-informativo {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexRow--footer-general-fila-1 {
+    background: #2b2b2b;
 }
 
 .flexRowContent--footer-informativo .stretchChildrenWidth {
@@ -279,8 +286,16 @@
 
 .flexRow--row-general-footer-mobile {
     background: #2b2b2b;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 10px 20px 20px 0px;
+    border-top: solid 1px #2b2b2b;
+}
+
+.flexRow--footer-general-fila-1 .container {
+    padding: 0;
+}
+
+.flexRowContent--row-item-footer-informativo {
+    display: flex;
 }
 
 .flexRowContent--row-item-footer {
@@ -289,8 +304,20 @@
     justify-content: space-between;
 }
 
+.flexRow--footer-informacion-mobile .container {
+    padding: 0;
+}
+
 .flexRowContent--footer-general-bottom-mobile {
     display: flex;
+}
+
+.flexRowContent--row-item-footer-informativo {
+    padding-left: 22px;
+}
+
+.flexRow--footer-general-fila-1 .container {
+    padding: 0;
 }
 
 .flexRowContent--row-footer-rrss-mobile {

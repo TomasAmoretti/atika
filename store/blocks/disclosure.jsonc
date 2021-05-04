@@ -1,4 +1,85 @@
 {
+    "disclosure-layout#informacion-pedido": {
+        "children": [
+            "disclosure-trigger#informacion-pedido", 
+            "disclosure-content#informacion-pedido"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#informacion-pedido": {
+        "children": [
+            "flex-layout.row#footer-informacion-pedido"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#informacion-pedido": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-cliente"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    "icon#plus-negro":{
+        "props":{
+          "id":"nav-plus",
+          "size": 10
+        }
+    },
+    "disclosure-layout#informacion-showrooms": {
+        "children": [
+            "disclosure-trigger#informacion-showrooms", 
+            "disclosure-content#informacion-showrooms"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#informacion-showrooms": {
+        "children": [
+            "flex-layout.row#footer-informacion-showrooms"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#informacion-showrooms": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-cliente"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    "disclosure-layout#informacion-contacto": {
+        "children": [
+            "disclosure-trigger#informacion-contacto", 
+            "disclosure-content#informacion-contacto"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#informacion-contacto": {
+        "children": [
+            "flex-layout.row#footer-informacion-contacto"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#informacion-contacto": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-cliente"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
     "disclosure-layout#servicio-cliente": {
         "children": [
             "disclosure-trigger#servicio-cliente", 
@@ -16,17 +97,18 @@
             "blockClass": "trigger-footer"
         }
     },
-    "icon#plus":{
-        "props":{
-          "id":"nav-plus"
-        }
-    },
     "disclosure-content#servicio-cliente": {
         "children": [
             "vtex.menu@2.x:menu#footer-cliente"
         ],
         "props":{
             "blockClass": "contenido-footer"
+        }
+    },
+    "icon#plus":{
+        "props":{
+          "id":"nav-plus-white",
+          "size": 10
         }
     },
     "disclosure-layout#cuenta": {

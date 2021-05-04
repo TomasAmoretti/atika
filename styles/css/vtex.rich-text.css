@@ -29,8 +29,8 @@
 }
 
 .paragraph--contacto-top-texto {
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Poppins'!important;
+    font-weight: 400!important;
     color: white;
     margin: 5px 0;
 }
@@ -70,6 +70,19 @@
     font-size: 13px;
 }
 
+.paragraph--titulo-informativo-mobile {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.container--titulo-informativo-mobile {
+    margin-left: 20px;
+}
+
 /* HOME */
 .container--titulo-shelf {
     max-width: 1280px;
@@ -97,7 +110,7 @@
 }
 
 .paragraph--titulo-shelf::after {
-    border-bottom: solid 4px red;
+    border-bottom: solid 4px #C90512;
     width: 75px;
     content: "";
     display: block;
@@ -268,4 +281,11 @@
     margin: 3px;
     font-family: 'Noto Sans JP';
     font-size: 13px;
+}
+
+.paragraph--titulo-informativo-mobile::after {
+    border-bottom: solid 2px #C90512;
+    width: 35px;
+    content: "";
+    display: block;
 }
