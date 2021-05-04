@@ -67,7 +67,7 @@
     "add-to-cart-button#shelf": {
         "props": {
           "text": "VER MÁS",
-          "unavailableText": "AGOTADO",
+          "unavailableText": "VER MÁS",
           "showTooltipOnSkuNotSelected": true,
           "onClickBehavior": "go-to-product-page",
           /*"showToast": true,*/

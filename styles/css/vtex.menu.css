@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 /* HEADER */
 .styledLinkIcon--categoria-header {
     margin-left: 7px;
@@ -6,7 +7,7 @@
 
 .styledLinkContent--categoria-header, .styledLinkContent--categoria-header-ofertas {
     color: #000;
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-weight: 600;
     font-size: 13px;
 }
