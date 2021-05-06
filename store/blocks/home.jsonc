@@ -17,7 +17,8 @@
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
-      "image#marcas"
+      "image#marcas",
+      "iframe#instagram"
     ]
   },
   "flex-layout.row#info-home":{
@@ -383,6 +384,14 @@
         "url":"#"
       },
       "blockClass": "imagen-marcas"
+    }
+  },
+  "iframe#instagram": {
+    "props": {
+      "src": "https://snapwidget.com/embed/935032",
+      "width": "100%",
+      "height": 270,
+      "blockClass": "instagram"
     }
   },
   /* MOBILE */
