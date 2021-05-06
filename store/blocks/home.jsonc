@@ -17,8 +17,7 @@
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
-      "image#marcas",
-      "info-card#Showroom"
+      "image#marcas"
     ]
   },
   "flex-layout.row#info-home":{
@@ -228,7 +227,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-cocina"
     }
   },
   "image#categoria-2":{
@@ -237,7 +236,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-bano"
     }
   },
   "image#categoria-3":{
@@ -246,7 +245,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-estar"
     }
   },
   "image#categoria-4":{
@@ -255,7 +254,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-dormitorio"
     }
   },
   "image#categoria-5":{
@@ -264,7 +263,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-exterior"
     }
   },
   "image#categoria-6":{
@@ -273,7 +272,7 @@
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-categoria"
+      "blockClass": "imagen-categoria-publicos"
     }
   },
   "rich-text#titulo-shelf":{
@@ -386,20 +385,6 @@
       "blockClass": "imagen-marcas"
     }
   },
-  "info-card#Showroom": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "headline": "SHOWROOM",
-      "subhead": "Is simply dummy text of the printing and typesetting industry. Lorem impsum has been the industrys standard dummy text ever since 1500s",
-      "imageUrl": "https://dummyimage.com/600x350/000/fff",
-      "mobileImageUrl": "https://dummyimage.com/480x400/000/fff",
-      "callToActionMode": "none",
-      "blockClass": "info-card-showroom",
-      "textAlignment": "center"
-    }
-  },
   /* MOBILE */
   "responsive-layout.mobile#mobile-home": {
     "children": [
@@ -412,8 +397,7 @@
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
-      "image#marcas-mobile",
-      "info-card#Showroom"
+      "image#marcas-mobile"
     ]
   },
   "image#inspiracion-mobile":{

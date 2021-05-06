@@ -91,7 +91,7 @@
 }
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
-    font-family: 'Poppins';
+    font-family: 'Noto Sans JP';
     font-weight: 900;
     font-size: 14px;
     margin: 0;
@@ -134,13 +134,13 @@
     font-size: 30px;
     color: black;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .paragraph--titulo-sale {
     font-family: 'Noto Sans JP';
     font-weight: 200;
-    font-size: 13px;
+    font-size: 16px;
     width: 60%;
     margin: auto;
     margin-bottom: 10px;

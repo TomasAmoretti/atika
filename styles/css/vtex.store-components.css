@@ -54,6 +54,7 @@
 .price_sellingPrice--product-price-vitrina {
     padding: 0;
     font-family: 'Poppins';
+    font-weight: 600;
     font-size: 17px;
     color: black;
 }
@@ -124,6 +125,103 @@
 
 .form--newsletter {
     padding: 0;
+}
+
+.imageElementLink--imagen-categoria-cocina::after {
+    content: "COCINA";
+    position: relative;
+    left: 34%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-bano::after {
+    content: "BAÑO";
+    position: relative;
+    left: 39%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-estar::after {
+    content: "SALA DE ESTAR";
+    position: relative;
+    left: 23%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-dormitorio::after {
+    content: "DORMITORIO";
+    position: relative;
+    left: 25%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-exterior::after {
+    content: "EXTERIOR";
+    position: relative;
+    left: 34%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-publicos::after {
+    content: "RECINTOS PUBLICOS";
+    position: relative;
+    left: 11%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -15%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-cocina:hover::after, .imageElementLink--imagen-categoria-bano:hover::after, .imageElementLink--imagen-categoria-estar:hover::after, .imageElementLink--imagen-categoria-dormitorio:hover::after, .imageElementLink--imagen-categoria-exterior:hover::after, .imageElementLink--imagen-categoria-publicos:hover::after {
+    color: black;
+    border-bottom: solid 2px red;
+    text-align: center;
+    width: fit-content;
+    display: block;
+    justify-content: center;
+}
+
+.imageElementLink--imagen-categoria-cocina, .imageElementLink--imagen-categoria-bano, .imageElementLink--imagen-categoria-estar, .imageElementLink--imagen-categoria-dormitorio, .imageElementLink--imagen-categoria-exterior, .imageElementLink--imagen-categoria-publicos {
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.imageElementLink--imagen-inspiracion:hover {
+    filter: contrast(0.5);
 }
 
 /* PRODUCTO */
@@ -278,7 +376,8 @@
     font-family: "Source Sans Pro";
     font-weight: 200;
     font-size: 12px;
-    color: #b5b3b3;
+    color: #919292;
+    text-transform: uppercase;
     padding: 2px;
 }
 
