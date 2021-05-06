@@ -104,6 +104,21 @@
     border-bottom: solid 2px #C90512;
 }
 
+.paragraph--info-1-mobile, .paragraph--info-2-mobile, .paragraph--info-3-mobile, .paragraph--info-4-mobile {
+    font-family: 'Noto Sans JP';
+    font-weight: 900;
+    font-size: 11px;
+    text-align: initial;
+    margin: 0;
+}
+
+.paragraph--info-1-mobile::after, .paragraph--info-2-mobile::after, .paragraph--info-3-mobile::after, .paragraph--info-4-mobile::after {
+    content: "";
+    width: 25px;
+    display: block;
+    border-bottom: solid 2px #C90512;
+}
+
 .paragraph--info-1-texto {
     margin: 0;
     font-size: 10px;

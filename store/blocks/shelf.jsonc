@@ -124,9 +124,9 @@
           "paginationDotsVisibility": "none",
           "simulationBehavour":"default",
           "productList": {
-            "maxItems": 1,
-            "itemsPerPage": 1,
-            "minItemsPerPage": 1,
+            "maxItems": 2,
+            "itemsPerPage": 2,
+            "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",
             "arrows": false,
             "titleText": ""
@@ -193,5 +193,25 @@
         },
         "blockClass": "shelf-sale"
       }
-    }
+    },
+    "shelf#Destacados-1-mobile": {
+      "blocks": [
+        "product-summary.shelf#main"
+      ],
+      "props": {
+        "category": 1,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "none",
+        "simulationBehavour":"default",
+        "productList": {
+          "maxItems": 2,
+          "itemsPerPage": 2,
+          "minItemsPerPage": 2,
+          "scroll": "ONE_BY_ONE",
+          "arrows": false,
+          "titleText": ""
+        },
+        "blockClass": "shelf-destacados-mobile"
+      }
+  }
 }

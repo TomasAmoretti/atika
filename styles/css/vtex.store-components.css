@@ -224,6 +224,10 @@
     filter: contrast(0.5);
 }
 
+.imageElementLink--new-arrival-mobile {
+    margin-left: 2%;
+}
+
 /* PRODUCTO */
 .price_sellingPrice--product-price {
     padding: 0;

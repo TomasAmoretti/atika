@@ -389,24 +389,208 @@
   "responsive-layout.mobile#mobile-home": {
     "children": [
       "slider-layout#home-mobile",
-      "flex-layout.row#categorias",
+      "flex-layout.row#info-home-mobile",
+      "flex-layout.row#categorias-mobile",
       "rich-text#titulo-shelf",
-      "shelf#Destacados-1",
+      "image#new-arrival-mobile",
+      "shelf#Destacados-1-mobile",
       "rich-text#titulo-inspiracion",
-      "image#inspiracion-mobile",
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
       "image#marcas-mobile"
     ]
   },
-  "image#inspiracion-mobile":{
+  "flex-layout.row#info-home-mobile":{
+    "children":[
+      "flex-layout.col#info-home-1-mobile",
+      "flex-layout.col#info-home-2-mobile"
+    ],
+    "props":{
+      "blockClass":"info-home-mobile",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#info-home-1-mobile":{
+    "children":[
+      "flex-layout.row#info-1-mobile",
+      "flex-layout.row#info-3-mobile"
+    ],
+    "props":{
+      "blockClass":"info-home-col-mobile"
+    }
+  },
+  "flex-layout.col#info-home-2-mobile":{
+    "children":[
+      "flex-layout.row#info-2-mobile",
+      "flex-layout.row#info-4-mobile"
+    ],
+    "props":{
+      "blockClass":"info-home-col-mobile"
+    }
+  },
+  "flex-layout.row#info-1-mobile":{
+    "children":[
+      "image#info-1",
+      "rich-text#info-1"
+    ],
+    "props":{
+      "blockClass":"info-item-home-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#info-2-mobile":{
+    "children":[
+      "image#info-2",
+      "rich-text#info-2"
+    ],
+    "props":{
+      "blockClass":"info-item-home-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#info-3-mobile":{
+    "children":[
+      "image#info-3",
+      "rich-text#info-3"
+    ],
+    "props":{
+      "blockClass":"info-item-home-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#info-4-mobile":{
+    "children":[
+      "image#info-4",
+      "rich-text#info-4"
+    ],
+    "props":{
+      "blockClass":"info-item-home-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#info-1-mobile":{
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SIGUE TU PEDIDO",
+      "blockClass": "info-1-mobile"
+    }
+  },
+  "rich-text#info-2-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "HASTA 9 CUOTAS SIN INTERÉS",
+      "blockClass": "info-2-mobile"
+    }
+  },
+  "rich-text#info-3-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "NUESTROS SHOWROOMS",
+      "blockClass": "info-3-mobile"
+    }
+  },
+  "rich-text#info-4-mobile":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "INSPÍRATE EN TU ESPACIO",
+      "blockClass": "info-4-mobile"
+    }
+  },
+  "flex-layout.row#categorias-mobile":{
+    "children":[
+      "flex-layout.col#categorias-1-mobile",
+      "flex-layout.col#categorias-2-mobile"
+    ],
+    "props":{
+      "blockClass":"categorias-mobile"
+    }
+  },
+  "flex-layout.col#categorias-1-mobile":{
+    "children":[
+      "image#categoria-1-mobile",
+      "image#categoria-3-mobile",
+      "image#categoria-5-mobile"
+    ],
+    "props":{
+      "blockClass":"categorias-mobile"
+    }
+  },
+  "flex-layout.col#categorias-2-mobile":{
+    "children":[
+      "image#categoria-2-mobile",
+      "image#categoria-4-mobile",
+      "image#categoria-6-mobile"
+    ],
+    "props":{
+      "blockClass":"categorias-mobile"
+    }
+  },
+  "image#categoria-1-mobile":{
+    "props": {
+      "src": "/arquivos/cocina-mobile.png",
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-inspiracion"
+      "blockClass": "imagen-categoria-cocina-mobile"
+    }
+  },
+  "image#categoria-2-mobile":{
+    "props": {
+      "src": "/arquivos/baño-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-bano-mobile"
+    }
+  },
+  "image#categoria-3-mobile":{
+    "props": {
+      "src": "/arquivos/estar-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-estar-mobile"
+    }
+  },
+  "image#categoria-4-mobile":{
+    "props": {
+      "src": "/arquivos/dormitorios-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-dormitorio-mobile"
+    }
+  },
+  "image#categoria-5-mobile":{
+    "props": {
+      "src": "/arquivos/exterior-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-exterior-mobile"
+    }
+  },
+  "image#categoria-6-mobile":{
+    "props": {
+      "src": "/arquivos/publicos-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-categoria-publicos-mobile"
+    }
+  },
+  "image#new-arrival-mobile":{
+    "props": {
+      "src": "/arquivos/NEW-ARRIVAL-mobile.png",
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "new-arrival-mobile"
     }
   },
   "image#marcas-mobile":{

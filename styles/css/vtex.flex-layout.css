@@ -232,6 +232,37 @@
     margin-top: 60px;
 }
 
+.flexRowContent--info-item-home-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flexRowContent--info-home-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--info-home-mobile {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px!important;
+    margin-bottom: 20px;
+}
+
+.flexRowContent--categorias-mobile {
+    display: flex;
+}
+
+.flexCol--categorias-mobile {
+    padding: 2px;
+}
+
+.flexRow--row-price-shelf ::global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
 .flexRowContent--footer-informativo {
     max-width: 1280px;
     margin: auto;

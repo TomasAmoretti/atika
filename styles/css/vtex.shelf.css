@@ -4,8 +4,16 @@
     padding-top: 0;
 }
 
-.title--shelf-destacados {
+.title--shelf-destacados, .title--shelf-destacados-mobile {
     padding: 0;
+}
+
+.container--shelf-destacados-mobile {
+    margin-left: 1%;
+}
+
+.slide--shelf-destacados-mobile {
+    padding: 5px;
 }
 
 .slide--shelf-destacados {
