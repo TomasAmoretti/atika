@@ -214,6 +214,84 @@
     justify-content: center;
 }
 
+.imageElementLink--imagen-categoria-cocina-mobile::after {
+    content: "COCINA";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-bano-mobile::after {
+    content: "BAÑO";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-estar-mobile::after {
+    content: "SALA DE ESTAR";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-dormitorio-mobile::after {
+    content: "DORMITORIO";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-exterior-mobile::after {
+    content: "EXTERIOR";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
+.imageElementLink--imagen-categoria-publicos-mobile::after {
+    content: "RECINTOS PUBLICOS";
+    position: relative;
+    left: 5%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    top: -25%;
+    height: fit-content;
+    color: #fff;
+}
+
 .imageElementLink--imagen-categoria-cocina, .imageElementLink--imagen-categoria-bano, .imageElementLink--imagen-categoria-estar, .imageElementLink--imagen-categoria-dormitorio, .imageElementLink--imagen-categoria-exterior, .imageElementLink--imagen-categoria-publicos {
     display: block;
     justify-content: center;

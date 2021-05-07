@@ -18,6 +18,7 @@
       "shelf#Sale",
       "rich-text#sale-ver-mas",
       "image#marcas",
+      "rich-text#titulo-instagram",
       "iframe#instagram"
     ]
   },
@@ -386,11 +387,19 @@
       "blockClass": "imagen-marcas"
     }
   },
+  "rich-text#titulo-instagram":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SÍGUENOS @atikaconcept",
+      "blockClass": "titulo-instagram"
+    }
+  },
   "iframe#instagram": {
     "props": {
       "src": "https://snapwidget.com/embed/935032",
       "width": "100%",
-      "height": 270,
+      "height": 275,
       "blockClass": "instagram"
     }
   },
@@ -404,10 +413,13 @@
       "image#new-arrival-mobile",
       "shelf#Destacados-1-mobile",
       "rich-text#titulo-inspiracion",
+      "slider-layout#inspiracion-mobile",
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
-      "image#marcas-mobile"
+      "image#banner-descuento-mobile",
+      "rich-text#titulo-instagram-mobile",
+      "iframe#instagram-mobile"
     ]
   },
   "flex-layout.row#info-home-mobile":{
@@ -602,13 +614,28 @@
       "blockClass": "new-arrival-mobile"
     }
   },
-  "image#marcas-mobile":{
+  "image#banner-descuento-mobile":{
     "props": {
-      "src": "https://dummyimage.com/480x480/000/fff",
+      "src": "/arquivos/BANNER-DCTO-mobile.png",
       "link":{
         "url":"#"
       },
-      "blockClass": "imagen-marcas"
+      "blockClass": "banner-descuento"
+    }
+  },
+  "rich-text#titulo-instagram-mobile":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SÍGUENOS @atikaconcept",
+      "blockClass": "titulo-instagram-mobile"
+    }
+  },
+  "iframe#instagram-mobile": {
+    "props": {
+      "src": "https://snapwidget.com/embed/935032",
+      "width": "100%",
+      "blockClass": "instagram-mobile"
     }
   }
 }

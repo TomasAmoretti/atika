@@ -50,3 +50,13 @@
     background: transparent;
     border: solid 1px white;
 }
+
+.sliderLayoutContainer--slider-inspiracion-mobile {
+    margin: auto;
+    width: 90%;
+}
+
+.caretIcon--slider-inspiracion-mobile {
+    color: #fff;
+    width: 14px;
+}

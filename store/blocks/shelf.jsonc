@@ -186,7 +186,7 @@
         "productList": {
           "maxItems": 15,
           "itemsPerPage": 5,
-          "minItemsPerPage": 1,
+          "minItemsPerPage": 2,
           "scroll": "ONE_BY_ONE",
           "arrows": true,
           "titleText": ""

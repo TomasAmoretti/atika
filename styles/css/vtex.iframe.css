@@ -1,0 +1,9 @@
+.container--instagram {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container--instagram-mobile {
+    width: 90%;
+    margin: auto;
+}

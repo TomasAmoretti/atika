@@ -76,5 +76,53 @@
           },
           "blockClass": "slider-home-mobile"
         }
+    },
+    "slider-layout#inspiracion-mobile": {
+      "children": [
+        "image#slider-inspiracion-1-mobile",
+        "image#slider-inspiracion-2-mobile",
+        "image#slider-inspiracion-3-mobile"
+      ],
+      "props": {
+        "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": false
+        },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "itemsPerPage": {
+          "phone": 1
+        },
+        "showPaginationDots": "never",
+        "fullWidth": true,
+        "blockClass": "slider-inspiracion-mobile"
+      }
+  },
+  "image#slider-inspiracion-1-mobile": {
+      "props": {
+        "src": "/arquivos/INSPIRACIÓN-1-mobile.png",
+        "link": {
+          "url": "#"
+        },
+        "blockClass": "slider-inspiracion-mobile"
+      }
+  },
+  "image#slider-inspiracion-2-mobile": {
+      "props": {
+        "src": "/arquivos/INSPIRACIÓN-2-mobile.png",
+        "link": {
+          "url": "#"
+        },
+        "blockClass": "slider-inspiracion-mobile"
+      }
+  },
+  "image#slider-inspiracion-3-mobile": {
+    "props": {
+      "src": "/arquivos/INSPIRACIÓN-3-mobile.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "slider-inspiracion-mobile"
     }
+}
 }

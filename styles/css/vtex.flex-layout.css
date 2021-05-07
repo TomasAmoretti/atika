@@ -116,6 +116,14 @@
     justify-content: center;
 }
 
+.flexRow--info-item-home-mobile {
+    margin-bottom: 20px;
+}
+
+::global(.vtex-flex-layout-0-x-flexRow--row-price-shelf>.vtex-store-components-3-x-container) {
+    padding: 0!important;
+}
+
 .flexCol--col-destacados {
     max-width: 760px;
     max-height: 700px;
@@ -415,4 +423,11 @@
 
 .flexRowContent--row--glosario {
     border-bottom: solid 1px;
+}
+
+@media screen and (max-width: 768px){
+    .vtex-flex-layout-0-x-flexRowContent--row-price-shelf ::global(.vtex-button__label) {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
 }

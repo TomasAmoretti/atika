@@ -156,7 +156,7 @@
     font-family: 'Noto Sans JP';
     font-weight: 200;
     font-size: 16px;
-    width: 60%;
+    max-width: 1280px;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -177,6 +177,28 @@
 .container--titulo-sale {
     margin-top: 40px!important;
     max-width: 1280px;
+    margin: auto;
+}
+
+.container--titulo-instagram {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--titulo-instagram {
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #000;
+}
+
+.paragraph--titulo-instagram-mobile {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.container--titulo-instagram-mobile {
+    width: 90%;
     margin: auto;
 }
 
