@@ -1,23 +1,20 @@
 {
     "store.blog-home": {
         "blocks": [
+            "blog-breadcrumb.wordpress-breadcrumb",
             "blog-search.wordpress-search",
-            "blog-latest-posts-preview.wordpress-latest-posts-preview",
             "blog-all-posts.wordpress-all-posts"
         ]
     },
-    "blog-search.wordpress-search": {
-    },
-    "blog-latest-posts-preview.wordpress-latest-posts-preview": {
-        "props": {
-            "title": "Latest Posts",
-            "useTextOverlays": true,
-            "customDomainSlug": "blog"
+    "blog-search.wordpress-search":{
+        "props":{
+            "placeholder": "Buscar articulo",
+            "blockClass": "search-wp"
         }
     },
     "blog-all-posts.wordpress-all-posts": {
         "props": {
-            "customDomainSlug": "blog"
+            "postsPerPage": 4
         }
     }
 }
