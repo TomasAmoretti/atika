@@ -95,6 +95,7 @@
     font-weight: 900;
     font-size: 14px;
     margin: 0;
+    text-align: left;
 }
 
 .paragraph--info-1::after, .paragraph--info-2::after, .paragraph--info-3::after, .paragraph--info-4::after {

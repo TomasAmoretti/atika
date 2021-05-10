@@ -1248,6 +1248,16 @@
       "blockClass": "footer-item"
     }
   },
+  "menu-item#footer-blog": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Blog"
+      },
+      "blockClass": "footer-item"
+    }
+  },
   "menu-item#footer-servicios": {
     "props": {
       "type": "custom",

@@ -3,7 +3,7 @@
         "blocks": [
             "blog-breadcrumb.wordpress-breadcrumb",
             "blog-search.wordpress-search",
-            "blog-all-posts.wordpress-all-posts"
+            "blog-latest-posts-preview.wordpress-latest-posts-preview"
         ]
     },
     "blog-search.wordpress-search":{
@@ -15,6 +15,12 @@
     "blog-all-posts.wordpress-all-posts": {
         "props": {
             "postsPerPage": 4
+        }
+    },
+    "blog-latest-posts-preview.wordpress-latest-posts-preview":{
+        "props":{
+            "title": "Ultimos Posteos",
+            "numberOfPosts": 4
         }
     }
 }

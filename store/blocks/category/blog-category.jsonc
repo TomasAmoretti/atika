@@ -2,6 +2,7 @@
     "store.blog-category":{
         "blocks":[
             "blog-breadcrumb.wordpress-breadcrumb",
+            "blog-search.wordpress-search",
             "blog-category-list.wordpress-category-list"
         ]
     }

@@ -1,0 +1,33 @@
+.searchBlockContainer {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.latestPostsBlockContainer {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.latestPostsBlockTitle {
+    font-family: 'Poppins';
+}
+
+.teaserTitleLink {
+    font-family: 'Poppins';
+    color: #C90512
+}
+
+.teaserDate {
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+}
+
+.teaserCategoryLink {
+    font-family: 'Noto Sans JP';
+    text-decoration: unset;
+    color: #C90512;
+}
+
+::global(.vtex__icon-search) {
+    color: #C90512;
+}

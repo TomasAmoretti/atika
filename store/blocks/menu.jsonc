@@ -643,7 +643,8 @@
             "menu-item#footer-somos",
             "menu-item#footer-servicios",
             "menu-item#footer-spaceplanner",
-            "menu-item#footer-inspiracion"
+            "menu-item#footer-inspiracion",
+            "menu-item#footer-blog"
         ],
         "props": {
           "blockClass": "footer-col",
