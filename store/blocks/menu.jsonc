@@ -517,8 +517,7 @@
             "image#menu-inspiracion-1",
             "image#menu-inspiracion-2",
             "image#menu-inspiracion-3",
-            "image#menu-inspiracion-4",
-            "image#menu-inspiracion-5"
+            "image#menu-inspiracion-4"
         ],
         "props": {
             "blockClass": "flex-row-inspiracion",
@@ -527,7 +526,7 @@
     },
     "image#menu-inspiracion-1":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/spaceplanner.jpg",
             "link":{
               "url":"#"
             },
@@ -537,7 +536,7 @@
     },
     "image#menu-inspiracion-2":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/proyectos.jpg",
             "link":{
               "url":"#"
             },
@@ -547,9 +546,9 @@
     },
     "image#menu-inspiracion-3":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/blog.jpg",
             "link":{
-              "url":"#"
+              "url":"/blog"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -557,17 +556,7 @@
     },
     "image#menu-inspiracion-4":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
-            "link":{
-              "url":"#"
-            },
-            "blockClass": "menu-inspiracion",
-            "minWidth": 150
-          }
-    },
-    "image#menu-inspiracion-5":{
-        "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/marcas.jpg",
             "link":{
               "url":"#"
             },
@@ -599,7 +588,7 @@
     },
     "image#menu-servicios-1":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/cubiertas.jpg",
             "link":{
               "url":"#"
             },
@@ -609,7 +598,7 @@
     },
     "image#menu-servicios-2":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/instalacion.jpg",
             "link":{
               "url":"#"
             },
@@ -619,7 +608,7 @@
     },
     "image#menu-servicios-3":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/mantencion.jpg",
             "link":{
               "url":"#"
             },
@@ -629,7 +618,7 @@
     },
     "image#menu-servicios-4":{
         "props": {
-            "src": "https://dummyimage.com/200x220/000/fff",
+            "src": "/arquivos/despacho.jpg",
             "link":{
               "url":"#"
             },
@@ -696,29 +685,15 @@
             "menu-item#Cocina-cuarzo-mobile",
             "menu-item#Cocina-granito-mobile",
             "menu-item#Cocina-compactas-mobile",
+            "menu-item#Cocina-porcelanato-mobile",
             "menu-item#Cocina-mosaicos-mobile",
+            "menu-item#Cocina-pisos-organicos-mobile",
+            "menu-item#Cocina-pisos-vinilicos-mobile",
+            "menu-item#Cocina-productos-limpieza-mobile",
             "menu-item#Cocina-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-Cocina-Compactas-mobile":{
-        "children":[
-            "menu-item#Cocina-porcelanato-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-Cocina-Mosaicos-mobile":{
-        "children":[
-            "menu-item#Cocina-pisos-organicos-mobile",
-            "menu-item#Cocina-pisos-vinilicos-mobile",
-            "menu-item#Cocina-productos-limpieza-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Baño-mobile":{
@@ -733,31 +708,17 @@
             "menu-item#Baños-WC-mobile",
             "menu-item#Baños-urinarios-mobile",
             "menu-item#Baños-muebles-de-baño-mobile",
+            "menu-item#Baños-accesorios-mobile",
+            "menu-item#Baños-porcelanato-mobile",
             "menu-item#Baños-mosaicos-mobile",
+            "menu-item#Baños-pisos-organicos-mobile",
+            "menu-item#Baños-pisos-vinilicos-mobile",
+            "menu-item#Baños-piedras-mobile",
+            "menu-item#Baños-limpieza-mobile",
             "menu-item#Baños-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-Baño-muebles-mobile":{
-        "children":[
-            "menu-item#Baños-accesorios-mobile",
-            "menu-item#Baños-porcelanato-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-Baño-mosaicos-mobile":{
-        "children":[
-            "menu-item#Baños-pisos-organicos-mobile",
-            "menu-item#Baños-pisos-vinilicos-mobile",
-            "menu-item#Baños-piedras-mobile",
-            "menu-item#Baños-limpieza-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Comedor-mobile":{
@@ -767,22 +728,15 @@
             "menu-item#Comedor-gres-mobile",
             "menu-item#Comedor-mosaicos-mobile",
             "menu-item#Comedor-pisos-madera-mobile",
-            "menu-item#Comedor-vertodo-mobile"   
-        ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-Comedor-pisos-madera-mobile":{
-        "children":[
             "menu-item#Comedor-pisos-organicos-mobile",
             "menu-item#Comedor-pisos-vinilicos-mobile",
             "menu-item#Comedor-pisos-fotolaminados-mobile",
             "menu-item#Comedor-piedras-mobile",
-            "menu-item#Comedor-limpieza-pisos-mobile"
+            "menu-item#Comedor-limpieza-pisos-mobile",
+            "menu-item#Comedor-vertodo-mobile"   
         ],
         "props":{
-            "blockClass":"submenu-nivel2-mobile"
+            "blockClass":"itemmenu-header-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Exterior-mobile":{
@@ -806,42 +760,21 @@
             "menu-item#Recintos-accesibilidad-mobile",
             "menu-item#Recintos-accesorios-institucionales-mobile",
             "menu-item#Recintos-griferia-institucional-mobile",
+            "menu-item#Recintos-accesorios-mobile",
+            "menu-item#Recintos-piedras-cubiertas-mobile",
+            "menu-item#Recintos-porcelanatos-mobile",
+            "menu-item#Recintos-sanitarios-artefactos-mobile",
             "menu-item#Recintos-mosaicos-mobile",
             "menu-item#Recintos-pisos-madera-mobile",
+            "menu-item#Recintos-pisos-organicos-mobile",
+            "menu-item#Recintos-pisos-vinilicos-mobile",
+            "menu-item#Recintos-pisos-fotolaminados-mobile",
             "menu-item#Recintos-lavaplatos-mobile",
+            "menu-item#Recintos-limpíeza-mobile",
             "menu-item#Recintos-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-griferia-institucional-mobile":{
-        "children":[
-            "menu-item#Recintos-accesorios-mobile",
-            "menu-item#Recintos-piedras-cubiertas-mobile",
-            "menu-item#Recintos-porcelanatos-mobile",
-            "menu-item#Recintos-sanitarios-artefactos-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-pisos-madera-mobile":{
-        "children":[
-            "menu-item#Recintos-pisos-organicos-mobile",
-            "menu-item#Recintos-pisos-vinilicos-mobile",
-            "menu-item#Recintos-pisos-fotolaminados-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Espacios-lavaplatos-mobile":{
-        "children":[
-            "menu-item#Recintos-limpíeza-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-mobile":{
@@ -864,21 +797,14 @@
             "menu-item#Productos-revestimiento-gres-mobile",
             "menu-item#Productos-revestimiento-mosaicos-mobile",
             "menu-item#Productos-revestimiento-pisos-madera-mobile",
+            "menu-item#Productos-revestimiento-pisos-organicos-mobile",
+            "menu-item#Productos-revestimiento-pisos-fotolaminados-mobile",
+            "menu-item#Productos-revestimiento-pisos-vinilicos-mobile",
             "menu-item#Productos-revestimiento-limpieza-mobile",
             "menu-item#Productos-revestimiento-vertodo-mobile"
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-revestimientos-pisos-madera-mobile":{
-        "children":[
-            "menu-item#Productos-revestimiento-pisos-organicos-mobile",
-            "menu-item#Productos-revestimiento-pisos-fotolaminados-mobile",
-            "menu-item#Productos-revestimiento-pisos-vinilicos-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-Griferia-mobile":{
@@ -905,6 +831,7 @@
             "menu-item#Productos-baño-mamparas-mobile",
             "menu-item#Productos-baño-tinas-mobile",
             "menu-item#Productos-baño-jacuzzi-mobile",
+            "menu-item#Productos-baño-accesorios-mobile",
             "menu-item#Productos-baño-griferias-ducha-mobile",
             "menu-item#Productos-baño-griferias-lavamanos-mobile",
             "menu-item#Productos-baño-griferias-bidet-mobile",
@@ -912,14 +839,6 @@
         ],
         "props":{
             "blockClass":"itemmenu-header-mobile"
-        }
-    },
-    "vtex.menu@2.x:submenu#Productos-baño-jacuzzi-mobile":{
-        "children":[
-            "menu-item#Productos-baño-accesorios-mobile"
-        ],
-        "props":{
-            "blockClass":"submenu-nivel2-mobile"
         }
     },
     "vtex.menu@2.x:submenu#Productos-Cubiertas-mobile":{

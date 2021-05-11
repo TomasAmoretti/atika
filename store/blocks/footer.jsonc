@@ -45,7 +45,7 @@
   "image#informativo-pedido":{
     "props": {
       "src": "/arquivos/despacho.png",
-      "width": 80,
+      "width": 60,
       "blockClass": "footer-informativo"
     }
   },
@@ -78,7 +78,7 @@
   "image#informativo-showroom":{
     "props": {
       "src": "/arquivos/tiendas.png",
-      "width": 80,
+      "width": 60,
       "blockClass": "footer-informativo"
     }
   },
@@ -111,7 +111,7 @@
   "image#informativo-contactanos":{
     "props": {
       "src": "/arquivos/contactanos.png",
-      "width": 80,
+      "width": 60,
       "blockClass": "footer-informativo"
     }
   },

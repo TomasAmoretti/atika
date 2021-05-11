@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800;&display=swap');
+
 .searchBlockContainer {
     max-width: 1280px;
     margin: auto;
@@ -18,12 +21,12 @@
 }
 
 .teaserDate {
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-weight: 400;
 }
 
 .teaserCategoryLink {
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     text-decoration: unset;
     color: #C90512;
 }

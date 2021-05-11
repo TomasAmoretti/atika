@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800;&display=swap');
 
 .link:hover {
     color: #C90512;
@@ -16,8 +16,8 @@
     text-decoration: none;
     font-size: 12px;
     color: white;
-    font-weight: 200;
-    font-family: 'Noto Sans JP';
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
 }
 
 .paragraph--contacto-top-mobile {
@@ -29,8 +29,9 @@
 }
 
 .paragraph--contacto-top-texto {
-    font-family: 'Poppins'!important;
-    font-weight: 400!important;
+    font-family: 'Source Sans Pro'!important;
+    font-weight: 700!important;
+    font-size: 13px;
     color: white;
     margin: 5px 0;
 }
@@ -42,20 +43,21 @@
 .paragraph--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
 }
 
 .paragraph {
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .link--visualizador-top {
     font-size: 9px;
     color: white;
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
 }
 
 .container--titulo-menu {
@@ -65,9 +67,9 @@
 .paragraph--titulo-menu {
     margin: 0;
     font-family: 'Source Sans Pro';
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 5px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .paragraph--titulo-informativo-mobile {
@@ -91,9 +93,9 @@
 }
 
 .paragraph--info-1, .paragraph--info-2, .paragraph--info-3, .paragraph--info-4 {
-    font-family: 'Noto Sans JP';
-    font-weight: 900;
-    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 13px;
     margin: 0;
     text-align: left;
 }
@@ -106,7 +108,7 @@
 }
 
 .paragraph--info-1-mobile, .paragraph--info-2-mobile, .paragraph--info-3-mobile, .paragraph--info-4-mobile {
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-weight: 900;
     font-size: 11px;
     text-align: initial;
@@ -122,20 +124,20 @@
 
 .paragraph--info-1-texto {
     margin: 0;
-    font-size: 10px;
+    font-size: 12px;
     color: black;
 }
 
 .paragraph--info {
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
     font-size: 14px;
 }
 
 .paragraph--titulo-shelf {
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 19px;
+    font-size: 24px;
     color: black;
 }
 
@@ -147,16 +149,17 @@
 }
 
 .strong--titulo-sale {
-    font-size: 30px;
+    font-size: 27px;
     color: black;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .paragraph--titulo-sale {
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
-    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 14px;
     max-width: 1280px;
     margin: auto;
     margin-bottom: 10px;
@@ -165,8 +168,8 @@
 .link--sale-ver-mas {
     text-decoration: underline;
     color: black;
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
     font-size: 17px;
 }
 
@@ -216,8 +219,8 @@
 }
 
 .paragraph--footer-newsletter-text {
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
     color: #606060;
     font-size: 15px;
 }
@@ -225,16 +228,16 @@
 .paragraph--titulo-footer {
     margin-left: 1.5rem;
     color: white;
-    font-family: 'Poppins';
-    font-weight: 600;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
 }
 
 .link--footer-contacto {
     color: #dad9d9;
-    font-family: 'Noto Sans JP';
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
     font-size: 10px;
     margin-left: 8px;
     text-decoration: none;
@@ -249,8 +252,14 @@
     font-weight: 700;
     color: black;
     margin-bottom: 0;
-    font-size: 19px;
+    font-size: 13px;
     margin-top: 5px;
+}
+
+.paragraph--texto-informativo {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 12px;
 }
 
 .paragraph--titulo-informativo::after {
@@ -269,8 +278,8 @@
 
 .paragraph--titulo-footer-partner, .paragraph--titulo-footer-medios {
     color: white;
-    font-family: 'Poppins';
-    font-weight: 600;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
 }
@@ -298,7 +307,7 @@
 }
 
 .paragraph--footer-newsletter-text-mobile {
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -324,14 +333,14 @@
 
 /* MODAL */
 .strong--glosario-titulo {
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-weight: 400;
     font-size: 14px;
 }
 
 .paragraph--glosario-titulo {
     margin: 3px;
-    font-family: 'Noto Sans JP';
+    font-family: 'Source Sans Pro';
     font-size: 13px;
 }
 
