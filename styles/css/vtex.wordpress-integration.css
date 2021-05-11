@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 .searchBlockContainer {
     max-width: 1280px;
@@ -33,4 +33,23 @@
 
 ::global(.vtex__icon-search) {
     color: #C90512;
+}
+
+.breadcrumbContainer {
+    max-width: 1280px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.breadcrumbHomeLink {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Regular';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.listContainer {
+    font-family: 'Source Sans Pro';
 }

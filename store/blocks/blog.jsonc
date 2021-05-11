@@ -3,7 +3,7 @@
         "blocks": [
             "blog-breadcrumb.wordpress-breadcrumb",
             "blog-search.wordpress-search",
-            "blog-latest-posts-preview.wordpress-latest-posts-preview"
+            "blog-all-posts.wordpress-all-posts"
         ]
     },
     "blog-search.wordpress-search":{
