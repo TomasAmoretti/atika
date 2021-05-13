@@ -6,7 +6,23 @@
 }
 
 .homeIcon--breadcrumb {
-    width: 20px;
+    width: 0;
+    visibility: hidden;
+}
+
+.homeLink--breadcrumb::before {
+    visibility: visible;
+    content: "Home";
+    padding-right: 5px;
+}
+
+.homeLink--breadcrumb {
+    align-items: center;
+    display: contents;
+}
+
+.arrow--breadcrumb {
+    padding: 0;
 }
 
 .container--breadcrumb {
@@ -25,7 +41,7 @@
 .link {
     font-family: 'Source Sans Pro';
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .container {

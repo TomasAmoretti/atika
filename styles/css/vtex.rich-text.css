@@ -31,7 +31,7 @@
 .paragraph--contacto-top-texto {
     font-family: 'Source Sans Pro'!important;
     font-weight: 700!important;
-    font-size: 13px;
+    font-size: 13px!important;
     color: white;
     margin: 5px 0;
 }
@@ -65,11 +65,11 @@
 }
 
 .paragraph--titulo-menu {
-    margin: 0;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    margin-bottom: 5px;
-    font-size: 12px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    margin: 0 0 5px;
+    font-size: 13px;
+    color: #000;
 }
 
 .paragraph--titulo-informativo-mobile {
@@ -248,7 +248,7 @@
 }
 
 .paragraph--titulo-informativo {
-    font-family: 'Poppins';
+    font-family: 'Source Sans Pro';
     font-weight: 700;
     color: black;
     margin-bottom: 0;

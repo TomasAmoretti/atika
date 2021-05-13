@@ -1182,7 +1182,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/140?map=productClusterIds",
         "text": "NEW ARRIVAL"
       },
       "blockClass": "categoria-header"
@@ -1192,7 +1192,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/141?map=productClusterIds",
         "text": "SALE"
       },
       "blockClass": "categoria-header-ofertas"
@@ -2848,7 +2848,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/140?map=productClusterIds",
         "text": "NEW ARRIVAL"
       },
       "blockClass": "categoria-header-mobile"
@@ -2858,7 +2858,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/141?map=productClusterIds",
         "text": "SALE"
       },
       "blockClass": "categoria-header-mobile"

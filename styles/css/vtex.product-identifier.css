@@ -14,7 +14,7 @@
 :global(.vtex-product-identifier-0-x-product-identifier__label)::before {
     visibility: visible;
     content: "CÓDIGO ";
-    margin-right: -65px;
+    margin-right: -60px;
 }
 
 .product-identifier__separator {
