@@ -478,17 +478,114 @@
   },
   "flex-layout.row#footer-general-bottom-mobile":{
     "children":[
-      "image#medios-pago-1",
-      "image#medios-pago-2",
-      "image#medios-pago-3",
-      "image#medios-pago-4",
-      "image#medios-pago-5",
-      "image#medios-pago-6",
-      "image#medios-pago-7"
+      "flex-layout.col#footer-general-bottom-mobile"
     ],
     "props":{
-      "blockClass": "footer-general-bottom-mobile",
+      "blockClass": "footer-general-bottom-mobile"/*,
+      "preventHorizontalStretch": true*/
+    }
+  },
+  "flex-layout.col#footer-general-bottom-mobile":{
+    "children":[
+      "flex-layout.row#footer-general-bottom-1-mobile",
+      "flex-layout.row#footer-general-bottom-2-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-general-bottom-col-mobile"/*,
+      "preventHorizontalStretch": true*/
+    }
+  },
+  "flex-layout.row#footer-general-bottom-1-mobile":{
+    "children":[
+      "image#medios-pago-1-mobile",
+      "image#medios-pago-2-mobile",
+      "image#medios-pago-3-mobile",
+      "image#medios-pago-4-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-general-bottom-row-mobile",
       "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-general-bottom-2-mobile":{
+    "children":[
+      "image#medios-pago-5-mobile",
+      "image#medios-pago-6-mobile",
+      "image#medios-pago-7-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-general-bottom-row-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#medios-pago-1-mobile":{
+    "props": {
+      "src": "/arquivos/1-visa.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-2-mobile":{
+    "props": {
+      "src": "/arquivos/2-mastercard.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-3-mobile":{
+    "props": {
+      "src": "/arquivos/3-american-express.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-4-mobile":{
+    "props": {
+      "src": "/arquivos/4-diners-club.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-5-mobile":{
+    "props": {
+      "src": "/arquivos/5-magna.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-6-mobile":{
+    "props": {
+      "src": "/arquivos/6-redcompra.png",
+      "width": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
+    }
+  },
+  "image#medios-pago-7-mobile":{
+    "props": {
+      "src": "/arquivos/7-transferencia.png",
+      "width": 85,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "footer-tarjetas"
     }
   },
   "flex-layout.col#footer#newsletter":{
@@ -822,14 +919,67 @@
   },
   "flex-layout.row#footer-partners-row-mobile":{
     "children":[
-      "image#footer-partners-add",
-      "image#footer-partners-aoa",
-      "image#footer-partners-arquitectura",
-      "image#footer-partners-banco"
+      "flex-layout.col#footer-partners-row-mobile"
+    ],
+    "props":{
+      "blockClass": "row-footer-partners"
+    }
+  },
+  "flex-layout.col#footer-partners-row-mobile":{
+    "children":[
+      "flex-layout.row#footer-partners-row-top-mobile",
+      "flex-layout.row#footer-partners-row-bottom-mobile"
+    ],
+    "props":{
+      "blockClass": "row-footer-partners"
+    }
+  },
+  "flex-layout.row#footer-partners-row-top-mobile":{
+    "children":[
+      "image#footer-partners-add-mobile",
+      "image#footer-partners-aoa-mobile"
     ],
     "props":{
       "blockClass": "row-footer-partners",
       "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-partners-row-bottom-mobile":{
+    "children":[
+      "image#footer-partners-arquitectura-mobile",
+      "image#footer-partners-banco-mobile"
+    ],
+    "props":{
+      "blockClass": "row-footer-partners",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#footer-partners-add-mobile":{
+    "props": {
+      "src": "/arquivos/add.png",
+      "width": 90,
+      "blockClass": "footer-partners"
+    }
+  },
+  "image#footer-partners-aoa-mobile":{
+    "props": {
+      "src": "/arquivos/aoa.png",
+      "width": 90,
+      "blockClass": "footer-partners"
+    }
+  },
+  "image#footer-partners-arquitectura-mobile":{
+    "props": {
+      "src": "/arquivos/plataforma.png",
+      "width": 90,
+      "blockClass": "footer-partners"
+    }
+  },
+  "image#footer-partners-banco-mobile":{
+    "props": {
+      "src": "/arquivos/bancochile.png",
+      "width": 110 ,
+      "blockClass": "footer-partners"
     }
   }
 }

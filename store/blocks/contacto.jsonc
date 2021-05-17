@@ -1,0 +1,147 @@
+{
+    "store.custom#contacto": {
+        "blocks": [
+            "rich-text#titulo-form-contact",
+            "flex-layout.row#form"
+        ]
+    },
+    "rich-text#titulo-form-contact":{
+        "props": {
+            "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass":"titulo-form"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+          "flex-layout.col#form"
+        ]
+      },
+      "flex-layout.col#form": {
+        "children": [
+          "form#Contacto"
+        ],
+        "props":{
+            "blockClass": "col-form"
+        }
+      },
+    "form#Contacto": {
+        "props": {
+            "entity": "CO",
+            "schema": "Contacto",
+            "blockClass": "formulario-contacto"
+        },
+        "children": [
+            "form-input.text#name",
+            "form-input.text#rut",
+            "flex-layout.row#contenedor-form-1",
+            "form-input.text#direccion",
+            "flex-layout.row#contenedor-form-2",
+            "form-input.textarea#comentario",
+            "flex-layout.row#contenedor-form-3"
+        ],
+        "blocks": [
+            "form-success"
+        ]
+    },
+    "form-success": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#successSubmit": {
+        "props": {
+            "text": "Se envio con exito su consulta!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.dropdown#consulta": {
+        "props": {
+            "pointer": "#/properties/consulta",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#name": {
+        "props": {
+            "pointer": "#/properties/nombre",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#rut": {
+        "props": {
+            "pointer": "#/properties/rut",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#direccion": {
+        "props": {
+            "pointer": "#/properties/direccion",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#comuna": {
+        "props": {
+            "pointer": "#/properties/comuna",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#email": {
+        "props": {
+            "pointer": "#/properties/email",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#telefono": {
+        "props": {
+            "pointer": "#/properties/telefono",
+            "blockClass": "input"
+        }
+    },
+    "form-input.textarea#comentario": {
+        "props": {
+            "pointer": "#/properties/mensaje",
+            "blockClass": "input"
+        }
+    },  
+    "form-input.checkbox#recibir":{
+        "props": {  
+            "pointer": "#/properties/recibir",  
+            "label": "Si, quiero recibir información de novedades y ofertas de Atika"  
+          }
+    },  
+    "form-submit": {
+        "props": {
+            "label": "Enviar",
+            "blockClass": "boton-enviar"
+        }
+    },
+    "flex-layout.row#contenedor-form-1":{
+        "props":{
+            "blockClass": "contenedor-input"
+        },
+        "children":[
+            "form-input.text#telefono",
+            "form-input.text#email"
+        ]
+    },
+    "flex-layout.row#contenedor-form-2":{
+        "props":{
+            "blockClass": "contenedor-input"
+        },
+        "children":[
+            "form-input.text#comuna",
+            "form-input.dropdown#consulta"
+        ]
+    },
+    "flex-layout.row#contenedor-form-3":{
+        "props":{
+            "blockClass": "contenedor-input"
+        },
+        "children":[
+            "form-input.checkbox#recibir",
+            "form-submit"
+        ]
+    }
+}

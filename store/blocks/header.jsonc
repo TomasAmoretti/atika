@@ -292,8 +292,8 @@
       },
           "iconProps": {
             "id": "mpa-heart",
-            "size": 14,
-            "viewBox": "0 0 16 16",
+            "size": 16,
+            "viewBox": "0 0 77 77",
             "mutedClassName": "c-action-primary"
           },
       "blockClass": "icon-favoritos"

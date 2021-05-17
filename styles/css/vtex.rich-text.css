@@ -263,10 +263,10 @@
 }
 
 .paragraph--titulo-informativo::after {
-    width: 50px;
+    width: 25px;
     content: "";
     display: block;
-    border-bottom: 4px solid #C90512;
+    border-bottom: 2px solid #C90512;
     margin: auto;
 }
 

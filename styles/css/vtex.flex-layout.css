@@ -28,12 +28,12 @@
 }
 
 .flexCol--spacer-mobile {
-    width: 90px;
+    width: 55px;
 }
 
 .flexCol--col-submenu {
     display: inline-block;
-    max-height: 460px;
+    max-height: 480px;
     min-height: 429px;
     width: inherit;
     overflow-x: hidden;
@@ -180,6 +180,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .flexRowContent--row-price-shelf {
+        display: block;
+    }
+}
+
 /* FOOTER */
 .flexRowContent--footer-bottom {
     display: flex;
@@ -214,6 +220,10 @@
 .flexCol--col-item-footer-news {
     width: 70%;
     margin: auto;
+}
+
+.flexRowContent--footer-general-bottom-row-mobile {
+    display: flex;
 }
 
 .flexRow--footer-general-fila-2 {

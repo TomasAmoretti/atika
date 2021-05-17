@@ -306,6 +306,16 @@
     margin-left: 2%;
 }
 
+@media screen and (max-width: 768px) {
+    .imageElement--image-info {
+        margin-right: 0;
+    }
+}
+
+.inputGroup--newsletter ::global(.vtex-input-prefix__group) {
+    border: unset!important;
+}
+
 /* PRODUCTO */
 .price_sellingPrice--product-price {
     padding: 0;

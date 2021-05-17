@@ -10,5 +10,8 @@
     },
     "store.blog-category": {
         "path": "/blog/category/:categoryslug_id"
+    },
+    "store.custom#contacto": {
+        "path": "/contacto"
     }
 }
