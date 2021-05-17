@@ -492,3 +492,8 @@
 .searchBarContainer {
     padding-top: 0;
 }
+
+::global(.flexColChild--col-form .vtex-input-prefix__group), ::global(.flexColChild--col-form .vtex-textarea__input), ::global(.flexColChild--col-form .vtex-dropdown__container) {
+    border-radius: 0!important;
+    border: solid 1px black!important;
+}

@@ -1,31 +1,50 @@
 {
     "store.custom#contacto": {
         "blocks": [
-            "rich-text#titulo-form-contact",
-            "flex-layout.row#form"
+            "flex-layout.row#contenedor-form"
         ]
     },
-    "rich-text#titulo-form-contact":{
+    "flex-layout.row#contenedor-form": {
+        "children": [
+            "flex-layout.col#contenedor-form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form"
+        }
+    },
+    "flex-layout.col#contenedor-form": {
+        "children": [
+            "rich-text#titulo-form-contact",
+            "flex-layout.row#form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form-col"
+        }
+    },
+    "rich-text#titulo-form-contact": {
         "props": {
             "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass":"titulo-form"
+            "blockClass": "titulo-form"
         }
     },
     "flex-layout.row#form": {
         "children": [
-          "flex-layout.col#form"
-        ]
-      },
-      "flex-layout.col#form": {
-        "children": [
-          "form#Contacto"
+            "flex-layout.col#form"
         ],
-        "props":{
+        "props": {
+            "blockClass": "formulario-contacto"
+        }
+    },
+    "flex-layout.col#form": {
+        "children": [
+            "form#Contacto"
+        ],
+        "props": {
             "blockClass": "col-form"
         }
-      },
+    },
     "form#Contacto": {
         "props": {
             "entity": "CO",
@@ -104,42 +123,42 @@
             "pointer": "#/properties/mensaje",
             "blockClass": "input"
         }
-    },  
-    "form-input.checkbox#recibir":{
-        "props": {  
-            "pointer": "#/properties/recibir",  
-            "label": "Si, quiero recibir información de novedades y ofertas de Atika"  
-          }
-    },  
+    },
+    "form-input.checkbox#recibir": {
+        "props": {
+            "pointer": "#/properties/recibir",
+            "label": "Si, quiero recibir información de novedades y ofertas de Atika"
+        }
+    },
     "form-submit": {
         "props": {
             "label": "Enviar",
             "blockClass": "boton-enviar"
         }
     },
-    "flex-layout.row#contenedor-form-1":{
-        "props":{
+    "flex-layout.row#contenedor-form-1": {
+        "props": {
             "blockClass": "contenedor-input"
         },
-        "children":[
+        "children": [
             "form-input.text#telefono",
             "form-input.text#email"
         ]
     },
-    "flex-layout.row#contenedor-form-2":{
-        "props":{
+    "flex-layout.row#contenedor-form-2": {
+        "props": {
             "blockClass": "contenedor-input"
         },
-        "children":[
+        "children": [
             "form-input.text#comuna",
             "form-input.dropdown#consulta"
         ]
     },
-    "flex-layout.row#contenedor-form-3":{
-        "props":{
+    "flex-layout.row#contenedor-form-3": {
+        "props": {
             "blockClass": "contenedor-input"
         },
-        "children":[
+        "children": [
             "form-input.checkbox#recibir",
             "form-submit"
         ]

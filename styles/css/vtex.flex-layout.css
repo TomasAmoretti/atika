@@ -447,3 +447,8 @@
         padding-right: 5px!important;
     }
 }
+
+.flexRow--formulario-contacto {
+    width: 40%;
+    padding: 10px;
+}
