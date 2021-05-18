@@ -232,6 +232,13 @@
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.link--titulo-informativo-mobile {
+    color: #000;
+    text-decoration: none;
 }
 
 .link--footer-contacto {

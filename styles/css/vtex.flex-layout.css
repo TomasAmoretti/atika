@@ -452,3 +452,15 @@
     width: 40%;
     padding: 10px;
 }
+
+.flexRowContent--row-price-shelf ::global(.vtex-button__label) {
+    padding: 0 15px!important;
+}
+
+.flexColChild--footer-informacion-mobile-col {
+    border-top: solid 1px;
+}
+
+.flexRow--row-item-footer-informativo {
+    padding: 5px 0;
+}

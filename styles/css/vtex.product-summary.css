@@ -15,6 +15,10 @@
     margin-left: 9px;
 }
 
+.imageNormal {
+    width: 80%;
+}
+
 .productBrandLogo {
     height: 40px!important;
 }

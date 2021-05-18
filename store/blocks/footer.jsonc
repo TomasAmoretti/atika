@@ -725,9 +725,9 @@
   },
   "flex-layout.col#footer-informacion-mobile":{
     "children":[
-      "disclosure-layout#informacion-pedido",
-      "disclosure-layout#informacion-showrooms",
-      "disclosure-layout#informacion-contacto"
+      "flex-layout.row#footer-informacion-pedido",
+      "flex-layout.row#footer-informacion-showrooms",
+      "flex-layout.row#footer-informacion-contacto"
     ],
     "props":{
       "blockClass": "footer-informacion-mobile-col"
@@ -735,8 +735,7 @@
   },
   "flex-layout.row#footer-informacion-pedido":{
     "children":[
-      "flex-layout.row#footer-informacion-pedido-texto",
-      "icon#plus-negro"
+      "flex-layout.row#footer-informacion-pedido-texto"
     ],
     "props":{
       "blockClass": "row-item-footer",
@@ -764,14 +763,13 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "SIGUE TU PEDIDO",
+      "text": "[SIGUE TU PEDIDO](#)",
       "blockClass": "titulo-informativo-mobile"
     }
   },
   "flex-layout.row#footer-informacion-showrooms":{
     "children":[
-      "flex-layout.row#footer-informacion-showrooms-texto",
-      "icon#plus-negro"
+      "flex-layout.row#footer-informacion-showrooms-texto"
     ],
     "props":{
       "blockClass": "row-item-footer",
@@ -799,14 +797,13 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "NUESTROS SHOWROOMS",
+      "text": "[NUESTROS SHOWROOMS](#)",
       "blockClass": "titulo-informativo-mobile"
     }
   },
   "flex-layout.row#footer-informacion-contacto":{
     "children":[
-      "flex-layout.row#footer-informacion-contacto-texto",
-      "icon#plus-negro"
+      "flex-layout.row#footer-informacion-contacto-texto"
     ],
     "props":{
       "blockClass": "row-item-footer",
@@ -834,7 +831,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "CONTÁCTANOS",
+      "text": "[CONTÁCTANOS](#)",
       "blockClass": "titulo-informativo-mobile"
     }
   },

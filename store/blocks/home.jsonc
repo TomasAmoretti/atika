@@ -299,7 +299,7 @@
     "props": {
       "src": "/arquivos/NEW-ARRIVAL.png",
       "link":{
-        "url":"#"
+        "url":"/140?map=productClusterIds"
       },
       "blockClass": "imagen-destacados"
     }
@@ -374,7 +374,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Ver más ofertas >](#)",
+      "text": "[Ver más ofertas >](/141?map=productClusterIds)",
       "blockClass": "sale-ver-mas"
     }
   },
@@ -609,7 +609,7 @@
     "props": {
       "src": "/arquivos/NEW-ARRIVAL-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/140?map=productClusterIds"
       },
       "blockClass": "new-arrival-mobile"
     }

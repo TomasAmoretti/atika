@@ -497,3 +497,7 @@
     border-radius: 0!important;
     border: solid 1px black!important;
 }
+
+.imageElement--imagen-destacados {
+    max-height: 680px;
+}
