@@ -135,7 +135,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/143?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -340,7 +340,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/142?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -452,7 +452,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/144?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -544,7 +544,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/145?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -696,7 +696,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/146?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -820,7 +820,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/147?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -892,7 +892,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/149?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -994,7 +994,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/142?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -1086,7 +1086,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/148?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -1102,16 +1102,6 @@
         "text": "Lavaplatos"
       },
       "blockClass": "item-submenu"
-    }
-  },
-  "menu-item#Productos-lavaplatos-vertodo": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "/lavaplatos",
-        "text": "Ver todo >"
-      },
-      "blockClass": "item-submenu-ver-todo"
     }
   },
   /* End items producto lavaplatos*/
@@ -1150,7 +1140,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/150?map=productClusterIds",
         "text": "Ver todo >"
       },
       "blockClass": "item-submenu-ver-todo"
@@ -1515,7 +1505,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/143?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -1747,7 +1737,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/142?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -1879,7 +1869,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/144?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2031,7 +2021,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/145?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2244,7 +2234,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/146?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2388,7 +2378,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/147?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2490,7 +2480,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/149?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2642,7 +2632,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/142?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2754,7 +2744,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/148?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"
@@ -2816,7 +2806,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/150?map=productClusterIds",
         "text": "VER TODO >"
       },
       "blockClass": "item-submenu-mobile"

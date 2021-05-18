@@ -438,7 +438,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "CUBIERTAS",
+            "text": "PIEDRAS Y CUBIERTAS",
             "blockClass": "titulo-menu"
           }
     },
@@ -455,8 +455,7 @@
     "flex-layout.col#submenu-productos-lavaplatos":{
         "children":[
             "rich-text#titulo-menu-productos-lavaplatos",
-            "menu-item#Productos-lavaplatos-lavaplatos",
-            "menu-item#Productos-lavaplatos-vertodo"
+            "menu-item#Productos-lavaplatos-lavaplatos"
         ],
         "props":{
             "blockClass": "col-submenu",
