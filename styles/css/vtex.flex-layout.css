@@ -387,6 +387,7 @@
 
 .flexRowContent--row-item-footer-informativo {
     padding-left: 22px;
+    max-height: 40px;
 }
 
 .flexRow--footer-general-fila-1 .container {
