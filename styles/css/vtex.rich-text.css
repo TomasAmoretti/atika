@@ -522,3 +522,12 @@
     font-weight: 600;
     margin-top: 0;
 }
+
+.container--titulo-form-2 {
+    width: 90%;
+    padding: 15px 20px 15px;
+    border: 1px solid #d2cfcf;
+    border-bottom: unset;
+    margin: auto;
+    background: #fff;
+}
