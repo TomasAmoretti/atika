@@ -110,7 +110,7 @@
   },
   "rich-text#correo-top":{
     "props":{
-      "text": "[Contacto](#)",
+      "text": "[Contacto](/contacto)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"

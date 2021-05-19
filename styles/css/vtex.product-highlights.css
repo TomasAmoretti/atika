@@ -1,0 +1,14 @@
+.productHighlightText--text-flag {
+    color: #000;
+    text-decoration: none;
+    font-size: 11px;
+    border: solid 1px;
+    width: fit-content;
+    font-family: 'Source Sans Pro';
+    transform: rotate(-90deg);
+    position: relative;
+    bottom: -45px;
+    left: 5px;
+    background: #fff;
+    z-index: 5;
+}

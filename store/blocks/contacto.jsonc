@@ -9,7 +9,9 @@
             "flex-layout.col#contenedor-form"
         ],
         "props": {
-            "blockClass": "contenedor-form"
+            "blockClass": "contenedor-form",
+            "preventHorizontalStretch": true,
+            "fullwidth": true
         }
     },
     "flex-layout.col#contenedor-form": {
@@ -138,7 +140,8 @@
     },
     "flex-layout.row#contenedor-form-1": {
         "props": {
-            "blockClass": "contenedor-input"
+            "blockClass": "contenedor-input",
+            "preventHorizontalStretch": true
         },
         "children": [
             "form-input.text#telefono",
@@ -147,7 +150,8 @@
     },
     "flex-layout.row#contenedor-form-2": {
         "props": {
-            "blockClass": "contenedor-input"
+            "blockClass": "contenedor-input",
+            "preventHorizontalStretch": true
         },
         "children": [
             "form-input.text#comuna",
@@ -156,7 +160,8 @@
     },
     "flex-layout.row#contenedor-form-3": {
         "props": {
-            "blockClass": "contenedor-input"
+            "blockClass": "contenedor-input",
+            "preventHorizontalStretch": true
         },
         "children": [
             "form-input.checkbox#recibir",

@@ -491,6 +491,7 @@
 
 .searchBarContainer {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 ::global(.flexColChild--col-form .vtex-input-prefix__group), ::global(.flexColChild--col-form .vtex-textarea__input), ::global(.flexColChild--col-form .vtex-dropdown__container) {
@@ -500,4 +501,13 @@
 
 .imageElement--imagen-destacados {
     max-height: 680px;
+}
+
+::global(.vtex-styleguide-9-x-container.vtex-dropdown__container), ::global(.vtex-textarea__input) {
+    border-radius: 0;
+    border: solid 1px;
+}
+
+::global(textarea#\#\/properties\/mensaje-textarea-input){
+    border: solid 1px #000
 }

@@ -1272,7 +1272,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/contacto",
         "text": "Contacto"
       },
       "blockClass": "footer-item"

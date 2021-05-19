@@ -1,6 +1,7 @@
 {
     "product-summary.shelf#main": {
         "children": [
+          "vtex.product-highlights@2.x:product-highlights#flag-arrival",
           "add-to-list-btn",
           "product-summary-image",
           "vtex.store-components:product-brand#shelf",
@@ -10,6 +11,31 @@
         "props": {
           "blockClass": "product-summary"
         }
+    },
+    "vtex.product-highlights@2.x:product-highlights#flag-arrival": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["NEW ARRIVAL"]
+        }
+      },
+      "children": [
+        "product-highlight-text#Arrivals"
+      ]
+    },
+    "image#flag-cucarda":{
+      "props": {
+        "src": "/arquivos/ico_locales.png",
+        "blockClass": "flag"
+      }
+    },
+    "product-highlight-text#Arrivals": {
+      "props": {
+        "message": "{highlightName}",
+        "link": "/collection/{highlightId}",
+        "blockClass": "text-flag"
+      }
     },
     "vtex.store-components:product-brand#shelf": {
       "props": {

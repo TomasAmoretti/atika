@@ -449,9 +449,14 @@
     }
 }
 
+/* INSTITUCIONAL */
 .flexRow--formulario-contacto {
-    width: 40%;
-    padding: 10px;
+    width: 90%;
+    padding: 0 20px 20px 20px;
+    border: solid 1px #d2cfcf;
+    border-top: unset;
+    margin: auto;
+    background: #fff;
 }
 
 .flexRowContent--row-price-shelf ::global(.vtex-button__label) {
@@ -464,4 +469,24 @@
 
 .flexRow--row-item-footer-informativo {
     padding: 5px 0;
+}
+
+.flexRowContent--contenedor-input {
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.flexCol--contenedor-form-col {
+    width: fit-content;
+}
+
+.flexRowContent--contenedor-form {
+    padding: 60px 0;
+}
+
+.flexRow--contenedor-form {
+    background: url(https://dummyimage.com/2000x750/000/fff);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
