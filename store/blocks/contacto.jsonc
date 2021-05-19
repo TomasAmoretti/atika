@@ -28,7 +28,7 @@
             "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "titulo-form"
+            "blockClass": "titulo-form-2"
         }
     },
     "flex-layout.row#form": {

@@ -367,7 +367,7 @@
     background: #fff;
 }
 
-.paragraph--titulo-form {
+.paragraph--titulo-form-2 {
     font-size: 13px;
     margin-top: 0;
 }
@@ -392,7 +392,7 @@
     line-height: 30px;
 }
 
-.paragraph--titulo-form::after, .paragraph--titulo-servicios::after, .paragraph--titulo-form-servicios-0::after {
+.paragraph--titulo-form::after, .paragraph--titulo-servicios::after, .paragraph--titulo-form-servicios-0::after, .headingLevel4--texto-info-servicios-institucional::after {
     display: block;
     width: 50px;
     border-bottom: 3px solid #C90512;
@@ -405,7 +405,7 @@
     margin: auto;
 }
 
-.paragraph--titulo-servicios {
+.paragraph--titulo-servicios, .headingLevel4--texto-info-servicios-institucional {
     font-size: 30px;
     color: #000;
     margin-bottom: 10px;
@@ -445,4 +445,80 @@
     .container--titulo-form-servicios, .container--titulo-form-servicios-0 {
         padding: 0 20px 20px 20px;
     }
+}
+
+.container--blog-categorias {
+    justify-content: center;
+}
+
+.link--blog-categorias {
+    text-decoration: none;
+    color: #c90512;
+    font-family: 'Source Sans Pro Regular';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container--blog-categorias-titulo {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--blog-categorias-titulo {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.container--texto-servicios-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-servicios-institucional {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.link--boton-info-servicios-institucional {
+    text-decoration: unset;
+    color: #fff;
+    background: #c90512;
+    padding: 8px 20px;
+    font-family: 'Poppins';
+}
+
+.container--titulo-elemento-servicios-institucional {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.paragraph--titulo-elemento-servicios-institucional {
+    font-weight: 600;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.paragraph--titulo-elemento-servicios-institucional::after {
+    display: block;
+    width: 25px;
+    border-bottom: 3px solid #C90512;
+    content: "";
+}
+
+.link--boton-elemento-vermas {
+    text-decoration: unset;
+    color: #000;
+    font-family: 'Poppins';
+    padding: 5px 25px;
+    border: solid 1px;
+}
+
+.paragraph--texto-elemento-institucional {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-top: 0;
 }

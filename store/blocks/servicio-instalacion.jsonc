@@ -101,6 +101,7 @@
         },
         "children":[
             "image#elemento-madera",
+            "rich-text#elemento-madera-titulo",
             "rich-text#elemento-madera",
             "rich-text#boton-madera-vermas"
         ]
@@ -109,6 +110,14 @@
         "props":{
             "src": "/arquivos/Pagina-Estatica-I-Instalación-1-web.png",
             "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#elemento-madera-titulo":{
+        "props": {
+            "text": "PISOS DE MADERA",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-madera":{
@@ -133,6 +142,7 @@
         },
         "children":[
             "image#elemento-vinilicos",
+            "rich-text#elemento-vinilicos-titulo",
             "rich-text#elemento-vinilicos",
             "rich-text#boton-vinilicos-vermas"
         ]
@@ -141,6 +151,14 @@
         "props":{
             "src": "/arquivos/Pagina-Estatica-I-Instalación-2-web.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-vinilicos-titulo":{
+        "props": {
+            "text": "PISOS VINÍLICOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-vinilicos":{
@@ -182,6 +200,7 @@
         },
         "children":[
             "image#elemento-organicos",
+            "rich-text#elemento-organicos-titulo",
             "rich-text#elemento-organicos",
             "rich-text#boton-organicos-vermas"
         ]
@@ -190,6 +209,14 @@
         "props":{
             "src": "/arquivos/Pagina-Estatica-I-Instalación-3-web.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-organicos-titulo":{
+        "props": {
+            "text": "PISOS ORGÁNICOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-organicos":{
@@ -214,6 +241,7 @@
         },
         "children":[
             "image#elemento-fotolaminados",
+            "rich-text#elemento-fotolaminados-titulo",
             "rich-text#elemento-fotolaminados",
             "rich-text#boton-fotolaminados-vermas"
         ]
@@ -222,6 +250,14 @@
         "props":{
             "src": "/arquivos/Pagina-Estatica-I-Instalación-4-web.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-fotolaminados-titulo":{
+        "props": {
+            "text": "PISOS FOTOLAMINADOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-fotolaminados":{

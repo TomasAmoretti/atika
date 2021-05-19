@@ -589,7 +589,7 @@
         "props": {
             "src": "/arquivos/MENU-CUBIERTAS.png",
             "link":{
-              "url":"#"
+              "url":"/servicios-cubiertas"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -599,7 +599,7 @@
         "props": {
             "src": "/arquivos/MENU-INSTALACIÓN.png",
             "link":{
-              "url":"#"
+              "url":"/servicio-instalacion"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150

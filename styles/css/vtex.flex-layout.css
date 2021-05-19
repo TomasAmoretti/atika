@@ -512,3 +512,24 @@
     border-top: unset;
     background: #fff;
 }
+
+.flexRowContent--row-categorias-blog {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexRowContent--row-categorias-blog {
+    max-width: 1280px;
+    margin: auto;
+    border: solid 1px;
+}
+
+.flexRow--row-materiales-instalacion-institucional {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.flexColChild--col-materiales-cubiertas-institucional {
+    margin-bottom: 45px;
+}
