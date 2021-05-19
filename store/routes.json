@@ -19,5 +19,11 @@
     },
     "store.custom#cubiertas-dimensionadas": {
         "path": "/cubiertas-dimensionadas"
+    },
+    "store.custom#cubiertas-dimensionadas-instuticional": {
+        "path": "/servicios-cubiertas"
+    },
+    "store.custom#servicio-instalacion-instuticional": {
+        "path": "/servicio-instalacion"
     }
 }

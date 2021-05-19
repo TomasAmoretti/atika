@@ -525,7 +525,7 @@
     },
     "image#menu-inspiracion-1":{
         "props": {
-            "src": "/arquivos/spaceplanner.jpg",
+            "src": "/arquivos/MENU-SP.png",
             "link":{
               "url":"#"
             },
@@ -535,7 +535,7 @@
     },
     "image#menu-inspiracion-2":{
         "props": {
-            "src": "/arquivos/proyectos.jpg",
+            "src": "/arquivos/MENU-PROYECTOS.png",
             "link":{
               "url":"#"
             },
@@ -545,7 +545,7 @@
     },
     "image#menu-inspiracion-3":{
         "props": {
-            "src": "/arquivos/blog.jpg",
+            "src": "/arquivos/MENU-BLOG.png",
             "link":{
               "url":"/blog"
             },
@@ -555,7 +555,7 @@
     },
     "image#menu-inspiracion-4":{
         "props": {
-            "src": "/arquivos/marcas.jpg",
+            "src": "/arquivos/MENU-MARCAS.png",
             "link":{
               "url":"#"
             },
@@ -587,7 +587,7 @@
     },
     "image#menu-servicios-1":{
         "props": {
-            "src": "/arquivos/cubiertas.jpg",
+            "src": "/arquivos/MENU-CUBIERTAS.png",
             "link":{
               "url":"#"
             },
@@ -597,7 +597,7 @@
     },
     "image#menu-servicios-2":{
         "props": {
-            "src": "/arquivos/instalacion.jpg",
+            "src": "/arquivos/MENU-INSTALACIÓN.png",
             "link":{
               "url":"#"
             },
@@ -607,9 +607,9 @@
     },
     "image#menu-servicios-3":{
         "props": {
-            "src": "/arquivos/mantencion.jpg",
+            "src": "/arquivos/MENU-SERVICIO-TEC.png",
             "link":{
-              "url":"#"
+              "url":"/servicios"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -617,7 +617,7 @@
     },
     "image#menu-servicios-4":{
         "props": {
-            "src": "/arquivos/despacho.jpg",
+            "src": "/arquivos/MENU-DESPACHO.png",
             "link":{
               "url":"#"
             },

@@ -1,70 +1,68 @@
 {
     "store.custom#cubiertas-dimensionadas": {
         "blocks": [
-            "responsive-layout.desktop#desktop-servicios",
-            "responsive-layout.mobile#mobile-servicios"
+            "responsive-layout.desktop#desktop-cubiertas-dimensionadas",
+            "responsive-layout.mobile#mobile-cubiertas-dimensionadas"
         ]
     },
-    "responsive-layout.desktop#desktop-servicios": {
+    "responsive-layout.desktop#desktop-cubiertas-dimensionadas": {
         "children": [
-            "image#banner-servicios",
-            "rich-text#servicios-titulo-1",
-            "rich-text#servicios-texto",
-            "flex-layout.row#servicios-contenedor-form"
+            "image#banner-cubiertas-dimensionadas",
+            "rich-text#cubiertas-dimensionadas-titulo-1",
+            "rich-text#cubiertas-dimensionadas-texto",
+            "flex-layout.row#cubiertas-dimensionadas-contenedor-form"
         ]
     },
-    "image#banner-servicios":{
+    "image#banner-cubiertas-dimensionadas":{
         "props":{
-            "props":{
-                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa-header-web.png",
-                "blockClass":"banner-servicios"
-            }
+            "src": "/arquivos/Pagina Estatica I cubiertas-dimensionadas - Cubiertas Dimensionadas_header.png",
+            "blockClass":"banner-cubiertas-dimensionadas"
         }
     },
-    "rich-text#servicios-titulo-1":{
+    "rich-text#cubiertas-dimensionadas-titulo-1":{
         "props": {
-            "text": "Servicios Atika",
+            "text": "cubiertas-dimensionadas Atika",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "titulo-servicios"
+            "blockClass": "titulo-cubiertas-dimensionadas"
         }
     },
-    "rich-text#servicios-texto":{
+    "rich-text#cubiertas-dimensionadas-texto":{
         "props": {
-            "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: **Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico.** Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado.",
+            "text": "En Atika disponemos de una amplia gama de cubiertas-dimensionadas que complementan nuestra oferta de productos: **Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico.** Para proyectos comerciales o residenciales y de todas las escalas. Nuestros cubiertas-dimensionadas cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado.",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "texto-servicios"
+            "blockClass": "texto-cubiertas-dimensionadas"
         }
     },
-    "rich-text#servicios-texto-aclaracion":{
+    "rich-text#cubiertas-dimensionadas-texto-aclaracion":{
         "props": {
-            "text": "Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
+            "text": "cubiertas-dimensionadas disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "aclaracion-servicios"
+            "blockClass": "aclaracion-cubiertas-dimensionadas"
         }
     },
-    "flex-layout.row#servicios-contenedor-form": {
+    "flex-layout.row#cubiertas-dimensionadas-contenedor-form": {
         "children": [
-            "flex-layout.col#servicios-contenedor-form"
+            "flex-layout.col#cubiertas-dimensionadas-contenedor-form"
         ],
         "props": {
-            "blockClass": "contenedor-form-servicios",
+            "blockClass": "contenedor-form-cubiertas-dimensionadas",
             "preventHorizontalStretch": true,
             "fullwidth": true
         }
     },
-    "flex-layout.col#servicios-contenedor-form": {
+    "flex-layout.col#cubiertas-dimensionadas-contenedor-form": {
         "children": [
-            "rich-text#servicios-titulo-form-contact",
-            "flex-layout.row#servicios-form"
+            "rich-text#cubiertas-dimensionadas-titulo-form-contact",
+            "flex-layout.row#cubiertas-dimensionadas-form"
         ],
         "props": {
-            "blockClass": "contenedor-form-col-servicios"
+            "blockClass": "contenedor-form-col-cubiertas-dimensionadas"
         }
     },
-    "rich-text#servicios-titulo-form-contact": {
+    "rich-text#cubiertas-dimensionadas-titulo-form-contact": {
         "props": {
             "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
             "textAlignment": "left",
@@ -72,124 +70,180 @@
             "blockClass": "titulo-form"
         }
     },
-    "flex-layout.row#servicios-form": {
+    "flex-layout.row#cubiertas-dimensionadas-form": {
         "children": [
-            "flex-layout.col#form-servicios"
+            "flex-layout.col#form-cubiertas-dimensionadas"
         ],
         "props": {
             "blockClass": "formulario-contacto"
         }
     },
-    "flex-layout.col#form-servicios": {
+    "flex-layout.col#form-cubiertas-dimensionadas": {
         "children": [
-            "form#Servicios"
+            "form#cubiertas-dimensionadas"
         ],
         "props": {
             "blockClass": "col-form"
         }
     },
-    "form#Servicios": {
+    "form#cubiertas-dimensionadas": {
         "props": {
             "entity": "SE",
-            "schema": "Servicios",
+            "schema": "cubiertas-dimensionadas",
             "blockClass": "formulario-contacto"
         },
         "children": [
-            "form-input.dropdown#servicios-tecnico",
-            "form-input.text#servicios-name",
-            "form-input.text#servicios-rut",
-            "form-input.text#servicios-telefono",
-            "form-input.text#servicios-email",
-            "form-input.text#servicios-direccion",
-            "form-input.text#servicios-comuna",
-            "form-input.textarea#servicios-comentario",
-            "form-submit#servicios"
+            "form-input.text#cubiertas-dimensionadas-name",
+            "form-input.text#cubiertas-dimensionadas-rut",
+            "form-input.text#cubiertas-dimensionadas-telefono",
+            "form-input.text#cubiertas-dimensionadas-email",
+            "form-input.checkbox#cubiertas-dimensionadas-material",
+            "flex-layout.row#contenedor-form-cubiertas",
+            "form-input.checkbox#cubiertas-dimensionadas-respaldo",
+            "form-input.checkbox#cubiertas-dimensionadas-ranurado",
+            "form-input.textarea#cubiertas-dimensionadas-perforaciones",
+            "form-input.dropdown#cubiertas-dimensionadas-terminacion",
+            "form-input.textarea#cubiertas-dimensionadas-lados",
+            "form-input.textarea#cubiertas-dimensionadas-comentario",
+            "form-input.checkbox#cubiertas-dimensionadas-aceptar",
+            "form-submit#cubiertas-dimensionadas"
         ],
         "blocks": [
             "form-success"
         ]
     },
-    "form-success#servicios": {
+    "form-success#cubiertas-dimensionadas": {
         "children": [
             "rich-text#successSubmit"
         ]
     },
-    "rich-text#servicios-successSubmit": {
+    "rich-text#cubiertas-dimensionadas-successSubmit": {
         "props": {
             "text": "Se envio con exito su consulta!",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
         }
     },
-    "form-input.dropdown#servicios-tecnico": {
+    "form-input.text#cubiertas-dimensionadas-name": {
         "props": {
-            "pointer": "#/properties/servicio",
+            "pointer": "#/properties/name",
             "blockClass": "input"
         }
     },
-    "form-input.text#servicios-name": {
-        "props": {
-            "pointer": "#/properties/nombre",
-            "blockClass": "input"
-        }
-    },
-    "form-input.text#servicios-rut": {
+    "form-input.text#cubiertas-dimensionadas-rut": {
         "props": {
             "pointer": "#/properties/rut",
             "blockClass": "input"
         }
     },
-    "form-input.text#servicios-direccion": {
-        "props": {
-            "pointer": "#/properties/direccion",
-            "blockClass": "input"
-        }
-    },
-    "form-input.text#servicios-comuna": {
-        "props": {
-            "pointer": "#/properties/comuna",
-            "blockClass": "input"
-        }
-    },
-    "form-input.text#servicios-email": {
-        "props": {
-            "pointer": "#/properties/email",
-            "blockClass": "input"
-        }
-    },
-    "form-input.text#servicios-telefono": {
+    "form-input.text#cubiertas-dimensionadas-telefono": {
         "props": {
             "pointer": "#/properties/telefono",
             "blockClass": "input"
         }
     },
-    "form-input.textarea#servicios-comentario": {
+    "form-input.text#cubiertas-dimensionadas-email": {
         "props": {
-            "pointer": "#/properties/mensaje",
+            "pointer": "#/properties/email",
             "blockClass": "input"
         }
     },
-    "form-submit#servicios": {
+    "form-input.checkbox#cubiertas-dimensionadas-material": {
+        "props": {
+            "pointer": "#/properties/material",
+            "blockClass": "radio"
+        }
+    },
+    "flex-layout.row#contenedor-form-cubiertas": {
+        "props": {
+            "blockClass": "contenedor-input",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "form-input.text#cubiertas-dimensionadas-largo",
+            "form-input.text#cubiertas-dimensionadas-ancho",
+            "form-input.text#cubiertas-dimensionadas-alto"
+        ]
+    },
+    "form-input.text#cubiertas-dimensionadas-largo": {
+        "props": {
+            "pointer": "#/properties/largo",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#cubiertas-dimensionadas-ancho": {
+        "props": {
+            "pointer": "#/properties/ancho",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#cubiertas-dimensionadas-alto": {
+        "props": {
+            "pointer": "#/properties/alto",
+            "blockClass": "input"
+        }
+    },
+    "form-input.checkbox#cubiertas-dimensionadas-respaldo": {
+        "props": {
+            "pointer": "#/properties/respaldo",
+            "blockClass": "radio"
+        }
+    }, 
+    "form-input.checkbox#cubiertas-dimensionadas-ranurado": {
+        "props": {
+            "pointer": "#/properties/ranurado",
+            "blockClass": "radio"
+        }
+    }, 
+    "form-input.textarea#cubiertas-dimensionadas-perforaciones": {
+        "props": {
+            "pointer": "#/properties/perforaciones",
+            "blockClass": "input"
+        }
+    },
+    "form-input.dropdown#cubiertas-dimensionadas-terminacion": {
+        "props": {
+            "pointer": "#/properties/terminacion",
+            "blockClass": "input"
+        }
+    },
+    "form-input.textarea#cubiertas-dimensionadas-lados": {
+        "props": {
+            "pointer": "#/properties/lados",
+            "blockClass": "input"
+        }
+    },
+    "form-input.textarea#cubiertas-dimensionadas-comentario": {
+        "props": {
+            "pointer": "#/properties/comentario",
+            "blockClass": "input"
+        }
+    },
+    "form-input.checkbox#cubiertas-dimensionadas-aceptar": {
+        "props": {
+            "pointer": "#/properties/aceptar",
+            "blockClass": "radio"
+        }
+    }, 
+    "form-submit#cubiertas-dimensionadas": {
         "props": {
             "label": "Enviar",
             "blockClass": "boton-enviar"
         }
     },
-    "responsive-layout.mobile#mobile-servicios": {
+    "responsive-layout.mobile#mobile-cubiertas-dimensionadas": {
         "children": [
-            "image#banner-servicios-mobile",
-            "rich-text#servicios-titulo-1",
-            "rich-text#servicios-texto",
-            "rich-text#servicios-texto-aclaracion",
-            "flex-layout.row#servicios-contenedor-form"
+            "image#banner-cubiertas-dimensionadas-mobile",
+            "rich-text#cubiertas-dimensionadas-titulo-1",
+            "rich-text#cubiertas-dimensionadas-texto",
+            "rich-text#cubiertas-dimensionadas-texto-aclaracion",
+            "flex-layout.row#cubiertas-dimensionadas-contenedor-form"
         ]
     },
-    "image#banner-servicios-mobile":{
+    "image#banner-cubiertas-dimensionadas-mobile":{
         "props":{
-            "props":{
-                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa_header-mobile.png",
-                "blockClass":"banner-servicios"
-            }
+            "src": "/arquivos/Pagina Estatica I cubiertas-dimensionadas - Cubiertas Dimensionadas_header mobile.png",
+            "blockClass":"banner-cubiertas-dimensionadas"
         }
     }
 }

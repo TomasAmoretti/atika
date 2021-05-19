@@ -215,6 +215,9 @@
       "hasGoogleOneTap": true,
       "hideIconLabel": true,
       "optionsTitle": "Elije una opción para ingresar",
+      "iconProps": {
+        "viewBox": "0 0 50 50"
+      },
       "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
     }
   },
@@ -293,7 +296,7 @@
           "iconProps": {
             "id": "mpa-heart",
             "size": 16,
-            "viewBox": "0 0 77 77",
+            "viewBox": "0 0 54 53",
             "mutedClassName": "c-action-primary"
           },
       "blockClass": "icon-favoritos"

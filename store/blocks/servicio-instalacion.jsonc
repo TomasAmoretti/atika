@@ -1,0 +1,256 @@
+{
+    "store.custom#servicio-instalacion-instuticional": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-servicio-instalacion-instuticional",
+            "responsive-layout.mobile#mobile-servicio-instalacion-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-servicio-instalacion-instuticional": {
+        "children": [
+            "image#banner-servicio-instalacion-instuticional",
+            "rich-text#servicio-instalacion-instuticional-texto",
+            "flex-layout.row#servicio-instalacion-info-card",
+            "rich-text#titulo-elementos-instalacion",
+            "flex-layout.row#servicio-instalacion-instuticional-materiales"
+        ]
+    },
+    "image#banner-servicio-instalacion-instuticional":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header web.png",
+            "width": "100%",
+            "blockClass":"banner-servicio-instalacion-instuticional"
+        }
+    },
+    "rich-text#servicio-instalacion-instuticional-texto":{
+        "props": {
+            "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico. Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado. Contáctanos para más información. Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-servicios-institucional"
+        }
+    },
+    "flex-layout.row#servicio-instalacion-info-card":{
+        "children":[
+            "flex-layout.col#servicio-instalacion-info-card",
+            "image#info-card-servicio-instalacion"
+        ],
+        "props":{
+            "blockClass":"row-materiales-instalacion-institucional"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-info-card":{
+        "children":[
+            "rich-text#texto-info-instalacion",
+            "rich-text#boton-info-instalacion"
+        ],
+        "props":{
+            "blockClass":"info-card-servicio-instalacion"
+        }
+    },
+    "rich-text#texto-info-instalacion":{
+        "props": {
+            "text": "#### Servicio de Instalación de pisos de madera, pisos vinílicos y pisos fotolaminados. \n\n Un complemento ideal para la compra de estos pisos, es el servicio de instalación de Atika, que cuenta con un equipo especializado y los mejores materiales del mercado. Para cada instalación realizamos una visita en terreno sin costo para cubicar y confirmar el presupuesto de referencia, ya que además de las medidas, las condiciones del espacio pueden influir en el valor final y tiempos de instalación.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-info-servicios-institucional"
+        }
+    },
+    "rich-text#boton-info-instalacion":{
+        "props": {
+            "text": "[SOLICITA TU SERVICIO](/servicios)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-info-servicios-institucional"
+        }
+    },
+    "image#info-card-servicio-instalacion":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios - Instalación_foto instalacion-04.png",
+            "blockClass":"info-servicio-instalacion"
+        }
+    },
+    "rich-text#titulo-elementos-instalacion":{
+        "props": {
+            "text": "PISOS QUE INCLUYEN ESTE SERVICIO",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-elemento-servicios-institucional"
+        }
+    },
+    "flex-layout.row#servicio-instalacion-instuticional-materiales":{
+        "children":[
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-1",
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-2"
+        ],
+        "props":{
+            "blockClass":"row-materiales-instalacion-institucional"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-1":{
+        "children":[
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-madera",
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-vinilicos"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-madera":{
+        "props":{
+            "blockClass":"elemento-cubiertas"
+        },
+        "children":[
+            "image#elemento-madera",
+            "rich-text#elemento-madera",
+            "rich-text#boton-madera-vermas"
+        ]
+    },
+    "image#elemento-madera":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-1-web.png",
+            "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#elemento-madera":{
+        "props": {
+            "text": "Pisos exclusivos de madera de Roble Natural.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional"
+        }
+    },
+    "rich-text#boton-madera-vermas":{
+        "props": {
+            "text": "[VER MÁS](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-elemento-vermas"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-vinilicos":{
+        "props":{
+            "blockClass":"elemento-cubiertas"
+        },
+        "children":[
+            "image#elemento-vinilicos",
+            "rich-text#elemento-vinilicos",
+            "rich-text#boton-vinilicos-vermas"
+        ]
+    },
+    "image#elemento-vinilicos":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-2-web.png",
+            "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-vinilicos":{
+        "props": {
+            "text": "Pisos muy resistentes aptos para todos los espacios.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional"
+        }
+    },
+    "rich-text#boton-vinilicos-presupuesto":{
+        "props": {
+            "text": "[SOLICITAR PRESUPUESTO](/servicio-instalacion)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-elemento-presupuesto"
+        }
+    },
+    "rich-text#boton-vinilicos-vermas":{
+        "props": {
+            "text": "[VER MÁS](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-elemento-vermas"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-2":{
+        "children":[
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-organicos",
+            "flex-layout.col#servicio-instalacion-instuticional-materiales-fotolaminados"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-organicos":{
+        "props":{
+            "blockClass":"elemento-cubiertas"
+        },
+        "children":[
+            "image#elemento-organicos",
+            "rich-text#elemento-organicos",
+            "rich-text#boton-organicos-vermas"
+        ]
+    },
+    "image#elemento-organicos":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-3-web.png",
+            "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-organicos":{
+        "props": {
+            "text": "Pisos 100% reciclables y libres de plástico, que además son muy resistentes al agua y humedad.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional"
+        }
+    },
+    "rich-text#boton-organicos-vermas":{
+        "props": {
+            "text": "[VER MÁS](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-elemento-vermas"
+        }
+    },
+    "flex-layout.col#servicio-instalacion-instuticional-materiales-fotolaminados":{
+        "props":{
+            "blockClass":"elemento-cubiertas"
+        },
+        "children":[
+            "image#elemento-fotolaminados",
+            "rich-text#elemento-fotolaminados",
+            "rich-text#boton-fotolaminados-vermas"
+        ]
+    },
+    "image#elemento-fotolaminados":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-4-web.png",
+            "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#elemento-fotolaminados":{
+        "props": {
+            "text": "Piedras para cubiertas únicas e irrepetibles por sus vetas naturales.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional"
+        }
+    },
+    "rich-text#boton-fotolaminados-vermas":{
+        "props": {
+            "text": "[VER MÁS](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-elemento-vermas"
+        }
+    },
+    "responsive-layout.mobile#mobile-servicio-instalacion-instuticional": {
+        "children": [
+            "image#banner-servicio-instalacion-instuticional-mobile",
+            "rich-text#servicio-instalacion-instuticional-texto",
+            "flex-layout.row#servicio-instalacion-instuticional-materiales"
+        ]
+    },
+    "image#banner-servicio-instalacion-instuticional-mobile":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header mobile.png",
+            "blockClass":"banner-servicio-instalacion-instuticional"
+        }
+    }
+}

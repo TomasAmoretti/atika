@@ -10,15 +10,15 @@
             "image#banner-servicios",
             "rich-text#servicios-titulo-1",
             "rich-text#servicios-texto",
+            "rich-text#servicios-texto-aclaracion",
             "flex-layout.row#servicios-contenedor-form"
         ]
     },
     "image#banner-servicios":{
         "props":{
-            "props":{
-                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa-header-web.png",
-                "blockClass":"banner-servicios"
-            }
+            "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa-header-web.png",
+            "width": "100%",
+            "blockClass":"banner-servicios"
         }
     },
     "rich-text#servicios-titulo-1":{
@@ -57,19 +57,28 @@
     },
     "flex-layout.col#servicios-contenedor-form": {
         "children": [
-            "rich-text#servicios-titulo-form-contact",
+            "rich-text#servicios-titulo-servicios-0",
+            "rich-text#servicios-titulo-form-servicios",
             "flex-layout.row#servicios-form"
         ],
         "props": {
             "blockClass": "contenedor-form-col-servicios"
         }
     },
-    "rich-text#servicios-titulo-form-contact": {
+    "rich-text#servicios-titulo-servicios-0": {
+        "props": {
+            "text": "Envíanos tus datos para coordinar tu servicio",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-form-servicios-0"
+        }
+    },
+    "rich-text#servicios-titulo-form-servicios": {
         "props": {
             "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "titulo-form"
+            "blockClass": "titulo-form-servicios"
         }
     },
     "flex-layout.row#servicios-form": {
@@ -77,7 +86,7 @@
             "flex-layout.col#form-servicios"
         ],
         "props": {
-            "blockClass": "formulario-contacto"
+            "blockClass": "formulario-servicios"
         }
     },
     "flex-layout.col#form-servicios": {
@@ -186,10 +195,8 @@
     },
     "image#banner-servicios-mobile":{
         "props":{
-            "props":{
-                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa_header-mobile.png",
-                "blockClass":"banner-servicios"
-            }
+            "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa_header-mobile.png",
+            "blockClass":"banner-servicios"
         }
     }
 }

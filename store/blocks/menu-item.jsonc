@@ -2938,7 +2938,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/servicios",
         "text": "MANTENCIÓN Y SERVICIO TÉCNICO"
       },
       "blockClass": "item-submenu-mobile"

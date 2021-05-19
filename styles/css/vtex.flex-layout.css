@@ -447,6 +447,12 @@
         padding-left: 5px!important;
         padding-right: 5px!important;
     }
+    .flexCol--contenedor-form-col-servicios {
+        width: 100%;
+    }
+    .flexRow--formulario-servicios {
+        padding: 0 20px 20px 20px!important;
+    }
 }
 
 /* INSTITUCIONAL */
@@ -489,4 +495,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.flexCol--contenedor-form-col-servicios {
+    width: 800px;
+}
+
+.flexRowContent--contenedor-form-servicios {
+    justify-content: center;
+}
+
+.flexRow--formulario-servicios {
+    width: 100%;
+    padding: 0 180px 20px 180px;
+    border: solid 1px #d2cfcf;
+    border-top: unset;
+    background: #fff;
 }
