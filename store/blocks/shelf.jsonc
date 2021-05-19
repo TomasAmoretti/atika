@@ -33,7 +33,7 @@
     "product-highlight-text#Arrivals": {
       "props": {
         "message": "{highlightName}",
-        "link": "/collection/{highlightId}",
+        /*"link": "/collection/{highlightId}",*/
         "blockClass": "text-flag"
       }
     },
@@ -169,8 +169,9 @@
           "orderBy": "OrderByTopSaleDESC",
           "paginationDotsVisibility": "none",
           "simulationBehavour":"default",
+          "hideUnavailableItems": false,
           "productList": {
-            "maxItems": 3,
+            "maxItems": 12,
             "itemsPerPage": 3,
             "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",
@@ -186,11 +187,12 @@
         ],
         "props": {
           "collection": 140,
-          "orderBy": "OrderByTopSaleDESC",
+          "orderBy": "OrderByNameASC",
           "paginationDotsVisibility": "none",
           "simulationBehavour":"default",
+          "hideUnavailableItems": false,
           "productList": {
-            "maxItems": 3,
+            "maxItems": 12,
             "itemsPerPage": 3,
             "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",

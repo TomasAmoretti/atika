@@ -13,5 +13,11 @@
     },
     "store.custom#contacto": {
         "path": "/contacto"
+    },
+    "store.custom#servicios": {
+        "path": "/servicios"
+    },
+    "store.custom#cubiertas-dimensionadas": {
+        "path": "/cubiertas-dimensionadas"
     }
 }

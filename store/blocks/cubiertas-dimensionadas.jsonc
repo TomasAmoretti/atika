@@ -1,0 +1,195 @@
+{
+    "store.custom#cubiertas-dimensionadas": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-servicios",
+            "responsive-layout.mobile#mobile-servicios"
+        ]
+    },
+    "responsive-layout.desktop#desktop-servicios": {
+        "children": [
+            "image#banner-servicios",
+            "rich-text#servicios-titulo-1",
+            "rich-text#servicios-texto",
+            "flex-layout.row#servicios-contenedor-form"
+        ]
+    },
+    "image#banner-servicios":{
+        "props":{
+            "props":{
+                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa-header-web.png",
+                "blockClass":"banner-servicios"
+            }
+        }
+    },
+    "rich-text#servicios-titulo-1":{
+        "props": {
+            "text": "Servicios Atika",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-servicios"
+        }
+    },
+    "rich-text#servicios-texto":{
+        "props": {
+            "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: **Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico.** Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-servicios"
+        }
+    },
+    "rich-text#servicios-texto-aclaracion":{
+        "props": {
+            "text": "Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "aclaracion-servicios"
+        }
+    },
+    "flex-layout.row#servicios-contenedor-form": {
+        "children": [
+            "flex-layout.col#servicios-contenedor-form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form-servicios",
+            "preventHorizontalStretch": true,
+            "fullwidth": true
+        }
+    },
+    "flex-layout.col#servicios-contenedor-form": {
+        "children": [
+            "rich-text#servicios-titulo-form-contact",
+            "flex-layout.row#servicios-form"
+        ],
+        "props": {
+            "blockClass": "contenedor-form-col-servicios"
+        }
+    },
+    "rich-text#servicios-titulo-form-contact": {
+        "props": {
+            "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-form"
+        }
+    },
+    "flex-layout.row#servicios-form": {
+        "children": [
+            "flex-layout.col#form-servicios"
+        ],
+        "props": {
+            "blockClass": "formulario-contacto"
+        }
+    },
+    "flex-layout.col#form-servicios": {
+        "children": [
+            "form#Servicios"
+        ],
+        "props": {
+            "blockClass": "col-form"
+        }
+    },
+    "form#Servicios": {
+        "props": {
+            "entity": "SE",
+            "schema": "Servicios",
+            "blockClass": "formulario-contacto"
+        },
+        "children": [
+            "form-input.dropdown#servicios-tecnico",
+            "form-input.text#servicios-name",
+            "form-input.text#servicios-rut",
+            "form-input.text#servicios-telefono",
+            "form-input.text#servicios-email",
+            "form-input.text#servicios-direccion",
+            "form-input.text#servicios-comuna",
+            "form-input.textarea#servicios-comentario",
+            "form-submit#servicios"
+        ],
+        "blocks": [
+            "form-success"
+        ]
+    },
+    "form-success#servicios": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+    "rich-text#servicios-successSubmit": {
+        "props": {
+            "text": "Se envio con exito su consulta!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.dropdown#servicios-tecnico": {
+        "props": {
+            "pointer": "#/properties/servicio",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-name": {
+        "props": {
+            "pointer": "#/properties/nombre",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-rut": {
+        "props": {
+            "pointer": "#/properties/rut",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-direccion": {
+        "props": {
+            "pointer": "#/properties/direccion",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-comuna": {
+        "props": {
+            "pointer": "#/properties/comuna",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-email": {
+        "props": {
+            "pointer": "#/properties/email",
+            "blockClass": "input"
+        }
+    },
+    "form-input.text#servicios-telefono": {
+        "props": {
+            "pointer": "#/properties/telefono",
+            "blockClass": "input"
+        }
+    },
+    "form-input.textarea#servicios-comentario": {
+        "props": {
+            "pointer": "#/properties/mensaje",
+            "blockClass": "input"
+        }
+    },
+    "form-submit#servicios": {
+        "props": {
+            "label": "Enviar",
+            "blockClass": "boton-enviar"
+        }
+    },
+    "responsive-layout.mobile#mobile-servicios": {
+        "children": [
+            "image#banner-servicios-mobile",
+            "rich-text#servicios-titulo-1",
+            "rich-text#servicios-texto",
+            "rich-text#servicios-texto-aclaracion",
+            "flex-layout.row#servicios-contenedor-form"
+        ]
+    },
+    "image#banner-servicios-mobile":{
+        "props":{
+            "props":{
+                "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa_header-mobile.png",
+                "blockClass":"banner-servicios"
+            }
+        }
+    }
+}
