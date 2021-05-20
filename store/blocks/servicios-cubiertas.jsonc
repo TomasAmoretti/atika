@@ -51,6 +51,7 @@
         },
         "children":[
             "image#elemento-cuarzo",
+            "rich-text#titulo-elemento-cuarzo",
             "rich-text#elemento-cuarzo",
             "flex-layout.row#elemento-cuarzo"
         ]
@@ -59,6 +60,14 @@
         "props":{
             "src": "/arquivos/cuarzo.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#titulo-elemento-cuarzo":{
+        "props": {
+            "text": "CUARZO",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-cuarzo":{
@@ -101,6 +110,7 @@
         },
         "children":[
             "image#elemento-marmol",
+            "rich-text#titulo-elemento-marmol",
             "rich-text#elemento-marmol",
             "flex-layout.row#elemento-marmol"
         ]
@@ -109,6 +119,14 @@
         "props":{
             "src": "/arquivos/marmol.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#titulo-elemento-marmol":{
+        "props": {
+            "text": "MARMOL",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-marmol":{
@@ -160,6 +178,7 @@
         },
         "children":[
             "image#elemento-granito",
+            "rich-text#titulo-elemento-granito",
             "rich-text#elemento-granito",
             "flex-layout.row#elemento-granito"
         ]
@@ -168,6 +187,14 @@
         "props":{
             "src": "/arquivos/granito.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#titulo-elemento-granito":{
+        "props": {
+            "text": "GRANITO",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-granito":{
@@ -210,6 +237,7 @@
         },
         "children":[
             "image#elemento-itopker",
+            "rich-text#titulo-elemento-itopker",
             "rich-text#elemento-itopker",
             "flex-layout.row#elemento-itopker"
         ]
@@ -218,6 +246,14 @@
         "props":{
             "src": "/arquivos/itopker.png",
             "blockClass":"elemento-cuarzo-insti"
+        }
+    },
+    "rich-text#titulo-elemento-itopker":{
+        "props": {
+            "text": "ITOPKER",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-elemento-institucional-titulo"
         }
     },
     "rich-text#elemento-itopker":{

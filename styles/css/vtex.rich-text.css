@@ -519,8 +519,11 @@
     margin-bottom: 0;
     font-size: 16px;
     font-family: 'Source Sans Pro';
-    font-weight: 600;
     margin-top: 0;
+}
+
+.paragraph--texto-elemento-institucional-titulo {
+    font-weight: 600;
 }
 
 .container--titulo-form-2 {
@@ -530,4 +533,42 @@
     border-bottom: unset;
     margin: auto;
     background: #fff;
+}
+
+.container--texto-cubiertas-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-cubiertas-institucional {
+    font-weight: 600;
+}
+
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional {
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional::after {
+    content: "";
+    display: block;
+    width: 25px;
+    border-bottom: solid 2px #c90512;
+    margin-top: -2px;
+}
+
+.link--boton-elemento-presupuesto {
+    text-decoration: unset;
+    color: white;
+    background: #c90512;
+    padding: 6px 20px;
+    font-family: 'Poppins';
+    margin-right: 15px;
+}
+
+.link--boton-elemento-presupuesto:hover {
+    background: #fff;
+    border: solid 1px #c90512;
 }

@@ -227,7 +227,7 @@
     "props": {
       "src": "/arquivos/COCINA.png",
       "link":{
-        "url":"#"
+        "url":"/143?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-cocina"
     }
@@ -236,7 +236,7 @@
     "props": {
       "src": "/arquivos/BAÑO.png",
       "link":{
-        "url":"#"
+        "url":"/142?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-bano"
     }
@@ -245,7 +245,7 @@
     "props": {
       "src": "/arquivos/SALA DE ESTAR.png",
       "link":{
-        "url":"#"
+        "url":"/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-estar"
     }
@@ -254,7 +254,7 @@
     "props": {
       "src": "/arquivos/DORMITORIO.png",
       "link":{
-        "url":"#"
+        "url":"/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-dormitorio"
     }
@@ -263,7 +263,7 @@
     "props": {
       "src": "/arquivos/EXTERIOR.png",
       "link":{
-        "url":"#"
+        "url":"/145?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-exterior"
     }
@@ -272,7 +272,7 @@
     "props": {
       "src": "/arquivos/RECINTOS-PUBLICOS.png",
       "link":{
-        "url":"#"
+        "url":"/146?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-publicos"
     }
@@ -555,7 +555,7 @@
     "props": {
       "src": "/arquivos/cocina-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/143?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-cocina-mobile"
     }
@@ -564,7 +564,7 @@
     "props": {
       "src": "/arquivos/baño-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/142?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-bano-mobile"
     }
@@ -573,7 +573,7 @@
     "props": {
       "src": "/arquivos/estar-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-estar-mobile"
     }
@@ -582,7 +582,7 @@
     "props": {
       "src": "/arquivos/dormitorios-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-dormitorio-mobile"
     }
@@ -591,7 +591,7 @@
     "props": {
       "src": "/arquivos/exterior-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/145?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-exterior-mobile"
     }
@@ -600,7 +600,7 @@
     "props": {
       "src": "/arquivos/publicos-mobile.png",
       "link":{
-        "url":"#"
+        "url":"/146?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-publicos-mobile"
     }

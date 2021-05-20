@@ -1,0 +1,224 @@
+{
+    "store.custom#servicio-tecnico-mantencion": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-servicio-tecnico-mantencion",
+            "responsive-layout.mobile#mobile-servicio-tecnico-mantencion"
+        ]
+    },
+    "responsive-layout.desktop#desktop-servicio-tecnico-mantencion": {
+        "children": [
+            "image#banner-servicio-tecnico-mantencion",
+            "rich-text#servicio-tecnico-mantencion-texto",
+            "flex-layout.row#servicio-tecnico-mantencion-materiales"
+        ]
+    },
+    "image#banner-servicio-tecnico-mantencion":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header web.png",
+            "width": "100%",
+            "blockClass":"banner-servicio-tecnico-mantencion"
+        }
+    },
+    "rich-text#servicio-tecnico-mantencion-texto":{
+        "props": {
+            "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico. Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado. Contáctanos para más información. Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA. \n\n Realizamos servicios de mantención a griferías y pisos de madera, por el especial cuidado que estos requieren.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-servicios-institucional"
+        }
+    },
+    "flex-layout.row#servicio-tecnico-mantencion-materiales":{
+        "children":[
+            "flex-layout.col#servicio-tecnico-mantencion-materiales-1",
+            "flex-layout.col#servicio-tecnico-mantencion-materiales-2",
+            "flex-layout.col#servicio-tecnico-mantencion-materiales-3"
+        ],
+        "props":{
+            "blockClass":"row-materiales-instalacion-institucional"
+        }
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-materiales-1":{
+        "children":[
+            "flex-layout.row#servicio-tecnico-mantencion-griferia"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "flex-layout.row#servicio-tecnico-mantencion-griferia":{
+        "props":{
+            "blockClass":"row-tecnico-mantencion"
+        },
+        "children":[
+            "flex-layout.col#servicio-tecnico-mantencion-griferia",
+            "image#mantencion-griferia"
+        ]
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-griferia":{
+        "props":{
+            "blockClass":"col-tecnico-mantencion"
+        },
+        "children":[
+            "rich-text#titulo-griferia-mantencion",
+            "rich-text#griferia-mantencion",
+            "rich-text#boton-mantencion-tecnico-griferia"
+        ]
+    },
+    "image#mantencion-griferia":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios -Mantencion y post venta_tecnico web-03.png",
+            "blockClass":"mantencion-tecnico"
+        }
+    },
+    "rich-text#titulo-griferia-mantencion":{
+        "props": {
+            "text": "MANTENCIÓN DE GRIFERÍAS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-mantencion-tecnico"
+        }
+    },
+    "rich-text#griferia-mantencion":{
+        "props": {
+            "text": "La grifería es un producto que requiere permanente cuidado, ya que el agua y sus minerales pueden afectar su óptimo funcionamiento. Por este motivo se recomienda realizar una mantención anual. En Atika contamos con un servicio especializado, para todas las marcas que comercializamos. Contáctanos y solicita la mantención con calidad Atika.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-mantencion-tecnico"
+        }
+    },
+    "rich-text#boton-mantencion-tecnico-griferia":{
+        "props": {
+            "text": "[SOLICITAR TU SERVICIO](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-mantencion-tecnico"
+        }
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-materiales-2":{
+        "children":[
+            "flex-layout.row#servicio-tecnico-mantencion-madera"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "flex-layout.row#servicio-tecnico-mantencion-madera":{
+        "props":{
+            "blockClass":"row-tecnico-mantencion"
+        },
+        "children":[
+            "flex-layout.col#servicio-tecnico-mantencion-madera",
+            "image#mantencion-madera"
+        ]
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-madera":{
+        "props":{
+            "blockClass":"col-tecnico-mantencion"
+        },
+        "children":[
+            "rich-text#titulo-madera-mantencion",
+            "rich-text#madera-mantencion",
+            "rich-text#boton-mantencion-tecnico-madera"
+        ]
+    },
+    "image#mantencion-madera":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios -Mantencion y post venta_tecnico web-05.png",
+            "blockClass":"mantencion-tecnico"
+        }
+    },
+    "rich-text#titulo-madera-mantencion":{
+        "props": {
+            "text": "MANTENCIÓN DE PISOS DE MADERA",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-mantencion-tecnico"
+        }
+    },
+    "rich-text#madera-mantencion":{
+        "props": {
+            "text": "La grifería es un producto que requiere permanente cuidado, ya que el agua y sus minerales pueden afectar su óptimo funcionamiento. Por este motivo se recomienda realizar una mantención anual. En Atika contamos con un servicio especializado, para todas las marcas que comercializamos. Contáctanos y solicita la mantención con calidad Atika.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-mantencion-tecnico"
+        }
+    },
+    "rich-text#boton-mantencion-tecnico-madera":{
+        "props": {
+            "text": "[SOLICITAR TU SERVICIO](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-mantencion-tecnico"
+        }
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-materiales-3":{
+        "children":[
+            "flex-layout.row#servicio-tecnico-mantencion-instalacion"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "flex-layout.row#servicio-tecnico-mantencion-instalacion":{
+        "props":{
+            "blockClass":"row-tecnico-mantencion"
+        },
+        "children":[
+            "flex-layout.col#servicio-tecnico-mantencion-instalacion",
+            "image#mantencion-instalacion"
+        ]
+    },
+    "flex-layout.col#servicio-tecnico-mantencion-instalacion":{
+        "props":{
+            "blockClass":"col-tecnico-mantencion"
+        },
+        "children":[
+            "rich-text#titulo-instalacion-mantencion",
+            "rich-text#instalacion-mantencion",
+            "rich-text#boton-mantencion-tecnico-instalacion"
+        ]
+    },
+    "image#mantencion-instalacion":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios -Tecnico_tecnico web.png",
+            "blockClass":"mantencion-tecnico"
+        }
+    },
+    "rich-text#titulo-instalacion-mantencion":{
+        "props": {
+            "text": "SERVICIO TÉCNICO",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-mantencion-tecnico"
+        }
+    },
+    "rich-text#instalacion-mantencion":{
+        "props": {
+            "text": "Para todos los productos ATIKA, nuestro equipo de Servicio Técnico y Post Venta realiza visitas de inspección, evaluación y eventualmente reparación de los productos en garantía. Si el producto presentara algún tipo de falla nuestro equipo especializado reparará o reemplazará el producto, dependiendo de las condiciones en que se encuentre. Todos los trabajos son realizados de acuerdo a las especificaciones técnicas, lo que asegura un resultado óptimo.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-mantencion-tecnico"
+        }
+    },
+    "rich-text#boton-mantencion-tecnico-instalacion":{
+        "props": {
+            "text": "[SOLICITAR TU SERVICIO](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-mantencion-tecnico"
+        }
+    },    
+    "responsive-layout.mobile#mobile-servicio-tecnico-mantencion": {
+        "children": [
+            "image#banner-servicio-tecnico-mantencion-mobile",
+            "rich-text#servicio-tecnico-mantencion-texto",
+            "flex-layout.row#servicio-tecnico-mantencion-materiales"
+        ]
+    },
+    "image#banner-servicio-tecnico-mantencion-mobile":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header mobile.png",
+            "blockClass":"banner-servicio-tecnico-mantencion"
+        }
+    }
+}

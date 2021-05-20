@@ -57,3 +57,9 @@
     display: flex;
     text-align: initial;
 }
+
+.hoverImage {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}

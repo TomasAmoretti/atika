@@ -1,0 +1,148 @@
+{
+    "store.custom#tiendas": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-tiendas",
+            "responsive-layout.mobile#mobile-tiendas"
+        ]
+    },
+    "responsive-layout.desktop#desktop-tiendas": {
+        "children": [
+            "image#banner-tiendas",
+            "rich-text#tiendas-texto",
+            "flex-layout.row#tiendas"
+        ]
+    },
+    "image#banner-tiendas":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-tiendas-web.png",
+            "width": "100%",
+            "blockClass":"banner-tiendas"
+        }
+    },
+    "rich-text#tiendas-texto":{
+        "props": {
+            "text": "Nuestros Showroom de Vitacura, Concepción, Viña de Mar abren de lunes a viernes de 10:00 a 18:00 con personal esencial, para el cuidado de todos. \n\n DESPACHO: Seguimos despachando a todas las regiones. \n RETIRO DE MATERIAL EN BODEGA: Habilitado solo con permiso de la autoridad. \n ATENCIÓN REMOTA: Seguimos atendiendo online \n A través de nuestras ejecutivas y especificadoras, a sus correos y teléfonos \n WhatsApp: +56954417419 ‒ De lunes a viernes de 9:30 a 19:00 \n Teléfono: +56224883000 ‒ De lunes a viernes de 9:30 a 19:00 \n Contacto web: atika.cl/contacto",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas":{
+        "children":[
+            "flex-layout.col#listado-tiendas",
+            "iframe#mapa-tiendas"
+        ],
+        "props":{
+            "blockClass":"row-materiales-instalacion-institucional"
+        }
+    },
+    "iframe#mapa-tiendas":{
+        "props":{
+            "blockClass":"iframe-tiendas",
+            "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13324.821003890835!2d-70.575029!3d-33.391809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf2abd82d6c1%3A0x468aa9804a42df86!2sAv%20Vitacura%205770%2C%20Vitacura%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621548805137!5m2!1ses!2scl",
+            "width": 700,
+            "heigth": 500
+        }
+    },
+    "flex-layout.col#listado-tiendas":{
+        "children":[
+            "rich-text#titulo-tiendas-nuestras",
+            "rich-text#tiendas-santiago",
+            "rich-text#tiendas-viña-del-mar",
+            "rich-text#tiendas-concepcion",
+            "rich-text#tiendas-temuco",
+            "rich-text#tiendas-outlet",
+            "rich-text#titulo-tiendas-bodegas",
+            "rich-text#tiendas-centro-distribucion",
+            "rich-text#tiendas-invac"
+        ],
+        "props":{
+            "blockClass": "col-materiales-cubiertas-institucional"
+        }
+    },
+    "rich-text#titulo-tiendas-nuestras":{
+        "props": {
+            "text": "NUESTRA TIENDAS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#tiendas-santiago":{
+        "props": {
+            "text": "**SANTIAGO** \n\n Av. Vitacura 5770 \n Teléfono: +56 22 488 3000 \n Lunes a Viernes: 10 a 18 hrs. \n Sábado: Tienda cerrada",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#tiendas-viña-del-mar":{
+        "props": {
+            "text": "**VIÑA DEL MAR** \n\n Av. Libertad 549 \n Teléfono: +56 32 268 8640 \n +56 32 299 0497 \n Lunes a Viernes: 10 a 18 hrs. \n Sábado: Tienda cerrada",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#tiendas-concepcion":{
+        "props": {
+            "text": "**CONCEPCIÓN** \n\n Av. Chacabuco 1108\n Teléfono: +56 41 222 0614 \n +56 41 224 1777 \n Lunes a Viernes: 10 a 18 hrs. \n Sábado: Tienda cerrada",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#tiendas-temuco":{
+        "props": {
+            "text": "**TEMUCO OFICINA COMERCIAL** \n\n Antonio Varas 687, Of.1306 \n Teléfono: +56 45 221 4968 \n Jefe Zonal - Nicolle Endara \n Lunes a Viernes: Cerrada. \n Solo atención remota de 08:30 \n a 14:00hrs. y de 15:00 a 18:30hrs.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#tiendas-outlet":{
+        "props": {
+            "text": "**OUTLET** \n\n Los Eucaliptus 651, Quilicura \n Teléfono: +56 22 488 3200 \n Lunes a Viernes: 9 a 16:30 hrs.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#titulo-tiendas-bodegas":{
+        "props": {
+            "text": "BODEGAS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-tiendas"
+        }
+    },
+    "rich-text#tiendas-centro-distribucion":{
+        "props": {
+            "text": "**CENTRO DE DISTRIBUCIÓN** \n **Planta Mármol y Granito** \n\n Los Eucaliptus 651, Quilicura \n Teléfono: +56 22 488 3200 \n Atención General \n Lunes a Viernes \n Abierto, de lunes a jueves: \n 8:30 a 16:30hrs \n Viernes: 8:30 a 16:00hrs. \n Atención Entrega de \n Revestimientos Cerámicos \n Lunes a Viernes \n Abierto, de lunes a jueves: \n 9:00 a 16:30hrs. \n Viernes: 9:00 a 16:00hrs.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "rich-text#tiendas-invac":{
+        "props": {
+            "text": "**INVAC** \n\n Calle el Cerro 290, Quilicura \n Teléfono: +562 2998 0525 \n Atención Entrega de \n Revestimientos Cerámicos \n lunes a jueves: \n 9:00 a 16:30hrs. \n Viernes: 9:00 a 16:00hrs.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "tiendas-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-tiendas": {
+        "children": [
+            "image#banner-tiendas-mobile",
+            "rich-text#tiendas-texto",
+            "flex-layout.row#tiendas"
+        ]
+    },
+    "image#banner-tiendas-mobile":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-tiendas-mob.png",
+            "blockClass":"banner-tiendas"
+        }
+    }
+}

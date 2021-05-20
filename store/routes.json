@@ -25,5 +25,11 @@
     },
     "store.custom#servicio-instalacion-instuticional": {
         "path": "/servicio-instalacion"
+    },
+    "store.custom#servicio-tecnico-mantencion": {
+        "path": "/servicio-tecnico-mantencion"
+    },
+    "store.custom#tiendas": {
+        "path": "/tiendas"
     }
 }
