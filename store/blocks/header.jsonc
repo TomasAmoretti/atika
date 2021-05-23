@@ -137,7 +137,7 @@
   },
   "rich-text#tiendas-top":{
     "props":{
-      "text": "[Tiendas](#)",
+      "text": "[Tiendas](/tiendas)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"

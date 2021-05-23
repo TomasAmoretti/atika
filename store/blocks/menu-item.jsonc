@@ -1262,7 +1262,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/tiendas",
         "text": "Tiendas"
       },
       "blockClass": "footer-item"
