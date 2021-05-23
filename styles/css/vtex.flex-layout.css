@@ -542,3 +542,34 @@
 .flexRowContent--row-elemento-institucional {
     margin-top: 20px;
 }
+
+.flexRow--row-tiendas-institucional {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.flexCol--col-tiendas-institucional {
+    border: solid 1px;
+    padding: 8px;
+    border-left: unset;
+    margin-right: 5px;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+.flexColChild--col-tiendas-institucional {
+    border-bottom: solid 1px;
+}
+
+.flexColChild--col-tiendas-institucional:first-child, .flexColChild--col-tiendas-institucional:last-child {
+    border-bottom: unset;
+}
+
+.flexCol--col-tiendas-institucional::-webkit-scrollbar {
+    width: 4px;
+}
+
+.flexCol--col-tiendas-institucional::-webkit-scrollbar-thumb {
+    background: #8b8b8b;
+}
