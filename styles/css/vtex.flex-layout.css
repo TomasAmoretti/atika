@@ -463,6 +463,7 @@
     border-top: unset;
     margin: auto;
     background: #fff;
+    margin-bottom: 30px;
 }
 
 .flexRowContent--row-price-shelf ::global(.vtex-button__label) {
@@ -572,4 +573,17 @@
 
 .flexCol--col-tiendas-institucional::-webkit-scrollbar-thumb {
     background: #8b8b8b;
+}
+
+.flexCol--contenedor-form-col-servicios {
+    width: 800px;
+    margin-top: 60px;
+}
+
+.flexRowContent--contenedor-form-cubiertas-dimensionadas {
+    justify-content: center;
+}
+
+.flexRowContent--row-tiendas-institucional {
+    margin-bottom: 20px;
 }

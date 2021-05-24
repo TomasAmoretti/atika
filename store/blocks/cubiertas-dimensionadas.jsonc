@@ -8,20 +8,20 @@
     "responsive-layout.desktop#desktop-cubiertas-dimensionadas": {
         "children": [
             "image#banner-cubiertas-dimensionadas",
-            "rich-text#cubiertas-dimensionadas-titulo-1",
-            "rich-text#cubiertas-dimensionadas-texto",
+            /*"rich-text#cubiertas-dimensionadas-titulo-1",
+            "rich-text#cubiertas-dimensionadas-texto",*/
             "flex-layout.row#cubiertas-dimensionadas-contenedor-form"
         ]
     },
     "image#banner-cubiertas-dimensionadas":{
         "props":{
-            "src": "/arquivos/Pagina Estatica I cubiertas-dimensionadas - Cubiertas Dimensionadas_header.png",
+            "src": "/arquivos/Pagina Estatica I Servicios - Cubiertas Dimensionadas_header.png",
             "blockClass":"banner-cubiertas-dimensionadas"
         }
     },
     "rich-text#cubiertas-dimensionadas-titulo-1":{
         "props": {
-            "text": "cubiertas-dimensionadas Atika",
+            "text": "Cubiertas Dimensionadas Atika",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "titulo-cubiertas-dimensionadas"
@@ -37,7 +37,7 @@
     },
     "rich-text#cubiertas-dimensionadas-texto-aclaracion":{
         "props": {
-            "text": "cubiertas-dimensionadas disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
+            "text": "Cubiertas Dimensionadas disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "aclaracion-cubiertas-dimensionadas"
@@ -56,6 +56,8 @@
     "flex-layout.col#cubiertas-dimensionadas-contenedor-form": {
         "children": [
             "rich-text#cubiertas-dimensionadas-titulo-form-contact",
+            "rich-text#cubiertas-dimensionadas-texto-superior-final-form-contact",
+            "rich-text#cubiertas-dimensionadas-texto-final-form-contact",
             "flex-layout.row#cubiertas-dimensionadas-form"
         ],
         "props": {
@@ -64,10 +66,26 @@
     },
     "rich-text#cubiertas-dimensionadas-titulo-form-contact": {
         "props": {
-            "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
+            "text": "Cotiza",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "titulo-form"
+        }
+    },
+    "rich-text#cubiertas-dimensionadas-texto-superior-final-form-contact": {
+        "props": {
+            "text": "Para una cotización más rapida, por favor completa el siguiente formulario. Gracias!",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-form"
+        }
+    },
+    "rich-text#cubiertas-dimensionadas-texto-final-form-contact": {
+        "props": {
+            "text": "Ingresa tus datos en el formulario: \n (*)Obligatorios",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-form"
         }
     },
     "flex-layout.row#cubiertas-dimensionadas-form": {
@@ -88,8 +106,8 @@
     },
     "form#cubiertas-dimensionadas": {
         "props": {
-            "entity": "SE",
-            "schema": "cubiertas-dimensionadas",
+            "entity": "CD",
+            "schema": "Cubiertas",
             "blockClass": "formulario-contacto"
         },
         "children": [
@@ -97,7 +115,7 @@
             "form-input.text#cubiertas-dimensionadas-rut",
             "form-input.text#cubiertas-dimensionadas-telefono",
             "form-input.text#cubiertas-dimensionadas-email",
-            "form-input.checkbox#cubiertas-dimensionadas-material",
+            "form-input.dropdown#cubiertas-dimensionadas-material",
             "flex-layout.row#contenedor-form-cubiertas",
             "form-input.checkbox#cubiertas-dimensionadas-respaldo",
             "form-input.checkbox#cubiertas-dimensionadas-ranurado",
@@ -148,7 +166,7 @@
             "blockClass": "input"
         }
     },
-    "form-input.checkbox#cubiertas-dimensionadas-material": {
+    "form-input.dropdown#cubiertas-dimensionadas-material": {
         "props": {
             "pointer": "#/properties/material",
             "blockClass": "radio"
@@ -234,15 +252,15 @@
     "responsive-layout.mobile#mobile-cubiertas-dimensionadas": {
         "children": [
             "image#banner-cubiertas-dimensionadas-mobile",
-            "rich-text#cubiertas-dimensionadas-titulo-1",
+            /*"rich-text#cubiertas-dimensionadas-titulo-1",
             "rich-text#cubiertas-dimensionadas-texto",
-            "rich-text#cubiertas-dimensionadas-texto-aclaracion",
+            "rich-text#cubiertas-dimensionadas-texto-aclaracion",*/
             "flex-layout.row#cubiertas-dimensionadas-contenedor-form"
         ]
     },
     "image#banner-cubiertas-dimensionadas-mobile":{
         "props":{
-            "src": "/arquivos/Pagina Estatica I cubiertas-dimensionadas - Cubiertas Dimensionadas_header mobile.png",
+            "src": "/arquivos/Pagina Estatica I Servicios - Cubiertas Dimensionadas_header mobile.png",
             "blockClass":"banner-cubiertas-dimensionadas"
         }
     }

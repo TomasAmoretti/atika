@@ -3908,10 +3908,6 @@ body[data-current=email] #client-profile-data {
     font-weight: 600
 }
 
-#shipping-data .accordion-group.active .accordion-inner .vtex-omnishipping-1-x-addressForm .vtex-omnishipping-1-x-addressSummaryActive {
-    display: none
-}
-
 #shipping-data .accordion-group.active .accordion-inner .vtex-omnishipping-1-x-addressForm .vtex-omnishipping-1-x-address .ship-number {
     display: inline-block;
     position: relative;

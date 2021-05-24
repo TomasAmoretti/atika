@@ -511,3 +511,8 @@
 ::global(textarea#\#\/properties\/mensaje-textarea-input){
     border: solid 1px #000
 }
+
+.imageElement--banner-cubiertas-dimensionadas {
+    width: 100%;
+    margin-bottom: 50px;
+}

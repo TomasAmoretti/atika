@@ -1,0 +1,166 @@
+{
+    "store.custom#spaceplanner-instuticional": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-spaceplanner-instuticional",
+            "responsive-layout.mobile#mobile-spaceplanner-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-spaceplanner-instuticional": {
+        "children": [
+            "image#banner-spaceplanner-instuticional",
+            "rich-text#spaceplanner-instuticional-texto",
+            "rich-text#boton-pruebalo-instalacion",
+            "rich-text#titulo-spaceplanner-instalacion",
+            "flex-layout.row#spaceplanner-instuticional"
+        ]
+    },
+    "image#banner-spaceplanner-instuticional":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-web.png",
+            "width": "100%",
+            "blockClass":"banner-spaceplanner-instuticional"
+        }
+    },
+    "rich-text#spaceplanner-instuticional-texto":{
+        "props": {
+            "text": "Estamos felices de presentar en Chile SPACEPLANNER by ATIKA. Un visualizador de ambientes con el que podrás probar, con tan solo un par de clics y desde tu propio lugar, diferentes colores, materiales, estilos y tendencias en pisos, muros y cubiertas para tu proyecto. Sube una foto y déjate inspirar por tu espacio.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-servicios-institucional"
+        }
+    },
+    "rich-text#boton-pruebalo-instalacion":{
+        "props": {
+            "text": "[PRUÉBALO EN TUS ESPACIOS](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "boton-spaceplanner-institucional"
+        }
+    },
+    "rich-text#titulo-spaceplanner-instalacion":{
+        "props": {
+            "text": "¿CÓMO SE USA?",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-spaceplanner-institucional"
+        }
+    },
+    "flex-layout.row#spaceplanner-instuticional":{
+        "children":[
+            "flex-layout.col#spaceplanner-instuticional-1",
+            "flex-layout.col#spaceplanner-instuticional-2",
+            "flex-layout.col#spaceplanner-instuticional-3",
+            "flex-layout.col#spaceplanner-instuticional-4"
+        ],
+        "props":{
+            "blockClass":"row-spaceplanner-institucional"
+        }
+    },
+    "flex-layout.col#spaceplanner-instuticional-1":{
+        "children":[
+            "image#spaceplanner-1",
+            "rich-text#spaceplanner-texto-1"
+        ],
+        "props":{
+            "blockClass": "col-spaceplanner-institucional"
+        }
+    },
+    "image#spaceplanner-1":{
+        "props":{
+            "src": "/arquivos/sp-paso-1.png",
+            "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#spaceplanner-texto-1":{
+        "props": {
+            "text": "Ingresa a la aplicación , elige un espacio predeterminado o sube una foto del tuyo. Considera que debe verse bien el espacio que buscas intervenir.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-spaceplanner-institucional"
+        }
+    },
+    "flex-layout.col#spaceplanner-instuticional-2":{
+        "children":[
+            "image#spaceplanner-2",
+            "rich-text#spaceplanner-texto-2"
+        ],
+        "props":{
+            "blockClass": "col-spaceplanner-institucional"
+        }
+    },
+    "image#spaceplanner-2":{
+        "props":{
+            "src": "/arquivos/sp-paso-2.png",
+            "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#spaceplanner-texto-2":{
+        "props": {
+            "text": "Carga tu foto en SpacePlanner de Atika",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-spaceplanner-institucional"
+        }
+    },
+    "flex-layout.col#spaceplanner-instuticional-3":{
+        "children":[
+            "image#spaceplanner-3",
+            "rich-text#spaceplanner-texto-3"
+        ],
+        "props":{
+            "blockClass": "col-spaceplanner-institucional"
+        }
+    },
+    "image#spaceplanner-3":{
+        "props":{
+            "src": "/arquivos/sp-paso-3.png",
+            "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#spaceplanner-texto-3":{
+        "props": {
+            "text": "Prueba pisos, muros y cubiertas, seleccionando colores, looks o materiales.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-spaceplanner-institucional"
+        }
+    },
+    "flex-layout.col#spaceplanner-instuticional-4":{
+        "children":[
+            "image#spaceplanner-4",
+            "rich-text#spaceplanner-texto-4"
+        ],
+        "props":{
+            "blockClass": "col-spaceplanner-institucional"
+        }
+    },
+    "image#spaceplanner-4":{
+        "props":{
+            "src": "/arquivos/sp-paso-4.png",
+            "blockClass":"elemento-madera-insti"
+        }
+    },
+    "rich-text#spaceplanner-texto-4":{
+        "props": {
+            "text": "WOW !! Puedes probar los que más te gusten y cotizarlos. También puedes descargar la imagen o seguir probando.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "texto-spaceplanner-institucional"
+        }
+    },
+    "responsive-layout.mobile#mobile-spaceplanner-instuticional": {
+        "children": [
+            "image#banner-spaceplanner-instuticional-mobile",
+            "rich-text#spaceplanner-instuticional-texto",
+            "rich-text#boton-pruebalo-instalacion",
+            "rich-text#titulo-spaceplanner-instalacion",
+            "flex-layout.row#spaceplanner-instuticional"
+        ]
+    },
+    "image#banner-spaceplanner-instuticional-mobile":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-mob.png",
+            "blockClass":"banner-spaceplanner-instuticional-mobile"
+        }
+    }
+}

@@ -390,6 +390,7 @@
     font-size: 30px;
     margin-bottom: 0;
     line-height: 30px;
+    margin-top: 10px;
 }
 
 .paragraph--titulo-form::after, .paragraph--titulo-servicios::after, .paragraph--titulo-form-servicios-0::after, .headingLevel4--texto-info-servicios-institucional::after {
@@ -444,6 +445,10 @@
 @media screen and (max-width: 768px){
     .container--titulo-form-servicios, .container--titulo-form-servicios-0 {
         padding: 0 20px 20px 20px;
+    }
+    .wrapper--texto-tiendas {
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -604,4 +609,14 @@
 
 .wrapper--tiendas-texto {
     margin: 10px 0;
+}
+
+.container--texto-form {
+    width: 90%;
+    margin: auto;
+    border: solid 1px #d2cfcf;
+    border-bottom: unset;
+    border-top: unset;
+    padding: 0px 20px 0px 20px;
+    background: #fff;
 }

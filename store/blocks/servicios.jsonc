@@ -8,9 +8,9 @@
     "responsive-layout.desktop#desktop-servicios": {
         "children": [
             "image#banner-servicios",
-            "rich-text#servicios-titulo-1",
+            /*"rich-text#servicios-titulo-1",
             "rich-text#servicios-texto",
-            "rich-text#servicios-texto-aclaracion",
+            "rich-text#servicios-texto-aclaracion",*/
             "flex-layout.row#servicios-contenedor-form"
         ]
     },
@@ -187,9 +187,9 @@
     "responsive-layout.mobile#mobile-servicios": {
         "children": [
             "image#banner-servicios-mobile",
-            "rich-text#servicios-titulo-1",
+            /*"rich-text#servicios-titulo-1",
             "rich-text#servicios-texto",
-            "rich-text#servicios-texto-aclaracion",
+            "rich-text#servicios-texto-aclaracion",*/
             "flex-layout.row#servicios-contenedor-form"
         ]
     },

@@ -755,6 +755,9 @@
   "image#informativo-pedido-mobile":{
     "props": {
       "src": "/arquivos/despacho.png",
+      "link":{
+        "url": "#"
+      },
       "width": 38,
       "blockClass": "footer-informativo"
     }
@@ -789,6 +792,9 @@
   "image#informativo-showrooms-mobile":{
     "props": {
       "src": "/arquivos/tiendas.png",
+      "link":{
+        "url": "/tiendas"
+      },
       "width": 38,
       "blockClass": "footer-informativo"
     }
@@ -797,7 +803,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[NUESTROS SHOWROOMS](#)",
+      "text": "[NUESTROS SHOWROOMS](/tiendas)",
       "blockClass": "titulo-informativo-mobile"
     }
   },
@@ -823,6 +829,9 @@
   "image#informativo-contacto-mobile":{
     "props": {
       "src": "/arquivos/contactanos.png",
+      "link":{
+        "url": "/contacto"
+      },
       "width": 38,
       "blockClass": "footer-informativo"
     }
@@ -831,7 +840,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[CONTÁCTANOS](#)",
+      "text": "[CONTÁCTANOS](/contacto)",
       "blockClass": "titulo-informativo-mobile"
     }
   },

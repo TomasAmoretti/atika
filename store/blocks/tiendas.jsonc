@@ -136,13 +136,30 @@
         "children": [
             "image#banner-tiendas-mobile",
             "rich-text#tiendas-texto",
-            "flex-layout.row#tiendas"
+            "flex-layout.row#tiendas-mobile"
         ]
     },
     "image#banner-tiendas-mobile":{
         "props":{
             "src": "/arquivos/Pagina-Estatica-tiendas-mob.png",
             "blockClass":"banner-tiendas"
+        }
+    },
+    "flex-layout.row#tiendas-mobile":{
+        "children":[
+            "iframe#mapa-tiendas-mobile",
+            "flex-layout.col#listado-tiendas"
+        ],
+        "props":{
+            "blockClass":"row-tiendas-institucional",
+            "preventHorizontalStretch": true
+        }
+    },
+    "iframe#mapa-tiendas-mobile":{
+        "props":{
+            "blockClass":"iframe-tiendas-mobile",
+            "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13324.821003890835!2d-70.575029!3d-33.391809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf2abd82d6c1%3A0x468aa9804a42df86!2sAv%20Vitacura%205770%2C%20Vitacura%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621548805137!5m2!1ses!2scl",
+            "width": 350
         }
     }
 }
