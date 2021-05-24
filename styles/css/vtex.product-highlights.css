@@ -5,10 +5,10 @@
     border: solid 1px;
     width: fit-content;
     font-family: 'Source Sans Pro';
-    transform: rotate(-90deg);
     position: relative;
     bottom: -45px;
-    left: 5px;
+    left: 28px;
+    top: 50%;
     background: #fff;
     z-index: 5;
 }
