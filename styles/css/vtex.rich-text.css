@@ -450,6 +450,14 @@
         width: 90%;
         margin: auto;
     }
+    .container--titulo-elemento-servicios-institucional, .vtex-rich-text-0-x-paragraph--texto-servicios-institucional {
+        width: 95%;
+        margin: auto;
+    }
+    .container--boton-spaceplanner-institucional {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 }
 
 .container--blog-categorias {
@@ -619,4 +627,30 @@
     border-top: unset;
     padding: 0px 20px 0px 20px;
     background: #fff;
+}
+
+.container--boton-spaceplanner-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.link--boton-spaceplanner-institucional {
+    color: #fff;
+    background: #c90512;
+    padding: 10px 15px;
+    text-decoration: unset;
+    font-family: 'Poppins';
+}
+
+.wrapper--boton-spaceplanner-institucional {
+    margin: auto;
+}
+
+.container--titulo-spaceplanner-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-spaceplanner-institucional {
+    max-width: 240px;
 }

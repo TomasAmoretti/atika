@@ -587,3 +587,12 @@
 .flexRowContent--row-tiendas-institucional {
     margin-bottom: 20px;
 }
+
+.flexRow--row-spaceplanner-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexRowContent--row-spaceplanner-institucional-mobile {
+    display: flex;
+}

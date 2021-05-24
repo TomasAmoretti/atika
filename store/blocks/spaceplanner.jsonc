@@ -42,7 +42,7 @@
             "text": "¿CÓMO SE USA?",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "titulo-spaceplanner-institucional"
+            "blockClass": "titulo-elemento-servicios-institucional"
         }
     },
     "flex-layout.row#spaceplanner-instuticional":{
@@ -152,15 +152,35 @@
         "children": [
             "image#banner-spaceplanner-instuticional-mobile",
             "rich-text#spaceplanner-instuticional-texto",
-            "rich-text#boton-pruebalo-instalacion",
             "rich-text#titulo-spaceplanner-instalacion",
-            "flex-layout.row#spaceplanner-instuticional"
+            "flex-layout.row#spaceplanner-instuticional-1-mobile",
+            "flex-layout.row#spaceplanner-instuticional-2-mobile",
+            "rich-text#boton-pruebalo-instalacion"
         ]
     },
     "image#banner-spaceplanner-instuticional-mobile":{
         "props":{
             "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-mob.png",
             "blockClass":"banner-spaceplanner-instuticional-mobile"
+        }
+    },
+    "flex-layout.row#spaceplanner-instuticional-1-mobile":{
+        "children":[
+            "flex-layout.col#spaceplanner-instuticional-1",
+            "flex-layout.col#spaceplanner-instuticional-2"
+        ],
+        "props":{
+            "blockClass":"row-spaceplanner-institucional-mobile",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#spaceplanner-instuticional-2-mobile":{
+        "children":[
+            "flex-layout.col#spaceplanner-instuticional-3",
+            "flex-layout.col#spaceplanner-instuticional-4"
+        ],
+        "props":{
+            "blockClass":"row-spaceplanner-institucional-mobile"
         }
     }
 }

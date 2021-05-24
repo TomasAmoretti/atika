@@ -1222,7 +1222,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/spaceplanner",
         "text": "Spaceplanner"
       },
       "blockClass": "footer-item"
@@ -2858,7 +2858,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/spaceplanner",
         "text": "SPACEPLANNER"
       },
       "blockClass": "item-submenu-mobile"
