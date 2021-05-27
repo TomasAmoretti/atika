@@ -63,3 +63,7 @@
     height: auto;
     margin-left: 10%;
 }
+
+.imageStackContainer:hover {
+    z-index: 1;
+}

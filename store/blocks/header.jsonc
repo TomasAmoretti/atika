@@ -296,7 +296,7 @@
           "iconProps": {
             "id": "mpa-heart",
             "size": 16,
-            "viewBox": "0 0 54 53",
+            "viewBox": "0 0 18 18",
             "mutedClassName": "c-action-primary"
           },
       "blockClass": "icon-favoritos"

@@ -12,3 +12,13 @@
     background: #fff;
     z-index: 5;
 }
+
+.productHighlightText--texto-highlight {
+    top: 48px;
+    left: 30px;
+    font-size: 13px;
+    position: relative;
+    z-index: 3;
+    background: #ffff;
+    border: solid 1px;
+}

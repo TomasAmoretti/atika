@@ -596,3 +596,17 @@
 .flexRowContent--row-spaceplanner-institucional-mobile {
     display: flex;
 }
+
+.flexRowContent--row-nombre-remove-mobile {
+    display: flex;
+}
+
+.flexRowContent--row-price-shelf-minicart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexRowContent--productListMobile {
+    display: flex;
+}
