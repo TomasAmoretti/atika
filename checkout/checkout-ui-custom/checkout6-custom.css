@@ -3828,6 +3828,19 @@ fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup {
   font-size: 14px;
 }
 
+button#go-to-shipping {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#btn-client-pre-email span {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
 .orderform-template .cart-template.mini-cart .cart {
     margin-bottom: 0;
     max-height: calc(100vh - 355px);
