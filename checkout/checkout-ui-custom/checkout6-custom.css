@@ -95,7 +95,12 @@ body{
 #app-container input.error[type=email],
 #app-container select.error,
 .vcustom--vtex-omnishipping-1-x-address input.error {
-    border-color: #ff4c4c
+    border-color: #C90512;
+}
+
+span.error {
+  color: #C90512!important;
+  font-family: 'Source Sans Pro';;
 }
 
 #vtexIdContainer input:focus,
@@ -212,33 +217,33 @@ div#render-cartman {
 }
 
 .btn-success {
-    background: #000;
-    border: 1px solid #000;
+    background: #2b2b2b;
+    border: 1px solid #2b2b2b;
     font-size: 13px
 }
 
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active {
-    background: #000;
-    border: 1px solid #000
+    background: #2b2b2b;
+    border: 1px solid #2b2b2b
 }
 
 .btn-success[disabled] {
-    background: #000
+    background: #808080
 }
 
 .btn-primary {
-    background: #000;
-    border: 1px solid #000;
+    background: #2b2b2b;
+    border: 1px solid #2b2b2b;
     color: #f1f7ff
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background: #1d63be;
-    border: 1px solid #1d63be
+    background: #2b2b2b;
+    border: 1px solid #2b2b2b
 }
 
 .btn-secondary,
@@ -307,8 +312,8 @@ div#render-cartman {
 .orderform-template-holder #payment-data .payment-discounts-list table td.action a:active,
 .orderform-template-holder #payment-data #btn-add-gift-card:active {
     background: #f1f7ff;
-    border: 1px solid #1d63be;
-    color: #1d63be
+    border: 1px solid #000;
+    color: #000
 }
 
 .btn-outlined {
@@ -1330,8 +1335,22 @@ h1#cart-title {
 
 .vtex-omnishipping-1-x-dateLink, .vtex-omnishipping-1-x-dateLink:hover, .vtex-omnishipping-1-x-dateLink:active {
   background: none;
-  border: solid 1px #000;
+  border: solid 1px #000!important;
+  color: #000!important;
+}
+
+.orderform-template-holder .step.shipping-data .box-step>*.btn-link.vtex-omnishipping-1-x-btnDelivery:hover, .orderform-template-holder .step.shipping-data .summary-template-holder .summary-coupon fieldset.coupon-fieldset .coupon-data .box-step>a.vtex-omnishipping-1-x-btnDelivery:hover, .summary-template-holder .summary-coupon fieldset.coupon-fieldset .coupon-data .orderform-template-holder .step.shipping-data .box-step>a.vtex-omnishipping-1-x-btnDelivery:hover {
+  text-decoration: unset;
   color: #000;
+  background: #fff;
+  border: solid 1px #000;
+}
+
+button#btn-go-to-payment {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 #payment-group-promissoryPaymentGroup>span {
@@ -1341,7 +1360,7 @@ h1#cart-title {
 #payment-group-promissoryPaymentGroup > span::after {
   content: "Transferencia Bancaria";
   visibility: visible;
-  margin-left: -98px;
+  margin-left: -89px;
 }
 
 .table.cart-items thead tr th.product-price,
@@ -3335,16 +3354,62 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
     margin-top: 0
 }
 
-.orderform-template-holder .step .form-step fieldset.box-client-info-pj {
-    padding-top: 15px
-}
-
 .orderform-template-holder .step .form-step fieldset.box-payment-option h3 {
     display: none
 }
 
 .orderform-template-holder .step .form-step #is-corporate-client {
-    color: #000
+    color: #000;
+    font-size: 0;
+    text-decoration: underline;
+}
+
+.orderform-template-holder .step .form-step #is-corporate-client::after {
+  content: "Agregar Factura";
+  font-size: 14px;
+}
+
+fieldset.box-client-info-pj h5.corporate-title {
+  font-size: 0;
+}
+
+fieldset.box-client-info-pj h5.corporate-title::after {
+  font-size: 14px;
+  content: "Datos de Factura";
+}
+
+a#not-corporate-client {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.corporate-info-box {
+  display: grid!important;
+}
+
+.corporate-info-box p.client-company-ie.input.text.required {
+  width: 100%;
+  display: grid;
+  order: 3;
+}
+
+.corporate-info-box p.client-company-document.input.text.required.mask {
+  width: 100%;
+  display: grid;
+  order: 1;
+}
+
+.corporate-info-box .state-inscription-box {
+  order: 3;
+}
+
+.state-inscription-box span.exempt-si-text {
+  font-size: 0;
+}
+
+.state-inscription-box span.exempt-si-text::after {
+  font-size: 14px;
+  content: "Sin registro Estatal";
 }
 
 .orderform-template-holder .step.client-profile-data .client-notice.notice {
@@ -3398,7 +3463,10 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 .summary-template-holder .summary-coupon fieldset.coupon-fieldset .coupon-data .orderform-template-holder .step.shipping-data .box-step>a.vtex-omnishipping-1-x-btnDelivery {
     order: 5;
     margin-top: 20px;
-    background: #000
+    background: #000;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .orderform-template-holder .step.shipping-data .box-step>*#postalCode-finished-loading,
@@ -3463,7 +3531,7 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-deliveryChannelsWrapper,
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-deliveryChannelsToggle {
-    border-radius: 5px
+    border-radius: 0px;
 }
 
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-deliveryChannelsWrapper {
@@ -3513,12 +3581,21 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 }
 
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-address p.input.ship-checkboxNumberLabel.text {
-    width: auto;
-    align-self: flex-end;
-    display: flex;
-    align-items: center;
-    margin-left: 10px !important;
-    height: 40px
+  width: auto;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+input#ship-number {
+  margin-right: 5px;
+}
+
+p.warning-addres {
+  font-size: 12px;
+  color: #707070;
 }
 
 .orderform-template-holder .step.shipping-data input#ship-addressQuery {
@@ -4562,10 +4639,6 @@ body {
     display: none !important;
 }
 
-.orderform-template-holder .step .form-step fieldset.box-client-info-pj {
-    display: none !important
-}
-
 .discount {
     display: none
 }
@@ -4777,6 +4850,10 @@ span.new-product-price {
   text-transform: uppercase;
 }
 
+.input.ship-notApplicable.required.text {
+  display: block!important;
+}
+
 /* FORMULARIO DE COTIZACION */
 section.form-cotizacion {
   width: 35%;
@@ -4809,7 +4886,17 @@ a.close-lightbox {
 }
 
 #form-contacto input.red {
-  border-color: red;
+  border-color: #c9052c;
+}
+
+.error-address {
+  font-size: 13px;
+  color: #c9052c;
+  display: none;
+}
+
+a#open-shipping {
+  border-radius: 0;
 }
 
 #form-contacto input {
@@ -4848,4 +4935,18 @@ p.validation-alert {
 .form-cotizacion .boton:hover {
   background: #fff;
   border: solid 1px #000;
+}
+
+a#orderform-minicart-to-cart {
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+}
+
+p.newsletter span.newsletter-text {
+  font-size: 0;
+}
+
+p.newsletter span.newsletter-text::after {
+  font-size: 14px;
+  content: "Suscripción al Newsletter";
 }

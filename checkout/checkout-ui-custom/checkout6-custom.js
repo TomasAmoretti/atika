@@ -4,9 +4,6 @@ $(document).ready(function(){
         $(".checkout-container .cart-template.active .cart-select-gift-placeholder").insertAfter($( ".table.table.cart-items" ));
       }
     });
-    function quitarDecimales(precio) {
-        return precio.split(",").shift();
-    }
     if(window.location.href.includes('cart')) {
       if(document.querySelectorAll(".item-link-remove") != null){
         let remove = document.querySelectorAll(".item-link-remove");
@@ -24,6 +21,243 @@ $(document).ready(function(){
 
 });
 
+function quitarDecimales(precio) {
+  precio.innerText = precio.innerText.split(",").shift();
+}
+
+//Remover decimales en items cart
+function quitarDecimalesCart(){
+  if (location.hash == '#/cart') {
+    setTimeout(() => {
+      let itemsCarrito = document.querySelectorAll("tr.product-item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[0].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[0].children[3]);
+        }
+      });
+      if ((document.querySelector("tbody.totalizers-list td.monetary") != null) && document.querySelector("tbody.totalizers-list td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("tbody.totalizers-list td.monetary"));
+      }
+      if ((document.querySelector("tr.srp-summary-result td.monetary") != null) && document.querySelector("tr.srp-summary-result td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("tr.srp-summary-result td.monetary"));
+      }
+      if ((document.querySelector(".summary-template-holder tfoot tr td.monetary") != null) && document.querySelector(".summary-template-holder tfoot tr td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector(".summary-template-holder tfoot tr td.monetary"));
+      }
+    }, 1000);
+  }
+
+  if (location.hash == '#/email') {
+    setTimeout(() => {
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+    }, 1000);
+  }
+
+  if (location.hash == '#/shipping') {
+    setTimeout(() => {
+      //Precios items col derecha
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+      //Precios costo envio opciones
+      if(document.querySelector(".vtex-omnishipping-1-x-scheduledDeliveryList") != null){
+        let itemsEnvio = document.querySelectorAll(".vtex-omnishipping-1-x-leanShippingOption");
+        itemsEnvio.forEach((itemEnvio) => {
+          if (itemEnvio.children[3].innerText.includes(",")) {
+            quitarDecimales(itemEnvio.children[3]);
+          }
+        });
+      }
+      //Precios selec tipo de envio
+      if(document.querySelector(".vtex-omnishipping-1-x-scheduledDelivery .span12") != null){
+        let itemsOpcion = document.querySelectorAll(".vtex-omnishipping-1-x-scheduledDelivery .span12");
+        itemsOpcion.forEach((itemOp) => {
+          if (itemOp.children[0].innerText.includes(",")) {
+            quitarDecimales(itemOp.children[0]);
+          }
+        });
+      }
+    }, 1000);
+  }
+
+  if (location.hash == '#/payment') {
+    setTimeout(() => {
+      //Precios items col derecha
+      let itemsCarrito = document.querySelectorAll("ul.cart-items>li.hproduct.item");
+      itemsCarrito.forEach((itemDecimal) => {
+        if (itemDecimal.children[3].children[3].innerText.includes(",")) {
+          quitarDecimales(itemDecimal.children[3].children[3]);
+        }
+      });
+      //Sub total col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.Items > td.monetary"));
+      }
+      //Costo envio col derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tbody.totalizers-list > tr.srp-summary-result.hide > td.monetary"));
+      }
+      //Total columna derecha
+      if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+      //Total que se muestra con los datos de envio
+      if ((document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice") != null) && document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice").innerText.includes(",")) {
+        quitarDecimales(document.querySelector(".shp-summary-group-price.vtex-omnishipping-1-x-SummaryItemPrice"));
+      }
+      //Precio Webpay
+      if ((document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span") != null) && document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("fieldset.webpayPaymentGroup .installments p.sight span"));
+      }
+      //Precio Transferencia
+      if ((document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span") != null) && document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span").innerText.includes(",")) {
+        quitarDecimales(document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span"));
+      }
+    }, 1000);
+  }
+}
+
+function agregarCamposShipping(){
+  if (location.hash == '#/shipping') {
+    setTimeout(() => {
+      if(document.querySelector(".vtex-omnishipping-1-x-address") != null){
+        //Select Tipo de estacionamiento
+        if (document.querySelector(".input.ship-receiverParkingType") == null) {
+          let selectTipoEstacionamiento = "<div class='input ship-receiverParkingType required text'><label for='ship-receiverParkingType'>Tipo de Estacionamiento</label><select class='select-addres' id='tipo-estacionamiento'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Subterraneo'>SUBTERRANEO</option><option value='Exterior'>EXTERIOR</option></select><p class='warning-addres'>*El camino de acceso hacia el domicilio debe tener un minimo de 3mts. de ancho.</p><p class='error-address'>*Por favor elija una opción</p></div>";
+          $("p.input.ship-receiverName.required.text").prepend(selectTipoEstacionamiento);
+        }
+        //Selec Estacionamiento Vehiculo
+        if (document.querySelector(".input.ship-receiverParking") == null) {
+          let selectEstacionamiento = "<div class='input ship-receiverParking required text'><label for='ship-receiverParking'>Estacionamiento de Vehiculo</label><select class='select-addres' id='estacionamiento-vehiculo'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Si'>SI</option><option value='No'>NO</option></select><p class='warning-addres'>*Si no cuenta con estacionamiento no se podrá realizar la entrega</p><p class='error-address'>*Por favor elija una opción</p></div>";
+          $("p.input.ship-receiverName.required.text").prepend(selectEstacionamiento);
+        }
+        //Lugar de entrega
+        if (document.querySelector(".input.ship-receiverPlaceDeliver") == null) {
+          let selectLugarEntrega = "<div class='input ship-receiverPlaceDeliver required text'><label for='ship-receiverPlaceDeliver'>Lugar de entrega</label><select class='select-addres' id='lugar-entrega'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Casa'>CASA</option><option value='DEPARTAMENTO'>DEPARTAMENTO</option><option value='CONSERJERIA'>CONSERJERIA</option></select><p class='error-address'>*Por favor elija una opción</p></div>";
+          $("p.input.ship-receiverName.required.text").prepend(selectLugarEntrega);
+        }
+        //Agregar selec descarga
+        if (document.querySelector(".input.ship-receiverDropPersonal") == null) {
+          let selectPersonalDescarga = "<div class='input ship-receiverDropPersonal required text' ><label for='ship-receiverDropPersonal'>Personal para descargar</label><select class='select-addres' id='descarga-personal' ><option value='0'>ELIJA UNA OPCIÓN</option><option value='Si'>SI, TENGO PERSONAL DE DESCARGA</option><option value='No'>NO, ME GUSTARIA CONTRATAR</option></select><p class='error-address'>*Por favor elija una opción</p></div>";
+          $("p.input.ship-receiverName.required.text").prepend(selectPersonalDescarga);
+        }
+        //Agregar input telefono quien recibe
+        if (document.querySelector(".input.ship-receiverPhone") == null) {
+          let inputTelefono = "<div class='input ship-receiverPhone required text'><label for='ship-receiverPhone'>Telefono de la persona que va a recibir</label><input autocomplete='on' placeholder='+56 222 22 222' id='ship-receiverPhone' type='text' name='receiver' maxlength='60' class='input-xlarge' data-hj-whitelist='true' value=''><p class='error-address'>*Por favor ingrese un numero de contacto</p></div>";
+          $("p.input.ship-receiverName.required.text").append(inputTelefono);
+        }
+
+        //Comprobamos los estados de los select y el input
+        $(".orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-address").change(function(){
+          comprobarCamposEntrega();
+        });
+
+        //Funcion de validacion en campos y guardar en orderform
+        $("button#btn-go-to-payment").on("click", (function () {
+          comprobarCamposEntrega();
+          var orderForm = window.dataLayer.filter(p => p.orderFormId != null);
+
+          var address = {
+            address: {
+              personalDrop: $("select#descarga-personal").val(),
+              placeDeliver: $("select#lugar-entrega").val(),
+              parking: $("select#estacionamiento-vehiculo").val(),
+              parkingType: $("select#tipo-estacionamiento").val(),
+              reciverPhone: $("input#ship-receiverPhone").val()
+            }
+          };
+
+          var urlSaveDadosUser = "/api/checkout/pub/orderForm/" + orderForm[0].orderFormId + "/attachments/invoiceData";
+
+          $.ajax({
+            headers: {
+              Accept: "application/vnd.vtex.ds.v10+json",
+              "Content-Type": "application/json",
+            },
+            data: JSON.stringify(address),
+            type: "POST",
+            url: urlSaveDadosUser,
+            success: function (data) {
+              console.log(data);
+            },
+            error: function (data) {
+              console.log(data);
+            },
+          });
+        }));
+      }
+
+    }, 1000);
+  }
+}
+
+function comprobarCamposEntrega(){
+    if ($("select#descarga-personal").val() == "0") {
+      $(".input.ship-receiverDropPersonal .error-address").css("display", "block");
+      $("button#btn-go-to-payment").prop('disabled', true);
+    } else {
+      $(".input.ship-receiverDropPersonal .error-address").css("display", "none");
+      $("button#btn-go-to-payment").prop('disabled', false);
+    }
+    if ($("select#lugar-entrega").val() == "0") {
+      $(".input.ship-receiverPlaceDeliver .error-address").css("display", "block");
+      $("button#btn-go-to-payment").prop('disabled', true);
+    } else {
+      $(".input.ship-receiverPlaceDeliver .error-address").css("display", "none");
+      $("button#btn-go-to-payment").prop('disabled', false);
+    }
+    if ($("select#estacionamiento-vehiculo").val() == "0") {
+      $(".input.ship-receiverParking .error-address").css("display", "block");
+      $("button#btn-go-to-payment").prop('disabled', true);
+    } else {
+      $(".input.ship-receiverParking .error-address").css("display", "none");
+      $("button#btn-go-to-payment").prop('disabled', false);
+    }
+    if ($("select#tipo-estacionamiento").val() == "0") {
+      $(".input.ship-receiverParkingType .error-address").css("display", "block");
+      $("button#btn-go-to-payment").prop('disabled', true);
+    } else {
+      $(".input.ship-receiverParkingType .error-address").css("display", "none");
+      $("button#btn-go-to-payment").prop('disabled', false);
+    }
+    if ($("input#ship-receiverPhone").val() == "") {
+      $(".input.ship-receiverPhone .error-address").css("display", "block");
+      $("input#ship-receiverPhone").addClass("error");
+      $("button#btn-go-to-payment").prop('disabled', true);
+    } else {
+      $(".input.ship-receiverPhone .error-address").css("display", "none");
+      $("button#btn-go-to-payment").prop('disabled', false);
+    }
+}
 
 /* NUEVO JS */
 ! function(e) {
@@ -15710,9 +15944,9 @@ window.onload = function () {
     botonCotizacion();
     shippingDay();
     lenghtInput();
-    changeShippingText();
-    changeWebpayText();
     changePlaceholdersTexts();
+    quitarDecimalesCart();
+    agregarCamposShipping();
 
     async function setCart(itemsCart) {
 
@@ -15748,15 +15982,14 @@ window.onhashchange = function () {
     botonCotizacion();
     validateInputsProfile();
     validateInputsShipping();
-    changeShippingText();
-    changeWebpayText();
     changePlaceholdersTexts();
     barProgress();
     shippingDay();
     img();
     totalCard();
-    removeGiftcard();
     state_giftcard();
+    quitarDecimalesCart();
+    agregarCamposShipping();
 };
 
 $(window).on('orderFormUpdated.vtex', function (evt, orderForm) {
@@ -15829,6 +16062,8 @@ $(window).on('checkoutRequestBegin.vtex', function (evt, orderForm) {
     lenghtInput();
     img();
     totalCard();
+    quitarDecimalesCart();
+    agregarCamposShipping();
 })
 
 $(window).on('checkoutRequestEnd.vtex', function (evt, orderForm) {
@@ -15837,6 +16072,8 @@ $(window).on('checkoutRequestEnd.vtex', function (evt, orderForm) {
     lenghtInput();
     img();
     totalCard();
+    quitarDecimalesCart();
+    agregarCamposShipping();
 })
 
 $(window).on('componentValidated.vtex', function (event, orderForm) {
@@ -15846,6 +16083,8 @@ $(window).on('componentValidated.vtex', function (event, orderForm) {
     lenghtInput();
     state_giftcard();
     descuentoGiftcard();
+    quitarDecimalesCart();
+    agregarCamposShipping();
 })
 
 $(document).ready(function () {
@@ -16026,18 +16265,7 @@ const descuentoGiftcard = () => {
             }
         });
 
-        removeGiftcard();
     }
-}
-
-function removeGiftcard() {
-    const removeGiftcardBtn = document.getElementById("remove-gift-card");
-    removeGiftcardBtn.addEventListener("click", () => {
-        if ( document.getElementById('giftcardId') ) {
-            document.getElementById('giftcardId').remove();
-        }
-        changeBuyBtnInnerText("Comprar ahora");
-    });
 }
 
 function changeBuyBtnInnerText (text) {
@@ -16052,21 +16280,6 @@ const changePlaceholdersTexts = () => {
     inputsGiftcard.forEach(input => {
         input.placeholder = "Código de descuento";
     });
-}
-
-//cambia glosa de despacho, elimina "Hasta 4"
-const changeShippingText = () => {
-    let shippingText = document.querySelector(".false.shp-summary-package-time");
-    if (shippingText.textContent === "Desde 4 hasta 2 días hábiles") {
-        shippingText.innerText = "Hasta 2 días hábiles"
-    }
-}
-//cambia glosa webpay por tarjeta de débito y crédito
-const changeWebpayText = () => {
-    let changeWebpayText = document.querySelector("#payment-group-webpayPaymentGroup .payment-group-item-text");
-    if (window.location.hash != "#/cart" && changeWebpayText.textContent === "Webpay") {
-    changeWebpayText.innerText = "Tarjeta de débito y crédito";
-    }
 }
 
 /* INICIO VALIDAR INPUTS */
