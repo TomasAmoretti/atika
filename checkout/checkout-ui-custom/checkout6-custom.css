@@ -4717,6 +4717,12 @@ body {
     right: 5px;
 }
 
+a#cart-choose-products {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
 @media all and (max-width: 360px) {
     #payment-group-webpayPaymentGroup span:after {
         display: none;
