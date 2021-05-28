@@ -123,8 +123,8 @@
   "flex-layout.col#minicart-footer": {
     "children": [
       "minicart-summary",
-      "minicart-checkout-button#buyCheckout"/*,
-      "rich-text#buyCart"*/
+      "minicart-checkout-button#buyCheckout",
+      "rich-text#buyCart"
     ]
   },
   "minicart-summary": {
@@ -150,13 +150,14 @@
       "finishShoppingButtonLink": "/checkout/#/orderform",
       "blockClass": "buyCheckoutMinicart"
     }
-  },/*,
+  },
   "rich-text#buyCart": {
     "props": {
-      "text": "[Ir al carro de compras](/checkout/#/cart)",
+      "text": "[Ir a cotizar](/checkout/#/cart)",
+      "textAlign": "center",
       "blockClass": "buyCart"
     }
-  }*/
+  },
   "flex-layout.row#productListMobile": {
     "children": [
       "product-list-image",

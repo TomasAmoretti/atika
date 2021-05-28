@@ -654,3 +654,28 @@
 .paragraph--texto-spaceplanner-institucional {
     max-width: 240px;
 }
+
+.wrapper--buyCart {
+    width: 100%;
+}
+
+.paragraph--buyCart {
+    text-align: center;
+}
+
+.link--buyCart {
+    background: #fff;
+    color: #c90512;
+    font-size: 13px;
+    padding: 10px 132px;
+    text-decoration: unset;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    border: solid 2px #c90512;
+}
+
+@media screen and (max-width: 768px) {
+    .link--buyCart {
+        padding: 10px 125px!important;
+    }
+}
