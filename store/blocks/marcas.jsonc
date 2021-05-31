@@ -31,7 +31,8 @@
             "flex-layout.row#marcas-item-1"
         ],
         "props":{
-            "blockClass": "col-contenedor-marcas"
+            "blockClass": "col-contenedor-marcas",
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#marcas-item-1":{
@@ -40,29 +41,211 @@
             "flex-layout.col#marcas-item-1"
         ],
         "props":{
-            "blockClass":"item-marcas"
+            "blockClass":"item-marcas",
+            "preventHorizontalStretch":true
         }
     },
     "image#marca-item-1":{
         "props":{
-            "src": "/arquivos/Pagina-Estatica-I-Instalación-2-web.png",
+            "src": "https://dummyimage.com/150x70/000/fff",
             "blockClass":"marca-institucional"
         }
     },
     "flex-layout.col#marcas-item-1":{
         "children":[
-            "rich-text#marcas-item-1"
+            "flex-layout.row#marcas-texto-item-1",
+            "flex-layout.row#marcas-texto-item-2",
+            "flex-layout.row#marcas-texto-item-3",
+            "flex-layout.row#marcas-texto-item-4",
+            "flex-layout.row#marcas-texto-item-5",
+            "flex-layout.row#marcas-texto-item-6",
+            "flex-layout.row#marcas-texto-item-7"
         ],
         "props":{
-            "blockClass":"col-item-marcas"
+            "blockClass":"col-item-marcas",
+            "preventVerticalStretch":true
         }
     },
-    "rich-text#marcas-item-1":{
+    "flex-layout.row#marcas-texto-item-1":{
+        "children":[
+            "rich-text#marcas-item-1-left",
+            "rich-text#marcas-item-1-right"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left":{
         "props": {
-            "text": "Marca \t Eliane",
+            "text": "Marca",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "marcas-item"
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right":{
+        "props": {
+            "text": "Eliane",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-2":{
+        "children":[
+            "rich-text#marcas-item-1-left-2",
+            "rich-text#marcas-item-1-right-2"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-2":{
+        "props": {
+            "text": "Origen",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-2":{
+        "props": {
+            "text": "Noruega, Kristiansand",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-3":{
+        "children":[
+            "rich-text#marcas-item-1-left-3",
+            "rich-text#marcas-item-1-right-3"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-3":{
+        "props": {
+            "text": "TRAYECTORIA",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-3":{
+        "props": {
+            "text": "Desde 1641",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-4":{
+        "children":[
+            "rich-text#marcas-item-1-left-4",
+            "rich-text#marcas-item-1-right-4"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-4":{
+        "props": {
+            "text": "PROPUESTA DE VALOR",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-4":{
+        "props": {
+            "text": "BOEN, el fabricante de pisos de madera en el segmento premium más importante de Europa, líder indiscutido en el mercado alemán y el segundo mayor participante en el mercado de suelos de madera. Regidos por la pasión, el estilo y la artesanía, sus productos se venden en más de 50 países, en cuatro continentes. Además, cuenta con las más modernas plantas de producción en distintos países del viejo continente y ofrece una propuesta totalmente innovadora en diseño. \n La sostenibilidad se ha integrado como un tema clave en la estrategia y visión de su grupo, creando un Comité de Sostenibilidad multifuncional para establecer una gestión de sostenibilidad sistemática e impulsarla en los próximos años. \n Los pisos BOEN presentan cuatro estilos: Pure Nordic, con tonos iluminados y claros; Urban Constrast, un juego entre los colores, las formas y la funcionalidad; Modern Rustic, la combinación perfecta entre un estilo tradicional y lo contemporáneo, y Classic Elegance, una muestra atemporal de sofisticación.",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-5":{
+        "children":[
+            "rich-text#marcas-item-1-left-5",
+            "rich-text#marcas-item-1-right-5"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-5":{
+        "props": {
+            "text": "CERTIFICACIONES",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-5":{
+        "props": {
+            "text": "1) The Real Wood \n 2) BREEAM \n 3) Blauer Engel \n 4) Marca CE \n 5) ISO 14001 \n 6) FSC – The Forest Stewarship Council \n 7) The Rainforest Alliance",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-6":{
+        "children":[
+            "rich-text#marcas-item-1-left-6",
+            "rich-text#marcas-item-1-right-6"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-6":{
+        "props": {
+            "text": "PREMIOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-6":{
+        "props": {
+            "text": "1) Asia Pacific Interior Design Awards 2019",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
+        }
+    },
+    "flex-layout.row#marcas-texto-item-7":{
+        "children":[
+            "rich-text#marcas-item-1-left-7",
+            "rich-text#marcas-item-1-right-7"
+        ],
+        "props":{
+            "blockClass":"texto-item-marcas",
+            "preventHorizontalStretch":true
+        }
+    },
+    "rich-text#marcas-item-1-left-7":{
+        "props": {
+            "text": "[ver productos](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-left-item"
+        }
+    },
+    "rich-text#marcas-item-1-right-7":{
+        "props": {
+            "text": "[ver garantías](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-right-item"
         }
     },
     "responsive-layout.mobile#mobile-marcas-instuticional": {

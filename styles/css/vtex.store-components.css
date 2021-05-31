@@ -532,3 +532,8 @@
 .imageElement--mantencion-tecnico {
     margin-right: auto;
 }
+
+.imageElement--marca-institucional {
+    max-width: 200px;
+    max-height: 70px;
+}

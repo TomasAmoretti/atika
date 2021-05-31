@@ -706,3 +706,24 @@
     border-bottom: #C90512 solid 3px;
     content: "";
 }
+
+.paragraph--marcas-left-item {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paragraph--marcas-right-item {
+    margin: 0;
+}
+
+.container--marcas-left-item {
+    min-width: 200px;
+}
+
+.link--marcas-left-item, .link--marcas-right-item {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    color: #C90512;
+}
