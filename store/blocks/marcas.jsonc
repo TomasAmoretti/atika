@@ -1,0 +1,80 @@
+{
+    "store.custom#marcas-instuticional":{
+        "blocks": [
+            "responsive-layout.desktop#desktop-marcas-instuticional",
+            "responsive-layout.mobile#mobile-marcas-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-marcas-instuticional": {
+        "children": [
+            "image#banner-marcas-instuticional",
+            "flex-layout.row#marcas-contenedor"
+        ]
+    },
+    "image#banner-marcas-instuticional":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica- Marcas_header.png",
+            "width": "100%",
+            "blockClass":"banner-marcas-instuticional"
+        }
+    },
+    "flex-layout.row#marcas-contenedor":{
+        "children":[
+            "flex-layout.col#marcas-contenedor"
+        ],
+        "props":{
+            "blockClass":"contenedor-marcas"
+        }
+    },
+    "flex-layout.col#marcas-contenedor":{
+        "children":[
+            "flex-layout.row#marcas-item-1"
+        ],
+        "props":{
+            "blockClass": "col-contenedor-marcas"
+        }
+    },
+    "flex-layout.row#marcas-item-1":{
+        "children":[
+            "image#marca-item-1",
+            "flex-layout.col#marcas-item-1"
+        ],
+        "props":{
+            "blockClass":"item-marcas"
+        }
+    },
+    "image#marca-item-1":{
+        "props":{
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-2-web.png",
+            "blockClass":"marca-institucional"
+        }
+    },
+    "flex-layout.col#marcas-item-1":{
+        "children":[
+            "rich-text#marcas-item-1"
+        ],
+        "props":{
+            "blockClass":"col-item-marcas"
+        }
+    },
+    "rich-text#marcas-item-1":{
+        "props": {
+            "text": "Marca \t Eliane",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcas-item"
+        }
+    },
+    "responsive-layout.mobile#mobile-marcas-instuticional": {
+        "children": [
+            "image#banner-marcas-instuticional-mobile",
+            "flex-layout.row#marcas-contenedor"
+        ]
+    },
+    "image#banner-marcas-instuticional-mobile":{
+        "props":{
+            "src": "/arquivos/Pagina Estatica- Marcas_header mobile.png",
+            "blockClass":"banner-marcas-instuticional"
+        }
+    }
+}

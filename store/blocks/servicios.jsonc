@@ -62,7 +62,8 @@
             "flex-layout.row#servicios-form"
         ],
         "props": {
-            "blockClass": "contenedor-form-col-servicios"
+            "blockClass": "contenedor-form-col-servicios",
+            "preventVerticalStretch": true
         }
     },
     "rich-text#servicios-titulo-servicios-0": {

@@ -3384,7 +3384,7 @@ a#not-corporate-client {
 }
 
 .corporate-info-box {
-  display: grid!important;
+  display: grid;
 }
 
 .corporate-info-box p.client-company-ie.input.text.required {

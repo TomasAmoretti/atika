@@ -377,12 +377,12 @@
 }
 
 .container--titulo-form-servicios {
-    width: 100%;
+    width: 90%;
     margin: auto;
     border: solid 1px #d2cfcf;
     border-bottom: unset;
     border-top: unset;
-    padding: 20px 180px 0px 180px;
+    padding: 20px 30px 0px 30px;
     background: #fff;
 }
 
@@ -423,11 +423,11 @@
 }
 
 .container--titulo-form-servicios-0 {
-    width: 100%;
+    width: 90%;
     margin: auto;
     border: solid 1px #d2cfcf;
     border-bottom: unset;
-    padding: 20px 180px 0px 180px;
+    padding: 20px 30px 0px 30px;
     background: #fff;
 }
 
@@ -537,6 +537,7 @@
 
 .paragraph--texto-elemento-institucional-titulo {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .container--titulo-form-2 {
@@ -607,7 +608,7 @@
 .paragraph--titulo-tiendas::after {
     display: block;
     width: 25px;
-    border-bottom: #C90512 solid 2px;
+    border-bottom: #C90512 solid 3px;
     content: "";
 }
 
@@ -678,4 +679,30 @@
     .link--buyCart {
         padding: 10px 125px!important;
     }
+
+    .container--texto-cubiertas-institucional {
+        width: 90%;
+    }
+
+    .flexRow--row-materiales-cubiertas-institucional {
+        width: 95%;
+    }
+}
+
+.paragraph--texto-mantencion-tecnico {
+    margin: 0;
+}
+
+.paragraph--titulo-mantencion-tecnico {
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #000;
+}
+
+.paragraph--titulo-mantencion-tecnico::after {
+    display: block;
+    width: 25px;
+    border-bottom: #C90512 solid 3px;
+    content: "";
 }

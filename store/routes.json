@@ -34,5 +34,8 @@
     },
     "store.custom#spaceplanner-instuticional":{
         "path": "/spaceplanner"
+    },
+    "store.custom#marcas-instuticional":{
+        "path": "/marcas"
     }
 }

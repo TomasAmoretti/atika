@@ -527,7 +527,7 @@
         "props": {
             "src": "/arquivos/MENU-SP.png",
             "link":{
-              "url":"#"
+              "url":"/spaceplanner"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -557,7 +557,7 @@
         "props": {
             "src": "/arquivos/MENU-MARCAS.png",
             "link":{
-              "url":"#"
+              "url":"/marcas"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150

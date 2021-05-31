@@ -253,7 +253,6 @@
     padding-bottom: 35px;
     border-top: solid 1px #d0d0d0;
     padding-top: 35px;
-    margin-top: 60px;
 }
 
 .flexRowContent--info-item-home-mobile {
@@ -503,15 +502,33 @@
 }
 
 .flexRowContent--contenedor-form-servicios {
-    justify-content: center;
+    justify-content: end;
 }
 
 .flexRow--formulario-servicios {
-    width: 100%;
-    padding: 0 180px 20px 180px;
+    width: 90%;
+    padding: 0 30px 20px 30px;
     border: solid 1px #d2cfcf;
     border-top: unset;
     background: #fff;
+    margin: auto;
+}
+
+.flexRow--contenedor-form-servicios {
+    background: url(https://dummyimage.com/2000x750/000/fff);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.flexRow--contenedor-form-cubiertas-dimensionadas {
+    background: url(https://dummyimage.com/2000x750/000/fff);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .flexRowContent--row-categorias-blog {
@@ -576,12 +593,12 @@
 }
 
 .flexCol--contenedor-form-col-servicios {
-    width: 800px;
+    width: 90%;
     margin-top: 60px;
 }
 
 .flexRowContent--contenedor-form-cubiertas-dimensionadas {
-    justify-content: center;
+    justify-content: end;
 }
 
 .flexRowContent--row-tiendas-institucional {
@@ -609,4 +626,9 @@
 
 .flexRowContent--productListMobile {
     display: flex;
+}
+
+.flexCol--col-tecnico-mantencion {
+    width: 90%!important;
+    margin-right: auto;
 }

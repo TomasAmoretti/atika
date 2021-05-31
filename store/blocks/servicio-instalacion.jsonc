@@ -108,7 +108,7 @@
     },
     "image#elemento-madera":{
         "props":{
-            "src": "/arquivos/Pagina-Estatica-I-Instalación-1-web.png",
+            "src": "/arquivos/Pagina-Estatica-I-Instalación-2-web.png",
             "blockClass":"elemento-madera-insti"
         }
     },
