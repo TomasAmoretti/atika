@@ -1,13 +1,14 @@
 .productHighlightText--text-flag {
     color: #000;
     text-decoration: none;
+    padding: 2px 5px;
     font-size: 11px;
     border: solid 1px;
     width: fit-content;
     font-family: 'Source Sans Pro';
     position: relative;
     bottom: -45px;
-    left: 28px;
+    left: 20px;
     top: 50%;
     background: #fff;
     z-index: 5;
