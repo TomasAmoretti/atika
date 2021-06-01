@@ -670,3 +670,27 @@
 .flexColChild--col-contenedor-marcas {
     margin-bottom: 100px;
 }
+
+.flexColChild--col-contenedor-institucional {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+
+.flexRow--contenedor-institucional {
+    margin: 60px 0;
+}
+
+.flexRowContent--row-item-institucional {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .flexColChild--col-contenedor-institucional {
+        display: block;
+    }
+}

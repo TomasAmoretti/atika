@@ -15,3 +15,55 @@
 .content--contenido-footer--visible {
     padding: 5px;
 }
+
+.trigger--trigger-institucional {
+    width: 25%;
+    height: fit-content;
+    max-width: 1280px;
+    background: #fff;
+    border-left: unset!important;
+    border-right: unset!important;
+    border-bottom: unset!important;
+    border: solid 2px #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-contenedor-institucional):last-child .trigger--trigger-institucional {
+    border-bottom: solid 2px #000!important;
+}
+
+.trigger--trigger-institucional--visible {
+    background: #C90512;
+    color: #fff;
+}
+
+.content--contenido-institucional {
+    width: 100%;
+    display: block!important;
+}
+
+.content--contenido-institucional--visible {
+    visibility: visible;
+    height: auto;
+}
+
+.content--contenido-institucional--hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+@media screen and (max-width: 768px){
+    .trigger--trigger-institucional {
+        width: 100%;
+    }
+
+    .content--contenido-institucional {
+        display: none!important;
+    }
+
+    .content--contenido-institucional--visible {
+        visibility: visible;
+        display: block!important;
+        height: auto;
+        margin-top: 30px;
+    }
+}

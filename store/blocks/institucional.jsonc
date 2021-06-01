@@ -20,11 +20,226 @@
     },
     "flex-layout.col#contenedor-instuticional":{
         "children":[
-            
+            "disclosure-layout#preguntas-frecuentes",
+            "disclosure-layout#condiciones-despacho",
+            "disclosure-layout#cambios-garantias",
+            "disclosure-layout#terminos-condiciones"
         ],
         "props":{
             "blockClass": "col-contenedor-institucional",
             "preventVerticalStretch": true
+        }
+    },
+    "icon#plus-negro-2":{
+        "props":{
+          "id":"nav-plus",
+          "size": 14,
+          "mutedClassName": "plus-close",
+          "activeClassName": "plus-open"
+        }
+    },
+    "disclosure-layout#preguntas-frecuentes": {
+        "children": [
+            "disclosure-trigger#preguntas-frecuentes", 
+            "disclosure-content#preguntas-frecuentes"
+        ],
+        "props":{
+            "blockClass": "container-item-institucional"
+        }
+    },
+    "disclosure-trigger#preguntas-frecuentes": {
+        "children": [
+            "flex-layout.row#titulo-preguntas-frecuentes"
+        ],
+        "props":{
+            "blockClass": "trigger-institucional"
+        }
+    },
+    "flex-layout.row#titulo-preguntas-frecuentes":{
+        "children":[
+            "rich-text#titulo-preguntas-frecuentes",
+            "icon#plus-negro-2"
+          ],
+          "props":{
+            "blockClass": "row-item-institucional",
+            "preventHorizontalStretch": true
+          }
+    },
+    "rich-text#titulo-preguntas-frecuentes":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Preguntas frecuentes",
+            "blockClass": "titulo-institucional-menu"
+          }
+    },
+    "disclosure-content#preguntas-frecuentes": {
+        "children": [
+            "rich-text#preguntas-frecuentes-1"
+        ],
+        "props":{
+            "blockClass": "contenido-institucional"
+        }
+    },
+    "rich-text#preguntas-frecuentes-1":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Preguntas frecuentes** \n\n\n COMPRAS \n\n **¿TIENEN TIENDA FÍSICA?** \n\n No tenemos tienda física porque estamos convencidos de que las tiendas online dominarán el mundo… Hablando en serio, creemos que en una tienda online ahorras tiempo, puedes tomar una mejor decisión acerca de tu compra y obtienes los mejores precios del mercado. \n\n **¿DESPACHAN A TODO CHILE?** \n\n Si, despachamos a todo Chile! Actualmente trabajamos con 3 empresas de despacho: Shippify, Correos de Chile y Bluexpress. Estos Couriers se asignan dependiendo de tu comuna y región. \n\n **¿CÓMO PUEDO COMPRAR EN DEPTO51?** \n\n Es muy fácil! Sólo debes agregar los productos que quieras a tu carrito, ingresar tus datos, dirección (recuerda seleccionar muy bien tu comuna) y finalmente, seleccionar el medio de pago que más te acomode. \n\n **NECESITO UN PRODUCTO ANTES DEL PLAZO DE ENTREGA, ¿QUÉ HAGO?** \n\n En ese caso, podemos gestionar un Despacho Express! Contáctanos al chat de la página o a nuestro correo indicando el producto que necesitas, para cuándo y a qué dirección. Cotizamos el valor del envío y si estás de acuerdo, lo gestionamos! \n\n **NECESITO HACER UN REGALO, ¿CÓMO LO HAGO?** \n\n Cuando estés en tu carrito antes de pagar, no olvides seleccionar la casilla que lo indica. Recuerda que toda la compra irá envuelta en 1 solo regalo, si necesitas diferentes regalos, te recomendamos que solicites el papel para que los puedas envolver tú mismo. \n\n **¿CÓMO PUEDO ENVOLVER YO MI REGALO?** \n\n Sólo selecciona la casilla para pedir el papel, aparece en la misma parte del envuelto para regalo y nosotros los enviamos para ti. Cada set de papeles incluye 4 pliegos y stickers para que puedas hacer el mejor regalo! \n\n **QUIERO AGREGAR UN MENSAJE A MI REGALO** \n\n No hay problema! También puedes dejar un mensaje que irá impreso en una tarjeta especial, sólo recuerda escribirlo al momento de seleccionar que tu pedido es para regalo. \n\n PAGOS \n\n **¿ES SEGURO COMPRAR EN DEPTO51?** \n\n Totalmente! En Depto51 trabajamos con altos estándares de seguridad y toda la información ingresada en nuestro sitio se mantiene de forma estrictamente confidencial. Sólo te pedimos que ingreses la información necesaria para el pago y envío de tu compra. Depto51 NO guarda la información de tu tarjeta de crédito ni de tu cuenta bancaria. \n\n **¿QUÉ MEDIO DE PAGO PUEDO USAR?** \n\n Puedes pagar con tarjetas de crédito y débito emitidas en Chile y/o transferencia electrónica a nuestra cuenta. \n\n **SELECCIONÉ TRANSFERENCIA Y NO HE RECIBIDO LOS DATOS.** \n\n Recuerda revisar tu bandeja de entrada y spam, si no te han llegado, escríbenos indicando tu número de orden (ej: 12345) para que te los podamos enviar. \n\n **HAN PASADO MÁS DE 48 HRS. Y NO HAN APROBADO MI PAGO.** \n\n Recuerda que todos nuestros plazos son en días hábiles. Si compras con transferencia un día viernes en la noche o el fin de semana, revisaremos tu pago el día lunes a primera hora, no te preocupes! \n\n DESPACHOS \n\n **YA HICE MI COMPRA, ¿CÓMO SÉ SI ESTÁ TODO BIEN?** \n\n Una vez realices tu compra, te llegará un correo con la confirmación de tu pedido. En la parte superior aparecerá “Orden 12345” con ese número podrás identificar tu compra más adelante. \n\n **ME EQUIVOQUÉ EN MI DIRECCIÓN, ¿LO PUEDO ARREGLAR?** \n\n Te recomendamos prestar mucha atención al escribirla y revisarla muy bien antes de continuar con la compra. Si el autocompletado te traicionó, escríbenos lo antes posible informando el error y tu número de orden, así lo podemos arreglar antes de que sea despachado. \n\n **¿CUÁNDO LLEGARÁ MI PEDIDO?** \n\n Los plazos de entrega dependen de cada producto, los puedes ver en la pestaña Despacho en la ficha de producto. Si en tu compra tienes más productos y tienen distintos plazos de entrega, toda tu orden tomará el plazo mayor. Por ejemplo: Si compras un producto con entrega de 2 a 3 días hábiles y otro de 3 a 5 días hábiles, tu orden completa tendrá un plazo de entrega de 3 a 5 días hábiles. \n\n **¿QUÉ DÍAS DESPACHAMOS?** \n\n Todos nuestros despachos son de Lunes a Viernes de 09:00 a 21:00hrs. Los días sábados y domingos descansamos para comenzar una nueva semana con las pilas full recargadas! Cualquier urgencia o atraso lo comunicaremos siempre a través de correo electrónico o teléfono. \n\n **ALGUNOS DÍAS NO ESTOY EN MI CASA O NO PUEDO RECIBIRLO, ¿QUÉ PUEDO HACER?** \n\n Como trabajamos con empresas de despacho externas, el horario de entrega siempre es de 9:00 a 21:00hrs, por lo que te recomendamos que nos indiques una dirección donde haya una persona que pueda recibir por ti. Puede ser algún amigo, vecino, familiar, etc. Si vives en departamento, los conserjes serán nuestro mejor aliado al momento de las entregas. \n\n **NADIE PUEDE RECIBIR POR MI, ¿PUEDO COMPRAR Y RETIRAR EN ALGUNA PARTE?** \n\n Por el momento no contamos con punto de retiro, pero realiza tu compra tranquilamente y luego nos escribes a [contacto](/contacto) para que coordinemos tu despacho. \n\n **RECIBÍ EL CORREO CONFIRMANDO EL DESPACHO, PERO NO HA LLEGADO.** \n\n Cuando recibas el correo “Orden en tránsito” significa que tu pedido acaba de salir a reparto. Si estás en Santiago, puedes recibir tu compra dentro del mismo día o al día hábil siguiente. Si estás en regiones, la entrega puede tardar de 1 hasta 10 días hábiles en los lugares más extremos. \n\n **¿CÓMO HAGO SEGUIMIENTO A MI ENVÍO?** \n\n En el correo “Orden en tránsito” puedes encontrar el enlace o tu número de seguimiento, que lo puedes revisar en la página de Shippify, Bluexpress o Correos de Chile, según corresponda. \n\n **YA PASÓ EL PLAZO DE ENTREGA DE MI COMPRA Y NO HA LLEGADO.** \n\n Escríbenos con total confianza a nuestro correo: contacto@depto51.cl indicando tu número de orden. Revisaremos lo antes posible qué pasó con tu compra y te contactaremos de vuelta, no te preocupes. \n\n ",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "disclosure-layout#condiciones-despacho": {
+        "children": [
+            "disclosure-trigger#condiciones-despacho", 
+            "disclosure-content#condiciones-despacho"
+        ],
+        "props":{
+            "blockClass": "container-item-institucional"
+        }
+    },
+    "disclosure-trigger#condiciones-despacho": {
+        "children": [
+            "flex-layout.row#titulo-condiciones-despacho"
+        ],
+        "props":{
+            "blockClass": "trigger-institucional"
+        }
+    },
+    "flex-layout.row#titulo-condiciones-despacho":{
+        "children":[
+            "rich-text#titulo-condiciones-despacho",
+            "icon#plus-negro-2"
+          ],
+          "props":{
+            "blockClass": "row-item-institucional",
+            "preventHorizontalStretch": true
+          }
+    },
+    "rich-text#titulo-condiciones-despacho":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Condiciones de despacho",
+            "blockClass": "titulo-institucional-menu"
+          }
+    },
+    "disclosure-content#condiciones-despacho": {
+        "children": [
+            "rich-text#condiciones-despacho-1"
+        ],
+        "props":{
+            "blockClass": "contenido-institucional"
+        }
+    },
+    "rich-text#condiciones-despacho-1":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Condiciones de despacho** \n\n\n **CAMBIO DE PRODUCTOS** \n\n El plazo para cambio de productos es de 90 días contados, desde la fecha de compra. El producto se debe encontrar en óptimas condiciones y su embalaje debe ser el original, sin ningún tipo de alteración. \n\n Los costos de transporte y/o traslados asociados a cambio de productos, son de cargo del cliente, o en el caso que el cliente transporte el producto, este debe ser entregado en nuestro Centro de Distribución. \n\n **GARANTÍA DE PRODUCTOS** \n\n En caso que el producto presente algún defecto (*), aplicará el plazo de garantía especial indicada por el fabricante o el plazo legal de 3 meses, desde la fecha de compra del producto. \n\n Atika reparará el producto para dejarlo en óptimas condiciones o lo cambiará por uno nuevo. Si el cliente prefiere, puede solicitar la devolución del dinero. \n\n Los costos de transporte y/o traslados asociados a una garantía, son de cargo de Atika. \n\n **¿CÓMO EJERCER LA GARANTÍA?** \n\n El cliente debe presentar el producto junto a la Boleta y/o Factura que acredite la compra. \n\n\n *(´*´) Defectuoso: Aquel producto que tenga evidentes fallas, falta de partes y/o piezas y que no cumpla con la seguridad, ni las características del producto que el cliente eligió y adquirió. Esto incluye productos NO defectuosos, pero que fueron entregados por error al cliente y por lo tanto, NO cumplen con las características del producto adquirido.* \n\n *Santiago, 11-02-2019*",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "disclosure-layout#cambios-garantias": {
+        "children": [
+            "disclosure-trigger#cambios-garantias", 
+            "disclosure-content#cambios-garantias"
+        ],
+        "props":{
+            "blockClass": "container-item-institucional"
+        }
+    },
+    "disclosure-trigger#cambios-garantias": {
+        "children": [
+            "flex-layout.row#titulo-cambios-garantias"
+        ],
+        "props":{
+            "blockClass": "trigger-institucional"
+        }
+    },
+    "flex-layout.row#titulo-cambios-garantias":{
+        "children":[
+            "rich-text#titulo-cambios-garantias",
+            "icon#plus-negro-2"
+          ],
+          "props":{
+            "blockClass": "row-item-institucional",
+            "preventHorizontalStretch": true
+          }
+    },
+    "rich-text#titulo-cambios-garantias":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Cambios y garantías",
+            "blockClass": "titulo-institucional-menu"
+          }
+    },
+    "disclosure-content#cambios-garantias": {
+        "children": [
+            "rich-text#cambios-garantias-1"
+        ],
+        "props":{
+            "blockClass": "contenido-institucional"
+        }
+    },
+    "rich-text#cambios-garantias-1":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Cambios y garantías** \n\n\n **CAMBIO DE PRODUCTOS** \n\n El plazo para cambio de productos es de 90 días contados, desde la fecha de compra. El producto se debe encontrar en óptimas condiciones y su embalaje debe ser el original, sin ningún tipo de alteración. \n\n Los costos de transporte y/o traslados asociados a cambio de productos, son de cargo del cliente, o en el caso que el cliente transporte el producto, este debe ser entregado en nuestro Centro de Distribución. \n\n **GARANTÍA DE PRODUCTOS** \n\n En caso que el producto presente algún defecto (*), aplicará el plazo de garantía especial indicada por el fabricante o el plazo legal de 3 meses, desde la fecha de compra del producto. \n\n Atika reparará el producto para dejarlo en óptimas condiciones o lo cambiará por uno nuevo. Si el cliente prefiere, puede solicitar la devolución del dinero. \n\n Los costos de transporte y/o traslados asociados a una garantía, son de cargo de Atika. \n\n **¿CÓMO EJERCER LA GARANTÍA?** \n\n El cliente debe presentar el producto junto a la Boleta y/o Factura que acredite la compra. \n\n\n *(´*´) Defectuoso: Aquel producto que tenga evidentes fallas, falta de partes y/o piezas y que no cumpla con la seguridad, ni las características del producto que el cliente eligió y adquirió. Esto incluye productos NO defectuosos, pero que fueron entregados por error al cliente y por lo tanto, NO cumplen con las características del producto adquirido.* \n\n *Santiago, 11-02-2019*",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "disclosure-layout#terminos-condiciones": {
+        "children": [
+            "disclosure-trigger#terminos-condiciones", 
+            "disclosure-content#terminos-condiciones"
+        ],
+        "props":{
+            "blockClass": "container-item-institucional"
+        }
+    },
+    "disclosure-trigger#terminos-condiciones": {
+        "children": [
+            "flex-layout.row#titulo-terminos-condiciones"
+        ],
+        "props":{
+            "blockClass": "trigger-institucional"
+        }
+    },
+    "flex-layout.row#titulo-terminos-condiciones":{
+        "children":[
+            "rich-text#titulo-terminos-condiciones",
+            "icon#plus-negro-2"
+          ],
+          "props":{
+            "blockClass": "row-item-institucional",
+            "preventHorizontalStretch": true
+          }
+    },
+    "rich-text#titulo-terminos-condiciones":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "text": "Terminos y condiciones",
+            "blockClass": "titulo-institucional-menu"
+          }
+    },
+    "disclosure-content#terminos-condiciones": {
+        "children": [
+            "rich-text#terminos-condiciones-1"
+        ],
+        "props":{
+            "blockClass": "contenido-institucional"
+        }
+    },
+    "rich-text#terminos-condiciones-1":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Terminos y condiciones** \n\n\n Los datos solicitados en los formularios disponibles (nombre, e-mail, RUT, dirección física y número telefónicos) serán utilizados para responder preguntas acerca de nuestros productos y servicios. Atika no venderá ni difundirá datos a terceros. Esta información puede ser usada internamente para estadísticas y para la mejora de productos y servicios ofrecidos en nuestro sitio. \n\n **NEWSLETTERS** \n\n El envío de correos electrónicos se hará sólo con tu consentimiento y puede detenerse en cualquier momento. Al registrarte en nuestro sitio, puedes optar por recibir e-mails con información y promociones de Atika. \n\n **PROPIEDAD DE LA INFORMACIÓN** \n\n Todos los textos, imágenes, logos, íconos, código fuente y el resto de los contenidos incluidos en este sitio son propiedad de Atika o, en algunos casos, disponen del derecho de reproducción de los mismos, y en tal sentido se erigen como obras protegidas por la legislación de propiedad intelectual e industrial vigentes. Queda prohibida la reproducción de elementos o contenidos de este website, realizados con ánimo de lucro o fines comerciales. \n\n **PROTOCOLO DE SEGURIDAD** \n\n Atika cuenta con un certificado SSL (Secure Sockets Layer) que asegura, tanto la autenticidad del Sitio, como el cifrado de toda la información que nos entrega el usuario. Los certificados SSL protegen los datos personales de los clientes e impiden el acceso a la información por parte de terceros. \n\n **20% DESCUENTO PAGANDO CON TARJETAS BANCO DE CHILE** \n\n **Descripción:** Promoción válida para las compras efectuadas utilizando como medio de pago las Tarjetas de Crédito y Redcompra emitidas por Banco de Chile. \n\n **Consideraciones.** \n\n El descuento aplica sólo a ventas minoristas y no es acumulable con otras ofertas, promociones o beneficios. Sujeto a las políticas de venta y distribución de Atika para productos Porcelanatos, Gres, Cerámicas, Griferías, Sanitarios, Accesorios, Pisos Fotolaminados, Pisos de Ingeniería, Muebles y Vinílicos. No incluye mármoles, granitos, cuarzos, piedras naturales, cubiertas ultracompactas ItopKer, Lavaplatos, Accesorios Mediclinics, Bañeras Jacuzzi, Terminaciones Perser, Toalleros eléctricos Anapont y Deck Timbertech, repuestos, productos de mantención, instalaciones ni servicios. \n\n Las ofertas, descuentos, entregas de beneficio como asimismo la garantía, servicios y calidad del producto será exclusivo responsabilidad del comercio, sin responsabilidad ni injerencia alguna para el Banco de Chile ni en la ulterior atención que ello demande. \n El descuento debe solicitarse en el punto de compra. \n Infórmese sobre la garantía estatal en su Banco o en [www.sbif.cl](www.sbif.cl) \n\n **Vigencia de la promoción:** Desde el 07 de enero al 31 de Diciembre 2021.",
+            "blockClass": "institucional-texto"
         }
     },
     "responsive-layout.mobile#mobile-instuticional": {

@@ -727,3 +727,34 @@
     font-weight: 400;
     color: #C90512;
 }
+
+.paragraph--titulo-institucional-menu {
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.container--institucional-texto {
+    width: 90%;
+    margin: auto;
+}
+
+.headingLevel3--institucional-texto {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    color: #000;
+    margin-top: 0;
+}
+
+.headingLevel3--institucional-texto::after {
+    display: block;
+    width: 25px;
+    border-bottom: #C90512 solid 3px;
+    content: "";
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--trigger-institucional--visible) .paragraph--titulo-institucional-menu {
+    color: #fff;
+}
