@@ -1,0 +1,35 @@
+{
+    "store.custom#instuticional":{
+        "blocks": [
+            "responsive-layout.desktop#desktop-instuticional",
+            "responsive-layout.mobile#mobile-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-instuticional": {
+        "children": [
+            "flex-layout.row#contenedor-instuticional"
+        ]
+    },
+    "flex-layout.row#contenedor-instuticional":{
+        "children":[
+            "flex-layout.col#contenedor-instuticional"
+        ],
+        "props":{
+            "blockClass":"contenedor-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-instuticional":{
+        "children":[
+            
+        ],
+        "props":{
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "responsive-layout.mobile#mobile-instuticional": {
+        "children": [
+            "flex-layout.row#contenedor-instuticional"
+        ]
+    }
+}

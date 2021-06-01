@@ -452,6 +452,21 @@
     .flexRow--formulario-servicios {
         padding: 0 20px 20px 20px!important;
     }
+
+    .flexColChild--col-contenedor-marcas {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .imageElement--marca-institucional {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .flexColChild--col-item-marcas:last-child .flexRowContent--texto-item-marcas {
+        display: flex;
+    }
 }
 
 /* INSTITUCIONAL */
@@ -649,5 +664,9 @@
 }
 
 .flexCol--col-item-marcas {
-    max-width: 650px;
+    max-width: 700px;
+}
+
+.flexColChild--col-contenedor-marcas {
+    margin-bottom: 100px;
 }
