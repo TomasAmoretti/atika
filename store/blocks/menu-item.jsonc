@@ -1252,7 +1252,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/servicio-tecnico-mantencion",
         "text": "Servicios"
       },
       "blockClass": "footer-item"
@@ -1282,7 +1282,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional",
         "text": "FAQ"
       },
       "blockClass": "footer-item"
@@ -1292,7 +1292,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional",
         "text": "Terminos y condiciones"
       },
       "blockClass": "footer-item"
@@ -1302,7 +1302,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional",
         "text": "Cambios y Garantía"
       },
       "blockClass": "footer-item"
@@ -1312,7 +1312,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/login",
         "text": "Iniciar Sesión"
       },
       "blockClass": "footer-item"
@@ -1322,7 +1322,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/account#/orders",
         "text": "Mis Pedidos"
       },
       "blockClass": "footer-item"
