@@ -614,10 +614,19 @@
 
 .paragraph--tiendas-texto {
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .wrapper--tiendas-texto {
     margin: 10px 0;
+}
+
+.container--titulo-tiendas {
+    margin-top: 10px;
+}
+
+.container--tiendas-texto {
+    border-bottom: solid 1px;
 }
 
 .container--texto-form {
@@ -668,7 +677,7 @@
     background: #fff;
     color: #c90512;
     font-size: 13px;
-    padding: 10px 132px;
+    padding: 10px 103px;
     text-decoration: unset;
     text-transform: uppercase;
     font-family: 'Poppins';
@@ -686,6 +695,10 @@
 
     .flexRow--row-materiales-cubiertas-institucional {
         width: 95%;
+    }
+
+    .container--titulo-shelf {
+        padding: 0px 10px;
     }
 }
 

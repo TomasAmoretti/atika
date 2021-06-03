@@ -69,3 +69,29 @@
 .sliderContainer--shelf-relacionados {
     height: 100%;
 }
+
+
+.container--shelf-destacados-mobile {
+    padding-bottom: 20px;
+}
+
+.sliderContainer--shelf-relacionados :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+}
+
+.shelfContentContainer--shelf-relacionados {
+    padding-bottom: 35px;
+}
+
+.caretIcon--shelf-relacionados {
+    background: #707070;
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.arrowLeft--shelf-relacionados {
+    margin-left: -15px;
+}

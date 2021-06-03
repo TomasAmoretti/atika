@@ -129,7 +129,8 @@
     "form-input.checkbox#recibir": {
         "props": {
             "pointer": "#/properties/recibir",
-            "label": "Si, quiero recibir información de novedades y ofertas de Atika"
+            "label": "Si, quiero recibir información de novedades y ofertas de Atika",
+            "blockClass": "checkbox"
         }
     },
     "form-submit": {

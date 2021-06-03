@@ -59,7 +59,7 @@
       "vtex.product-highlights@2.x:product-highlights#product",
       "add-to-list-btn#producto",
       "product-images#product-page",
-      "product-description",
+      /*"descripcion-larga",*/
       "flex-layout.row#descripcion-producto",
       "modal-trigger#glosario"
     ],
@@ -100,15 +100,14 @@
       "vtex.store-components:product-brand#product",
       "vtex.store-components:product-name#product",
       "product-identifier.product",
-      /*"descripcion-larga",*/
+      "product-description",
       "sku-selector",
       "flex-layout.row#Precio",
       "flex-layout.col#spacer-producto2",
       "flex-layout.row#cart-button",
       "availability-subscriber",
       "rich-text#texto-shipping",
-      "shipping-simulator",
-      "shelf.relatedProducts#comprar-junto"
+      "shipping-simulator"
     ],
     "props": {
       "verticalAlign": "top",
@@ -160,12 +159,21 @@
   },
   "flex-layout.row#cart-button":{
     "children":[
-      "product-quantity",
-      "add-to-cart-button#product"
+      "flex-layout.col#cart-button"
     ],
     "props":{
       "blockClass":"row-button",
       "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#cart-button":{
+    "children":[
+      "product-quantity",
+      "add-to-cart-button#product"
+    ],
+    "props":{
+      "blockClass":"col-button",
+      "preventVerticalStretch":true
     }
   },
   "product-quantity": {

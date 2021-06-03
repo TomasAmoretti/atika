@@ -178,7 +178,7 @@
   "image#footer-youtube":{
     "props": {
       "src": "/arquivos/3-youtube.png",
-      "width": 39,
+      "width": 45,
       "link":{
         "url":"#"
       },
@@ -188,7 +188,7 @@
   "image#footer-facebook":{
     "props": {
       "src": "/arquivos/2-faceb.png",
-      "width": 39,
+      "width": 45,
       "link":{
         "url":"#"
       },
@@ -198,7 +198,7 @@
   "image#footer-instagram":{
     "props": {
       "src": "/arquivos/1-insta.png",
-      "width": 39,
+      "width": 45,
       "link":{
         "url":"#"
       },
@@ -208,7 +208,7 @@
   "image#footer-pinterest":{
     "props": {
       "src": "/arquivos/4-pinterest.png",
-      "width": 39,
+      "width": 45,
       "link":{
         "url":"#"
       },
@@ -218,7 +218,7 @@
   "image#footer-whatsapp":{
     "props": {
       "src": "/arquivos/5-whats.png",
-      "width": 39,
+      "width": 45,
       "link":{
         "url":"#"
       },
@@ -963,28 +963,32 @@
   "image#footer-partners-add-mobile":{
     "props": {
       "src": "/arquivos/add.png",
-      "width": 90,
+      "width": 130,
+      "maxHeight": 60,
       "blockClass": "footer-partners"
     }
   },
   "image#footer-partners-aoa-mobile":{
     "props": {
       "src": "/arquivos/aoa.png",
-      "width": 90,
+      "width": 125,
+      "maxHeight": 60,
       "blockClass": "footer-partners"
     }
   },
   "image#footer-partners-arquitectura-mobile":{
     "props": {
       "src": "/arquivos/plataforma.png",
-      "width": 90,
+      "width": 125,
+      "maxHeight": 51,
       "blockClass": "footer-partners"
     }
   },
   "image#footer-partners-banco-mobile":{
     "props": {
       "src": "/arquivos/bancochile.png",
-      "width": 110 ,
+      "width": 150 ,
+      "maxHeight": 51,
       "blockClass": "footer-partners"
     }
   }

@@ -220,7 +220,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -233,7 +233,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -246,7 +246,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -259,7 +259,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -272,7 +272,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -285,7 +285,7 @@
     left: 5%;
     font-family: 'Poppins';
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     top: -25%;
     height: fit-content;
@@ -303,12 +303,19 @@
 }
 
 .imageElementLink--new-arrival-mobile {
-    margin-left: 2%;
+    margin-left: 10px;
+    width: auto;
+}
+
+.logoContainer--logo .sizeMobile {
+    max-width: unset;
 }
 
 @media screen and (max-width: 768px) {
     .imageElement--image-info {
-        margin-right: 0;
+        margin-right: 5px;
+        max-width: 40px;
+        max-height: 40px;
     }
 }
 
@@ -348,8 +355,8 @@
 .productBrand--product-name {
     font-family: 'Poppins';
     font-size: 24px;
-    font-weight: 600;
-    line-height: 30 px;
+    font-weight: 700;
+    line-height: 30px;
     text-transform: uppercase;
 }
 
@@ -363,6 +370,12 @@
 
 .productNameContainer--product-name {
     margin-bottom: 20px;
+}
+
+.caretIcon--image-producto {
+    width: 18px;
+    height: 18px;
+    color: #707070;
 }
 
 .product-identifier--productReference {
@@ -382,8 +395,13 @@
     font-size: 13px;
 }
 
-.carouselContainer--image-producto {
-    border: solid 1px;
+.productImagesGallerySwiperContainer--image-producto {
+    border: solid 1px #000;
+}
+
+.figure--image-producto {
+    border: solid 1px #000;
+    margin-right: 7px;
 }
 
 .shippingContainer {
@@ -463,6 +481,10 @@
     margin: auto;
     margin-bottom: 0;
     margin-top: 10px;
+}
+
+.productImageTag--image-producto--main {
+    max-height: unset!important;
 }
 
 .productBrandName--marca-product-shelf {
