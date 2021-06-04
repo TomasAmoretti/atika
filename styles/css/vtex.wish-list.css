@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-.wishlistIconContainer {
-    position: relative;
-    top: 45px;
-    margin-top: -40px;
+.wishlistIconContainer--whish-product {
+    position: absolute;
+    margin-left: auto;
+    width: 42%;
+    max-width: 620px;
     z-index: 2;
     display: flex;
     justify-content: flex-end;
+    padding-top: 10px;
 }
 
-.wishlistIconContainer--whish-product {
-    top: 60px;
-    right: 0px;
+.wishlistIconContainer--whish-vitrina {
+    position: absolute;
+    margin-left: auto;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
 }
 
 .outline {

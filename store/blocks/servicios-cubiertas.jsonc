@@ -8,6 +8,7 @@
     "responsive-layout.desktop#desktop-cubiertas-dimensionadas-instuticional": {
         "children": [
             "image#banner-cubiertas-dimensionadas-instuticional",
+            "rich-text#titulo-institucional-servicio-cubiertas",
             "rich-text#cubiertas-dimensionadas-instuticional-texto",
             "flex-layout.row#cubiertas-dimensionadas-instuticional-materiales"
         ]
@@ -17,6 +18,14 @@
             "src": "/arquivos/Pagina Estatica I Servicios - Cubiertas Dimensionadas_header.png",
             "width": "100%",
             "blockClass":"banner-cubiertas-dimensionadas-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-servicio-cubiertas": {
+        "props": {
+            "text": "Servicios de Cubiertas dimensionadas",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "rich-text#cubiertas-dimensionadas-instuticional-texto":{
@@ -244,7 +253,7 @@
     },
     "image#elemento-itopker":{
         "props":{
-            "src": "/arquivos/itopker.png",
+            "src": "/arquivos/itopker-cubiertas.png",
             "blockClass":"elemento-cuarzo-insti"
         }
     },
@@ -293,6 +302,7 @@
     "responsive-layout.mobile#mobile-cubiertas-dimensionadas-instuticional": {
         "children": [
             "image#banner-cubiertas-dimensionadas-instuticional-mobile",
+            "rich-text#titulo-institucional-servicio-cubiertas",
             "rich-text#cubiertas-dimensionadas-instuticional-texto",
             "flex-layout.row#cubiertas-dimensionadas-instuticional-materiales"
         ]

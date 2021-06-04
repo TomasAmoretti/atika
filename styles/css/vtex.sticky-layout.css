@@ -4,3 +4,8 @@
 .container--sticky-mobile {
     background: white;
 }
+
+.container--sticky-price {
+    background: #fff;
+    border-top: solid 2px #000;
+}

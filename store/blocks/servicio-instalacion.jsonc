@@ -8,6 +8,7 @@
     "responsive-layout.desktop#desktop-servicio-instalacion-instuticional": {
         "children": [
             "image#banner-servicio-instalacion-instuticional",
+            "rich-text#titulo-institucional-instalacion",
             "rich-text#servicio-instalacion-instuticional-texto",
             "flex-layout.row#servicio-instalacion-info-card",
             "rich-text#titulo-elementos-instalacion",
@@ -19,6 +20,14 @@
             "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header web.png",
             "width": "100%",
             "blockClass":"banner-servicio-instalacion-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-instalacion": {
+        "props": {
+            "text": "Servicios de instalación",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "rich-text#servicio-instalacion-instuticional-texto":{
@@ -279,6 +288,7 @@
     "responsive-layout.mobile#mobile-servicio-instalacion-instuticional": {
         "children": [
             "image#banner-servicio-instalacion-instuticional-mobile",
+            "rich-text#titulo-institucional-instalacion",
             "rich-text#servicio-instalacion-instuticional-texto",
             "flex-layout.row#servicio-instalacion-instuticional-materiales"
         ]

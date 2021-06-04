@@ -8,6 +8,7 @@
     "responsive-layout.desktop#desktop-servicio-tecnico-mantencion": {
         "children": [
             "image#banner-servicio-tecnico-mantencion",
+            "rich-text#titulo-institucional-mantencion",
             "rich-text#servicio-tecnico-mantencion-texto",
             "flex-layout.row#servicio-tecnico-mantencion-materiales"
         ]
@@ -17,6 +18,14 @@
             "src": "/arquivos/Pagina Estatica I Servicios - Instalación_header web.png",
             "width": "100%",
             "blockClass":"banner-servicio-tecnico-mantencion"
+        }
+    },
+    "rich-text#titulo-institucional-mantencion": {
+        "props": {
+            "text": "Servicio tecnico de mantención",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "rich-text#servicio-tecnico-mantencion-texto":{
@@ -222,6 +231,7 @@
     "responsive-layout.mobile#mobile-servicio-tecnico-mantencion": {
         "children": [
             "image#banner-servicio-tecnico-mantencion-mobile",
+            "rich-text#titulo-institucional-mantencion",
             "rich-text#servicio-tecnico-mantencion-texto",
             "flex-layout.row#servicio-tecnico-mantencion-materiales"
         ]

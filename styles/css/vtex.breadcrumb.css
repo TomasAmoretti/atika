@@ -49,3 +49,10 @@
     font-family: 'Source Sans Pro';
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px){
+    .container--breadcrumb {
+        margin-top: -20px;
+        margin-bottom: 5px;
+    }
+}

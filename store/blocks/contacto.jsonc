@@ -16,11 +16,20 @@
     },
     "flex-layout.col#contenedor-form": {
         "children": [
+            "rich-text#titulo-institucional-contacto",
             "rich-text#titulo-form-contact",
             "flex-layout.row#form"
         ],
         "props": {
             "blockClass": "contenedor-form-col"
+        }
+    },
+    "rich-text#titulo-institucional-contacto": {
+        "props": {
+            "text": "CONTÁCTANOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional-mayor"
         }
     },
     "rich-text#titulo-form-contact": {
@@ -75,7 +84,8 @@
         "props": {
             "text": "Se envio con exito su consulta!",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "submit-form"
         }
     },
     "form-input.dropdown#consulta": {

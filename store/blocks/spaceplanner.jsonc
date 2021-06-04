@@ -8,6 +8,7 @@
     "responsive-layout.desktop#desktop-spaceplanner-instuticional": {
         "children": [
             "image#banner-spaceplanner-instuticional",
+            "rich-text#titulo-institucional-spaceplanner",
             "rich-text#spaceplanner-instuticional-texto",
             "rich-text#boton-pruebalo-instalacion",
             "rich-text#titulo-spaceplanner-instalacion",
@@ -19,6 +20,14 @@
             "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-web.png",
             "width": "100%",
             "blockClass":"banner-spaceplanner-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-spaceplanner": {
+        "props": {
+            "text": "Spaceplanner",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "rich-text#spaceplanner-instuticional-texto":{
@@ -151,6 +160,7 @@
     "responsive-layout.mobile#mobile-spaceplanner-instuticional": {
         "children": [
             "image#banner-spaceplanner-instuticional-mobile",
+            "rich-text#titulo-institucional-spaceplanner",
             "rich-text#spaceplanner-instuticional-texto",
             "rich-text#titulo-spaceplanner-instalacion",
             "flex-layout.row#spaceplanner-instuticional-1-mobile",

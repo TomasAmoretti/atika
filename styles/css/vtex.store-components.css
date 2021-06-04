@@ -63,6 +63,7 @@
     font-family: 'Source Sans Pro';
     background: #C90512;
     position: absolute;
+    min-width: 45px;
     left: 30px;
     top: 15px;
     right: 68%;
@@ -317,6 +318,19 @@
         max-width: 40px;
         max-height: 40px;
     }
+
+    .discountInsideContainer {
+        left: 15px;
+    }
+
+    .content--image-producto {
+        width: 97%;
+        margin: auto;
+    }
+
+    .logoContainer--logo {
+        max-width: unset!important;
+    }    
 }
 
 .inputGroup--newsletter ::global(.vtex-input-prefix__group) {
@@ -385,7 +399,7 @@
 }
 
 .productDescriptionContainer {
-    margin-top: 60px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
@@ -408,7 +422,7 @@
     border-top: solid 2px;
     border-bottom: solid 2px;
     padding: 20px 0;
-    width: 70%;
+    width: 100%;
 }
 
 .showMoreButton--specifications-product {
@@ -422,7 +436,34 @@
 }
 
 .subscriberContainer {
-    margin-top: 50px;
+    margin-top: 20px;
+    border-top: solid 2px #000;
+    padding-top: 20px;
+}
+
+.subscriberContainer .title::before {
+    content: "SOLÓ APTO COTIZACIÓN";
+    display: block;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.subscriberContainer .submit :global(.vtex-button__label) {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 0;
+}
+
+.subscriberContainer .submit :global(.vtex-button__label)::after {
+    content: "SOLICITAR COTIZACIÓN";
+    font-size: 14px;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+.subscriberContainer .submit :global(.vtex-button) {
+    background: #c90512;
+    border: unset;
 }
 
 .subscriberContainer .form {
@@ -485,6 +526,11 @@
 
 .productImageTag--image-producto--main {
     max-height: unset!important;
+}
+
+.imageElement--cotizacion-product {
+    width: fit-content;
+    height: fit-content;
 }
 
 .productBrandName--marca-product-shelf {

@@ -12,6 +12,8 @@
     "children":[
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#main",
+      "flex-layout.row#product-bottom",
+      "shelf.relatedProducts#comprar-junto",
       "shelf.relatedProducts"
     ],
     "props":{
@@ -20,14 +22,26 @@
   },
   "responsive-layout.mobile#producto":{
     "children":[
+      "sticky-layout#mobile-producto",
       "flex-layout.row#product-breadcrumb-mobile",
+      "product-images#product-page",
       "flex-layout.row#main-mobile",
-      "flex-layout.row#descripcion-producto-mobile",
-      "shelf.relatedProducts"
+      "flex-layout.row#product-bottom",
+      "shelf.relatedProducts#comprar-junto-mobile",
+      "shelf.relatedProducts#mobile"
     ],
     "props":{
       "blockClass": "responsive-mobile"
     }
+  },
+  "sticky-layout#mobile-producto": {
+    "props": {
+      "blockClass": "sticky-price",
+      "position": "bottom"
+    },
+    "children": [
+      "flex-layout.row#cart-button"
+    ]
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
@@ -58,13 +72,11 @@
     "children": [
       "vtex.product-highlights@2.x:product-highlights#product",
       "add-to-list-btn#producto",
-      "product-images#product-page",
-      /*"descripcion-larga",*/
-      "flex-layout.row#descripcion-producto",
-      "modal-trigger#glosario"
+      "product-images#product-page"
     ],
     "props":{
-      "blockClass":"col-right"
+      "blockClass":"col-right",
+      "preventVerticalStretch": true
     }
   },
   "product-images#product-page": {
@@ -104,10 +116,9 @@
       "sku-selector",
       "flex-layout.row#Precio",
       "flex-layout.col#spacer-producto2",
-      "flex-layout.row#cart-button",
       "availability-subscriber",
-      "rich-text#texto-shipping",
-      "shipping-simulator"
+      "flex-layout.row#cart-button",
+      "disclosure-layout#cotizar-cubiertas"
     ],
     "props": {
       "verticalAlign": "top",
@@ -214,21 +225,126 @@
       "blockClass": "rating"
     }
   },
-  "flex-layout.row#descripcion-producto":{
+  "flex-layout.row#product-bottom":{
     "children":[
-      "product-specifications"
+      "flex-layout.col#product-bottom-left",
+      "flex-layout.col#product-bottom-right"
     ],
     "props":{
-      "blockClass": "especificaciones",
-      "preventHorizontalStretch": false,
-      "fullWidth": true
+      "blockClass": "product-bottom"
     }
   },
-  "product-specifications":{
+  "flex-layout.col#product-bottom-left":{
+    "children":[
+      "flex-layout.row#descripcion-header",
+      /*"descripcion-larga",*/
+      "flex-layout.row#descripcion-producto"
+    ],
+    "props":{
+      "blockClass": "product-bottom-left"
+    }
+  },
+  "flex-layout.col#product-bottom-right":{
+    "children":[
+      
+    ],
+    "props":{
+      "blockClass": "product-bottom-right"
+    }
+  },
+  "flex-layout.row#descripcion-header":{
+    "children":[
+      "rich-text#titulo-especificaciones",
+      "modal-trigger#glosario"
+    ],
+    "props":{
+      "blockClass": "especificaciones-header",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#titulo-especificaciones":{
     "props": {
-      "showSpecificationsTab": false,
-      /*"collapsible": "never",*/
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Especificaciones Técnicas",
+      "blockClass": "titulo-especificaciones"
+    }
+  },
+  "flex-layout.row#descripcion-producto":{
+    "children":[
+      "flex-layout.col#descripcion-producto"
+    ],
+    "props":{
+      "blockClass": "especificaciones-row"
+    }
+  },
+  "flex-layout.col#descripcion-producto":{
+    "children":[
+      "product-specification-group"
+    ],
+    "props":{
+      "blockClass": "especificaciones-col"
+    }
+  },
+  "product-specification-group": {
+    "children": [
+      "product-specification"
+    ],
+    "props": {
+      "blockClass": "specifications-product-group"
+    }
+  },
+  "product-specification": {
+    "children": [
+      "flex-layout.row#spec-item"
+    ],
+    "props": {
       "blockClass": "specifications-product"
+    }
+  },
+  "flex-layout.row#spec-item": {
+    "props": {
+      "blockClass": "productSpecification"
+    },
+    "children": [
+      "flex-layout.col#spec-name", 
+      "flex-layout.col#spec-value"
+    ]
+  },
+  "flex-layout.col#spec-name": {
+    "props": {
+      "blockClass": "productSpecificationName"
+    },
+    "children": [
+      "product-specification-text#specification"
+    ]
+  },
+  "flex-layout.col#spec-value": {
+    "props": {
+      "blockClass": "productSpecificationValue"
+    },
+    "children": [
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": [
+      "product-specification-text#value"
+    ],
+    "props":{
+      "blockClass": "specification-value"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "specification-text-specification"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "specification-text-value"
     }
   },
   "product-description":{
@@ -574,7 +690,67 @@
       "blockClass": "espaciador"
     }
   },
-  "rich-text#texto-shipping":{
+  "disclosure-layout#cotizar-cubiertas": {
+    "children": [
+      "disclosure-trigger#cotizar-cubiertas",
+      "disclosure-content#cotizar-cubiertas"
+    ],
+    "props": {
+      "blockClass": "container-item-producto"
+    }
+  },
+  "disclosure-trigger#cotizar-cubiertas": {
+    "children": [
+      "flex-layout.row#product-cotizacion"
+    ],
+    "props": {
+      "blockClass": "trigger-producto"
+    }
+  },
+  "flex-layout.row#product-cotizacion": {
+    "props": {
+      "blockClass":"contenedor-row-cotizacion",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#producto-cotizacion",
+      "rich-text#texto-cotizacion",
+      "rich-text#boton-cotizacion"
+    ]
+  },
+  "image#producto-cotizacion":{
+    "props": {
+      "src": "https://dummyimage.com/30x30/000/fff",
+      "blockClass": "cotizacion-product"
+    }
+  },
+  "rich-text#texto-cotizacion":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Calcula tu despacho**\n Despacho gratis para comunas del radio \n urbano de Santiago.",
+      "blockClass": "texto-cotizacion-product"
+    }
+  },
+  "rich-text#boton-cotizacion":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "VER COSTO DE ENVÍO",
+      "blockClass": "boton-cotizacion-product"
+    }
+  },
+  "disclosure-content#cotizar-cubiertas": {
+    "children": [
+      "rich-text#texto-shipping",
+      "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": "contenido-producto"
+    }
+  },
+  "rich-text#texto-shipping": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -609,9 +785,8 @@
   },
   "flex-layout.col#left-mobile": {
     "children": [
-      "vtex.store-components:product-name#product",
       "vtex.store-components:product-brand#mobile",
-      "product-images#product-page"
+      "vtex.store-components:product-name#product"
     ]
   },
   "product-images#product-page-mobile": {
@@ -623,16 +798,13 @@
   },
   "flex-layout.col#right-mobile": {
     "children": [
-      "flex-layout.row#Precio",
-      "product-description#mobile",
+      "product-identifier.product",
+      "product-description",
       "sku-selector#mobile",
-      "product-quantity",
-      "add-to-cart-button#product",
-      "product-rating-inline",
+      "flex-layout.row#Precio",
       "availability-subscriber",
-      "flex-layout.row#descripcion-producto",
-      "modal-trigger#glosario",
-      "shelf.relatedProducts#comprar-junto"
+      "flex-layout.col#spacer-producto2",
+      "disclosure-layout#cotizar-cubiertas-mobile"
     ],
     "props": {
       "verticalAlign": "top",
@@ -733,6 +905,53 @@
     "props":{
       "blockClass": "disponibilidad",
       "component": "AvailabilitySubscriber"
+    }
+  },
+  "disclosure-layout#cotizar-cubiertas-mobile": {
+    "children": [
+      "disclosure-trigger#cotizar-cubiertas-mobile",
+      "disclosure-content#cotizar-cubiertas"
+    ],
+    "props": {
+      "blockClass": "container-item-producto"
+    }
+  },
+  "disclosure-trigger#cotizar-cubiertas-mobile": {
+    "children": [
+      "flex-layout.row#product-cotizacion-mobile"
+    ],
+    "props": {
+      "blockClass": "trigger-producto"
+    }
+  },
+  "flex-layout.row#product-cotizacion-mobile": {
+    "props": {
+      "blockClass":"contenedor-row-cotizacion",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#product-cotizacion-contenedor-mobile",
+      "rich-text#boton-cotizacion"
+    ]
+  },
+  "flex-layout.row#product-cotizacion-contenedor-mobile": {
+    "props": {
+      "blockClass":"contenedor-cotizacion-texto",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#producto-cotizacion",
+      "rich-text#texto-cotizacion-mobile"
+    ]
+  },
+  "rich-text#texto-cotizacion-mobile":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Calcula tu despacho**\n Despacho gratis para comunas del radio urbano de Santiago.",
+      "blockClass": "texto-cotizacion-product"
     }
   }
 }

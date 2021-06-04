@@ -2,7 +2,7 @@
     "product-summary.shelf#main": {
         "children": [
           "vtex.product-highlights@2.x:product-highlights#flag-arrival",
-          "add-to-list-btn",
+          "add-to-list-btn#vitrina",
           "product-summary-image",
           "vtex.store-components:product-brand#shelf",
           "product-summary-name",
@@ -35,6 +35,11 @@
         "message": "{highlightName}",
         /*"link": "/collection/{highlightId}",*/
         "blockClass": "text-flag"
+      }
+    },
+    "add-to-list-btn#vitrina":{
+      "props":{
+        "blockClass":"whish-vitrina"
       }
     },
     "vtex.store-components:product-brand#shelf": {
@@ -116,7 +121,7 @@
               "titleText": "Otros también buscaron...",
               "maxItems": 20,
               "itemsPerPage": 5,
-              "minItemsPerPage": 1,
+              "minItemsPerPage": 2,
               "scroll": "BY_PAGE",
               "arrows": true
           },
@@ -128,16 +133,16 @@
         "product-summary.shelf#main"
       ],
       "props": {
-          "recommendation": "suggestions",
+          "recommendation": "accesories",
           "productList": {
-              "titleText": "Complementos a tu compra",
+              "titleText": "Complementa tu compra",
               "maxItems": 12,
-              "itemsPerPage": 2,
-              "minItemsPerPage": 1,
+              "itemsPerPage": 5,
+              "minItemsPerPage": 2,
               "scroll": "BY_PAGE",
               "arrows": false
           },
-          "blockClass": "shelf-relacionados"
+          "blockClass": "shelf-complementos"
       }
     },
     "shelf#Destacados-1": {
@@ -151,7 +156,7 @@
           "simulationBehavour":"default",
           "productList": {
             "maxItems": 2,
-            "itemsPerPage": 2,
+            "itemsPerPage": 5,
             "minItemsPerPage": 2,
             "scroll": "ONE_BY_ONE",
             "arrows": false,
@@ -241,5 +246,40 @@
         },
         "blockClass": "shelf-destacados-mobile"
       }
+  },
+  /* MOBILE */
+  "shelf.relatedProducts#mobile": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Otros también buscaron...",
+            "maxItems": 20,
+            "itemsPerPage": 2,
+            "minItemsPerPage": 2,
+            "scroll": "BY_PAGE",
+            "arrows": true
+        },
+        "blockClass": "shelf-relacionados"
+    }
+  },
+  "shelf.relatedProducts#comprar-junto-mobile": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+        "recommendation": "accesories",
+        "productList": {
+            "titleText": "Complementa tu compra",
+            "maxItems": 12,
+            "itemsPerPage": 2,
+            "minItemsPerPage": 2,
+            "scroll": "BY_PAGE",
+            "arrows": false
+        },
+        "blockClass": "shelf-complementos"
+    }
   }
 }

@@ -5,3 +5,9 @@
     font-size: 14px;
     color: #606060;
 }
+
+@media screen and (max-width: 768px) {
+    .listPrice {
+        margin-top: -15px;
+    }
+}

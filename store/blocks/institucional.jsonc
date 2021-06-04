@@ -12,10 +12,19 @@
     },
     "flex-layout.row#contenedor-instuticional":{
         "children":[
+            "rich-text#titulo-institucional-general",
             "flex-layout.col#contenedor-instuticional"
         ],
         "props":{
             "blockClass":"contenedor-institucional"
+        }
+    },
+    "rich-text#titulo-institucional-general": {
+        "props": {
+            "text": "Institucionales",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "flex-layout.col#contenedor-instuticional":{

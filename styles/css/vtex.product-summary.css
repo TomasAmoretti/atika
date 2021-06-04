@@ -3,6 +3,7 @@
 .containerNormal--product-summary {
     border: solid 1px #d2cfcf;
     border-radius: 0;
+    background: #fff;
     padding: 5px;
     margin-bottom: 5px;
 }
@@ -67,4 +68,10 @@
 
 .imageStackContainer:hover {
     z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .nameContainer {
+        margin-bottom: 20px;
+    }
 }

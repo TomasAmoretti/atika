@@ -95,3 +95,60 @@
 .arrowLeft--shelf-relacionados {
     margin-left: -15px;
 }
+
+.relatedProducts--shelf-complementos {
+    background: #1c1b1b;
+    margin-top: 40px;
+}
+
+.title--shelf-complementos {
+    max-width: 1280px;
+    margin: auto;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sliderContainer--shelf-complementos :global(.vtex-slider-0-x-dotsContainer) {
+    display: none;
+}
+
+.shelfContentContainer--shelf-complementos {
+    max-width: 1280px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .shelfContentContainer--shelf-relacionados {
+        width: 90%;
+        margin: auto;
+    }
+
+    .caretIcon--shelf-relacionados {
+        background: #fff;
+        padding: 0;
+        border-radius: 20px;
+        color: #000;
+        width: 20px;
+        height: 20px;
+    }
+
+    .arrowRight--shelf-relacionados, .arrowLeft--shelf-relacionados {
+        margin-right: -15px;
+    }
+
+    .shelfContentContainer--shelf-complementos {
+        width: 90%;
+    }
+
+    .slide--shelf-complementos {
+        padding: 5px;
+    }
+
+    .slide--shelf-relacionados {
+        margin-right: 0;
+        padding: 5px;
+    }
+}

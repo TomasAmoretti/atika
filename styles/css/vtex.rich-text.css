@@ -324,18 +324,34 @@
 }
 
 /* PRODUCTO */
-.container--titulo-shipping {
-    margin-top: 20px;
-}
-
 .wrapper--glosario-titulo, .wrapper--glosario {
     margin: auto;
 }
 
 .paragraph--glosario-button {
     border: solid 1px;
-    padding: 5px;
+    padding: 5px 50px;
     cursor: pointer;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.paragraph--texto-cotizacion-product {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 50px;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+.paragraph--boton-cotizacion-product {
+    margin: 0;
+    padding: 5px 20px;
+    border: solid 1px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 12px;
+    background: white;
 }
 
 /* MODAL */
@@ -407,7 +423,9 @@
 }
 
 .paragraph--titulo-servicios, .headingLevel4--texto-info-servicios-institucional {
-    font-size: 30px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
     color: #000;
     margin-bottom: 10px;
 }
@@ -432,8 +450,12 @@
 }
 
 .paragraph--titulo-form-servicios-0 {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: bold;
     line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Poppins';
     margin-bottom: 0;
     margin-top: 4px;
 }
@@ -545,8 +567,46 @@
     padding: 15px 20px 15px;
     border: 1px solid #d2cfcf;
     border-bottom: unset;
+    border-top: unset;
     margin: auto;
     background: #fff;
+}
+
+.container--titulo-institucional-mayor {
+    width: 90%;
+    padding: 15px 20px 15px;
+    border: 1px solid #d2cfcf;
+    border-bottom: unset;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.paragraph--titulo-institucional-mayor::after {
+    display: block;
+    content: " ";
+    border-bottom: solid 4px #c9052c;
+    width: 25%;
+}
+
+.paragraph--titulo-institucional::after {
+    display: block;
+    content: " ";
+    border-bottom: solid 4px #c9052c;
+    width: 25%;
+}
+
+.paragraph--titulo-institucional, .paragraph--titulo-institucional-mayor {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    color: #000;
+    text-transform: uppercase;
+}
+
+.container--titulo-institucional {
+    max-width: 1280px;
+    margin: auto;
 }
 
 .container--texto-cubiertas-institucional {
@@ -684,6 +744,16 @@
     border: solid 2px #c90512;
 }
 
+.paragraph--titulo-especificaciones {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container--titulo-especificaciones {
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
     .link--buyCart {
         padding: 10px 125px!important;
@@ -699,6 +769,15 @@
 
     .container--titulo-shelf {
         padding: 0px 10px;
+    }
+
+    .paragraph--glosario-button {
+        padding: 5px 40px;
+        font-size: 12px;
+    }
+
+    .container--boton-cotizacion-product {
+        margin-left: 35px;
     }
 }
 

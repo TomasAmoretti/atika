@@ -8,6 +8,7 @@
     "responsive-layout.desktop#desktop-marcas-instuticional": {
         "children": [
             "image#banner-marcas-instuticional",
+            "rich-text#titulo-institucional-marcas",
             "flex-layout.row#marcas-contenedor"
         ]
     },
@@ -16,6 +17,14 @@
             "src": "/arquivos/Pagina Estatica- Marcas_header.png",
             "width": "100%",
             "blockClass":"banner-marcas-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-marcas": {
+        "props": {
+            "text": "MARCAS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
         }
     },
     "flex-layout.row#marcas-contenedor":{
@@ -3708,6 +3717,7 @@
     "responsive-layout.mobile#mobile-marcas-instuticional": {
         "children": [
             "image#banner-marcas-instuticional-mobile",
+            "rich-text#titulo-institucional-marcas",
             "flex-layout.row#marcas-contenedor"
         ]
     },
