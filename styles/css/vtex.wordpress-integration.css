@@ -105,19 +105,25 @@
 .postFlex {
     max-width: 1280px;
     margin: auto;
+    padding: 0;
+}
+
+.postContainer {
+    padding: 0;
 }
 
 .postTitle {
     font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 30px;
+    width: fit-content;
 }
 
 .postTitle::after {
     display: block;
     content: " ";
     border-bottom: solid 4px #c9052c;
-    width: 25%;
+    width: 20%;
 }
 
 .postCategoryLink {
@@ -148,6 +154,10 @@
 .blocks-gallery-item {
     max-width: 420px;
     display: inline-block;
+}
+
+.postContainer {
+    padding: 0;
 }
 
 @media screen and (max-width: 768px){
