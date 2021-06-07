@@ -734,14 +734,19 @@
 }
 
 .link--buyCart {
-    background: #fff;
-    color: #c90512;
+    background: #c90512;
+    color: #fff;
     font-size: 13px;
-    padding: 10px 103px;
+    padding: 10px 11%;
     text-decoration: unset;
     text-transform: uppercase;
     font-family: 'Poppins';
     border: solid 2px #c90512;
+}
+
+.link--buyCart:hover {
+    background: #fff;
+    color: #c90512;
 }
 
 .paragraph--titulo-especificaciones {
@@ -853,4 +858,15 @@
 
 :global(.vtex-disclosure-layout-1-x-trigger--trigger-institucional--visible) .paragraph--titulo-institucional-menu {
     color: #fff;
+}
+
+.paragraph--disclaimer {
+    width: 80%;
+    margin-bottom: 10px!important;
+    margin: auto;
+}
+
+.link--disclaimer {
+    text-decoration: unset;
+    color: #c90512;
 }

@@ -6,15 +6,26 @@
 }
 
 .price {
-    color: #C90512;
+    color: #000;
 }
 
 .summarySmallDisclaimer {
     font-family: 'Source Sans Pro';
     font-weight: 400;
+    display: none;
 }
 
 .summaryItemLabel {
     font-family: 'Source Sans Pro';
     font-weight: 400;
+}
+
+.summarySmallContent .summaryItemContainer:last-child .summaryItemPrice .price {
+    font-family: 'Poppins';
+}
+
+.summaryItemContainer:last-child .summaryItemLabel {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
 }

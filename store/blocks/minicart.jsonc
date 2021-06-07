@@ -124,6 +124,7 @@
     "children": [
       "minicart-summary",
       /*"minicart-checkout-button#buyCheckout",*/
+      "rich-text#disclaimer",
       "rich-text#buyCart"
     ]
   },
@@ -151,9 +152,16 @@
       "blockClass": "buyCheckoutMinicart"
     }
   },
+  "rich-text#disclaimer": {
+    "props": {
+      "text": "Precio incluye IVA. El costo del despacho se incluye al finalizar la compra. [Ver comunas de despacho incluido](#)",
+      "textAlign": "left",
+      "blockClass": "disclaimer"
+    }
+  },
   "rich-text#buyCart": {
     "props": {
-      "text": "[Comprar o cotizar](/checkout/#/cart)",
+      "text": "[Comprar o guardar cotización](/checkout/#/cart)",
       "textAlign": "center",
       "blockClass": "buyCart"
     }

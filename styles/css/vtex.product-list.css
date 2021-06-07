@@ -43,4 +43,13 @@
 .inputContainer ::global(input) {
     height: 20px;
     width: 30px;
+    font-family: 'Source Sans Pro Regular';
+}
+
+.price {
+    font-family: 'Source Sans Pro';
+}
+
+.productImage {
+    border-radius: 0;
 }
