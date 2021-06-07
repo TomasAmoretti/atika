@@ -322,7 +322,6 @@
 }
 
 .flexCol--product-lef-col {
-    margin-left: 40px;
     width: 75%!important;
 }
 
@@ -752,6 +751,7 @@
 
 .flexRow--contenedor-institucional {
     margin: 60px 0;
+    overflow-y: hidden;
 }
 
 .flexRowContent--row-item-institucional {
@@ -759,6 +759,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.flexCol--product-bottom-right {
+    padding-top: 29px;
+    width: 75%!important;
+    margin: auto;
+}
+
+.flexRowContent--product-descargas {
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 768px){

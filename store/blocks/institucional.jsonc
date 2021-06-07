@@ -12,8 +12,7 @@
     },
     "flex-layout.row#contenedor-instuticional":{
         "children":[
-            "rich-text#titulo-institucional-general",
-            "flex-layout.col#contenedor-instuticional"
+            "flex-layout.col#contenedor-instuticional-general"
         ],
         "props":{
             "blockClass":"contenedor-institucional"
@@ -25,6 +24,16 @@
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "titulo-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-instuticional-general":{
+        "children":[
+            "rich-text#titulo-institucional-general",
+            "flex-layout.col#contenedor-instuticional"
+        ],
+        "props":{
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.col#contenedor-instuticional":{

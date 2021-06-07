@@ -246,10 +246,39 @@
   },
   "flex-layout.col#product-bottom-right":{
     "children":[
-      
+      "rich-text#titulo-descargas",
+      "flex-layout.row#descargas"
     ],
     "props":{
-      "blockClass": "product-bottom-right"
+      "blockClass": "product-bottom-right",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titulo-descargas":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Descargas",
+      "blockClass": "titulo-descargas"
+    }
+  },
+  "flex-layout.row#descargas":{
+    "children":[
+      "image#prudcto-descargas"
+    ],
+    "props":{
+      "blockClass": "product-descargas",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#prudcto-descargas":{
+    "props": {
+      "src": "/arquivos/ficha-tecnica.png",
+      "maxWidth": 65,
+      "link":{
+        "url":"#"
+      },
+      "blockClass": "imagen-descargas"
     }
   },
   "flex-layout.row#descripcion-header":{

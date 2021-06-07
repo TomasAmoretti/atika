@@ -177,11 +177,13 @@
         max-width: 360px;
     }
 
-    .searchBlockContainer {
+    .breadcrumbContainer {
         padding-left: 10px;
     }
 
-    .breadcrumbContainer {
-        padding-left: 10px;
+    .postContainer {
+        padding: 0;
+        width: 95%;
+        margin: auto;
     }
 }

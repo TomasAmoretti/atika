@@ -18,7 +18,7 @@
     top: 16px;
     left: 30px;
     font-size: 13px;
-    width: 88px;
+    min-width: 88px;
     position: absolute;
     z-index: 3;
     background: #ffff;
