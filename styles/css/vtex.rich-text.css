@@ -779,6 +779,10 @@
     .container--boton-cotizacion-product {
         margin-left: 35px;
     }
+
+    .container--blog-categorias-titulo {
+        width: 95%;
+    }
 }
 
 .paragraph--texto-mantencion-tecnico {

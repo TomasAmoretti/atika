@@ -769,4 +769,12 @@
     .flexRowContent--contenedor-input :global(.vtex-styleguide-9-x-dropdown) {
         width: 100%;
     }
+
+    .flexRowContent--row-categorias-blog {
+        max-width: 1280px;
+        margin: auto;
+        border: solid 1px;
+        display: flex;
+        align-items: center;
+    }
 }
