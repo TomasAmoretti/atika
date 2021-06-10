@@ -274,7 +274,7 @@
   "image#prudcto-descargas":{
     "props": {
       "src": "/arquivos/ficha-tecnica.png",
-      "maxWidth": 65,
+      "width": "80%",
       "link":{
         "url":"#"
       },
