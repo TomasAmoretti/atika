@@ -237,7 +237,7 @@
   "flex-layout.col#product-bottom-left":{
     "children":[
       "flex-layout.row#descripcion-header",
-      /*"descripcion-larga",*/
+      "descripcion-larga",
       "flex-layout.row#descripcion-producto"
     ],
     "props":{
