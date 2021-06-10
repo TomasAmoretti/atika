@@ -55,12 +55,12 @@
     "vtex.modal-layout": "0.x",
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.product-specifications": "1.x"
+    "vtex.product-specifications": "1.x",
+    "atika.descripcion-larga": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.wordpress-integration": "2.x",
-    "atika.descripcion-larga": "0.x"
+    "vtex.wordpress-integration": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
