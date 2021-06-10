@@ -56,7 +56,7 @@
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-specifications": "1.x",
-    "atika.descripcion-larga": "0.x"
+    "atika.descripcion-larga": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
