@@ -36,9 +36,16 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
     )
   }
 
+  if (data){
+    return (
+      <div className={`${handles.descripcionLarga} db tc`}>
+        {`${data.product.items.complementName}`}
+      </div>
+    )
+  }
+
   return (
     <div className={`${handles.descripcionLarga} db tc`}>
-      {`${data.product.items.complementName}`}
     </div>
   )
 
