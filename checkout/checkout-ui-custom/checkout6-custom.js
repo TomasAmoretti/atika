@@ -76,6 +76,9 @@ function quitarDecimalesCart(){
       if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
         quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
       }
+      if($(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder") != "Código cupón de descuento"){
+        $(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder", "Código cupón de descuento");
+      }
     }, 1000);
   }
 
@@ -99,6 +102,12 @@ function quitarDecimalesCart(){
       //Total col derecha
       if ((document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary") != null) && document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary").innerText.includes(",")) {
         quitarDecimales(document.querySelector("body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-template-holder > div > div.span5.totalizers.summary-totalizers.cart-totalizers.pull-right > div:nth-child(2) > div > div.accordion-body.collapse.in > div > table > tfoot > tr > td.monetary"));
+      }
+      if($(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder") != "Código cupón de descuento"){
+        $(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder", "Código cupón de descuento");
+      }
+      if($("#client-document").attr("placeholder") == "99.999.999-K"){
+        $("#client-document").attr("placeholder", "99999999-K");
       }
     }, 1000);
   }
@@ -142,6 +151,9 @@ function quitarDecimalesCart(){
           }
         });
       }
+      if($(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder") != "Código cupón de descuento"){
+        $(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder", "Código cupón de descuento");
+      }
     }, 1000);
   }
 
@@ -178,6 +190,9 @@ function quitarDecimalesCart(){
       if ((document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span") != null) && document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span").innerText.includes(",")) {
         quitarDecimales(document.querySelector("fieldset.promissoryPaymentGroup .installments p.sight span"));
       }
+      if($(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder") != "Código cupón de descuento"){
+        $(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder", "Código cupón de descuento");
+      }
     }, 1000);
   }
 }
@@ -186,25 +201,15 @@ function agregarCamposShipping(){
   if (location.hash == '#/shipping') {
     setTimeout(() => {
       if(document.querySelector(".vtex-omnishipping-1-x-address") != null){
+        //Agregar campo de texto
+        if (document.querySelector(".input.ship-receiverDropPersonal") == null) {
+          let selectPersonalDescarga = "<div class='input ship-receiverDropPersonal required text' ><label for='ship-receiverDropPersonal'>Otras condiciones de despacho (<a href='/institucional' class='link-despacho'>Ver condiciones despacho</a>)</label><input name='comentarios-despacho' id='campo-shipping' class='campo-shipping'></input></div>";
+          $("p.input.ship-receiverName.required.text").prepend(selectPersonalDescarga);
+        }
         //Select Tipo de estacionamiento
         if (document.querySelector(".input.ship-receiverParkingType") == null) {
-          let selectTipoEstacionamiento = "<div class='input ship-receiverParkingType required text'><label for='ship-receiverParkingType'>Tipo de Estacionamiento</label><select class='select-addres' id='tipo-estacionamiento'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Subterraneo'>SUBTERRANEO</option><option value='Exterior'>EXTERIOR</option></select><p class='warning-addres'>*El camino de acceso hacia el domicilio debe tener un minimo de 3mts. de ancho.</p><p class='error-address'>*Por favor elija una opción</p></div>";
+          let selectTipoEstacionamiento = "<div class='input ship-receiverParkingType required text'><label for='ship-receiverParkingType'>Tipo de Estacionamiento</label><select class='select-addres' id='tipo-estacionamiento'><option value='0'>SUBTERRANEO/EXTERIOR</option><option value='Subterraneo'>SUBTERRANEO</option><option value='Exterior'>EXTERIOR</option></select><p class='warning-addres'>*El camino de acceso hacia el domicilio debe tener un minimo de 3mts. de ancho.</p><p class='error-address'>*Por favor elija una opción</p></div>";
           $("p.input.ship-receiverName.required.text").prepend(selectTipoEstacionamiento);
-        }
-        //Selec Estacionamiento Vehiculo
-        if (document.querySelector(".input.ship-receiverParking") == null) {
-          let selectEstacionamiento = "<div class='input ship-receiverParking required text'><label for='ship-receiverParking'>Estacionamiento de Vehiculo</label><select class='select-addres' id='estacionamiento-vehiculo'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Si'>SI</option><option value='No'>NO</option></select><p class='warning-addres'>*Si no cuenta con estacionamiento no se podrá realizar la entrega</p><p class='error-address'>*Por favor elija una opción</p></div>";
-          $("p.input.ship-receiverName.required.text").prepend(selectEstacionamiento);
-        }
-        //Lugar de entrega
-        if (document.querySelector(".input.ship-receiverPlaceDeliver") == null) {
-          let selectLugarEntrega = "<div class='input ship-receiverPlaceDeliver required text'><label for='ship-receiverPlaceDeliver'>Lugar de entrega</label><select class='select-addres' id='lugar-entrega'><option value='0'>ELIJA UNA OPCIÓN</option><option value='Casa'>CASA</option><option value='DEPARTAMENTO'>DEPARTAMENTO</option><option value='CONSERJERIA'>CONSERJERIA</option></select><p class='error-address'>*Por favor elija una opción</p></div>";
-          $("p.input.ship-receiverName.required.text").prepend(selectLugarEntrega);
-        }
-        //Agregar selec descarga
-        if (document.querySelector(".input.ship-receiverDropPersonal") == null) {
-          let selectPersonalDescarga = "<div class='input ship-receiverDropPersonal required text' ><label for='ship-receiverDropPersonal'>Personal para descargar</label><select class='select-addres' id='descarga-personal' ><option value='0'>ELIJA UNA OPCIÓN</option><option value='Si'>SI, TENGO PERSONAL DE DESCARGA</option><option value='No'>NO, ME GUSTARIA CONTRATAR</option></select><p class='error-address'>*Por favor elija una opción</p></div>";
-          $("p.input.ship-receiverName.required.text").prepend(selectPersonalDescarga);
         }
         //Agregar input telefono quien recibe
         if (document.querySelector(".input.ship-receiverPhone") == null) {
@@ -224,9 +229,7 @@ function agregarCamposShipping(){
 
           var address = {
             address: {
-              personalDrop: $("select#descarga-personal").val(),
-              placeDeliver: $("select#lugar-entrega").val(),
-              parking: $("select#estacionamiento-vehiculo").val(),
+              comentarios: $("input#campo-shipping").val(),
               parkingType: $("select#tipo-estacionamiento").val(),
               reciverPhone: $("input#ship-receiverPhone").val()
             }
@@ -257,27 +260,6 @@ function agregarCamposShipping(){
 }
 
 function comprobarCamposEntrega(){
-    if ($("select#descarga-personal").val() == "0") {
-      $(".input.ship-receiverDropPersonal .error-address").css("display", "block");
-      $("button#btn-go-to-payment").prop('disabled', true);
-    } else {
-      $(".input.ship-receiverDropPersonal .error-address").css("display", "none");
-      $("button#btn-go-to-payment").prop('disabled', false);
-    }
-    if ($("select#lugar-entrega").val() == "0") {
-      $(".input.ship-receiverPlaceDeliver .error-address").css("display", "block");
-      $("button#btn-go-to-payment").prop('disabled', true);
-    } else {
-      $(".input.ship-receiverPlaceDeliver .error-address").css("display", "none");
-      $("button#btn-go-to-payment").prop('disabled', false);
-    }
-    if ($("select#estacionamiento-vehiculo").val() == "0") {
-      $(".input.ship-receiverParking .error-address").css("display", "block");
-      $("button#btn-go-to-payment").prop('disabled', true);
-    } else {
-      $(".input.ship-receiverParking .error-address").css("display", "none");
-      $("button#btn-go-to-payment").prop('disabled', false);
-    }
     if ($("select#tipo-estacionamiento").val() == "0") {
       $(".input.ship-receiverParkingType .error-address").css("display", "block");
       $("button#btn-go-to-payment").prop('disabled', true);
@@ -16146,7 +16128,7 @@ function cupom() {
 }
 function botonCotizacion() {
   setTimeout(() => {
-    if (document.querySelector("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div.clearfix.pull-right.cart-links.cart-links-bottom.hide > span.btn-place-order-wrapper") != null) {
+    if (document.querySelector("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div.clearfix.pull-right.cart-links.cart-links-bottom.hide > span.btn-place-order-wrapper") != null && document.querySelector("a#cotizacion") == null) {
       let botonCotizacion = "<a href='javascript:agregarCotizacion()' target='_self' id='cotizacion' class='btn btn-large btn-success pull-left-margin btn-place-order'>Agregar cotización</a>";
       $("body > div.container.container-main.container-cart > div.checkout-container.row-fluid.cart-active > div.cart-template.full-cart.span12.active > div.summary-template-holder > div.clearfix.pull-right.cart-links.cart-links-bottom.hide > span.btn-place-order-wrapper").append(botonCotizacion);
     }
@@ -16440,11 +16422,9 @@ const validateInputsShipping = () => {
 function validarForm(){
   var validation = true;
   var nombre = $("#firstName").val();
-  var razonSocial = $("#razonSocial").val();
   var email= $("#email").val();
   var localidad= $("#localidad").val();
   var rut= $("#rut").val();
-  var giro= $("#giro").val();
 
   var alfabetico=/[A-Za-z\s]+$/g;
   var especial=/([0-9]+)+\.+([0-9]+)+\.+([0-9]+)+.[A-Z]+/g;
@@ -16456,14 +16436,6 @@ function validarForm(){
       validation = false;
   }else{
       $("#firstName").removeClass("red");
-  }
-
-  if (razonSocial == ""){
-      $("#razonSocial").addClass("red");
-      $("#razonSocial").focus();
-      validation = false;
-  }else{
-      $("#razonSocial").removeClass("red");
   }
 
   if (!mail.test(email)){
@@ -16488,14 +16460,6 @@ function validarForm(){
       validation = false;
   }else{
       $("#rut").removeClass("red");
-  }
-
-  if (giro == ""){
-      $("#giro").addClass("red");
-      $("#giro").focus();
-      validation = false;
-  }else{
-      $("#giro").removeClass("red");
   }
 
   return validation;

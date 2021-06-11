@@ -695,7 +695,11 @@ body a {
 }
 
 body a:hover {
-    color: #1d63be
+  color: #c90512;
+}
+
+.input-small + span.error {
+  width: fit-content;
 }
 
 @media (max-width: 768px) {
@@ -1347,6 +1351,7 @@ button#btn-go-to-payment {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
+  margin-left: 0;
 }
 
 #payment-group-promissoryPaymentGroup>span {
@@ -2512,7 +2517,7 @@ a#cart-to-orderform:hover {
     padding: 7px 0 !important
 }
 
-.client-pre-email h3.client-pre-email-h span:after {
+.client-pre-email h3.client-pre-email-h span:after, .orderform-template-holder #client-profile-data .step.client-profile-data .accordion-toggle>span::after, .shipping-data .accordion-toggle::after, .orderform-template-holder #payment-data .accordion-toggle>span::after {
   display: block;
   width: 25px;
   border-bottom: #C90512 solid 3px;
@@ -2543,16 +2548,16 @@ a#cart-to-orderform:hover {
 }
 
 .client-pre-email .client-email.input.text .btn-success {
-    width: 20%;
-    margin: 0;
-    height: initial;
-    position: absolute;
-    top: initial;
-    bottom: 15px;
-    right: initial;
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 55%
+  width: 20%;
+  margin: 0;
+  height: initial;
+  position: absolute;
+  top: initial;
+  bottom: 15px;
+  right: initial;
+  left: 32%;
+  transform: translateX(-50%);
+  min-width: 55%;
 }
 
 @media (max-width: 768px) {
@@ -2576,9 +2581,12 @@ a#cart-to-orderform:hover {
 }
 
 .client-pre-email .emailInfo {
-    margin-top: 20px;
-    width: 80%;
-    box-sizing: border-box
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 0;
+  background-color: unset;
+  border: unset;
 }
 
 .client-pre-email .emailInfo .icon-ok,
@@ -2593,7 +2601,8 @@ a#cart-to-orderform:hover {
 }
 
 .client-pre-email .emailInfo .icon-lock {
-    color: #eeeeee
+    color: #eeeeee;
+    display: none;
 }
 
 @media (max-width: 690px) {
@@ -2720,7 +2729,125 @@ body:not(.v-custom-step-email) .client-pre-email span.help.error {
 .vcustom--vtex-omnishipping-1-x-address label {
     margin: 10px 0 5px 0;
     display: block;
-    color: #999999
+    color: #999999;
+}
+
+input#campo-shipping {
+  height: 40px;
+  line-height: 40px;
+  max-height: initial;
+  display: inline-block;
+  padding: 0px 10px;
+  border-radius: 0;
+  border: 1px solid #cbcbcb;
+  outline: initial;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 96.5%;
+}
+
+a.link-despacho, .vtex-omnishipping-1-x-dateLinkModify {
+  color: #c90512;
+}
+
+fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup p.payment-description::before {
+  font-size: 14px;
+  content: "Enviaremos un correo paraavanzar con el pago. La comprase hará efectiva una vez queATIKA reciba el depósito.";
+}
+
+fieldset.box-payment-group2.box-payment-option.promissoryPaymentGroup p.payment-description {
+  font-size: 0;
+}
+
+button#payment-data-submit {
+  background: #c90512;
+  border: solid 1px #c90512;
+}
+
+.item-unavailable {
+  background-color: #627583!important;
+  color: #fff!important;
+  font-family: 'Source Sans Pro';
+  text-shadow: 0 0 black!important;
+}
+
+.icon-warning-sign:before {
+  color: #fff;
+}
+
+.item-unavailable .top-arrow {
+  border-bottom-color: #627583!important;
+}
+
+.vtex-omnishipping-1-x-warning {
+  border: 1px solid #627583!important;
+  border-radius: 0!important;
+}
+
+.vtex-omnishipping-1-x-unavailableIcon {
+  border: 1px solid #627583!important;
+}
+
+.vtex-omnishipping-1-x-unavailableIcon g {
+  fill:#627583!important;
+}
+
+.onda-v1 a.red {
+  color: #c90512;
+}
+
+.vtex-omnishipping-1-x-image {
+  border-radius: 0!important;
+}
+
+.vtex-omnishipping-1-x-addressFormPart1 p.input.ship-state.required.text {
+  width: 100%;
+}
+
+body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-cart-template-holder > div > ul > li > div.item-unavailable > p > span:nth-child(3) {
+  font-size: 0;
+}
+
+body > div.container.container-main.container-order-form > div.checkout-container.row-fluid.orderform-active > div.row-fluid.orderform-template.span12.active > div.cart-template.mini-cart.span4 > div > div > div.summary-cart-template-holder > div > ul > li > div.item-unavailable > p > span:nth-child(3)::before {
+  font-size: 10px;
+  content: "Producto no disponible por el momento";
+  margin-left: 5px;
+}
+
+p.vtex-omnishipping-1-x-shippingSectionTitle.delivery-address-title::before {
+  content: "Dirección de entrega";
+  font-size: 13px;
+}
+
+p.vtex-omnishipping-1-x-shippingSectionTitle.delivery-address-title {
+  font-size: 0;
+}
+
+#shipping-data > div > div.accordion-inner.shipping-container > div > div.vtex-omnishipping-1-x-addressForm > div.vtex-omnishipping-1-x-address > div > p.input.ship-complement.text > label::before {
+  font-size: 13px;
+  content: "Departamento";
+}
+
+#shipping-data > div > div.accordion-inner.shipping-container > div > div.vtex-omnishipping-1-x-addressForm > div.vtex-omnishipping-1-x-address > div > p.input.ship-complement.text > label {
+  font-size: 0;
+}
+
+textarea.campo-shipping {
+  resize: none;
+  border-radius: 0;
+  width: 98%;
+}
+
+.orderform-template-holder .step.shipping-data .box-step>*.vtex-omnishipping-1-x-deliveryGroup p.vtex-omnishipping-1-x-shippingSectionTitle {
+  display: none;
+}
+
+div#scheduled-delivery-delivery p::before {
+  content: "Programar despacho";
+  font-size: 16px;
+}
+
+div#scheduled-delivery-delivery p {
+  font-size: 0;
 }
 
 @keyframes placeHolderShimmer {
@@ -2865,11 +2992,16 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 .orderform-template-holder #client-profile-data form.client-pre-email .accordion-toggle>span,
 .orderform-template-holder #client-profile-data .step.client-profile-data .accordion-toggle>span,
 .orderform-template-holder #shipping-data .accordion-toggle>span,
-.orderform-template-holder #payment-data .accordion-toggle>span {
-    font-size: 0;
-    display: block;
-    vertical-align: middle;
-    line-height: initial
+.orderform-template-holder #payment-data .accordion-toggle>span, .orderform-template-holder #shipping-data .accordion-toggle {
+  font-size: 0;
+  display: block;
+  line-height: initial;
+  color: #000;
+  font-family: 'Poppins';
+  font-weight: 600!important;
+  margin: 0;
+  text-transform: uppercase;
+  margin-right: 10px;
 }
 
 .orderform-template-holder #client-profile-data form.client-pre-email .accordion-toggle,
@@ -2901,7 +3033,8 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 .orderform-template-holder #payment-data select:not(.pac-target-input) {
     width: 100%;
     max-width: 100%;
-    outline: initial
+    outline: initial;
+    font-size: 14px;
 }
 
 .orderform-template-holder #payment-data p.link.link-gift-card,
@@ -3375,7 +3508,7 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 }
 
 .orderform-template-holder .step .form-step #is-corporate-client::after {
-  content: "Agregar Factura";
+  content: "Necesito Factura";
   font-size: 14px;
 }
 
@@ -3395,6 +3528,12 @@ a#not-corporate-client {
 
 .corporate-info-box {
   display: grid;
+}
+
+.corporate-info-box::before {
+  content: "Completa los siguientes datos para facturar";
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
 }
 
 .corporate-info-box p.client-company-ie.input.text.required {
@@ -3419,7 +3558,11 @@ a#not-corporate-client {
 
 .state-inscription-box span.exempt-si-text::after {
   font-size: 14px;
-  content: "Sin registro Estatal";
+  content: "Acepto los términos y condiciones";
+}
+
+p.client-company-ie.input.text {
+  display: none!important;
 }
 
 .orderform-template-holder .step.client-profile-data .client-notice.notice {
@@ -3718,11 +3861,19 @@ p.warning-addres {
 }
 
 .orderform-template .cart-template.mini-cart .quantity {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    background: #f1f7ff;
-    color: #000
+  width: 13px;
+  height: 12px;
+  display: inline-block;
+  background: #f1f7ff;
+  color: #000;
+}
+
+.mini-cart .quantity {
+  position: absolute;
+  top: 32px;
+  left: 100px;
+  box-shadow: 0 0 3px rgb(0 0 0 / 50%);
+  text-shadow: none;
 }
 
 .orderform-template .cart-template.mini-cart .summary-template-holder {
@@ -3832,7 +3983,8 @@ p.warning-addres {
 
 .orderform-template .cart-template.mini-cart .item .price,
 .orderform-template .cart-template.mini-cart .item span.shipping-date {
-    white-space: nowrap
+    white-space: nowrap;
+    font-weight: 400;
 }
 
 .orderform-template .cart-template.mini-cart .item .url {
@@ -3906,7 +4058,7 @@ p.warning-addres {
     margin-left: auto;
     float: right;
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Poppins';
 }
 
@@ -3919,6 +4071,7 @@ button#go-to-shipping {
   font-family: 'Poppins';
   text-transform: uppercase;
   font-weight: bold;
+  margin: unset;
 }
 
 #btn-client-pre-email span {
@@ -4979,16 +5132,56 @@ span.new-product-price {
 
 /* FORMULARIO DE COTIZACION */
 section.form-cotizacion {
-  width: 35%;
-  margin-top: 100px;
-  text-align: center;
-  background: #fff;
-  color: #000;
-  position: absolute;
-  border: solid 1px;
-  left: 33%;
-  top: -38px;
-  z-index: 20;
+  width: 45%;
+    margin-top: 100px;
+    padding: 35px;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    position: absolute;
+    border: solid 1px;
+    left: 26%;
+    top: -38px;
+    z-index: 20;
+}
+
+div#texto-form-cotizacion {
+  text-align: initial;
+  padding: 20px;
+  width: 90%;
+  padding-left: 0;
+}
+
+form#form-contacto .col-lg-12 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form#form-contacto .col-lg-6 {
+  width: 100%;
+}
+
+.form-cotizacion .col-lg-6 input {
+  width: 93%;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form-contacto > div:nth-child(1) {
+  display: block;
+}
+
+#form-contacto > div:nth-child(1) input {
+  width: 96.5%;
+}
+
+#form-contacto label {
+  font-weight: 600;
+  margin-top: 7px;
 }
 
 a.close-lightbox:hover {
@@ -4996,16 +5189,18 @@ a.close-lightbox:hover {
 }
 
 .form-cotizacion h2 {
-  font-family: 'Poppins';
-  font-size: 24px;
-  margin-top: 0;
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-a.close-lightbox {
-  position: relative;
-  top: 15px;
-  right: -45%;
+.form-cotizacion h2::after {
+  display: block;
+  width: 25px;
+  border-bottom: 3px solid #c90512;
+  content: "";
 }
 
 #form-contacto input.red {
@@ -5035,12 +5230,13 @@ p.validation-alert {
 
 .form-cotizacion .boton {
   width: fit-content;
-  margin: auto;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
   font-family: 'Poppins';
-  background: #000;
+  background: #c90512;
   padding: 10px 23px;
 }
 
@@ -5065,11 +5261,15 @@ a#orderform-minicart-to-cart {
   font-size: 12px;
 }
 
+a#orderform-minicart-to-cart:hover {
+  color: #c90512;
+}
+
 p.newsletter span.newsletter-text {
   font-size: 0;
 }
 
 p.newsletter span.newsletter-text::after {
   font-size: 14px;
-  content: "Suscripción al Newsletter";
+  content: "Si quiero recibir información de novedades y ofertas de Atika (opcional)";
 }
