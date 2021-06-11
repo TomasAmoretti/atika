@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css');
 @import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
@@ -136,7 +136,12 @@ span.error {
 #app-container input:focus[type=email],
 #app-container select:focus,
 .vcustom--vtex-omnishipping-1-x-address input:focus {
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.4)
+  box-shadow: unset;
+}
+
+input::placeholder {
+  font-size: 13px;
+  font-family: 'Source Sans Pro';
 }
 
 input#creditCardpayment-card-0Number,
@@ -814,18 +819,6 @@ h1#orderform-title {
     line-height: 14px
 }
 
-.client-pre-email h3.client-pre-email-h span:before,
-.client-profile-data .accordion-toggle>span:before,
-.shipping-data .accordion-toggle:before,
-.payment-data .accordion-toggle>span:not(.payment-edit-link):before {
-    background: #FFF;
-    border: 1px solid #323232;
-    color: #323232;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
-    font-size: 15px
-}
 
 body.v-custom-step-profile .client-pre-email h3.client-pre-email-h span:before,
 body.v-custom-step-shipping .client-pre-email h3.client-pre-email-h span:before,
@@ -838,38 +831,37 @@ body.v-custom-step-profile .client-profile-data .accordion-toggle>span:before,
 body.v-custom-step-shipping .shipping-data .accordion-toggle:before,
 body.v-custom-step-payment .payment-data .accordion-toggle>span:not(.payment-edit-link):before,
 body.js-vcustom-hideEmailStep .client-profile-data .accordion-toggle>span:before {
-    background: #000;
-    border-color: #000;
-    color: #FFF
-}
-
-.client-pre-email h3.client-pre-email-h span:before,
-.client-profile-data .accordion-toggle>span:before,
-.shipping-data .accordion-toggle:before,
-.payment-data .accordion-toggle>span:not(.payment-edit-link):before {
-    text-align: center;
-    margin-right: 10px;
-    border-radius: 100%;
-    display: inline-block;
-    font-weight: bold;
-    vertical-align: middle;
-    margin-top: -2px
+  color: #000;
+  vertical-align: middle;
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .client-pre-email h3.client-pre-email-h span:before {
-    content: "1"
+    content: "1 MAIL"
 }
 
 .client-profile-data .accordion-toggle>span:before {
-    content: "2"
+    content: "2 IDENTIFICACIÓN";
+    font-size: 20px;
 }
 
 .shipping-data .accordion-toggle:before {
-    content: "3"
+    content: "3 ENVIO";
+    font-size: 20px;
 }
 
 .payment-data .accordion-toggle>span:not(.payment-edit-link):before {
-    content: "4"
+    content: "4 PAGO";
+    font-size: 20px;
+}
+
+.orderform-template-holder #client-profile-data .step.client-profile-data .accordion-toggle, .orderform-template-holder #shipping-data .accordion-toggle {
+  font-size: 0;
 }
 
 @media (max-width: 690px) {
@@ -1293,7 +1285,7 @@ h1#cart-title {
 
 .cart-more-options,
 .cart-template-holder .cart {
-    padding: 20px 30px;
+    padding: 20px 0;
     background: #fff;
     margin: 0;
     border-radius: 0;
@@ -1307,7 +1299,6 @@ h1#cart-title {
 }
 
 .cart-template-holder .cart {
-    border: 1px solid #cbcbcb;
     margin-bottom: 20px
 }
 
@@ -1327,6 +1318,11 @@ h1#cart-title {
 
 .table.cart-items thead tr th.product {
     width: calc(100% - 270px) !important
+}
+
+.table.cart-items th {
+  font-family: 'Source Sans Pro';
+  font-weight: 800!important;
 }
 
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-addressSummaryActive .address-summary {
@@ -2018,18 +2014,34 @@ button#btn-go-to-payment {
 
 a#cotizacion {
   background: #fff;
-  color: #000;
+  color: #c90512;
   margin-top: 10px;
   padding: 10px 10px;
   text-transform: uppercase;
   font-family: 'Poppins';
   font-weight: 600;
+  border: solid 1px #c90512;
+}
+
+a#cotizacion:hover {
+  background: #c90512;
+  color: #fff;
 }
 
 a#cart-to-orderform {
   font-family: 'Poppins';
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #c90512;
+  border: solid 1px #c90512;
+}
+
+a#cart-to-orderform:hover {
+  background: #fff;
+  color: #c90512;
 }
 
 @media (max-width: 690px) {
@@ -2249,9 +2261,9 @@ a#cart-to-orderform {
     display: inline-block;
     text-align: left !important;
     width: auto;
-    color: #676767;
+    color: #666;
     font-size: 13px;
-    padding: 0 0 3px 0 !important
+    padding: 0 0 3px 0 !important;
 }
 
 .summary-template-holder tbody td.monetary {
@@ -2501,12 +2513,10 @@ a#cart-to-orderform {
 }
 
 .client-pre-email h3.client-pre-email-h span:after {
-  content: "Email";
-  vertical-align: middle;
-  display: inline-block;
-  font-family: 'Source Sans Pro';
-  font-weight: 500;
-  margin: 0;
+  display: block;
+  width: 25px;
+  border-bottom: #C90512 solid 3px;
+  content: "";
 }
 
 .client-pre-email h3.client-pre-email-h span:after {
@@ -2856,7 +2866,7 @@ svg.pkpmodal-pickup-point-best-marker-image path:not([fill="white"]) {
 .orderform-template-holder #client-profile-data .step.client-profile-data .accordion-toggle>span,
 .orderform-template-holder #shipping-data .accordion-toggle>span,
 .orderform-template-holder #payment-data .accordion-toggle>span {
-    line-height: 20px;
+    font-size: 0;
     display: block;
     vertical-align: middle;
     line-height: initial
@@ -4588,6 +4598,108 @@ body {
     margin-right: 10px;
 }
 
+.container.purchase-flow__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.purchase-flow__back {
+  margin-left: auto;
+}
+
+a.button.button__outline.button__outline--back {
+  font-size: 12px;
+  font-family: 'Source Sans Pro';
+  color: #c90512;
+}
+
+.texto-comunas-footer {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+}
+
+.texto-comunas-footer a.link-comunas {
+  color: #c90512;
+  text-decoration: underline;
+}
+
+a.boton-volver-home {
+  display: flex;
+  align-items: center;
+  border: solid 2px;
+  width: fit-content;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 2px 20px;
+}
+
+a.boton-volver-home p {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+a.boton-volver-home:hover{
+  color: #c90512;
+  text-decoration: unset;
+}
+
+small.item-multiplier-label {
+  min-width: 51px;
+}
+
+.transactions.span5.pull-right {
+  width: 30%;
+}
+
+.transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos {
+  font-family: 'Source Sans Pro';
+  font-size: 13px;
+  font-style: italic;
+}
+
+.transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos a.terminos-checkout, .transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos a.terminos-checkout:hover {
+  color: #c90512;
+}
+
+button#cart-coupon-add {
+  font-size: 0;
+}
+
+button#cart-coupon-add::before {
+  content: "Aplicar";
+  font-size: 14px;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.v-custom-paymentBuilder-accordion .purchase-flow {
+  display: none;
+}
+
+body.v-custom-loaded.body-cart-vertical.js-vcustom-showNoteField.v-custom-paymentBuilder-accordion.v-custom-step-cart.body-cart .purchase-flow {
+  display: block;
+}
+
+.purchase-flow__title h2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-left: 8px;
+}
+
+.purchase-flow__title h2::after {
+  display: block;
+  width: 25px;
+  border-bottom: #C90512 solid 3px;
+  content: "";
+}
+
 .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-summaryChange {
     background: #fff;
 }
@@ -4618,6 +4730,7 @@ body {
 .table.cart-items td.product-image img {
     width: auto;
     max-width: 55px;
+    border-radius: 0;
 }
 
 .terms-cond {
@@ -4816,8 +4929,12 @@ label[for="payment-discounts-code"]::before {
 
 span.new-product-price {
   font-family: 'Poppins';
-  font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
+  text-align: right !important;
+  margin-left: auto;
+  float: right;
+  color: #000;
+  font-weight: 600;
 }
 
 .table.cart-items i.icon.icon-remove.item-remove-ico:before {
@@ -4838,6 +4955,10 @@ span.new-product-price {
 
 .full-cart .summary-totalizers tfoot td.info {
   font-weight: 600;
+  padding: 14px 0 !important;
+  color: #000;
+  font-size: 14px;
+  text-align: left;
 }
 
 .accordion-heading span, .orderform-template .cart-template.mini-cart h2 {

@@ -44,6 +44,18 @@ function quitarDecimalesCart(){
       if ((document.querySelector(".summary-template-holder tfoot tr td.monetary") != null) && document.querySelector(".summary-template-holder tfoot tr td.monetary").innerText.includes(",")) {
         quitarDecimales(document.querySelector(".summary-template-holder tfoot tr td.monetary"));
       }
+      if($(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder") != "Código cupón de descuento"){
+        $(".summary-template-holder .summary-coupon p.coupon-fields span input").attr("placeholder", "Código cupón de descuento");
+      }
+      if(document.querySelector("#cartLoadedDiv > div.extensions-checkout-buttons-container.row-fluid > .texto-comunas-footer") == null){
+        $("#cartLoadedDiv > div.extensions-checkout-buttons-container.row-fluid").append("<div class='texto-comunas-footer'>Precio incluye IVA. El costo del despacho se incluye al finalizar la compra. <a href='#' class='link-comunas'>Ver comunas despacho disponible</a></div>");
+      }
+      if(document.querySelector("body > div.container.container-main.container-cart > div.transactions-container.row-fluid > a.boton-volver-home") == null){
+        $(".transactions-container.row-fluid").append("<a class='boton-volver-home' href='/'><p><</p> Seguir comprando</a>");
+      }
+      if(document.querySelector(".transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos") == null){
+        $(".transactions-container.row-fluid .transactions.span5.pull-right").append("<div class='aviso-terminos'>Al hacer click en 'FINALIZAR COMPRA' estás aceptando nuestros <a class='terminos-checkout' href='/institucional'>términos y condiciones</a>.</div>");
+      }
     }, 1000);
   }
 

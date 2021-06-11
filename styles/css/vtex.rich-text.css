@@ -771,9 +771,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .link--buyCart {
-        padding: 10px 125px!important;
-    }
 
     .container--texto-cubiertas-institucional {
         width: 90%;
