@@ -1,7 +1,10 @@
 {
     "product-summary.shelf#main": {
         "children": [
+          "product-specification-badges",
           "vtex.product-highlights@2.x:product-highlights#flag-arrival",
+          "vtex.product-highlights@2.x:product-highlights#flag-sale",
+          "vtex.product-highlights@2.x:product-highlights#flag-ultimas-unidades",
           "add-to-list-btn#vitrina",
           "product-summary-image",
           "vtex.store-components:product-brand#shelf",
@@ -34,6 +37,42 @@
       "props": {
         "message": "{highlightName}",
         /*"link": "/collection/{highlightId}",*/
+        "blockClass": "text-flag"
+      }
+    },
+    "vtex.product-highlights@2.x:product-highlights#flag-sale": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["SALE"]
+        }
+      },
+      "children": [
+        "product-highlight-text#Sale"
+      ]
+    },
+    "product-highlight-text#Sale": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "text-flag"
+      }
+    },
+    "vtex.product-highlights@2.x:product-highlights#flag-ultimas-unidades": {
+      "props": {
+        "type": "collection",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["ULTIMAS UNIDADES"]
+        }
+      },
+      "children": [
+        "product-highlight-text#Ultimas-unidades"
+      ]
+    },
+    "product-highlight-text#Ultimas-unidades": {
+      "props": {
+        "message": "{highlightName}",
         "blockClass": "text-flag"
       }
     },

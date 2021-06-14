@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 .wishlistIconContainer--whish-product {
-    position: absolute;
+    position: relative!important;
     margin-left: auto;
-    width: 42%;
-    max-width: 620px;
+    width: 630px!important;
     z-index: 2;
     display: flex;
     justify-content: flex-end;

@@ -727,11 +727,11 @@
 }
 
 .flexRowContent--texto-item-marcas {
-    border-top: solid 2px #000;
+    border-top: solid 1px #000;
 }
 
 .flexRowContent--item-marcas {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .flexCol--col-item-marcas {

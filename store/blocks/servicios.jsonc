@@ -7,19 +7,8 @@
     },
     "responsive-layout.desktop#desktop-servicios": {
         "children": [
-            "image#banner-servicios",
-            /*"rich-text#servicios-titulo-1",
-            "rich-text#servicios-texto",
-            "rich-text#servicios-texto-aclaracion",*/
             "flex-layout.row#servicios-contenedor-form"
         ]
-    },
-    "image#banner-servicios":{
-        "props":{
-            "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa-header-web.png",
-            "width": "100%",
-            "blockClass":"banner-servicios"
-        }
     },
     "rich-text#servicios-titulo-1":{
         "props": {

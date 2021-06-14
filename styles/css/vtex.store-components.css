@@ -60,12 +60,13 @@
 }
 
 .discountInsideContainer {
-    font-family: 'Source Sans Pro';
+    font-family: 'Poppins';
     background: #C90512;
+    font-weight: bold;
     position: absolute;
     min-width: 45px;
-    left: 30px;
-    top: 15px;
+    left: 20px;
+    top: 8px;
     right: 68%;
     z-index: 3;
 }
@@ -564,7 +565,7 @@
 
 ::global(.flexColChild--col-form .vtex-input-prefix__group), ::global(.flexColChild--col-form .vtex-textarea__input), ::global(.flexColChild--col-form .vtex-dropdown__container) {
     border-radius: 0!important;
-    border: solid 1px black!important;
+    border: solid 1px #00000020!important;
 }
 
 .imageElement--imagen-destacados {
@@ -573,11 +574,11 @@
 
 ::global(.vtex-styleguide-9-x-container.vtex-dropdown__container), ::global(.vtex-textarea__input) {
     border-radius: 0;
-    border: solid 1px;
+    border: solid 1px #00000020;
 }
 
 ::global(textarea#\#\/properties\/mensaje-textarea-input){
-    border: solid 1px #000
+    border: solid 1px #00000020;
 }
 
 .imageElement--banner-cubiertas-dimensionadas {

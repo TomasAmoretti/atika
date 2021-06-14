@@ -423,7 +423,8 @@
 }
 
 .paragraph--titulo-servicios, .headingLevel4--texto-info-servicios-institucional {
-    font-size: 24px;
+    font-size: 19px;
+    font-weight: 600;
     font-family: 'Poppins';
     text-transform: uppercase;
     color: #000;
@@ -510,14 +511,16 @@
 }
 
 .paragraph--texto-servicios-institucional {
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .link--boton-info-servicios-institucional {
     text-decoration: unset;
     color: #fff;
     background: #c90512;
+    font-weight: 700;
+    font-size: 12px;
     padding: 8px 20px;
     font-family: 'Poppins';
 }
@@ -532,7 +535,7 @@
     font-weight: 600;
     color: #000;
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .paragraph--titulo-elemento-servicios-institucional::after {
@@ -547,18 +550,34 @@
     color: #000;
     font-family: 'Poppins';
     padding: 5px 25px;
+    font-size: 12px;
+    font-weight: 700;
     border: solid 1px;
+}
+
+.link--boton-elemento-vermas:hover {
+    color: #000;
+}
+
+.container--texto-servicios-institucional-instalacion {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-servicios-institucional-instalacion {
+    font-weight: 800;
 }
 
 .paragraph--texto-elemento-institucional {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
     font-family: 'Source Sans Pro';
     margin-top: 0;
 }
 
 .paragraph--texto-elemento-institucional-titulo {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 16px;
 }
 
@@ -593,13 +612,23 @@
     display: block;
     content: " ";
     border-bottom: solid 4px #c9052c;
-    width: 25%;
+    width: 40px;
 }
 
-.paragraph--titulo-institucional, .paragraph--titulo-institucional-mayor {
+.paragraph--titulo-institucional {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Source Sans Pro';
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    text-transform: uppercase;
+}
+
+.paragraph--titulo-institucional-mayor{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins';
     color: #000;
     text-transform: uppercase;
 }
@@ -615,7 +644,8 @@
 }
 
 .paragraph--texto-cubiertas-institucional {
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional {
@@ -637,6 +667,8 @@
     text-decoration: unset;
     color: white;
     background: #c90512;
+    font-weight: 700;
+    font-size: 12px;
     padding: 6px 20px;
     font-family: 'Poppins';
     margin-right: 15px;
@@ -653,8 +685,8 @@
 }
 
 .paragraph--texto-tiendas {
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 14px;
 }
 
 .paragraph--titulo-tiendas {
@@ -708,8 +740,14 @@
     color: #fff;
     background: #c90512;
     padding: 10px 15px;
+    font-weight: bold;
+    font-size: 12px;
     text-decoration: unset;
     font-family: 'Poppins';
+}
+
+.link--boton-spaceplanner-institucional:hover{
+    color: #fff;
 }
 
 .wrapper--boton-spaceplanner-institucional {
@@ -796,6 +834,11 @@
     .container--blog-categorias-titulo {
         width: 95%;
     }
+
+    .paragraph--titulo-institucional, .paragraph--titulo-institucional-mayor {
+        top: 28%;
+        left: 5%;
+    }
 }
 
 .paragraph--texto-mantencion-tecnico {
@@ -805,8 +848,17 @@
 .paragraph--titulo-mantencion-tecnico {
     margin-top: 0;
     font-family: 'Poppins';
+    font-size: 19px;
     font-weight: bold;
     color: #000;
+}
+
+.link--boton-info-servicios-institucional:hover{
+    color: #fff;
+}
+
+.wrapper--boton-info-servicios-institucional {
+    margin-top: 20px;
 }
 
 .paragraph--titulo-mantencion-tecnico::after {

@@ -7,21 +7,17 @@
     width: fit-content;
     font-family: 'Source Sans Pro';
     position: relative;
-    bottom: -45px;
     left: 20px;
-    top: 50%;
+    letter-spacing: 2px;
+    top: 52%;
     background: #fff;
     z-index: 5;
 }
 
 .productHighlightText--texto-highlight {
-    top: 16px;
-    left: 30px;
     font-size: 13px;
-    min-width: 88px;
-    position: absolute;
     z-index: 3;
     background: #ffff;
     border: solid 1px;
-    padding: 0px 5px;
+    padding: 3px 5px;
 }

@@ -33,7 +33,7 @@
             "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico. Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado. Contáctanos para más información. Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA. \n\n Realizamos servicios de mantención a griferías y pisos de madera, por el especial cuidado que estos requieren.",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "texto-servicios-institucional"
+            "blockClass": "texto-servicios-institucional-instalacion"
         }
     },
     "flex-layout.row#servicio-tecnico-mantencion-materiales":{
@@ -106,7 +106,7 @@
     },
     "rich-text#boton-mantencion-tecnico-griferia":{
         "props": {
-            "text": "[SOLICITAR TU SERVICIO](#)",
+            "text": "[SOLICITAR TU SERVICIO](/servicios)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-info-servicios-institucional"
@@ -164,7 +164,7 @@
     },
     "rich-text#boton-mantencion-tecnico-madera":{
         "props": {
-            "text": "[SOLICITAR TU SERVICIO](#)",
+            "text": "[SOLICITAR TU SERVICIO](/servicios)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-info-servicios-institucional"
@@ -222,7 +222,7 @@
     },
     "rich-text#boton-mantencion-tecnico-instalacion":{
         "props": {
-            "text": "[SOLICITAR TU SERVICIO](#)",
+            "text": "[SOLICITAR TU SERVICIO](/servicios)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-info-servicios-institucional"

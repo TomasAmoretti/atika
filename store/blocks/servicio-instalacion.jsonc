@@ -35,7 +35,7 @@
             "text": "En Atika disponemos de una amplia gama de servicios que complementan nuestra oferta de productos: Instalación de pisos de madera, flotantes y vinílicos, mantención y servicio técnico. Para proyectos comerciales o residenciales y de todas las escalas. Nuestros servicios cuentan con la calidad y garantía ATIKA, y cumplen con altos estándares en tecnología, equipo profesional, de atención y los mejores materiales del mercado. Contáctanos para más información. Servicios disponibles para Región Metropolitana, para productos adquiridos en ATIKA.",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "texto-servicios-institucional"
+            "blockClass": "texto-servicios-institucional-instalacion"
         }
     },
     "flex-layout.row#servicio-instalacion-info-card":{

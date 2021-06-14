@@ -609,7 +609,7 @@
         "props": {
             "src": "/arquivos/MENU-SERVICIO-TEC.png",
             "link":{
-              "url":"/servicios"
+              "url":"/servicio-tecnico-mantencion"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
