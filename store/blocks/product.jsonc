@@ -273,7 +273,6 @@
   "flex-layout.col#product-bottom-right":{
     "children":[
       "rich-text#titulo-descargas",
-      "flex-layout.row#descargas",
       "ficha-tecnica"
     ],
     "props":{
