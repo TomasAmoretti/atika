@@ -332,6 +332,10 @@
     .logoContainer--logo {
         max-width: unset!important;
     }    
+
+    .imageElement--marca-institucional {
+        margin-bottom: 20px;
+    }
 }
 
 .inputGroup--newsletter ::global(.vtex-input-prefix__group) {

@@ -176,17 +176,7 @@
     },
     "responsive-layout.mobile#mobile-servicios": {
         "children": [
-            "image#banner-servicios-mobile",
-            /*"rich-text#servicios-titulo-1",
-            "rich-text#servicios-texto",
-            "rich-text#servicios-texto-aclaracion",*/
             "flex-layout.row#servicios-contenedor-form"
         ]
-    },
-    "image#banner-servicios-mobile":{
-        "props":{
-            "src": "/arquivos/Pagina-Estatica-I-Servicios-postventa_header-mobile.png",
-            "blockClass":"banner-servicios"
-        }
     }
 }

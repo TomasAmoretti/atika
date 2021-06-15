@@ -465,21 +465,46 @@
     margin-top: 0;
 }
 
+.container--titulo-institucional-general {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--titulo-institucional-general {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #000;
+    text-transform: uppercase;
+}
+
+.paragraph--titulo-institucional-general::after {
+    display: block;
+    width: 50px;
+    border-bottom: 3px solid #C90512;
+    content: "";
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 768px){
     .container--titulo-form-servicios, .container--titulo-form-servicios-0 {
         padding: 0 20px 20px 20px;
     }
     .wrapper--texto-tiendas {
-        width: 90%;
+        width: 93%;
         margin: auto;
     }
-    .container--titulo-elemento-servicios-institucional, .vtex-rich-text-0-x-paragraph--texto-servicios-institucional {
+    .container--titulo-elemento-servicios-institucional, .vtex-rich-text-0-x-paragraph--texto-servicios-institucional, .container--texto-servicios-institucional-instalacion {
         width: 95%;
         margin: auto;
     }
     .container--boton-spaceplanner-institucional {
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+
+    .container--boton-info-servicios-institucional {
+        margin-bottom: 20px;
     }
 }
 
@@ -810,8 +835,8 @@
 
 @media screen and (max-width: 768px) {
 
-    .container--texto-cubiertas-institucional {
-        width: 90%;
+    .container--texto-cubiertas-institucional, .container--texto-servicios-institucional {
+        width: 93%;
     }
 
     .flexRow--row-materiales-cubiertas-institucional {
@@ -836,8 +861,12 @@
     }
 
     .paragraph--titulo-institucional, .paragraph--titulo-institucional-mayor {
-        top: 28%;
-        left: 5%;
+        top: 23%;
+        left: 3.5%;
+    }
+
+    .container--boton-spaceplanner-institucional {
+        margin-bottom: 40px;
     }
 }
 
@@ -890,8 +919,8 @@
 }
 
 .paragraph--titulo-institucional-menu {
-    font-family: 'Poppins';
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
     margin: 10px 0;
     text-transform: uppercase;
 }
@@ -903,7 +932,7 @@
 
 .headingLevel3--institucional-texto {
     text-transform: uppercase;
-    font-family: 'Source Sans Pro';
+    font-family: 'Poppins';
     font-size: 20px;
     color: #000;
     margin-top: 0;
@@ -917,7 +946,12 @@
 }
 
 :global(.vtex-disclosure-layout-1-x-trigger--trigger-institucional--visible) .paragraph--titulo-institucional-menu {
-    color: #fff;
+    color: #000;
+}
+
+.strong--institucional-texto {
+    font-size: 19px;
+    font-weight: 600;
 }
 
 .paragraph--disclaimer {

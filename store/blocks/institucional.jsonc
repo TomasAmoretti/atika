@@ -23,7 +23,7 @@
             "text": "Institucionales",
             "textAlignment": "left",
             "textPosition": "Left",
-            "blockClass": "titulo-institucional"
+            "blockClass": "titulo-institucional-general"
         }
     },
     "flex-layout.col#contenedor-instuticional-general":{
@@ -51,7 +51,7 @@
     "icon#plus-negro-2":{
         "props":{
           "id":"nav-plus",
-          "size": 14,
+          "size": 10,
           "mutedClassName": "plus-close",
           "activeClassName": "plus-open"
         }

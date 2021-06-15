@@ -486,6 +486,10 @@
     border-bottom: solid 1px;
 }
 
+.flexColChild--col-form :global(.vtex-input-prefix__group) {
+    border: unset!important;
+}
+
 @media screen and (max-width: 768px){
     .flexRowContent--row-price-shelf ::global(.vtex-button__label) {
         padding-left: 5px!important;
@@ -499,7 +503,7 @@
     }
 
     .flexColChild--col-contenedor-marcas {
-        width: 90%;
+        width: 96%;
         margin: auto;
         margin-bottom: 60px;
     }
@@ -786,5 +790,23 @@
         border: solid 1px;
         display: flex;
         align-items: center;
+    }
+
+    .flexRow--row-materiales-cubiertas-institucional{
+        width: 93%;
+    }
+
+    .flexRow--row-materiales-cubiertas-institucional .container {
+        padding: 0;
+    }
+
+    .flexRow--row-spaceplanner-institucional-mobile .container, .flexRow--row-tiendas-institucional .container, .flexRow--row-materiales-instalacion-institucional .container {
+        padding: 0;
+        width: 93%;
+    }
+
+    .flexRow--row-materiales-instalacion-institucional .container {
+        padding: 0;
+        width: 95%;
     }
 }

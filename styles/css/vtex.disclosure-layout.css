@@ -24,7 +24,7 @@
     border-left: unset!important;
     border-right: unset!important;
     border-bottom: unset!important;
-    border: solid 2px #000;
+    border: solid 1px #000;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--col-contenedor-institucional):last-child .trigger--trigger-institucional {
@@ -32,8 +32,8 @@
 }
 
 .trigger--trigger-institucional--visible {
-    background: #C90512;
-    color: #fff;
+    background: #e3e4e6;
+    color: #000;
 }
 
 .content--contenido-institucional {
