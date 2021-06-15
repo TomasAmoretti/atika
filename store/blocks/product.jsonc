@@ -153,10 +153,20 @@
   "flex-layout.col#Precio":{
     "children":[
       "product-list-price",
-      "product-price#product"
+      "flex-layout.row#Precio-fina-porcentaje"
     ],
     "props":{
       "blockClass":"col-price",
+      "preventHorizontalStretch":true
+    }
+  },
+  "flex-layout.row#Precio-fina-porcentaje":{
+    "children":[
+      "product-price#product",
+      "product-price-savings#product"
+    ],
+    "props":{
+      "blockClass":"row-price-porcentaje",  
       "preventHorizontalStretch":true
     }
   },
@@ -166,6 +176,13 @@
       "showListPrice": false,
       "showInstallments": false,
       "blockClass": "product-price"
+    }
+  },
+  "product-price-savings#product":{
+    "props":{
+      "blockClass": "porcentaje-descuento",
+      "percentageStyle": "compact",
+      "minimumPercentage": 5
     }
   },
   "sku-selector":{
@@ -256,7 +273,8 @@
   "flex-layout.col#product-bottom-right":{
     "children":[
       "rich-text#titulo-descargas",
-      "flex-layout.row#descargas"
+      "flex-layout.row#descargas",
+      "ficha-tecnica"
     ],
     "props":{
       "blockClass": "product-bottom-right",

@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 .descripcionLarga {
     color: black;
-    font-family: 'Poppins';
+    font-family: 'Source Sans Pro Regular';
     font-size: 13px;
     text-align: inherit;
     margin-top: 15px;
+}
+
+.fichaTecnica {
+    max-width: 75px;
 }

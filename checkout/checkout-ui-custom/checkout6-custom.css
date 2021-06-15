@@ -1393,6 +1393,7 @@ button#btn-go-to-payment {
 
 .table.cart-items thead tr th.quantity {
     order: 4
+    margin-right: 30px;
 }
 
 .table.cart-items thead tr th.product-price,

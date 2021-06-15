@@ -490,6 +490,11 @@
     border: unset!important;
 }
 
+.flexRowContent--row-price-porcentaje {
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px){
     .flexRowContent--row-price-shelf ::global(.vtex-button__label) {
         padding-left: 5px!important;

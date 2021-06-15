@@ -6,6 +6,19 @@
     color: #606060;
 }
 
+.savings--porcentaje-descuento {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0px 8px;
+    font-size: 12px;
+    height: 18px;
+    font-family: 'Poppins';
+    background: #C90512;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 768px) {
     .listPrice {
         margin-top: -15px;
