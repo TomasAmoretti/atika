@@ -12,7 +12,7 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
   const CSS_HANDLES = ['descripcionLarga']
   const handles = useCssHandles(CSS_HANDLES)
   const { product } = useProduct()
-  const { data, error } = useQuery(productSpecs, {
+  const { data, loading, error } = useQuery(productSpecs, {
     variables: {
       slug: product?.linkText,
     },
@@ -23,11 +23,17 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
   if (!product) {
     return (
       <div>
-        <span>There is no product context.</span>
+        <span>No es pagina de producto.</span>
       </div>
     )
   }
-
+  if (loading) {
+    return (
+      <div>
+        <span>Cargando descripción larga...</span>
+      </div>
+    )
+  }
   if (error) {
     return (
       <div>
@@ -35,17 +41,20 @@ const DescripcionLarga: StorefrontFunctionComponent<DescripcionLargaProps> = ({}
       </div>
     )
   }
+ 
+  var descripcionLarga = data.product.items[0].complementName;
 
-  if (data && (data.product.items.complementName != undefined)){
+  if (descripcionLarga != undefined){
     return (
       <div className={`${handles.descripcionLarga} db tc`}>
-        {`${data.product.items.complementName}`}
+        {`${descripcionLarga}`}
       </div>
     )
   }
 
   return (
     <div className={`${handles.descripcionLarga} db tc`}>
+
     </div>
   )
 
