@@ -7,12 +7,14 @@
     },
     "responsive-layout.desktop#desktop-cubiertas-dimensionadas-instuticional": {
         "children": [
+            "breadcrumb",
             "image#banner-cubiertas-dimensionadas-instuticional",
             "rich-text#titulo-institucional-servicio-cubiertas",
             "rich-text#cubiertas-dimensionadas-instuticional-texto",
             "flex-layout.row#cubiertas-dimensionadas-instuticional-materiales"
         ]
     },
+
     "image#banner-cubiertas-dimensionadas-instuticional":{
         "props":{
             "src": "/arquivos/Pagina Estatica I Servicios - Cubiertas Dimensionadas_header.png",

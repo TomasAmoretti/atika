@@ -7,6 +7,7 @@
     },
     "responsive-layout.desktop#desktop-servicio-instalacion-instuticional": {
         "children": [
+            "breadcrumb",
             "image#banner-servicio-instalacion-instuticional",
             "rich-text#titulo-institucional-instalacion",
             "rich-text#servicio-instalacion-instuticional-texto",

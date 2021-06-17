@@ -129,7 +129,7 @@
   "vtex.store-components:product-brand#product": {
     "props": {
       "displayMode": "logo",
-      "height": "60px",
+      "height": "40px",
       "blockClass": "marca-product"
     }
   },
@@ -273,7 +273,8 @@
   "flex-layout.col#product-bottom-right":{
     "children":[
       "rich-text#titulo-descargas",
-      "ficha-tecnica"
+      "ficha-tecnica",
+      "list-context.kitLook"
     ],
     "props":{
       "blockClass": "product-bottom-right",
@@ -306,6 +307,11 @@
       },
       "blockClass": "imagen-descargas"
     }
+  },
+  "list-context.kitLook": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ]
   },
   "flex-layout.row#descripcion-header":{
     "children":[
