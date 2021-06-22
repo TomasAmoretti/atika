@@ -4,5 +4,17 @@
   },
   "ficha-tecnica": {
     "component": "FichaTecnica"
+  },
+  "mantencion":{
+    "component": "Mantencion"
+  },
+  "bim":{
+    "component": "Bim"
+  },
+  "instalacion":{
+    "component": "Instalacion"
+  },
+  "garantia":{
+    "component": "Garantia"
   }
 }

@@ -273,7 +273,7 @@
   "flex-layout.col#product-bottom-right":{
     "children":[
       "rich-text#titulo-descargas",
-      "ficha-tecnica",
+      "flex-layout.row#descargas",
       "list-context.kitLook"
     ],
     "props":{
@@ -291,21 +291,15 @@
   },
   "flex-layout.row#descargas":{
     "children":[
-      "image#prudcto-descargas"
+      "ficha-tecnica",
+      "mantencion",
+      "bim",
+      "instalacion",
+      "garantia"
     ],
     "props":{
       "blockClass": "product-descargas",
       "preventHorizontalStretch": true
-    }
-  },
-  "image#prudcto-descargas":{
-    "props": {
-      "src": "/arquivos/ficha-tecnica.png",
-      "width": "80%",
-      "link":{
-        "url":"#"
-      },
-      "blockClass": "imagen-descargas"
     }
   },
   "list-context.kitLook": {

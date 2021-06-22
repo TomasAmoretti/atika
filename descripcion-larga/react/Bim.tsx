@@ -3,14 +3,14 @@ import { useCssHandles } from 'vtex.css-handles'
 import { useQuery } from 'react-apollo'
 import useProduct from 'vtex.product-context/useProduct'
 import productFicha from './queries/productFicha.graphql'
-import { FichatecnicaString } from './utils/ficha-tecnica';
+import { BimString } from './utils/bim';
 
-interface FichaTecnica {
+interface Bim {
 }
 
-const FichaTecnica: StorefrontFunctionComponent<FichaTecnica> = ({}) => {
+const Bim: StorefrontFunctionComponent<Bim> = ({}) => {
 
-  const CSS_HANDLES = ['fichaTecnica']
+  const CSS_HANDLES = ['Bim']
   const handles = useCssHandles(CSS_HANDLES)
   const { product } = useProduct()
   const { data, loading, error } = useQuery(productFicha, {
@@ -43,30 +43,30 @@ const FichaTecnica: StorefrontFunctionComponent<FichaTecnica> = ({}) => {
     )
   }
  
-  var fichaTecnica = data.product.items[0].referenceId[0].Value;
+  var Bim = data.product.items[0].referenceId[0].Value;
   
-  if (FichatecnicaString.indexOf(fichaTecnica) != -1){
+  if (BimString.indexOf(Bim) != -1){
     return (
-      <a className={`${handles.fichaTecnica} db tc`} href={`https://www.sitios.knownonline.com/atika/${fichaTecnica}-FT.pdf`} target="_blank">
-        <img title="ficha-tecnica" src="/arquivos/ficha-tecnica2.png" alt="Ficha Tecnica" className={`${handles.fichaTecnica}`}/>
+      <a className={`${handles.Bim} db tc`} href={`https://www.sitios.knownonline.com/atika/BIM-BIONYL.pdf`} target="_blank">
+        <img title="ficha-tecnica" src="/arquivos/bim.png" alt="Bim" className={`${handles.Bim}`}/>
       </a>
     )
   }
 
   return (
-    <div className={`${handles.fichaTecnica} db tc`}>
+    <div className={`${handles.Bim} db tc`}>
 
     </div>
   )
 
 }
 
-FichaTecnica.schema = {
-  title: 'ficha-tecnica.title',
-  description: 'ficha-tecnica.description',
+Bim.schema = {
+  title: 'bim.title',
+  description: 'bim.description',
   type: 'object',
   properties: {
   },
 }
 
-export default FichaTecnica
+export default Bim
