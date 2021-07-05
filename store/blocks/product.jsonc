@@ -162,15 +162,15 @@
   },
   "flex-layout.row#Precio-fina-porcentaje":{
     "children":[
-      "product-price#product",
-      "product-price-savings#product"
+      "atika.product-price:product-price#product",
+      "vtex.product-price:product-price-savings#product"
     ],
     "props":{
       "blockClass":"row-price-porcentaje",  
       "preventHorizontalStretch":true
     }
   },
-  "product-price#product": {
+  "atika.product-price:product-price#product": {
     "props": {
       "showSavings": false,
       "showListPrice": false,
@@ -178,7 +178,7 @@
       "blockClass": "product-price"
     }
   },
-  "product-price-savings#product":{
+  "vtex.product-price:product-price-savings#product":{
     "props":{
       "blockClass": "porcentaje-descuento",
       "percentageStyle": "compact",
