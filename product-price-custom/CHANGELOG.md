@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.22.1] - 2021-07-05
+
 ## [1.22.0] - 2021-06-24
 ### Added
 - CSS handles modifiers to `paymentSystemName` and `installmentsNumber` handles.
