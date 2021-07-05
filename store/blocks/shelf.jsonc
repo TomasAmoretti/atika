@@ -97,7 +97,7 @@
         }
       }
     },
-    "product-list-price":{
+    "vtex.product-price:product-list-price":{
         "props":{
           "markers":[
             "list-price"
@@ -126,7 +126,7 @@
     },
     "flex-layout.col#Precio-shelf":{
         "children":[
-          "product-list-price",
+          "vtex.product-price:product-list-price",
           "product-price"
         ],
         "props":{

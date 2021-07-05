@@ -1,0 +1,21 @@
+.sellingPriceValue {
+    display: grid;
+}
+
+.currencyContainer {
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #000;
+}
+
+.sellingPriceWithMultiplier .currencyContainer {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+}
+
+.sellingPriceWithMultiplier {
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}

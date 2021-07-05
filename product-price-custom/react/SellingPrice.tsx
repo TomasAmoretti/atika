@@ -10,6 +10,7 @@ import { getDefaultSeller } from './modules/seller'
 const CSS_HANDLES = [
   'sellingPrice',
   'sellingPriceValue',
+  'sellingPriceWithMultiplier',
   'sellingPriceWithTax',
   'sellingPriceWithUnitMultiplier',
   'taxPercentage',
@@ -70,6 +71,8 @@ function SellingPrice({
 
   const taxValue = commercialOffer.Tax
 
+  const sellingPriceWithMultiplier = sellingPriceValue*unitMultiplier
+
   const hasListPrice = sellingPriceValue !== listPriceValue
   const hasMeasurementUnit = measurementUnit && measurementUnit !== 'un'
   const hasUnitMultiplier = unitMultiplier !== 1
@@ -90,7 +93,7 @@ function SellingPrice({
           sellingPriceValue: (
             <span key="sellingPriceValue" className={handles.sellingPriceValue}>
               <FormattedCurrency value={sellingPriceValue} />
-              <FormattedCurrency value={sellingPriceValue*unitMultiplier} />
+              <span className={handles.sellingPriceWithMultiplier} ><FormattedCurrency value={sellingPriceWithMultiplier} /> CAJA</span>
             </span>
           ),
           sellingPriceWithTax: (

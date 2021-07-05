@@ -62,7 +62,8 @@
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.wordpress-integration": "2.x"
+    "vtex.wordpress-integration": "2.x",
+    "atika.product-price-custom": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

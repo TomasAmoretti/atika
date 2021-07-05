@@ -152,7 +152,7 @@
   },
   "flex-layout.col#Precio":{
     "children":[
-      "product-list-price",
+      "vtex.product-price:product-list-price",
       "flex-layout.row#Precio-fina-porcentaje"
     ],
     "props":{
@@ -162,7 +162,7 @@
   },
   "flex-layout.row#Precio-fina-porcentaje":{
     "children":[
-      "atika.product-price:product-price#product",
+      "atika.product-price-custom:product-selling-price",
       "vtex.product-price:product-price-savings#product"
     ],
     "props":{
@@ -170,14 +170,14 @@
       "preventHorizontalStretch":true
     }
   },
-  "atika.product-price:product-price#product": {
+  /*"atika.product-price-custom:product-price#product": {
     "props": {
       "showSavings": false,
       "showListPrice": false,
       "showInstallments": false,
       "blockClass": "product-price"
     }
-  },
+  },*/
   "vtex.product-price:product-price-savings#product":{
     "props":{
       "blockClass": "porcentaje-descuento",
@@ -237,7 +237,7 @@
       }
     }
   },
-  "product-installments#product":{
+  "vtex.product-price:product-installments#product":{
     "props":{
       "markers": [
         "installments"
@@ -924,7 +924,7 @@
       }
     }
   },
-  "product-installments#product-mobile":{
+  "vtex.product-price:product-installments#product-mobile":{
     "props":{
       "markers": [
         "installments"
