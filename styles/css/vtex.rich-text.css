@@ -926,7 +926,6 @@
 }
 
 .container--institucional-texto {
-    width: 90%;
     margin: auto;
 }
 
@@ -936,6 +935,10 @@
     font-size: 20px;
     color: #000;
     margin-top: 0;
+}
+
+.wrapper--institucional-texto {
+    padding-top: 40px;
 }
 
 .headingLevel3--institucional-texto::after {

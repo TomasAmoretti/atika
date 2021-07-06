@@ -1,0 +1,10 @@
+.listContainer--lista-tabs-institucional {
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-between;
+}
+
+.listItem {
+    margin: 0;
+    padding: 0;
+}

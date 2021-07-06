@@ -1,5 +1,5 @@
 {
-    "store.custom#instuticional":{
+    "store.custom#instuticional": {
         "blocks": [
             "responsive-layout.desktop#desktop-instuticional",
             "responsive-layout.mobile#mobile-instuticional"
@@ -10,12 +10,12 @@
             "flex-layout.row#contenedor-instuticional"
         ]
     },
-    "flex-layout.row#contenedor-instuticional":{
-        "children":[
+    "flex-layout.row#contenedor-instuticional": {
+        "children": [
             "flex-layout.col#contenedor-instuticional-general"
         ],
-        "props":{
-            "blockClass":"contenedor-institucional"
+        "props": {
+            "blockClass": "contenedor-institucional"
         }
     },
     "rich-text#titulo-institucional-general": {
@@ -26,80 +26,123 @@
             "blockClass": "titulo-institucional-general"
         }
     },
-    "flex-layout.col#contenedor-instuticional-general":{
-        "children":[
+    "flex-layout.col#contenedor-instuticional-general": {
+        "children": [
             "rich-text#titulo-institucional-general",
             "flex-layout.col#contenedor-instuticional"
         ],
-        "props":{
+        "props": {
             "blockClass": "contenedor-general-institucional",
             "preventVerticalStretch": true
         }
     },
-    "flex-layout.col#contenedor-instuticional":{
-        "children":[
-            "disclosure-layout#preguntas-frecuentes",
-            "disclosure-layout#condiciones-despacho",
-            "disclosure-layout#cambios-garantias",
-            "disclosure-layout#terminos-condiciones"
+    "flex-layout.col#contenedor-instuticional": {
+        "children": [
+            "tab-layout#institucional"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-contenedor-institucional",
             "preventVerticalStretch": true
         }
     },
-    "icon#plus-negro-2":{
-        "props":{
-          "id":"nav-plus",
-          "size": 10,
-          "mutedClassName": "plus-close",
-          "activeClassName": "plus-open"
-        }
-    },
-    "disclosure-layout#preguntas-frecuentes": {
+    "tab-layout#institucional": {
         "children": [
-            "disclosure-trigger#preguntas-frecuentes", 
-            "disclosure-content#preguntas-frecuentes"
+            "tab-list#institucional",
+            "tab-content#institucional"
         ],
-        "props":{
-            "blockClass": "container-item-institucional"
-        }
-    },
-    "disclosure-trigger#preguntas-frecuentes": {
-        "children": [
-            "flex-layout.row#titulo-preguntas-frecuentes"
-        ],
-        "props":{
-            "blockClass": "trigger-institucional"
-        }
-    },
-    "flex-layout.row#titulo-preguntas-frecuentes":{
-        "children":[
-            "rich-text#titulo-preguntas-frecuentes",
-            "icon#plus-negro-2"
-          ],
-          "props":{
-            "blockClass": "row-item-institucional",
-            "preventHorizontalStretch": true
-          }
-    },
-    "rich-text#titulo-preguntas-frecuentes":{
         "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "LEFT",
-            "text": "Preguntas frecuentes",
-            "blockClass": "titulo-institucional-menu"
-          }
+            "blockClass": "institucional-tab",
+            "defaultActiveTabId": "institucional-frecuentes"
+        }
     },
-    "disclosure-content#preguntas-frecuentes": {
+    "tab-list#institucional": {
+        "children": [
+            "tab-list.item#institucional-preguntas-frecuentes",
+            "tab-list.item#institucional-condiciones-despacho",
+            "tab-list.item#institucional-cambios-garantias",
+            "tab-list.item#instituciona-terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "lista-tabs-institucional"
+        }
+    },
+    "tab-list.item#institucional-preguntas-frecuentes": {
+        "props": {
+            "tabId": "institucional-frecuentes",
+            "label": "Preguntas frecuentes",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#institucional-condiciones-despacho": {
+        "props": {
+            "tabId": "institucional-despacho",
+            "label": "Condiciones de despacho"
+        }
+    },
+    "tab-list.item#institucional-cambios-garantias": {
+        "props": {
+            "tabId": "institucional-cambios",
+            "label": "Cambios y garantias"
+        }
+    },
+    "tab-list.item#instituciona-terminos-condiciones": {
+        "props": {
+            "tabId": "institucional-terminos",
+            "label": "Terminos y condiciones"
+        }
+    },
+    "tab-content#institucional": {
+        "children": [
+            "tab-content.item#institucional-preguntas-frecuentes",
+            "tab-content.item#institucional-condiciones-despacho",
+            "tab-content.item#institucional-cambios-garantias",
+            "tab-content.item#institucional-terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "contenido-tab-talles"
+        }
+    },
+    "tab-content.item#institucional-preguntas-frecuentes": {
         "children": [
             "rich-text#preguntas-frecuentes-1"
         ],
-        "props":{
-            "blockClass": "contenido-institucional"
+        "props": {
+            "tabId": "institucional-frecuentes"
         }
     },
-    "rich-text#preguntas-frecuentes-1":{
+    "tab-content.item#institucional-condiciones-despacho": {
+        "children": [
+            "rich-text#condiciones-despacho-1"
+        ],
+        "props": {
+            "tabId": "institucional-despacho"
+        }
+    },
+    "tab-content.item#institucional-cambios-garantias": {
+        "children": [
+            "rich-text#cambios-garantias-1"
+        ],
+        "props": {
+            "tabId": "institucional-cambios"
+        }
+    },
+    "tab-content.item#institucional-terminos-condiciones": {
+        "children": [
+            "rich-text#terminos-condiciones-1"
+        ],
+        "props": {
+            "tabId": "institucional-terminos"
+        }
+    },
+    "icon#plus-negro-2": {
+        "props": {
+            "id": "nav-plus",
+            "size": 10,
+            "mutedClassName": "plus-close",
+            "activeClassName": "plus-open"
+        }
+    },
+    "rich-text#preguntas-frecuentes-1": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -107,50 +150,7 @@
             "blockClass": "institucional-texto"
         }
     },
-    "disclosure-layout#condiciones-despacho": {
-        "children": [
-            "disclosure-trigger#condiciones-despacho", 
-            "disclosure-content#condiciones-despacho"
-        ],
-        "props":{
-            "blockClass": "container-item-institucional"
-        }
-    },
-    "disclosure-trigger#condiciones-despacho": {
-        "children": [
-            "flex-layout.row#titulo-condiciones-despacho"
-        ],
-        "props":{
-            "blockClass": "trigger-institucional"
-        }
-    },
-    "flex-layout.row#titulo-condiciones-despacho":{
-        "children":[
-            "rich-text#titulo-condiciones-despacho",
-            "icon#plus-negro-2"
-          ],
-          "props":{
-            "blockClass": "row-item-institucional",
-            "preventHorizontalStretch": true
-          }
-    },
-    "rich-text#titulo-condiciones-despacho":{
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "LEFT",
-            "text": "Condiciones de despacho",
-            "blockClass": "titulo-institucional-menu"
-          }
-    },
-    "disclosure-content#condiciones-despacho": {
-        "children": [
-            "rich-text#condiciones-despacho-1"
-        ],
-        "props":{
-            "blockClass": "contenido-institucional"
-        }
-    },
-    "rich-text#condiciones-despacho-1":{
+    "rich-text#condiciones-despacho-1": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -158,50 +158,7 @@
             "blockClass": "institucional-texto"
         }
     },
-    "disclosure-layout#cambios-garantias": {
-        "children": [
-            "disclosure-trigger#cambios-garantias", 
-            "disclosure-content#cambios-garantias"
-        ],
-        "props":{
-            "blockClass": "container-item-institucional"
-        }
-    },
-    "disclosure-trigger#cambios-garantias": {
-        "children": [
-            "flex-layout.row#titulo-cambios-garantias"
-        ],
-        "props":{
-            "blockClass": "trigger-institucional"
-        }
-    },
-    "flex-layout.row#titulo-cambios-garantias":{
-        "children":[
-            "rich-text#titulo-cambios-garantias",
-            "icon#plus-negro-2"
-          ],
-          "props":{
-            "blockClass": "row-item-institucional",
-            "preventHorizontalStretch": true
-          }
-    },
-    "rich-text#titulo-cambios-garantias":{
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "LEFT",
-            "text": "Cambios y garantías",
-            "blockClass": "titulo-institucional-menu"
-          }
-    },
-    "disclosure-content#cambios-garantias": {
-        "children": [
-            "rich-text#cambios-garantias-1"
-        ],
-        "props":{
-            "blockClass": "contenido-institucional"
-        }
-    },
-    "rich-text#cambios-garantias-1":{
+    "rich-text#cambios-garantias-1": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -209,50 +166,7 @@
             "blockClass": "institucional-texto"
         }
     },
-    "disclosure-layout#terminos-condiciones": {
-        "children": [
-            "disclosure-trigger#terminos-condiciones", 
-            "disclosure-content#terminos-condiciones"
-        ],
-        "props":{
-            "blockClass": "container-item-institucional"
-        }
-    },
-    "disclosure-trigger#terminos-condiciones": {
-        "children": [
-            "flex-layout.row#titulo-terminos-condiciones"
-        ],
-        "props":{
-            "blockClass": "trigger-institucional"
-        }
-    },
-    "flex-layout.row#titulo-terminos-condiciones":{
-        "children":[
-            "rich-text#titulo-terminos-condiciones",
-            "icon#plus-negro-2"
-          ],
-          "props":{
-            "blockClass": "row-item-institucional",
-            "preventHorizontalStretch": true
-          }
-    },
-    "rich-text#titulo-terminos-condiciones":{
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "LEFT",
-            "text": "Terminos y condiciones",
-            "blockClass": "titulo-institucional-menu"
-          }
-    },
-    "disclosure-content#terminos-condiciones": {
-        "children": [
-            "rich-text#terminos-condiciones-1"
-        ],
-        "props":{
-            "blockClass": "contenido-institucional"
-        }
-    },
-    "rich-text#terminos-condiciones-1":{
+    "rich-text#terminos-condiciones-1": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",

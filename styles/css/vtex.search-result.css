@@ -5,6 +5,10 @@
     margin: auto;
 }
 
+.gallery {
+    margin-bottom: 30px;
+}
+
 .notFound--layout {
     max-width: 1280px;
     margin: auto;
