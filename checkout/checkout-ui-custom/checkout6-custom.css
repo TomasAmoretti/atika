@@ -1289,7 +1289,7 @@ h1#cart-title {
 
 .cart-more-options,
 .cart-template-holder .cart {
-    padding: 20px 0;
+    padding: 20px;
     background: #fff;
     margin: 0;
     border-radius: 0;
@@ -1305,7 +1305,7 @@ h1#cart-title {
 .cart-template-holder .cart {
   margin-bottom: 20px;
   border: solid 1px #CBCBCB;
-  border-top: unset;
+  margin-top: 5px;
 }
 
 .table.cart-items {
@@ -4851,8 +4851,6 @@ body.v-custom-loaded.body-cart-vertical.js-vcustom-showNoteField.v-custom-paymen
     font-size: 20px;
     margin-bottom: 0;
     padding-left: 30px;
-    border: solid 1px #CBCBCB;
-    border-bottom: unset;
     width: 100%;
 }
 
