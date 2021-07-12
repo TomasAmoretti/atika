@@ -1303,7 +1303,9 @@ h1#cart-title {
 }
 
 .cart-template-holder .cart {
-    margin-bottom: 20px
+  margin-bottom: 20px;
+  border: solid 1px #CBCBCB;
+  border-top: unset;
 }
 
 .table.cart-items {
@@ -1392,13 +1394,14 @@ button#btn-go-to-payment {
 }
 
 .table.cart-items thead tr th.quantity {
-    order: 4
+    order: 4;
     margin-right: 30px;
 }
 
 .table.cart-items thead tr th.product-price,
 .table.cart-items thead tr th.quantity-price {
-    order: 5
+    order: 5;
+    margin-left: 25px;
 }
 
 .table.cart-items tr.item-attachments-head {
@@ -2445,7 +2448,8 @@ a#cart-to-orderform:hover {
 }
 
 .body-cart-vertical .summary-template-holder {
-    width: 30%
+    width: 30%;
+    margin-top: -44px;
 }
 
 @media (max-width: 998px) {
@@ -4770,7 +4774,8 @@ a.button.button__outline.button__outline--back {
 
 .texto-comunas-footer {
   font-family: 'Source Sans Pro';
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .texto-comunas-footer a.link-comunas {
@@ -4782,11 +4787,12 @@ a.boton-volver-home {
   display: flex;
   align-items: center;
   border: solid 2px;
+  font-size: 13px;
   width: fit-content;
   font-family: 'Poppins';
   text-transform: uppercase;
   font-weight: bold;
-  padding: 2px 20px;
+  padding: 2px 50px;
 }
 
 a.boton-volver-home p {
@@ -4809,8 +4815,8 @@ small.item-multiplier-label {
 
 .transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos {
   font-family: 'Source Sans Pro';
-  font-size: 13px;
-  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos a.terminos-checkout, .transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos a.terminos-checkout:hover {
@@ -4839,12 +4845,19 @@ body.v-custom-loaded.body-cart-vertical.js-vcustom-showNoteField.v-custom-paymen
 
 .purchase-flow__title h2 {
   font-family: 'Poppins';
-  font-weight: 600;
-  color: black;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-bottom: 0;
-  padding-left: 8px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    border: solid 1px #CBCBCB;
+    border-bottom: unset;
+    width: 100%;
+}
+
+.purchase-flow__title {
+  width: 788px;
 }
 
 .purchase-flow__title h2::after {
