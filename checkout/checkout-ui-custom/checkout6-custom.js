@@ -50,10 +50,10 @@ function quitarDecimalesCart(){
       if(document.querySelector("#cartLoadedDiv > div.extensions-checkout-buttons-container.row-fluid > .texto-comunas-footer") == null){
         $("#cartLoadedDiv > div.extensions-checkout-buttons-container.row-fluid").append("<div class='texto-comunas-footer'>Precio incluye IVA. El costo del despacho se incluye al finalizar la compra. <a href='#' class='link-comunas'>Ver comunas despacho disponible</a></div>");
       }
-      if($("a.boton-volver-home").length == 0 && $(".table.cart-items").length >= 1){
+      if($("a.boton-volver-home").length == 0 && $(".table.cart-items tbody tr").length >= 1){
         $(".transactions-container.row-fluid").append("<a class='boton-volver-home' href='/'><p>←</p> Seguir comprando</a>");
       }
-      if(document.querySelector(".transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos") == null && $(".table.cart-items").length >= 1){
+      if(document.querySelector(".transactions-container.row-fluid .transactions.span5.pull-right .aviso-terminos") == null && $(".table.cart-items tbody tr").length >= 1){
         $(".transactions-container.row-fluid .transactions.span5.pull-right").append("<div class='aviso-terminos'>Al hacer click en 'FINALIZAR COMPRA' estás aceptando nuestros <a class='terminos-checkout' href='/institucional'>términos y condiciones</a>.</div>");
       }
     }, 1000);
