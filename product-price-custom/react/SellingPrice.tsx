@@ -71,7 +71,17 @@ function SellingPrice({
 
   const taxValue = commercialOffer.Tax
 
-  const sellingPriceWithMultiplier = sellingPriceValue*unitMultiplier
+  if(unitMultiplier != 1){
+    var meter = "M²"
+  }else{
+    var meter = ""
+  }
+
+  // if(unitMultiplier != 1){
+  //   var sellingPriceWithMultiplier = (sellingPriceValue*unitMultiplier).toString() + " CAJA"
+  // }else{
+  //   var sellingPriceWithMultiplier = ""
+  // }
 
   const hasListPrice = sellingPriceValue !== listPriceValue
   const hasMeasurementUnit = measurementUnit && measurementUnit !== 'un'
@@ -92,8 +102,8 @@ function SellingPrice({
         values={{
           sellingPriceValue: (
             <span key="sellingPriceValue" className={handles.sellingPriceValue}>
-              <FormattedCurrency value={sellingPriceValue} />
-              <span className={handles.sellingPriceWithMultiplier} ><FormattedCurrency value={sellingPriceWithMultiplier} /> CAJA</span>
+                <span className={handles.sellingPriceValue}><FormattedCurrency value={sellingPriceValue} />{meter}</span>
+                {/* <span className={handles.sellingPriceWithMultiplier} >{sellingPriceWithMultiplier}</span> */}
             </span>
           ),
           sellingPriceWithTax: (

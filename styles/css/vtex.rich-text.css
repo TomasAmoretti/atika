@@ -941,6 +941,29 @@
     padding-top: 40px;
 }
 
+.link--menu-institucional-tab, .link--menu-institucional-tab-active {
+    color: #000;
+    text-decoration: unset;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.container--menu-institucional-tab {
+    border-bottom: solid 1px #000;
+}
+
+.container--menu-institucional-tab-active {
+    border-bottom: solid 3px #000;
+}
+
+.link--menu-institucional-tab:hover, .link--menu-institucional-tab-active:hover {
+    color: #000
+}
+
+.container--menu-institucional-tab:hover {
+    border-bottom: solid 3px #000;
+}
+
 .headingLevel3--institucional-texto::after {
     display: block;
     width: 25px;

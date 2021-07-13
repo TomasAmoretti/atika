@@ -38,7 +38,16 @@
     "store.custom#marcas-instuticional":{
         "path": "/marcas"
     },
-    "store.custom#instuticional":{
-        "path": "/institucional"
+    "store.custom#preguntas-frecuentes":{
+        "path": "/institucional/preguntas-frecuentes"
+    },
+    "store.custom#condiciones-despacho":{
+        "path": "/institucional/condiciones-despacho"
+    },
+    "store.custom#cambios-garantias":{
+        "path": "/institucional/cambios-garantias"
+    },
+    "store.custom#terminos-condiciones":{
+        "path": "/institucional/terminos-condiciones"
     }
 }

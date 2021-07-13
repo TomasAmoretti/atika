@@ -1,0 +1,97 @@
+{
+    "store.custom#terminos-condiciones": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-terminos-condiciones",
+            "responsive-layout.mobile#mobile-terminos-condiciones"
+        ]
+    },
+    "responsive-layout.desktop#desktop-terminos-condiciones": {
+        "children": [
+            "flex-layout.row#contenedor-terminos-condiciones"
+        ]
+    },
+    "flex-layout.row#contenedor-terminos-condiciones": {
+        "children": [
+            "flex-layout.col#contenedor-terminos-condiciones-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-terminos-condiciones-general": {
+        "children": [
+            "rich-text#titulo-institucional-general",
+            "flex-layout.row#menu-terminos-condiciones",
+            "flex-layout.col#contenedor-terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#menu-terminos-condiciones": {
+        "children": [
+            "rich-text#menu-preguntas-terminos-condiciones",
+            "rich-text#menu-condiciones-terminos-condiciones",
+            "rich-text#menu-cambios-terminos-condiciones",
+            "rich-text#menu-terminos-terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "menu-institucional"
+        }
+    },
+    "rich-text#menu-preguntas-terminos-condiciones": {
+        "props": {
+            "text": "[Preguntas frecuentes](/institucional/preguntas-frecuentes)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-condiciones-terminos-condiciones": {
+        "props": {
+            "text": "[Condiciones de despacho](/institucional/condiciones-despacho)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-cambios-terminos-condiciones": {
+        "props": {
+            "text": "[Cambios y garantias](/institucional/cambios-garantias)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-terminos-terminos-condiciones": {
+        "props": {
+            "text": "[Terminos y condiciones](/institucional/terminos-condiciones)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-terminos-condiciones": {
+        "children": [
+            "rich-text#terminos-condiciones-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#terminos-condiciones-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Terminos y condiciones** \n\n\n Los datos solicitados en los formularios disponibles (nombre, e-mail, RUT, dirección física y número telefónicos) serán utilizados para responder preguntas acerca de nuestros productos y servicios. Atika no venderá ni difundirá datos a terceros. Esta información puede ser usada internamente para estadísticas y para la mejora de productos y servicios ofrecidos en nuestro sitio. \n\n **NEWSLETTERS** \n\n El envío de correos electrónicos se hará sólo con tu consentimiento y puede detenerse en cualquier momento. Al registrarte en nuestro sitio, puedes optar por recibir e-mails con información y promociones de Atika. \n\n **PROPIEDAD DE LA INFORMACIÓN** \n\n Todos los textos, imágenes, logos, íconos, código fuente y el resto de los contenidos incluidos en este sitio son propiedad de Atika o, en algunos casos, disponen del derecho de reproducción de los mismos, y en tal sentido se erigen como obras protegidas por la legislación de propiedad intelectual e industrial vigentes. Queda prohibida la reproducción de elementos o contenidos de este website, realizados con ánimo de lucro o fines comerciales. \n\n **PROTOCOLO DE SEGURIDAD** \n\n Atika cuenta con un certificado SSL (Secure Sockets Layer) que asegura, tanto la autenticidad del Sitio, como el cifrado de toda la información que nos entrega el usuario. Los certificados SSL protegen los datos personales de los clientes e impiden el acceso a la información por parte de terceros. \n\n **20% DESCUENTO PAGANDO CON TARJETAS BANCO DE CHILE** \n\n **Descripción:** Promoción válida para las compras efectuadas utilizando como medio de pago las Tarjetas de Crédito y Redcompra emitidas por Banco de Chile. \n\n **Consideraciones.** \n\n El descuento aplica sólo a ventas minoristas y no es acumulable con otras ofertas, promociones o beneficios. Sujeto a las políticas de venta y distribución de Atika para productos Porcelanatos, Gres, Cerámicas, Griferías, Sanitarios, Accesorios, Pisos Fotolaminados, Pisos de Ingeniería, Muebles y Vinílicos. No incluye mármoles, granitos, cuarzos, piedras naturales, cubiertas ultracompactas ItopKer, Lavaplatos, Accesorios Mediclinics, Bañeras Jacuzzi, Terminaciones Perser, Toalleros eléctricos Anapont y Deck Timbertech, repuestos, productos de mantención, instalaciones ni servicios. \n\n Las ofertas, descuentos, entregas de beneficio como asimismo la garantía, servicios y calidad del producto será exclusivo responsabilidad del comercio, sin responsabilidad ni injerencia alguna para el Banco de Chile ni en la ulterior atención que ello demande. \n El descuento debe solicitarse en el punto de compra. \n Infórmese sobre la garantía estatal en su Banco o en [www.sbif.cl](www.sbif.cl) \n\n **Vigencia de la promoción:** Desde el 07 de enero al 31 de Diciembre 2021.",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-terminos-condiciones": {
+        "children": [
+            "flex-layout.row#contenedor-terminos-condiciones"
+        ]
+    }
+}

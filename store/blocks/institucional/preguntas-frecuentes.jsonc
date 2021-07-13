@@ -1,0 +1,97 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-preguntas-frecuentes",
+            "responsive-layout.mobile#mobile-preguntas-frecuentes"
+        ]
+    },
+    "responsive-layout.desktop#desktop-preguntas-frecuentes": {
+        "children": [
+            "flex-layout.row#contenedor-preguntas-frecuentes"
+        ]
+    },
+    "flex-layout.row#contenedor-preguntas-frecuentes": {
+        "children": [
+            "flex-layout.col#contenedor-preguntas-frecuentes-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-preguntas-frecuentes-general": {
+        "children": [
+            "rich-text#titulo-institucional-general",
+            "flex-layout.row#menu-preguntas-frecuentes",
+            "flex-layout.col#contenedor-preguntas-frecuentes"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#menu-preguntas-frecuentes": {
+        "children": [
+            "rich-text#menu-preguntas-preguntas-frecuentes",
+            "rich-text#menu-condiciones-preguntas-frecuentes",
+            "rich-text#menu-cambios-preguntas-frecuentes",
+            "rich-text#menu-terminos-preguntas-frecuentes"
+        ],
+        "props": {
+            "blockClass": "menu-institucional"
+        }
+    },
+    "rich-text#menu-preguntas-preguntas-frecuentes": {
+        "props": {
+            "text": "[Preguntas frecuentes](/institucional/preguntas-frecuentes)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-condiciones-preguntas-frecuentes": {
+        "props": {
+            "text": "[Condiciones de despacho](/institucional/condiciones-despacho)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-cambios-preguntas-frecuentes": {
+        "props": {
+            "text": "[Cambios y garantias](/institucional/cambios-garantias)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-terminos-preguntas-frecuentes": {
+        "props": {
+            "text": "[Terminos y condiciones](/institucional/terminos-condiciones)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "flex-layout.col#contenedor-preguntas-frecuentes": {
+        "children": [
+            "rich-text#preguntas-frecuentes-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#preguntas-frecuentes-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Preguntas frecuentes** \n\n\n COMPRAS \n\n **¿TIENEN TIENDA FÍSICA?** \n\n No tenemos tienda física porque estamos convencidos de que las tiendas online dominarán el mundo… Hablando en serio, creemos que en una tienda online ahorras tiempo, puedes tomar una mejor decisión acerca de tu compra y obtienes los mejores precios del mercado. \n\n **¿DESPACHAN A TODO CHILE?** \n\n Si, despachamos a todo Chile! Actualmente trabajamos con 3 empresas de despacho: Shippify, Correos de Chile y Bluexpress. Estos Couriers se asignan dependiendo de tu comuna y región. \n\n **¿CÓMO PUEDO COMPRAR EN DEPTO51?** \n\n Es muy fácil! Sólo debes agregar los productos que quieras a tu carrito, ingresar tus datos, dirección (recuerda seleccionar muy bien tu comuna) y finalmente, seleccionar el medio de pago que más te acomode. \n\n **NECESITO UN PRODUCTO ANTES DEL PLAZO DE ENTREGA, ¿QUÉ HAGO?** \n\n En ese caso, podemos gestionar un Despacho Express! Contáctanos al chat de la página o a nuestro correo indicando el producto que necesitas, para cuándo y a qué dirección. Cotizamos el valor del envío y si estás de acuerdo, lo gestionamos! \n\n **NECESITO HACER UN REGALO, ¿CÓMO LO HAGO?** \n\n Cuando estés en tu carrito antes de pagar, no olvides seleccionar la casilla que lo indica. Recuerda que toda la compra irá envuelta en 1 solo regalo, si necesitas diferentes regalos, te recomendamos que solicites el papel para que los puedas envolver tú mismo. \n\n **¿CÓMO PUEDO ENVOLVER YO MI REGALO?** \n\n Sólo selecciona la casilla para pedir el papel, aparece en la misma parte del envuelto para regalo y nosotros los enviamos para ti. Cada set de papeles incluye 4 pliegos y stickers para que puedas hacer el mejor regalo! \n\n **QUIERO AGREGAR UN MENSAJE A MI REGALO** \n\n No hay problema! También puedes dejar un mensaje que irá impreso en una tarjeta especial, sólo recuerda escribirlo al momento de seleccionar que tu pedido es para regalo. \n\n PAGOS \n\n **¿ES SEGURO COMPRAR EN DEPTO51?** \n\n Totalmente! En Depto51 trabajamos con altos estándares de seguridad y toda la información ingresada en nuestro sitio se mantiene de forma estrictamente confidencial. Sólo te pedimos que ingreses la información necesaria para el pago y envío de tu compra. Depto51 NO guarda la información de tu tarjeta de crédito ni de tu cuenta bancaria. \n\n **¿QUÉ MEDIO DE PAGO PUEDO USAR?** \n\n Puedes pagar con tarjetas de crédito y débito emitidas en Chile y/o transferencia electrónica a nuestra cuenta. \n\n **SELECCIONÉ TRANSFERENCIA Y NO HE RECIBIDO LOS DATOS.** \n\n Recuerda revisar tu bandeja de entrada y spam, si no te han llegado, escríbenos indicando tu número de orden (ej: 12345) para que te los podamos enviar. \n\n **HAN PASADO MÁS DE 48 HRS. Y NO HAN APROBADO MI PAGO.** \n\n Recuerda que todos nuestros plazos son en días hábiles. Si compras con transferencia un día viernes en la noche o el fin de semana, revisaremos tu pago el día lunes a primera hora, no te preocupes! \n\n DESPACHOS \n\n **YA HICE MI COMPRA, ¿CÓMO SÉ SI ESTÁ TODO BIEN?** \n\n Una vez realices tu compra, te llegará un correo con la confirmación de tu pedido. En la parte superior aparecerá “Orden 12345” con ese número podrás identificar tu compra más adelante. \n\n **ME EQUIVOQUÉ EN MI DIRECCIÓN, ¿LO PUEDO ARREGLAR?** \n\n Te recomendamos prestar mucha atención al escribirla y revisarla muy bien antes de continuar con la compra. Si el autocompletado te traicionó, escríbenos lo antes posible informando el error y tu número de orden, así lo podemos arreglar antes de que sea despachado. \n\n **¿CUÁNDO LLEGARÁ MI PEDIDO?** \n\n Los plazos de entrega dependen de cada producto, los puedes ver en la pestaña Despacho en la ficha de producto. Si en tu compra tienes más productos y tienen distintos plazos de entrega, toda tu orden tomará el plazo mayor. Por ejemplo: Si compras un producto con entrega de 2 a 3 días hábiles y otro de 3 a 5 días hábiles, tu orden completa tendrá un plazo de entrega de 3 a 5 días hábiles. \n\n **¿QUÉ DÍAS DESPACHAMOS?** \n\n Todos nuestros despachos son de Lunes a Viernes de 09:00 a 21:00hrs. Los días sábados y domingos descansamos para comenzar una nueva semana con las pilas full recargadas! Cualquier urgencia o atraso lo comunicaremos siempre a través de correo electrónico o teléfono. \n\n **ALGUNOS DÍAS NO ESTOY EN MI CASA O NO PUEDO RECIBIRLO, ¿QUÉ PUEDO HACER?** \n\n Como trabajamos con empresas de despacho externas, el horario de entrega siempre es de 9:00 a 21:00hrs, por lo que te recomendamos que nos indiques una dirección donde haya una persona que pueda recibir por ti. Puede ser algún amigo, vecino, familiar, etc. Si vives en departamento, los conserjes serán nuestro mejor aliado al momento de las entregas. \n\n **NADIE PUEDE RECIBIR POR MI, ¿PUEDO COMPRAR Y RETIRAR EN ALGUNA PARTE?** \n\n Por el momento no contamos con punto de retiro, pero realiza tu compra tranquilamente y luego nos escribes a [contacto](/contacto) para que coordinemos tu despacho. \n\n **RECIBÍ EL CORREO CONFIRMANDO EL DESPACHO, PERO NO HA LLEGADO.** \n\n Cuando recibas el correo “Orden en tránsito” significa que tu pedido acaba de salir a reparto. Si estás en Santiago, puedes recibir tu compra dentro del mismo día o al día hábil siguiente. Si estás en regiones, la entrega puede tardar de 1 hasta 10 días hábiles en los lugares más extremos. \n\n **¿CÓMO HAGO SEGUIMIENTO A MI ENVÍO?** \n\n En el correo “Orden en tránsito” puedes encontrar el enlace o tu número de seguimiento, que lo puedes revisar en la página de Shippify, Bluexpress o Correos de Chile, según corresponda. \n\n **YA PASÓ EL PLAZO DE ENTREGA DE MI COMPRA Y NO HA LLEGADO.** \n\n Escríbenos con total confianza a nuestro correo: contacto@depto51.cl indicando tu número de orden. Revisaremos lo antes posible qué pasó con tu compra y te contactaremos de vuelta, no te preocupes. \n\n ",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-preguntas-frecuentes": {
+        "children": [
+            "flex-layout.row#contenedor-preguntas-frecuentes"
+        ]
+    }
+}

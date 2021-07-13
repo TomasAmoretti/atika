@@ -1282,7 +1282,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional",
+        "href": "/institucional/preguntas-frecuentes",
         "text": "FAQ"
       },
       "blockClass": "footer-item"
@@ -1292,7 +1292,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional",
+        "href": "/institucional/terminos-condiciones",
         "text": "Terminos y condiciones"
       },
       "blockClass": "footer-item"
@@ -1302,7 +1302,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional",
+        "href": "/institucional/cambios-garantias",
         "text": "Cambios y Garantía"
       },
       "blockClass": "footer-item"
@@ -1342,7 +1342,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/condiciones-despacho",
         "text": "Sigue tu pedido"
       },
       "blockClass": "footer-item"
@@ -2948,7 +2948,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/institucional/condiciones-despacho",
         "text": "DESPACHO"
       },
       "blockClass": "item-submenu-mobile"

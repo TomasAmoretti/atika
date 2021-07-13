@@ -1,0 +1,105 @@
+{
+    "store.custom#cambios-garantias": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-cambios-garantias",
+            "responsive-layout.mobile#mobile-cambios-garantias"
+        ]
+    },
+    "responsive-layout.desktop#desktop-cambios-garantias": {
+        "children": [
+            "flex-layout.row#contenedor-cambios-garantias"
+        ]
+    },
+    "flex-layout.row#contenedor-cambios-garantias": {
+        "children": [
+            "flex-layout.col#contenedor-cambios-garantias-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "rich-text#titulo-institucional-general": {
+        "props": {
+            "text": "Institucionales",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional-general"
+        }
+    },
+    "flex-layout.col#contenedor-cambios-garantias-general": {
+        "children": [
+            "rich-text#titulo-institucional-general",
+            "flex-layout.row#menu-cambios-garantias",
+            "flex-layout.col#contenedor-cambios-garantias"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#menu-cambios-garantias": {
+        "children": [
+            "rich-text#menu-preguntas-cambios-garantias",
+            "rich-text#menu-condiciones-cambios-garantias",
+            "rich-text#menu-cambios-cambios-garantias",
+            "rich-text#menu-terminos-cambios-garantias"
+        ],
+        "props": {
+            "blockClass": "menu-institucional"
+        }
+    },
+    "rich-text#menu-preguntas-cambios-garantias": {
+        "props": {
+            "text": "[Preguntas frecuentes](/institucional/preguntas-frecuentes)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-condiciones-cambios-garantias": {
+        "props": {
+            "text": "[Condiciones de despacho](/institucional/condiciones-despacho)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-cambios-cambios-garantias": {
+        "props": {
+            "text": "[Cambios y garantias](/institucional/cambios-garantias)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-cambios-garantias": {
+        "props": {
+            "text": "[Terminos y condiciones](/institucional/terminos-condiciones)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "flex-layout.col#contenedor-cambios-garantias": {
+        "children": [
+            "rich-text#cambios-garantias-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#cambios-garantias-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Cambios y garantías** \n\n\n **CAMBIO DE PRODUCTOS** \n\n El plazo para cambio de productos es de 90 días contados, desde la fecha de compra. El producto se debe encontrar en óptimas condiciones y su embalaje debe ser el original, sin ningún tipo de alteración. \n\n Los costos de transporte y/o traslados asociados a cambio de productos, son de cargo del cliente, o en el caso que el cliente transporte el producto, este debe ser entregado en nuestro Centro de Distribución. \n\n **GARANTÍA DE PRODUCTOS** \n\n En caso que el producto presente algún defecto (*), aplicará el plazo de garantía especial indicada por el fabricante o el plazo legal de 3 meses, desde la fecha de compra del producto. \n\n Atika reparará el producto para dejarlo en óptimas condiciones o lo cambiará por uno nuevo. Si el cliente prefiere, puede solicitar la devolución del dinero. \n\n Los costos de transporte y/o traslados asociados a una garantía, son de cargo de Atika. \n\n **¿CÓMO EJERCER LA GARANTÍA?** \n\n El cliente debe presentar el producto junto a la Boleta y/o Factura que acredite la compra. \n\n\n *(´*´) Defectuoso: Aquel producto que tenga evidentes fallas, falta de partes y/o piezas y que no cumpla con la seguridad, ni las características del producto que el cliente eligió y adquirió. Esto incluye productos NO defectuosos, pero que fueron entregados por error al cliente y por lo tanto, NO cumplen con las características del producto adquirido.* \n\n *Santiago, 11-02-2019*",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-cambios-garantias": {
+        "children": [
+            "flex-layout.row#contenedor-cambios-garantias"
+        ]
+    }
+}

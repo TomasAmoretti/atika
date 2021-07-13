@@ -1,0 +1,97 @@
+{
+    "store.custom#condiciones-despacho": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-condiciones-despacho",
+            "responsive-layout.mobile#mobile-condiciones-despacho"
+        ]
+    },
+    "responsive-layout.desktop#desktop-condiciones-despacho": {
+        "children": [
+            "flex-layout.row#contenedor-condiciones-despacho"
+        ]
+    },
+    "flex-layout.row#contenedor-condiciones-despacho": {
+        "children": [
+            "flex-layout.col#contenedor-condiciones-despacho-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-condiciones-despacho-general": {
+        "children": [
+            "rich-text#titulo-institucional-general",
+            "flex-layout.row#menu-condiciones-despacho",
+            "flex-layout.col#contenedor-condiciones-despacho"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#menu-condiciones-despacho": {
+        "children": [
+            "rich-text#menu-preguntas-condiciones-despacho",
+            "rich-text#menu-condiciones-condiciones-despacho",
+            "rich-text#menu-cambios-condiciones-despacho",
+            "rich-text#menu-terminos-condiciones-despacho"
+        ],
+        "props": {
+            "blockClass": "menu-institucional"
+        }
+    },
+    "rich-text#menu-preguntas-condiciones-despacho": {
+        "props": {
+            "text": "[Preguntas frecuentes](/institucional/preguntas-frecuentes)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-condiciones-condiciones-despacho": {
+        "props": {
+            "text": "[Condiciones de despacho](/institucional/condiciones-despacho)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-cambios-condiciones-despacho": {
+        "props": {
+            "text": "[Cambios y garantias](/institucional/cambios-garantias)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "rich-text#menu-terminos-condiciones-despacho": {
+        "props": {
+            "text": "[Terminos y condiciones](/institucional/terminos-condiciones)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "menu-institucional-tab"
+        }
+    },
+    "flex-layout.col#contenedor-condiciones-despacho": {
+        "children": [
+            "rich-text#condiciones-despacho-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#condiciones-despacho-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "### **Condiciones de despacho** \n\n\n **CAMBIO DE PRODUCTOS** \n\n El plazo para cambio de productos es de 90 días contados, desde la fecha de compra. El producto se debe encontrar en óptimas condiciones y su embalaje debe ser el original, sin ningún tipo de alteración. \n\n Los costos de transporte y/o traslados asociados a cambio de productos, son de cargo del cliente, o en el caso que el cliente transporte el producto, este debe ser entregado en nuestro Centro de Distribución. \n\n **GARANTÍA DE PRODUCTOS** \n\n En caso que el producto presente algún defecto (*), aplicará el plazo de garantía especial indicada por el fabricante o el plazo legal de 3 meses, desde la fecha de compra del producto. \n\n Atika reparará el producto para dejarlo en óptimas condiciones o lo cambiará por uno nuevo. Si el cliente prefiere, puede solicitar la devolución del dinero. \n\n Los costos de transporte y/o traslados asociados a una garantía, son de cargo de Atika. \n\n **¿CÓMO EJERCER LA GARANTÍA?** \n\n El cliente debe presentar el producto junto a la Boleta y/o Factura que acredite la compra. \n\n\n *(´*´) Defectuoso: Aquel producto que tenga evidentes fallas, falta de partes y/o piezas y que no cumpla con la seguridad, ni las características del producto que el cliente eligió y adquirió. Esto incluye productos NO defectuosos, pero que fueron entregados por error al cliente y por lo tanto, NO cumplen con las características del producto adquirido.* \n\n *Santiago, 11-02-2019*",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-condiciones-despacho": {
+        "children": [
+            "flex-layout.row#contenedor-condiciones-despacho"
+        ]
+    }
+}
