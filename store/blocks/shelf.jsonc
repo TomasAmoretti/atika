@@ -126,8 +126,8 @@
     },
     "flex-layout.col#Precio-shelf":{
         "children":[
-          "vtex.product-price:product-list-price"/*,
-          "atika.product-price-custom:product-selling-price"*/
+          "vtex.product-price:product-list-price",
+          "atika.product-price-custom:product-selling-price"
         ],
         "props":{
           "blockClass":"row-price-shelf",

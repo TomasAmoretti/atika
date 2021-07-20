@@ -162,7 +162,7 @@
   },
   "flex-layout.row#Precio-fina-porcentaje":{
     "children":[
-      /*"atika.product-price-custom:product-selling-price",*/
+      "atika.product-price-custom:product-selling-price",
       "vtex.product-price:product-price-savings#product"
     ],
     "props":{

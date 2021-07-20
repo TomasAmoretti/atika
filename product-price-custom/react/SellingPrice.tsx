@@ -17,6 +17,9 @@ const CSS_HANDLES = [
   'taxValue',
   'measurementUnit',
   'unitMultiplier',
+  'visibility',
+  'visible',
+  'hidden'
 ] as const
 
 const messages = defineMessages({
@@ -77,11 +80,8 @@ function SellingPrice({
     var meter = ""
   }
 
-  // if(unitMultiplier != 1){
-  //   var sellingPriceWithMultiplier = (sellingPriceValue*unitMultiplier).toString() + " CAJA"
-  // }else{
-  //   var sellingPriceWithMultiplier = ""
-  // }
+  var sellingPriceWithMultiplier = (sellingPriceValue*unitMultiplier);
+
 
   const hasListPrice = sellingPriceValue !== listPriceValue
   const hasMeasurementUnit = measurementUnit && measurementUnit !== 'un'
@@ -102,8 +102,8 @@ function SellingPrice({
         values={{
           sellingPriceValue: (
             <span key="sellingPriceValue" className={handles.sellingPriceValue}>
-                <span className={handles.sellingPriceValue}><FormattedCurrency value={sellingPriceValue} />{meter}</span>
-                {/* <span className={handles.sellingPriceWithMultiplier} >{sellingPriceWithMultiplier}</span> */}
+                <span className={handles.sellingPriceValue}><FormattedCurrency value={sellingPriceValue} /><strong>{meter}</strong></span>
+                <span className={handles.sellingPriceWithMultiplier}><FormattedCurrency value={sellingPriceWithMultiplier} /> CAJA</span>
             </span>
           ),
           sellingPriceWithTax: (

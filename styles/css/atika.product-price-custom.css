@@ -1,5 +1,5 @@
 .sellingPriceValue {
-    display: grid;
+    display: block;
 }
 
 .currencyContainer {
@@ -7,6 +7,7 @@
     font-size: 24px;
     color: #000;
     display: inline-flex;
+    margin-right: 5px;
 }
 
 .sellingPriceWithMultiplier .currencyContainer {
@@ -20,4 +21,17 @@
     font-family: 'Source Sans Pro';
     font-size: 16px;
     display: flex;
+}
+
+.sellingPriceValue--visible {
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    display: flex;
+}
+
+.sellingPriceValue--visible .currencyContainer {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
 }
