@@ -170,14 +170,11 @@
       "preventHorizontalStretch":true
     }
   },
-  /*"atika.product-price-custom:product-price#product": {
+  "atika.product-price-custom:product-selling-price": {
     "props": {
-      "showSavings": false,
-      "showListPrice": false,
-      "showInstallments": false,
       "blockClass": "product-price"
     }
-  },*/
+  },
   "vtex.product-price:product-price-savings#product":{
     "props":{
       "blockClass": "porcentaje-descuento",

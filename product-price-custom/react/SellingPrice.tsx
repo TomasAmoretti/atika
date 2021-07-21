@@ -82,7 +82,6 @@ function SellingPrice({
 
   var sellingPriceWithMultiplier = (sellingPriceValue*unitMultiplier);
 
-
   const hasListPrice = sellingPriceValue !== listPriceValue
   const hasMeasurementUnit = measurementUnit && measurementUnit !== 'un'
   const hasUnitMultiplier = unitMultiplier !== 1
@@ -92,6 +91,65 @@ function SellingPrice({
     hasMeasurementUnit ? 'hasMeasurementUnit' : '',
     hasUnitMultiplier ? 'hasUnitMultiplier' : '',
   ])
+
+  if(sellingPriceWithMultiplier !== sellingPriceValue){
+    return (
+      <span className={containerClasses}>
+        <IOMessageWithMarkers
+          message={message}
+          markers={markers}
+          handleBase="sellingPrice"
+          values={{
+            sellingPriceValue: (
+              <span key="sellingPriceValue" className={handles.sellingPriceValue}>
+                  <span className={handles.sellingPriceValue}><FormattedCurrency value={sellingPriceValue} /><strong>{meter}</strong></span>
+                  <span className={handles.sellingPriceWithMultiplier}><FormattedCurrency value={sellingPriceWithMultiplier} /> CAJA</span>
+              </span>
+            ),
+            sellingPriceWithTax: (
+              <span
+                key="sellingPriceWithTax"
+                className={handles.sellingPriceWithTax}
+              >
+                <FormattedCurrency value={sellingPriceWithTax} />
+              </span>
+            ),
+            sellingPriceWithUnitMultiplier: (
+              <span
+                key="sellingPriceWithUnitMultiplier"
+                className={handles.sellingPriceWithUnitMultiplier}
+              >
+                <FormattedCurrency value={sellingPriceWithUnitMultiplier} />
+              </span>
+            ),
+            taxPercentage: (
+              <span key="taxPercentage" className={handles.taxPercentage}>
+                <FormattedNumber value={taxPercentage} style="percent" />
+              </span>
+            ),
+            taxValue: (
+              <span key="taxValue" className={handles.taxValue}>
+                <FormattedCurrency value={taxValue} />
+              </span>
+            ),
+            hasMeasurementUnit,
+            hasListPrice,
+            hasUnitMultiplier,
+            unitMultiplier: (
+              <span key="unitMultiplier" className={handles.unitMultiplier}>
+                <FormattedNumber value={unitMultiplier} />
+              </span>
+            ),
+            measurementUnit: (
+              <span key="measurementUnit" className={handles.measurementUnit}>
+                {measurementUnit}
+              </span>
+            ),
+          }}
+        />
+      </span>
+    )
+  }
 
   return (
     <span className={containerClasses}>
@@ -103,7 +161,6 @@ function SellingPrice({
           sellingPriceValue: (
             <span key="sellingPriceValue" className={handles.sellingPriceValue}>
                 <span className={handles.sellingPriceValue}><FormattedCurrency value={sellingPriceValue} /><strong>{meter}</strong></span>
-                <span className={handles.sellingPriceWithMultiplier}><FormattedCurrency value={sellingPriceWithMultiplier} /> CAJA</span>
             </span>
           ),
           sellingPriceWithTax: (

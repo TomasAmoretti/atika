@@ -1,5 +1,9 @@
 .sellingPriceValue {
     display: block;
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
 }
 
 .currencyContainer {
@@ -34,4 +38,9 @@
     font-weight: 400;
     font-size: 18px;
     font-family: 'Source Sans Pro';
+}
+
+/* VITRINA */
+:global(.vtex-product-summary-2-x-element--product-summary) .sellingPriceValue, :global(.vtex-product-summary-2-x-element--product-summary) .currencyContainer--product-price {
+    font-size: 18px!important;
 }
