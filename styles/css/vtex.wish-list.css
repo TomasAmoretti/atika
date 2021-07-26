@@ -21,7 +21,7 @@
 }
 
 .outline {
-  background: url(/arquivos/corazon-2.svg) !important;
+  background: url(/arquivos/corazon-2.svg) no-repeat !important;
 }
 
 .wishlistIconContainer--whish-product :global(.vtex-button__label) {
