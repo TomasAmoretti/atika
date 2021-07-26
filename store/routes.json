@@ -1,53 +1,56 @@
 {
-    "store.blog-home": {
-        "path": "/blog"
-    },
-    "store.blog-search-result": {
-        "path": "/blog/search/:term_id"
-    },
-    "store.blog-post": {
-        "path": "/blog/post/:slug_id"
-    },
-    "store.blog-category": {
-        "path": "/blog/category/:categoryslug_id"
-    },
-    "store.custom#contacto": {
-        "path": "/contacto"
-    },
-    "store.custom#servicios": {
-        "path": "/servicios"
-    },
-    "store.custom#cubiertas-dimensionadas": {
-        "path": "/cubiertas-dimensionadas"
-    },
-    "store.custom#cubiertas-dimensionadas-instuticional": {
-        "path": "/servicios-cubiertas"
-    },
-    "store.custom#servicio-instalacion-instuticional": {
-        "path": "/servicio-instalacion"
-    },
-    "store.custom#servicio-tecnico-mantencion": {
-        "path": "/servicio-tecnico-mantencion"
-    },
-    "store.custom#tiendas": {
-        "path": "/tiendas"
-    },
-    "store.custom#spaceplanner-instuticional":{
-        "path": "/spaceplanner"
-    },
-    "store.custom#marcas-instuticional":{
-        "path": "/marcas"
-    },
-    "store.custom#preguntas-frecuentes":{
-        "path": "/institucional/preguntas-frecuentes"
-    },
-    "store.custom#condiciones-despacho":{
-        "path": "/institucional/condiciones-despacho"
-    },
-    "store.custom#cambios-garantias":{
-        "path": "/institucional/cambios-garantias"
-    },
-    "store.custom#terminos-condiciones":{
-        "path": "/institucional/terminos-condiciones"
-    }
+  "store.blog-home": {
+    "path": "/blog"
+  },
+  "store.blog-search-result": {
+    "path": "/blog/search/:term_id"
+  },
+  "store.blog-post": {
+    "path": "/blog/post/:slug_id"
+  },
+  "store.blog-category": {
+    "path": "/blog/category/:categoryslug_id"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#servicios": {
+    "path": "/servicios"
+  },
+  "store.custom#cubiertas-dimensionadas": {
+    "path": "/cubiertas-dimensionadas"
+  },
+  "store.custom#cubiertas-dimensionadas-instuticional": {
+    "path": "/servicios-cubiertas"
+  },
+  "store.custom#servicio-instalacion-instuticional": {
+    "path": "/servicio-instalacion"
+  },
+  "store.custom#servicio-tecnico-mantencion": {
+    "path": "/servicio-tecnico-mantencion"
+  },
+  "store.custom#tiendas": {
+    "path": "/tiendas"
+  },
+  "store.custom#spaceplanner-instuticional": {
+    "path": "/spaceplanner"
+  },
+  "store.custom#marcas-instuticional": {
+    "path": "/marcas"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/institucional/preguntas-frecuentes"
+  },
+  "store.custom#condiciones-despacho": {
+    "path": "/institucional/condiciones-despacho"
+  },
+  "store.custom#cambios-garantias": {
+    "path": "/institucional/cambios-garantias"
+  },
+  "store.custom#terminos-condiciones": {
+    "path": "/institucional/terminos-condiciones"
+  },
+  "store.custom#seguimiento-pedido": {
+    "path": "/seguimiento-pedido"
+  }
 }

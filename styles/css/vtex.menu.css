@@ -1,230 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 /* HEADER */
 .styledLinkIcon--categoria-header {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
-.styledLinkContent--categoria-header, .styledLinkContent--categoria-header-ofertas {
-    color: #000;
-    font-family: 'Source Sans Pro';
-    font-weight: 700;
-    font-size: 13px;
+.styledLinkContent--categoria-header,
+.styledLinkContent--categoria-header-ofertas {
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .menuContainerNav--categorias-nav-header {
-    background: white;
-    border-bottom: 1px solid #d2cfcf;
-    border-top: 1px solid #d2cfcf;
+  background: white;
+  border-bottom: 1px solid #d2cfcf;
+  border-top: 1px solid #d2cfcf;
 }
 
 .styledLinkContent--footer-item {
-    color: #dcdcdc;
-    font-family: 'Source Sans Pro';
-    font-size: 12px;
+  color: #dcdcdc;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
 }
 
-.styledLinkContent--footer-item:hover{
-    color: #C90512;
+.styledLinkContent--footer-item:hover {
+  color: #c90512;
 }
 
 .submenuWrapper--submenu-header--isOpen {
-    width: 100%;
-    margin-top: 1px;
+  width: 100%;
+  margin-top: 1px;
 }
 
 .submenuWrapper--item-submenu-nivel2--isOpen {
-    display: block;
-    position: initial;
-    border-bottom: unset;
+  display: block;
+  position: initial;
+  border-bottom: unset;
 }
 
 .submenu--item-submenu-nivel2 {
-    display: block;
+  display: block;
 }
 
 .styledLink--item-submenu {
-    display: flex;
+  display: flex;
 }
 
 .styledLinkContainer--item-submenu-ver-todo {
-    padding: 0;
-    text-decoration: underline;
-    margin-left: 10px;
-    margin-right: 0;
+  padding: 0;
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 0;
 }
 
 .styledLinkContent--item-submenu-ver-todo {
-    font-family: 'Source Sans Pro';
-    font-size: 12px;
-    font-weight: 400;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .submenuContainer--submenu-header {
-    width: 100%;
-    display: contents;
+  width: 100%;
+  display: contents;
 }
 
 .submenu--submenu-header {
-    justify-content: end;
-    padding-left: 5px;
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
+  justify-content: end;
+  padding-left: 5px;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .styledLinkContainer--item-submenu {
-    margin-left: 10px;
-    margin-right: 0;
+  margin-left: 10px;
+  margin-right: 0;
 }
 
 .styledLinkContent--submenu {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .styledLinkContainer--submenu {
-    padding: 0;
+  padding: 0;
 }
 
 .menuContainer--categorias-nav-header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1280px;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .styledLinkContainer--categoria-header {
-    margin: 0 1rem;
+  margin: 0 1rem 0 0;
 }
 
 .submenuContainer--itemmenu-header-2 {
-    position: absolute!important;
-    left: 45%;
+  position: absolute !important;
+  left: 45%;
 }
 
 .submenuWrapper--itemmenu-header--isOpen {
-    border: solid 1px;
-    width: max-content;
-    max-height: 300px;
-    padding: 0;
-    margin-top: 14px;
+  border: solid 1px;
+  width: max-content;
+  max-height: 300px;
+  padding: 0;
+  margin-top: 14px;
 }
 
 .submenu--itemmenu-header {
-    max-width: 640px;
+  max-width: 640px;
 }
 
 .styledLinkContent--item-submenu {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 13px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .styledLinkContainer--item-submenu {
-    padding: 0;
+  padding: 0;
 }
 
 .styledLinkContent:hover {
-    color: #C90512;
+  color: #c90512;
 }
 
 /* MOBILE */
 .submenu--itemmenu-header-mobile {
-    display: block;
+  display: block;
 }
 
 .submenuWrapper--submenu-header-mobile--isOpen {
-    display: block;
-    width: 100%;
-    position: inherit;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-    padding-top: 0;
-    background: #e8e8e8;
+  display: block;
+  width: 100%;
+  position: inherit;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  padding-top: 0;
+  background: #e8e8e8;
 }
 
 .submenu--submenu-header-mobile {
-    display: block;
+  display: block;
 }
 
 .submenu--itemmenu-header-mobile {
-    display: block;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-    background: #b9b3b3;
-    overflow-y: scroll;
-    max-height: 350px;
+  display: block;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  background: #b9b3b3;
+  overflow-y: scroll;
+  max-height: 350px;
 }
 
 .submenu--submenu-header-mobile {
-    max-height: 350px;
-    overflow: scroll;
+  max-height: 350px;
+  overflow: scroll;
 }
 
 .submenuWrapper--itemmenu-header-mobile--isOpen {
-    position: initial;
-    padding-bottom: 0;
-    padding-top: 0;
+  position: initial;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .submenuContainer--submenu-nivel2-mobile {
-    background: #f7eaea;
+  background: #f7eaea;
 }
 
 .submenuWrapper--submenu-nivel2-mobile--isOpen {
-    display: contents;
-    width: 100%;
-    background: #484848;
+  display: contents;
+  width: 100%;
+  background: #484848;
 }
 
 .submenu--submenu-nivel2-mobile {
-    display: block;
+  display: block;
 }
 
 .styledLinkContainer--submenu-mobile {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .styledLinkContainer--item-submenu-mobile {
-    padding: 20px 0;
-    border-bottom: solid 1px #606060;
+  padding: 20px 0;
+  border-bottom: solid 1px #606060;
 }
 
 .menuContainerNav--menu-drawer {
-    background: white;
-    position: absolute;
-    top: 0;
-    width: 85%;
-    padding-top: 10px;
+  background: white;
+  position: absolute;
+  top: 0;
+  width: 85%;
+  padding-top: 10px;
 }
 
 .menuItem--categoria-header-mobile {
-    border-top: solid 1px #848484;
+  border-top: solid 1px #848484;
 }
 
 .styledLinkContainer--categoria-header-mobile {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .styledLinkContent--categoria-header-mobile {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
 
 .styledLinkContainer--icon-favoritos {
-    margin: 0;
+  margin: 0;
 }
 
 .styledLinkContent:hover .styledLinkIcon {
-    transform: unset!important;
+  transform: unset !important;
 }
 
 .styledLinkContainer--icon-favoritos {
-    padding: 5px;
+  padding: 5px;
 }
 
 .styledLinkContent--icon-favoritos {
-    margin-top: 5px;
+  margin-top: 5px;
 }

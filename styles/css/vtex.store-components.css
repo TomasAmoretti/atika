@@ -1,612 +1,634 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+.container {
+  padding: 0;
+}
+
 /* HEADER */
 .imageElement--image-top-header {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .logoContainer--logo {
-    display: flex;
-    padding: 0!important;
-    align-items: center;
+  display: flex;
+  padding: 0 !important;
+  align-items: center;
 }
 
 /* HOME */
 .imageElement--image-info {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .imageElement--imagen-inspiracion {
-    margin-bottom: -4px;
+  margin-bottom: -4px;
 }
 
 .imageElementLink--imagen-marcas {
-    margin: auto;
-    display: table;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    max-width: 1280px;
+  margin: auto;
+  display: table;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 1280px;
 }
 
 .infoCardContainer--info-card-showroom {
-    margin-top: 40px!important;
-    margin-bottom: 40px!important;
-    max-width: 1280px;
-    margin: auto;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .infoCardHeadline--info-card-showroom {
-    font-family: 'Poppins';
-    font-weight: 600;   
-    color: black;
-    letter-spacing: 2px;
-    font-size: 34px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 34px;
 }
 
 .infoCardSubhead--info-card-showroom {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    color: black;
-    font-size: 17px;
-    width: 75%;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: black;
+  font-size: 17px;
+  width: 75%;
 }
 
 .price_sellingPrice--product-price-vitrina {
-    padding: 0;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
+  padding: 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
 }
 
 .discountInsideContainer {
-    font-family: 'Poppins';
-    background: #C90512;
-    font-weight: bold;
-    position: absolute;
-    min-width: 45px;
-    left: 20px;
-    top: 8px;
-    right: 68%;
-    z-index: 3;
+  font-family: "Poppins";
+  background: #c90512;
+  font-weight: bold;
+  position: absolute;
+  min-width: 45px;
+  left: 20px;
+  top: 8px;
+  right: 68%;
+  z-index: 3;
 }
 
 .imageElementLink--footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageElementLink--footer-partner {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .imageElementLink--footer-rrss {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .container--newsletter {
-    padding: 0;
+  padding: 0;
 }
 
 .buttonContainer--newsletter ::global(.vtex-button__label) {
-    font-size: 24px!important;
-    padding: 12px!important;
+  font-size: 24px !important;
+  padding: 12px !important;
 }
 
 .inputGroup--newsletter ::global(.vtex-input-prefix__group) {
-    border: unset!important;
+  border: unset !important;
 }
 
 .buttonContainer--newsletter {
-    padding: 0;
+  padding: 0;
 }
 
 .imageElementLink--imagen-contacto {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .infoCardImageContainer--info-card-showroom {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .imageElementLink--imagen-categoria {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .imageElement--imagen-submenu {
-    min-width: 250px;
-    max-height: 300px;
+  min-width: 250px;
+  max-height: 300px;
 }
 
 .inputGroup--newsletter {
-    display: flex;
+  display: flex;
 }
 
 .form--newsletter {
-    padding: 0;
+  padding: 0;
 }
 
 .imageElementLink--imagen-categoria-cocina::after {
-    content: "COCINA";
-    position: relative;
-    left: 34%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "COCINA";
+  position: relative;
+  left: 34%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-bano::after {
-    content: "BAÑO";
-    position: relative;
-    left: 39%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "BAÑO";
+  position: relative;
+  left: 39%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-estar::after {
-    content: "SALA DE ESTAR";
-    position: relative;
-    left: 23%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "SALA DE ESTAR";
+  position: relative;
+  left: 23%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-dormitorio::after {
-    content: "DORMITORIO";
-    position: relative;
-    left: 25%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "DORMITORIO";
+  position: relative;
+  left: 25%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-exterior::after {
-    content: "EXTERIOR";
-    position: relative;
-    left: 34%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "EXTERIOR";
+  position: relative;
+  left: 34%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-publicos::after {
-    content: "RECINTOS PUBLICOS";
-    position: relative;
-    left: 11%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    top: -15%;
-    height: fit-content;
-    color: #fff;
+  content: "RECINTOS PUBLICOS";
+  position: relative;
+  left: 11%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  top: -15%;
+  height: fit-content;
+  color: #fff;
 }
 
-.imageElementLink--imagen-categoria-cocina:hover::after, .imageElementLink--imagen-categoria-bano:hover::after, .imageElementLink--imagen-categoria-estar:hover::after, .imageElementLink--imagen-categoria-dormitorio:hover::after, .imageElementLink--imagen-categoria-exterior:hover::after, .imageElementLink--imagen-categoria-publicos:hover::after {
-    color: black;
-    border-bottom: solid 2px red;
-    text-align: center;
-    width: fit-content;
-    display: block;
-    justify-content: center;
+.imageElementLink--imagen-categoria-cocina:hover::after,
+.imageElementLink--imagen-categoria-bano:hover::after,
+.imageElementLink--imagen-categoria-estar:hover::after,
+.imageElementLink--imagen-categoria-dormitorio:hover::after,
+.imageElementLink--imagen-categoria-exterior:hover::after,
+.imageElementLink--imagen-categoria-publicos:hover::after {
+  color: black;
+  border-bottom: solid 2px red;
+  text-align: center;
+  width: fit-content;
+  display: block;
+  justify-content: center;
 }
 
 .imageElementLink--imagen-categoria-cocina-mobile::after {
-    content: "COCINA";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "COCINA";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-bano-mobile::after {
-    content: "BAÑO";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "BAÑO";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-estar-mobile::after {
-    content: "SALA DE ESTAR";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "SALA DE ESTAR";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-dormitorio-mobile::after {
-    content: "DORMITORIO";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "DORMITORIO";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-exterior-mobile::after {
-    content: "EXTERIOR";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "EXTERIOR";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
 .imageElementLink--imagen-categoria-publicos-mobile::after {
-    content: "RECINTOS PUBLICOS";
-    position: relative;
-    left: 5%;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 500;
-    top: -25%;
-    height: fit-content;
-    color: #fff;
+  content: "RECINTOS PUBLICOS";
+  position: relative;
+  left: 5%;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  top: -25%;
+  height: fit-content;
+  color: #fff;
 }
 
-.imageElementLink--imagen-categoria-cocina, .imageElementLink--imagen-categoria-bano, .imageElementLink--imagen-categoria-estar, .imageElementLink--imagen-categoria-dormitorio, .imageElementLink--imagen-categoria-exterior, .imageElementLink--imagen-categoria-publicos {
-    display: block;
-    justify-content: center;
-    text-decoration: none;
+.imageElementLink--imagen-categoria-cocina,
+.imageElementLink--imagen-categoria-bano,
+.imageElementLink--imagen-categoria-estar,
+.imageElementLink--imagen-categoria-dormitorio,
+.imageElementLink--imagen-categoria-exterior,
+.imageElementLink--imagen-categoria-publicos {
+  display: block;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .imageElementLink--imagen-inspiracion:hover {
-    filter: contrast(0.5);
+  filter: contrast(0.5);
 }
 
 .imageElementLink--new-arrival-mobile {
-    margin-left: 10px;
-    width: auto;
+  margin-left: 10px;
+  width: auto;
 }
 
 .logoContainer--logo .sizeMobile {
-    max-width: unset;
+  max-width: unset;
 }
 
 @media screen and (max-width: 768px) {
-    .imageElement--image-info {
-        margin-right: 5px;
-        max-width: 40px;
-        max-height: 40px;
-    }
+  .imageElement--image-info {
+    margin-right: 5px;
+    max-width: 40px;
+    max-height: 40px;
+  }
 
-    .discountInsideContainer {
-        left: 15px;
-    }
+  .discountInsideContainer {
+    left: 15px;
+  }
 
-    .content--image-producto {
-        width: 97%;
-        margin: auto;
-    }
+  .content--image-producto {
+    width: 97%;
+    margin: auto;
+  }
 
-    .logoContainer--logo {
-        max-width: unset!important;
-    }    
+  .logoContainer--logo {
+    max-width: unset !important;
+  }
 
-    .imageElement--marca-institucional {
-        margin-bottom: 20px;
-    }
+  .imageElement--marca-institucional {
+    margin-bottom: 20px;
+  }
 }
 
 .inputGroup--newsletter ::global(.vtex-input-prefix__group) {
-    border: unset!important;
+  border: unset !important;
 }
 
 /* PRODUCTO */
 .price_sellingPrice--product-price {
-    padding: 0;
-    display: flex;
+  padding: 0;
+  display: flex;
 }
 
 .currencyContainer--product-price {
-    font-family: 'Poppins';
-    font-weight: 700;
-    color: black;
-    font-size: 27px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: black;
+  font-size: 27px;
 }
 
 .productDescriptionTitle {
-    display: none;
+  display: none;
 }
 
 .productBrandName--marca-product {
-    color: #d8d7d5;
-    letter-spacing: 0.5px;
-    font-family: "Source Sans Pro";
-    font-weight: 400;
-    font-size: 20px;
+  color: #d8d7d5;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .productBrandContainer--marca-product {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .productBrand--product-name {
-    font-family: 'Poppins';
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 .productBrand--product-name::after {
-    border-bottom: solid 4px #C90512;
-    width: 75px;
-    content: "";
-    display: block;
-    margin-top: 7px;
+  border-bottom: solid 4px #c90512;
+  width: 75px;
+  content: "";
+  display: block;
+  margin-top: 7px;
 }
 
 .productNameContainer--product-name {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .caretIcon--image-producto {
-    width: 18px;
-    height: 18px;
-    color: #707070;
+  width: 18px;
+  height: 18px;
+  color: #707070;
 }
 
 .product-identifier--productReference {
-    font-family: 'Source Sans Pro';
-    font-size: 12px;
-    color: #606060;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  color: #606060;
 }
 
 .productDescriptionContainer {
-    margin-top: 5px;
-    margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .productDescriptionText {
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-size: 13px;
+  color: black;
+  font-family: "Source Sans Pro";
+  font-size: 13px;
 }
 
 .productImagesGallerySwiperContainer--image-producto {
-    border: solid 1px #000;
+  border: solid 1px #000;
 }
 
 .figure--image-producto {
-    border: solid 1px #000;
-    margin-right: 7px;
+  border: solid 1px #000;
+  margin-right: 7px;
 }
 
 .shippingContainer {
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    padding: 20px 0;
-    width: 100%;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  padding: 20px 0;
+  width: 100%;
 }
 
 .showMoreButton--specifications-product {
-    color: #C90512;
-    background: none;
-    border: solid 1px black;
-    padding: 4px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Source Sans Pro';
+  color: #c90512;
+  background: none;
+  border: solid 1px black;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Source Sans Pro";
 }
 
 .subscriberContainer {
-    margin-top: 20px;
-    border-top: solid 2px #000;
-    padding-top: 20px;
+  margin-top: 20px;
+  border-top: solid 2px #000;
+  padding-top: 20px;
 }
 
 .subscriberContainer .title::before {
-    content: "SOLÓ APTO COTIZACIÓN";
-    display: block;
-    font-weight: 600;
-    margin-bottom: 14px;
+  content: "SOLÓ APTO COTIZACIÓN";
+  display: block;
+  font-weight: 600;
+  margin-bottom: 14px;
 }
 
 .subscriberContainer .submit :global(.vtex-button__label) {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 0;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0;
 }
 
 .subscriberContainer .submit :global(.vtex-button__label)::after {
-    content: "SOLICITAR COTIZACIÓN";
-    font-size: 14px;
-    padding: 15px 30px;
-    color: #fff;
+  content: "SOLICITAR COTIZACIÓN";
+  font-size: 14px;
+  padding: 15px 30px;
+  color: #fff;
 }
 
 .subscriberContainer .submit :global(.vtex-button) {
-    background: #c90512;
-    border: unset;
+  background: #c90512;
+  border: unset;
 }
 
 .subscriberContainer .form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .subscriberContainer .form .content {
-    display: contents;
+  display: contents;
 }
 
 .subscriberContainer .title {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .specificationsTableContainer--specifications-product {
-    padding: 0;
-    margin-top: 50px;
-    color: black;
-    width: 100%;
+  padding: 0;
+  margin-top: 50px;
+  color: black;
+  width: 100%;
 }
 
-.specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
-    font-size: 14px;
-    border: none;
+.specificationsTablePropertyHeading--specifications-product,
+.specificationsTableSpecificationHeading--specifications-product {
+  color: black;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
 }
 
 .specificationsTableRow--specifications-product {
-    border-bottom: solid 1px #a0a0a0!important;
-    display: flex;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 14px;
+  border-bottom: solid 1px #a0a0a0 !important;
+  display: flex;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .specificationsTitle--specifications-product {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
 }
 
-.specificationItemProperty--specifications-product, .specificationItemSpecifications--specifications-product, .specificationsTablePropertyHeading--specifications-product, .specificationsTableSpecificationHeading--specifications-product {
-    padding: 0.2rem;
+.specificationItemProperty--specifications-product,
+.specificationItemSpecifications--specifications-product,
+.specificationsTablePropertyHeading--specifications-product,
+.specificationsTableSpecificationHeading--specifications-product {
+  padding: 0.2rem;
 }
 
 .container--specifications-product {
-    border-top: solid 1px black;
+  border-top: solid 1px black;
 }
 
 .productBrandContainer--marca-product-shelf {
-    justify-content: initial;
-    display: flex;
-    width: 94%;
-    margin: auto;
-    margin-bottom: 0;
-    margin-top: 10px;
+  justify-content: initial;
+  display: flex;
+  width: 94%;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .productImageTag--image-producto--main {
-    max-height: unset!important;
+  max-height: unset !important;
 }
 
 .imageElement--cotizacion-product {
-    width: fit-content;
-    height: fit-content;
+  width: fit-content;
+  height: fit-content;
 }
 
 .productBrandName--marca-product-shelf {
-    text-align: initial;
-    font-family: "Source Sans Pro";
-    font-weight: 400;
-    font-size: 12px;
-    color: #919292;
-    text-transform: uppercase;
-    padding: 2px;
+  text-align: initial;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 12px;
+  color: #919292;
+  text-transform: uppercase;
+  padding: 2px;
 }
 
 /* HEADER */
 .searchBarInnerContainer--search-desktop {
-    width: 600px;
+  width: 600px;
 }
 
 .imageElementLink--menu-inspiracion {
-    margin-left: 13px;
+  margin-left: 13px;
 }
 
 .autoCompleteOuterContainer--search-mobile-drawer {
-    width: 95%;
-    margin: auto;
+  width: 95%;
+  margin: auto;
 }
 
 .searchBarContainer {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-::global(.flexColChild--col-form .vtex-input-prefix__group), ::global(.flexColChild--col-form .vtex-textarea__input), ::global(.flexColChild--col-form .vtex-dropdown__container) {
-    border-radius: 0!important;
-    border: solid 1px #00000020!important;
+::global(.flexColChild--col-form .vtex-input-prefix__group),
+::global(.flexColChild--col-form .vtex-textarea__input),
+::global(.flexColChild--col-form .vtex-dropdown__container) {
+  border-radius: 0 !important;
+  border: solid 1px #00000020 !important;
 }
 
 .imageElement--imagen-destacados {
-    max-height: 680px;
+  max-height: 680px;
 }
 
-::global(.vtex-styleguide-9-x-container.vtex-dropdown__container), ::global(.vtex-textarea__input) {
-    border-radius: 0;
-    border: solid 1px #00000020;
+::global(.vtex-styleguide-9-x-container.vtex-dropdown__container),
+::global(.vtex-textarea__input) {
+  border-radius: 0;
+  border: solid 1px #00000020;
 }
 
-::global(textarea#\#\/properties\/mensaje-textarea-input){
-    border: solid 1px #00000020;
+::global(textarea#\#\/properties\/mensaje-textarea-input) {
+  border: solid 1px #00000020;
 }
 
 .imageElement--banner-cubiertas-dimensionadas {
-    width: 100%;
-    margin-bottom: -5px;
+  width: 100%;
+  margin-bottom: -5px;
 }
 
 .imageElement--elemento-cuarzo-insti {
-    width: 95%;
+  width: 95%;
 }
 
 .imageElement--elemento-madera-insti {
-    width: 95%;
+  width: 95%;
 }
 
 .imageElement--banner-servicios {
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }
 
 .imageElement--mantencion-tecnico {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .imageElement--marca-institucional {
-    max-width: 200px;
-    max-height: 70px;
+  max-width: 200px;
+  max-height: 70px;
 }

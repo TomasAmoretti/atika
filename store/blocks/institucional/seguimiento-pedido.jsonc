@@ -1,0 +1,57 @@
+{
+    "store.custom#seguimiento-pedido": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-seguimiento-pedido",
+            "responsive-layout.mobile#mobile-seguimiento-pedido"
+        ]
+    },
+    "responsive-layout.desktop#desktop-seguimiento-pedido": {
+        "children": [
+            "image#banner-seguimiento-pedido",
+            "flex-layout.row#contenedor-seguimiento-pedido"
+        ]
+    },
+    "image#banner-seguimiento-pedido": {
+        "props": {
+            "src": "/arquivos/banner-seguimiento-pedido.png",
+            "blockClass": "banner-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-seguimiento-pedido": {
+        "children": [
+            "flex-layout.col#contenedor-seguimiento-pedido-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.col#contenedor-seguimiento-pedido-general": {
+        "children": [
+            "iframe#seguimiento"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "iframe#seguimiento": {
+        "props": {
+            "src": "http://seguimiento.atika.cl/check-status",
+            "width": "100%",
+            /*"height": 275,*/
+            "blockClass": "seguimiento"
+        }
+    },
+    "responsive-layout.mobile#mobile-seguimiento-pedido": {
+        "children": [
+            "image#banner-seguimiento-pedido-mobile",
+            "flex-layout.row#contenedor-seguimiento-pedido"
+        ]
+    },
+    "image#banner-seguimiento-pedido-mobile": {
+        "props": {
+            "src": "/arquivos/banner-seguimiento-pedido.png",
+            "blockClass": "banner-institucional"
+        }
+    }
+}

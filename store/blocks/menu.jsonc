@@ -5,15 +5,15 @@
             "flex-layout.row#categorias-nav-right"
         ],
         "props": {
-          "blockClass": "categorias-nav-header"
+            "blockClass": "categorias-nav-header"
         }
     },
     "flex-layout.row#categorias-nav-left": {
         "props": {
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "fullWidth": true,
-          "blockClass":"categorias-nav-left"
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "blockClass": "categorias-nav-left"
         },
         "children": [
             "menu-item#Categorias-Espacios",
@@ -25,47 +25,47 @@
     },
     "flex-layout.row#categorias-nav-right": {
         "props": {
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "fullWidth": true,
-          "blockClass":"categorias-nav-right"
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "blockClass": "categorias-nav-right"
         },
         "children": [
             "menu-item#Categorias-Servicios"
         ]
     },
-    "vtex.menu@2.x:submenu#Espacios":{
-        "children":[
+    "vtex.menu@2.x:submenu#Espacios": {
+        "children": [
             "flex-layout.col#submenu-baño",
             "flex-layout.col#submenu-cocina",
             "flex-layout.col#submenu-comedor",
             "flex-layout.col#submenu-exterior",
             "flex-layout.col#submenu-recintos"
         ],
-        "props":{
-            "blockClass":"submenu-header"
+        "props": {
+            "blockClass": "submenu-header"
         }
     },
-    "vtex.menu@2.x:submenu#Cocina":{
-        "children":[
+    "vtex.menu@2.x:submenu#Cocina": {
+        "children": [
             "flex-layout.row#submenu-cocina"
         ],
-        "props":{
-            "blockClass":"itemmenu-header"
+        "props": {
+            "blockClass": "itemmenu-header"
         }
     },
-    "flex-layout.row#submenu-cocina":{
-        "children":[
+    "flex-layout.row#submenu-cocina": {
+        "children": [
             "flex-layout.col#submenu-cocina"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-cocina":{
-        "children":[
+    "flex-layout.col#submenu-cocina": {
+        "children": [
             "rich-text#titulo-menu-cocina",
             "menu-item#Cocina-griferia",
             "menu-item#Cocina-lavaplatos",
@@ -79,38 +79,38 @@
             "menu-item#Cocina-productos-limpieza",
             "menu-item#Cocina-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-cocina":{
+    "rich-text#titulo-menu-cocina": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "COCINA",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "vtex.menu@2.x:submenu#Baño":{
-        "children":[
+    "vtex.menu@2.x:submenu#Baño": {
+        "children": [
             "flex-layout.row#submenu-baño"
         ],
-        "props":{
-            "blockClass":"itemmenu-header"
+        "props": {
+            "blockClass": "itemmenu-header"
         }
     },
-    "flex-layout.row#submenu-baño":{
-        "children":[
+    "flex-layout.row#submenu-baño": {
+        "children": [
             "flex-layout.col#submenu-baño"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch": true
         }
     },
-    "flex-layout.col#submenu-baño":{
-        "children":[
+    "flex-layout.col#submenu-baño": {
+        "children": [
             "rich-text#titulo-menu-baño",
             "menu-item#Baños-griferia-ducha",
             "menu-item#Baños-griferia-lavamanos",
@@ -131,38 +131,38 @@
             "menu-item#Baños-limpieza-pisos",
             "menu-item#Baños-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-baño":{
+    "rich-text#titulo-menu-baño": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "BAÑO",
             "blockClass": "titulo-menu"
-          }
-    }, 
-    "vtex.menu@2.x:submenu#Comedor":{
-        "children":[
+        }
+    },
+    "vtex.menu@2.x:submenu#Comedor": {
+        "children": [
             "flex-layout.row#submenu-comedor"
         ],
-        "props":{
-            "blockClass":"itemmenu-header"
+        "props": {
+            "blockClass": "itemmenu-header"
         }
     },
-    "flex-layout.row#submenu-comedor":{
-        "children":[
+    "flex-layout.row#submenu-comedor": {
+        "children": [
             "flex-layout.col#submenu-comedor"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch": true
         }
     },
-    "flex-layout.col#submenu-comedor":{
-        "children":[
+    "flex-layout.col#submenu-comedor": {
+        "children": [
             "rich-text#titulo-menu-comedor",
             "menu-item#Comedor-porcelanatos",
             "menu-item#Comedor-ceramicos",
@@ -176,38 +176,38 @@
             "menu-item#Comedor-limpieza-pisos",
             "menu-item#Comedor-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-comedor":{
+    "rich-text#titulo-menu-comedor": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "ESTAR Y DORMITORIO",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "vtex.menu@2.x:submenu#Exterior":{
-        "children":[
+    "vtex.menu@2.x:submenu#Exterior": {
+        "children": [
             "flex-layout.row#submenu-exterior"
         ],
-        "props":{
-            "blockClass":"itemmenu-header"
+        "props": {
+            "blockClass": "itemmenu-header"
         }
     },
-    "flex-layout.row#submenu-exterior":{
-        "children":[
+    "flex-layout.row#submenu-exterior": {
+        "children": [
             "flex-layout.col#submenu-exterior"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch": true
         }
     },
-    "flex-layout.col#submenu-exterior":{
-        "children":[
+    "flex-layout.col#submenu-exterior": {
+        "children": [
             "rich-text#titulo-menu-exterior",
             "menu-item#Exterior-adoquines",
             "menu-item#Exterior-fachaletas",
@@ -219,38 +219,38 @@
             "menu-item#Exterior-lavaplatos",
             "menu-item#Exterior-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-exterior":{
+    "rich-text#titulo-menu-exterior": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "EXTERIOR",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "vtex.menu@2.x:submenu#Recintos":{
-        "children":[
+    "vtex.menu@2.x:submenu#Recintos": {
+        "children": [
             "flex-layout.row#submenu-recintos"
         ],
-        "props":{
-            "blockClass":"itemmenu-header"
+        "props": {
+            "blockClass": "itemmenu-header"
         }
     },
-    "flex-layout.row#submenu-recintos":{
-        "children":[
+    "flex-layout.row#submenu-recintos": {
+        "children": [
             "flex-layout.col#submenu-recintos"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch": true
         }
     },
-    "flex-layout.col#submenu-recintos":{
-        "children":[
+    "flex-layout.col#submenu-recintos": {
+        "children": [
             "rich-text#titulo-menu-institucional",
             "menu-item#Recintos-accesibilidad",
             "menu-item#Recintos-accesorios-institucionales",
@@ -268,44 +268,44 @@
             "menu-item#Recintos-limpieza-mantencion",
             "menu-item#Recintos-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-institucional":{
+    "rich-text#titulo-menu-institucional": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "INSTITUCIONAL Y COMERCIAL",
             "blockClass": "titulo-menu"
-          }
+        }
     },
     /* PRODUCTOS */
-    "vtex.menu@2.x:submenu#Productos":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos": {
+        "children": [
             "flex-layout.row#submenu-productos-revestimientos",
             "flex-layout.row#submenu-productos-griferia",
             "flex-layout.row#submenu-productos-baño",
             "flex-layout.row#submenu-productos-cubiertas",
             "flex-layout.row#submenu-productos-limpieza"
         ],
-        "props":{
-            "blockClass":"submenu-header"
+        "props": {
+            "blockClass": "submenu-header"
         }
     },
-    "flex-layout.row#submenu-productos-revestimientos":{
-        "children":[
+    "flex-layout.row#submenu-productos-revestimientos": {
+        "children": [
             "flex-layout.col#submenu-productos-revestimientos"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-revestimientos":{
-        "children":[
+    "flex-layout.col#submenu-productos-revestimientos": {
+        "children": [
             "rich-text#titulo-menu-productos-revestimiento",
             "menu-item#Productos-revestimientos-porcelanatos",
             "menu-item#Productos-revestimientos-ceramicos",
@@ -318,66 +318,66 @@
             "menu-item#Productos-revestimientos-limpieza",
             "menu-item#Productos-revestimientos-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-revestimiento":{
+    "rich-text#titulo-menu-productos-revestimiento": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "REVESTIMIENTOS",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "flex-layout.row#submenu-productos-griferia":{
-        "children":[
+    "flex-layout.row#submenu-productos-griferia": {
+        "children": [
             "flex-layout.col#submenu-productos-griferia"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-griferia":{
-        "children":[
+    "flex-layout.col#submenu-productos-griferia": {
+        "children": [
             "rich-text#titulo-menu-productos-griferia",
             "menu-item#Productos-Griferia-tinas",
             "menu-item#Productos-Griferia-cocina",
             "menu-item#Productos-Griferia-lavamanos",
-            "menu-item#Productos-Griferia-bidet",   
+            "menu-item#Productos-Griferia-bidet",
             "menu-item#Productos-Griferia-institucional",
             "menu-item#Productos-Griferia-limpieza",
             "menu-item#Productos-Griferia-vertodo",
             "flex-layout.col#submenu-productos-lavaplatos"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-griferia":{
+    "rich-text#titulo-menu-productos-griferia": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "GRIFERÍAS",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "flex-layout.row#submenu-productos-baño":{
-        "children":[
+    "flex-layout.row#submenu-productos-baño": {
+        "children": [
             "flex-layout.col#submenu-productos-baño"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-baño":{
-        "children":[
+    "flex-layout.col#submenu-productos-baño": {
+        "children": [
             "rich-text#titulo-menu-productos-baño",
             "menu-item#Productos-baño-muebles",
             "menu-item#Productos-baño-wc",
@@ -393,31 +393,31 @@
             "menu-item#Productos-Griferia-bidet",
             "menu-item#Productos-baño-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-baño":{
+    "rich-text#titulo-menu-productos-baño": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "BAÑO",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "flex-layout.row#submenu-productos-cubiertas":{
-        "children":[
+    "flex-layout.row#submenu-productos-cubiertas": {
+        "children": [
             "flex-layout.col#submenu-productos-cubiertas"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-cubiertas":{
-        "children":[
+    "flex-layout.col#submenu-productos-cubiertas": {
+        "children": [
             "rich-text#titulo-menu-productos-cubiertas",
             "menu-item#Productos-cubiertas-adoquines",
             "menu-item#Productos-cubiertas-fachaletas",
@@ -429,89 +429,89 @@
             "menu-item#Productos-cubiertas-lavaplatos",
             "menu-item#Productos-cubiertas-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-cubiertas":{
+    "rich-text#titulo-menu-productos-cubiertas": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "PIEDRAS Y CUBIERTAS",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "flex-layout.row#submenu-productos-lavaplatos":{
-        "children":[
+    "flex-layout.row#submenu-productos-lavaplatos": {
+        "children": [
             "flex-layout.col#submenu-productos-lavaplatos"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-lavaplatos":{
-        "children":[
+    "flex-layout.col#submenu-productos-lavaplatos": {
+        "children": [
             "rich-text#titulo-menu-productos-lavaplatos",
             "menu-item#Productos-lavaplatos-lavaplatos"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-lavaplatos":{
+    "rich-text#titulo-menu-productos-lavaplatos": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "LAVAPLATOS",
             "blockClass": "titulo-menu"
-          }
+        }
     },
-    "flex-layout.row#submenu-productos-limpieza":{
-        "children":[
+    "flex-layout.row#submenu-productos-limpieza": {
+        "children": [
             "flex-layout.col#submenu-productos-limpieza"
         ],
-        "props":{
+        "props": {
             "blockClass": "row-submenu",
-            "preventHorizontalStretch":true,
+            "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#submenu-productos-limpieza":{
-        "children":[
+    "flex-layout.col#submenu-productos-limpieza": {
+        "children": [
             "rich-text#titulo-menu-productos-limpieza",
             "menu-item#Productos-limpieza-griferias",
             "menu-item#Productos-limpieza-pisos",
             "menu-item#Productos-limpieza-cubiertas",
             "menu-item#Productos-limpieza-vertodo"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-submenu",
             "preventVerticalStretch": true
         }
     },
-    "rich-text#titulo-menu-productos-limpieza":{
+    "rich-text#titulo-menu-productos-limpieza": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "LIMPIEZA Y MANTENCION",
             "blockClass": "titulo-menu"
-          }
+        }
     },
     /* END PRODUCTOS */
     /* INSPIRACION */
-    "vtex.menu@2.x:submenu#Inspiracion":{
-        "children":[
+    "vtex.menu@2.x:submenu#Inspiracion": {
+        "children": [
             "flex-layout.row#menu-inspiracion"
         ],
-        "props":{
-            "blockClass":"submenu-header"
+        "props": {
+            "blockClass": "submenu-header"
         }
     },
-    "flex-layout.row#menu-inspiracion":{
+    "flex-layout.row#menu-inspiracion": {
         "children": [
             "image#menu-inspiracion-1",
             "image#menu-inspiracion-2",
@@ -523,57 +523,57 @@
             "preventHorizontalStretch": true
         }
     },
-    "image#menu-inspiracion-1":{
+    "image#menu-inspiracion-1": {
         "props": {
             "src": "/arquivos/MENU-SP.png",
-            "link":{
-              "url":"/spaceplanner"
+            "link": {
+                "url": "/spaceplanner"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-inspiracion-2":{
+    "image#menu-inspiracion-2": {
         "props": {
             "src": "/arquivos/MENU-PROYECTOS.png",
-            "link":{
-              "url":"#"
+            "link": {
+                "url": "#"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-inspiracion-3":{
+    "image#menu-inspiracion-3": {
         "props": {
             "src": "/arquivos/MENU-BLOG.png",
-            "link":{
-              "url":"/blog"
+            "link": {
+                "url": "/blog"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-inspiracion-4":{
+    "image#menu-inspiracion-4": {
         "props": {
             "src": "/arquivos/MENU-MARCAS.png",
-            "link":{
-              "url":"/marcas"
+            "link": {
+                "url": "/marcas"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
     /* END INSPIRACION */
     /* SERVICIOS */
-    "vtex.menu@2.x:submenu#Servicios":{
-        "children":[
+    "vtex.menu@2.x:submenu#Servicios": {
+        "children": [
             "flex-layout.row#menu-servicios"
         ],
-        "props":{
-            "blockClass":"submenu-header"
+        "props": {
+            "blockClass": "submenu-header"
         }
     },
-    "flex-layout.row#menu-servicios":{
+    "flex-layout.row#menu-servicios": {
         "children": [
             "image#menu-servicios-1",
             "image#menu-servicios-2",
@@ -585,45 +585,45 @@
             "preventHorizontalStretch": true
         }
     },
-    "image#menu-servicios-1":{
+    "image#menu-servicios-1": {
         "props": {
             "src": "/arquivos/MENU-CUBIERTAS.png",
-            "link":{
-              "url":"/servicios-cubiertas"
+            "link": {
+                "url": "/servicios-cubiertas"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-servicios-2":{
+    "image#menu-servicios-2": {
         "props": {
             "src": "/arquivos/MENU-INSTALACIÓN.png",
-            "link":{
-              "url":"/servicio-instalacion"
+            "link": {
+                "url": "/servicio-instalacion"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-servicios-3":{
+    "image#menu-servicios-3": {
         "props": {
             "src": "/arquivos/MENU-SERVICIO-TEC.png",
-            "link":{
-              "url":"/servicio-tecnico-mantencion"
+            "link": {
+                "url": "/servicio-tecnico-mantencion"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
-    "image#menu-servicios-4":{
+    "image#menu-servicios-4": {
         "props": {
             "src": "/arquivos/MENU-DESPACHO.png",
-            "link":{
-              "url":"#"
+            "link": {
+                "url": "/seguimiento-pedido"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
-          }
+        }
     },
     /* END SERVICIOS */
     "vtex.menu@2.x:menu#footer-nosotros": {
@@ -635,8 +635,8 @@
             "menu-item#footer-blog"
         ],
         "props": {
-          "blockClass": "footer-col",
-          "orientation": "vertical"
+            "blockClass": "footer-col",
+            "orientation": "vertical"
         }
     },
     "vtex.menu@2.x:menu#footer-cliente": {
@@ -648,8 +648,8 @@
             "menu-item#footer-terminos-condiciones"
         ],
         "props": {
-          "blockClass": "footer-col",
-          "orientation": "vertical"
+            "blockClass": "footer-col",
+            "orientation": "vertical"
         }
     },
     "vtex.menu@2.x:menu#footer-cuenta": {
@@ -660,25 +660,25 @@
             "menu-item#footer-despacho"
         ],
         "props": {
-          "blockClass": "footer-col",
-          "orientation": "vertical"
+            "blockClass": "footer-col",
+            "orientation": "vertical"
         }
     },
     /* MOBILE */
-    "vtex.menu@2.x:submenu#Espacios-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Espacios-mobile": {
+        "children": [
             "menu-item#Espacios-Baño-mobile",
             "menu-item#Espacios-Cocina-mobile",
             "menu-item#Espacios-Comedor-mobile",
             "menu-item#Espacios-Exterior-mobile",
             "menu-item#Espacios-Recintos-mobile"
         ],
-        "props":{
-            "blockClass":"submenu-header-mobile"
+        "props": {
+            "blockClass": "submenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Cocina-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Cocina-mobile": {
+        "children": [
             "menu-item#Cocina-griferia-mobile",
             "menu-item#Cocina-lavaplatos-mobile",
             "menu-item#Cocina-cuarzo-mobile",
@@ -691,12 +691,12 @@
             "menu-item#Cocina-productos-limpieza-mobile",
             "menu-item#Cocina-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Baño-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Baño-mobile": {
+        "children": [
             "menu-item#Baños-griferia-ducha-mobile",
             "menu-item#Baños-griferia-lavamanos-mobile",
             "menu-item#Baños-lavamanos-mobile",
@@ -716,12 +716,12 @@
             "menu-item#Baños-limpieza-mobile",
             "menu-item#Baños-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Comedor-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Comedor-mobile": {
+        "children": [
             "menu-item#Comedor-porcelanatos-mobile",
             "menu-item#Comedor-ceramicos-mobile",
             "menu-item#Comedor-gres-mobile",
@@ -732,14 +732,14 @@
             "menu-item#Comedor-pisos-fotolaminados-mobile",
             "menu-item#Comedor-piedras-mobile",
             "menu-item#Comedor-limpieza-pisos-mobile",
-            "menu-item#Comedor-vertodo-mobile"   
+            "menu-item#Comedor-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Exterior-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Exterior-mobile": {
+        "children": [
             "menu-item#Exterior-adoquines-mobile",
             "menu-item#Exterior-fachaletas-mobile",
             "menu-item#Exterior-porcelanatos-mobile",
@@ -750,12 +750,12 @@
             "menu-item#Exterior-lavaplatos-mobile",
             "menu-item#Exterior-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Recintos-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Recintos-mobile": {
+        "children": [
             "menu-item#Recintos-accesibilidad-mobile",
             "menu-item#Recintos-accesorios-institucionales-mobile",
             "menu-item#Recintos-griferia-institucional-mobile",
@@ -772,12 +772,12 @@
             "menu-item#Recintos-limpíeza-mobile",
             "menu-item#Recintos-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-mobile": {
+        "children": [
             "menu-item#Productos-Revestimientos-mobile",
             "menu-item#Productos-Griferia-mobile",
             "menu-item#Productos-Sanitarios-mobile",
@@ -785,12 +785,12 @@
             "menu-item#Productos-Lavaplatos-mobile",
             "menu-item#Productos-limpieza-mobile"
         ],
-        "props":{
-            "blockClass":"submenu-header-mobile"
+        "props": {
+            "blockClass": "submenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Revestimientos-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-Revestimientos-mobile": {
+        "children": [
             "menu-item#Productos-revestimiento-porcelanato-mobile",
             "menu-item#Productos-revestimiento-ceramicos-mobile",
             "menu-item#Productos-revestimiento-gres-mobile",
@@ -802,12 +802,12 @@
             "menu-item#Productos-revestimiento-limpieza-mobile",
             "menu-item#Productos-revestimiento-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Griferia-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-Griferia-mobile": {
+        "children": [
             "menu-item#Productos-Griferia-tinas-mobile",
             "menu-item#Productos-Griferia-cocina-mobile",
             "menu-item#Productos-Griferia-lavamanos-mobile",
@@ -816,12 +816,12 @@
             "menu-item#Productos-Griferia-limpieza-mobile",
             "menu-item#Productos-Griferia-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Sanitarios-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-Sanitarios-mobile": {
+        "children": [
             "menu-item#Productos-baño-muebles-mobile",
             "menu-item#Productos-baño-wc-mobile",
             "menu-item#Productos-baño-urinarios-mobile",
@@ -836,12 +836,12 @@
             "menu-item#Productos-baño-griferias-bidet-mobile",
             "menu-item#Productos-baño-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-Cubiertas-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-Cubiertas-mobile": {
+        "children": [
             "menu-item#Productos-cubierta-adoquines-mobile",
             "menu-item#Productos-cubierta-fachaletass-mobile",
             "menu-item#Productos-cubierta-marmol-mobile",
@@ -852,43 +852,43 @@
             "menu-item#Productos-cubierta-lavaplatos-mobile",
             "menu-item#Productos-cubierta-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Productos-limpieza-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Productos-limpieza-mobile": {
+        "children": [
             "menu-item#Productos-limpieza-griferias-mobile",
             "menu-item#Productos-limpieza-pisos-mobile",
             "menu-item#Productos-limpieza-cubiertas-mobile",
             "menu-item#Productos-limpieza-vertodo-mobile"
         ],
-        "props":{
-            "blockClass":"itemmenu-header-mobile"
+        "props": {
+            "blockClass": "itemmenu-header-mobile"
         }
     },
     /* END PRODUCTOS */
     /* INSPIRACION */
-    "vtex.menu@2.x:submenu#Inspiracion-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Inspiracion-mobile": {
+        "children": [
             "menu-item#Inspiracion-1-mobile",
             "menu-item#Inspiracion-2-mobile",
             "menu-item#Inspiracion-3-mobile",
             "menu-item#Inspiracion-4-mobile"
         ],
-        "props":{
-            "blockClass":"submenu-header-mobile"
+        "props": {
+            "blockClass": "submenu-header-mobile"
         }
     },
-    "vtex.menu@2.x:submenu#Servicios-mobile":{
-        "children":[
+    "vtex.menu@2.x:submenu#Servicios-mobile": {
+        "children": [
             "menu-item#Servicios-1-mobile",
             "menu-item#Servicios-2-mobile",
             "menu-item#Servicios-3-mobile",
             "menu-item#Servicios-4-mobile"
         ],
-        "props":{
-            "blockClass":"submenu-header-mobile"
+        "props": {
+            "blockClass": "submenu-header-mobile"
         }
     }
 }

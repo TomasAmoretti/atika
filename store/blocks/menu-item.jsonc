@@ -1342,7 +1342,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional/condiciones-despacho",
+        "href": "/seguimiento-pedido",
         "text": "Sigue tu pedido"
       },
       "blockClass": "footer-item"
@@ -2918,7 +2918,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/servicios-cubiertas",
         "text": "CUBIERTAS DIMENSIONADAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2928,7 +2928,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/servicio-instalacion",
         "text": "INSTALACIÓN"
       },
       "blockClass": "item-submenu-mobile"
@@ -2948,7 +2948,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/institucional/condiciones-despacho",
+        "href": "/seguimiento-pedido",
         "text": "DESPACHO"
       },
       "blockClass": "item-submenu-mobile"
