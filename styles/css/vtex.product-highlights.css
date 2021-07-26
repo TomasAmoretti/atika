@@ -1,23 +1,24 @@
 .productHighlightText--text-flag {
-    color: #000;
-    text-decoration: none;
-    padding: 2px 5px;
-    font-size: 11px;
-    border: solid 1px;
-    width: fit-content;
-    font-family: 'Source Sans Pro';
-    position: relative;
-    left: 20px;
-    letter-spacing: 2px;
-    top: 52%;
-    background: #fff;
-    z-index: 5;
+  color: #000;
+  text-decoration: none;
+  padding: 2px 5px;
+  font-size: 11px;
+  border: solid 1px;
+  width: fit-content;
+  font-family: "Source Sans Pro";
+  position: relative;
+  left: 20px;
+  letter-spacing: 2px;
+  top: 52%;
+  background: #fff;
+  z-index: 5;
 }
 
 .productHighlightText--texto-highlight {
-    font-size: 13px;
-    z-index: 3;
-    background: #ffff;
-    border: solid 1px;
-    padding: 3px 5px;
+  font-size: 13px;
+  z-index: 3;
+  background: #ffff;
+  border: solid 1px;
+  padding: 3px 5px;
+  letter-spacing: 2px;
 }

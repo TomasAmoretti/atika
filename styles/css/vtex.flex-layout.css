@@ -14,7 +14,7 @@
 }
 
 .flexRowContent--contacto-top {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .flexRow--header-main {
@@ -52,7 +52,7 @@
 .flexRowContent--header-main {
   display: flex;
   align-items: center;
-  max-width: 1280px;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -89,7 +89,7 @@
 
 /* HOME */
 .flexRow--info-home {
-  max-width: 1280px;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -329,7 +329,7 @@
 }
 
 .flexRow--producto-main {
-  max-width: 67.4%;
+  max-width: 85%;
   margin: auto;
 }
 

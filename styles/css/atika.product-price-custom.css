@@ -1,46 +1,49 @@
 .sellingPriceValue {
-    display: block;
-    font-family: 'Poppins';
-    font-size: 24px;
-    color: #000;
-    margin-right: 5px;
+  display: block;
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #000;
+  margin-right: 5px;
 }
 
 .currencyContainer {
-    font-family: 'Poppins';
-    font-size: 24px;
-    color: #000;
-    display: inline-flex;
-    margin-right: 5px;
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #000;
+  display: inline-flex;
+  margin-right: 5px;
 }
 
 .sellingPriceWithMultiplier .currencyContainer {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
 }
 
 .sellingPriceWithMultiplier {
-    font-weight: 400;
-    font-family: 'Source Sans Pro';
-    font-size: 16px;
-    display: flex;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  display: flex;
 }
 
 .sellingPriceValue--visible {
-    font-weight: 400;
-    font-family: 'Source Sans Pro';
-    font-size: 16px;
-    display: flex;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .sellingPriceValue--visible .currencyContainer {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
 }
 
 /* VITRINA */
-:global(.vtex-product-summary-2-x-element--product-summary) .sellingPriceValue, :global(.vtex-product-summary-2-x-element--product-summary) .currencyContainer--product-price {
-    font-size: 18px!important;
+:global(.vtex-product-summary-2-x-element--product-summary) .sellingPriceValue,
+:global(.vtex-product-summary-2-x-element--product-summary)
+  .currencyContainer--product-price {
+  font-size: 18px !important;
 }
