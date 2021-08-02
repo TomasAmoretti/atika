@@ -342,6 +342,10 @@
   margin: auto;
 }
 
+.paragraph--titulo-m2 {
+  margin: 5px 0;
+}
+
 .paragraph--glosario-button {
   border: solid 1px;
   padding: 5px 50px;
@@ -352,8 +356,7 @@
 
 .paragraph--texto-cotizacion-product {
   margin: 0;
-  margin-left: 5px;
-  margin-right: 50px;
+  margin-left: 20px;
   line-height: 17px;
   font-size: 12px;
 }
@@ -366,11 +369,40 @@
   font-family: "Poppins";
   font-size: 12px;
   background: white;
+  min-width: 195px;
+}
+
+.link--boton-spaceplanner-product {
+  margin: 0;
+  padding: 5px 20px;
+  border: solid 1px #b92821;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 12px;
+  background: white;
+  min-width: 195px;
+  color: #b92821;
+  text-decoration: unset;
+}
+
+.link--boton-cotizacion-product {
+  color: #000;
+  text-decoration: unset;
+}
+
+.link--boton-cotizacion-product:hover {
+  color: #000;
+}
+
+.paragraph--titulo-imagenes-prodct {
+  color: #606060;
+  font-size: 11px;
 }
 
 .container--titulo-m2 {
   margin: auto;
   border: solid 1px #c4c4c4;
+  margin-top: 20px;
 }
 
 /* MODAL */
@@ -674,7 +706,7 @@
   font-family: "Source Sans Pro";
   color: #fff;
   position: absolute;
-  top: 45%;
+  top: 350px;
   text-transform: uppercase;
 }
 
@@ -883,7 +915,7 @@
   }
 
   .container--boton-cotizacion-product {
-    margin-left: 35px;
+    margin-left: 0;
   }
 
   .container--blog-categorias-titulo {

@@ -1188,6 +1188,26 @@
       "blockClass": "categoria-header-ofertas"
     }
   },
+  "menu-item#Categorias-Marcas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MARCAS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-plus",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Marcas"
+    ]
+  },
   "menu-item#Categorias-Servicios": {
     "props": {
       "type": "custom",
@@ -1208,6 +1228,218 @@
       "vtex.menu@2.x:submenu#Servicios"
     ]
   },
+  /* ITEMS MARCAS */
+  "menu-item#Marcas-bionly": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/bionyl-pro",
+        "text": "Bionly Pro"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-boen": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/boen",
+        "text": "Boen"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-ceasar": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/ceasar-ceramiche",
+        "text": "Ceasar Ceramiche"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-ceramica": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/ceramica-sant-agostino",
+        "text": "Ceramica Sant Agostino"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-cersanit": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/cersanit",
+        "text": "Cersanit"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-dune": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/dune",
+        "text": "Dune"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-eliane": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/eliane",
+        "text": "Eliane"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-emil": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/emil-ceramica",
+        "text": "Emil ceramica"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-fabresa": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/fabresa",
+        "text": "Fabresa"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-fondovalle": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/fondovalle",
+        "text": "Fondovalle"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-grohe": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/grohe",
+        "text": "Grohe"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-itopker": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/itopker",
+        "text": "Itopker"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-living": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/living-ceramics",
+        "text": "Living ceramics"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-novabell": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/novabell",
+        "text": "Novabell"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-onix": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/onix",
+        "text": "Onix"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-paini": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/paini",
+        "text": "Paini"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-provenza": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/provenza",
+        "text": "Provenza"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-refin": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/refin-ceramiche",
+        "text": "Refin cCramiche"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-rex": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/rex",
+        "text": "Rex"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-vidrepur": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/vidrepur",
+        "text": "Vidrepur"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  "menu-item#Marcas-villeroy": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/marcas/villeroy-and-bosh",
+        "text": "Villeroy and Bosh"
+      },
+      "blockClass": "item-submenu"
+    }
+  },
+  /* END ITEMS MARCAS */
   "menu-item#footer-somos": {
     "props": {
       "type": "custom",

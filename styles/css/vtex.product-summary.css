@@ -1,77 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 .containerNormal--product-summary {
-    border: solid 1px #d2cfcf;
-    border-radius: 0;
-    background: #fff;
-    padding: 5px;
-    margin-bottom: 5px;
+  border: solid 1px #d2cfcf;
+  border-radius: 0;
+  background: #fff;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
 .productBrandName {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    border: solid 1px;
-    padding: 0 4px;
-    font-size: 9px;
-    margin-left: 9px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  border: solid 1px;
+  padding: 0 4px;
+  font-size: 9px;
+  margin-left: 9px;
 }
 
 .imageNormal {
-    width: 90%;
+  width: 90%;
 }
 
 .productBrandLogo {
-    height: 40px!important;
+  height: 40px !important;
 }
 
 .productBrandLogoWrapper {
-    height: 40px!important;
-    margin-left: 10px;
+  height: 40px !important;
+  margin-left: 10px;
 }
 
 .productBrandContainer {
-    display: flex;
+  display: flex;
 }
 
 .nameContainer {
-    padding-top: 1px;
-    display: flex;
-    justify-content: end;
-    margin-left: 9px;
-    padding-bottom: 15px;
+  padding-top: 1px;
+  display: flex;
+  justify-content: end;
+  margin-left: 9px;
+  padding-bottom: 15px;
 }
 
 .brandName {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    min-height: 50px;
-    font-size: 14px;
-    color: black;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  min-height: 50px;
+  font-size: 14px;
+  color: black;
 }
 
 .element {
-    padding-bottom: 0;
-    padding-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .nameWrapper {
-    display: flex;
-    text-align: initial;
+  display: flex;
+  text-align: initial;
 }
 
 .hoverImage {
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
 }
 
 .imageStackContainer:hover {
-    z-index: 1;
+  z-index: 1;
+}
+
+.element--product-summary
+  :global(.vtex-wish-list-1-x-wishlistIconContainer--whish-vitrina)
+  :global(.vtex-button__label) {
+  padding: 0px 10px !important;
+  background: rgba(255, 255, 255, 0.61);
+  height: 25px;
+  margin-top: -20px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .nameContainer {
-        margin-bottom: 20px;
-    }
+  .nameContainer {
+    margin-bottom: 20px;
+  }
 }

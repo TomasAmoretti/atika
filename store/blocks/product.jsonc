@@ -119,7 +119,7 @@
       "availability-subscriber",
       "flex-layout.row#cart-button",
       "rich-text#descripcion-m2",
-      "disclosure-layout#cotizar-cubiertas"
+      "flex-layout.col#product-contenedor-form"
     ],
     "props": {
       "verticalAlign": "top",
@@ -260,31 +260,102 @@
   },
   "flex-layout.col#product-bottom-left": {
     "children": [
-      "flex-layout.row#descripcion-header",
-      "descripcion-larga",
-      "flex-layout.row#descripcion-producto"
+      "rich-text#texto-imagenes-producto",
+      "tab-layout#especificaciones"
     ],
     "props": {
       "blockClass": "product-bottom-left"
     }
   },
+  "rich-text#texto-imagenes-producto": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Las fotos de nuestros productos son imágenes referenciales. Los colores, texturas y\n patrones pueden variar, especialmente en productos como piedras naturales",
+      "blockClass": "titulo-imagenes-prodct"
+    }
+  },
+  "tab-layout#especificaciones": {
+    "children": [
+      "tab-list#especificaciones",
+      "tab-content#especificaciones"
+    ],
+    "props": {
+      "blockClass": "especificaciones",
+      "defaultActiveTabId": "especificaciones"
+    }
+  },
+  "tab-list#especificaciones": {
+    "children": [
+      "tab-list.item#especificaciones",
+      "tab-list.item#descargas",
+      "tab-list.item#glosario"
+    ],
+    "props": {
+      "blockClass": "lista-tabs-especificaciones"
+    }
+  },
+  "tab-list.item#especificaciones": {
+    "props": {
+      "tabId": "especificaciones",
+      "label": "Especificaciones Técnicas",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#descargas": {
+    "props": {
+      "tabId": "descargas",
+      "label": "Descargas"
+    }
+  },
+  "tab-list.item#glosario": {
+    "props": {
+      "tabId": "glosario",
+      "label": "Glosario"
+    }
+  },
+  "tab-content#especificaciones": {
+    "children": [
+      "tab-content.item#especificaciones",
+      "tab-content.item#descargas",
+      "tab-content.item#glosario"
+    ],
+    "props": {
+      "blockClass": "contenido-especificaciones"
+    }
+  },
+  "tab-content.item#especificaciones": {
+    "children": [
+      "descripcion-larga",
+      "flex-layout.row#descripcion-producto"
+    ],
+    "props": {
+      "tabId": "especificaciones"
+    }
+  },
+  "tab-content.item#descargas": {
+    "children": [
+      "flex-layout.row#descargas"
+    ],
+    "props": {
+      "tabId": "descargas"
+    }
+  },
+  "tab-content.item#glosario": {
+    "children": [
+      "flex-layout.row#modal-glosario"
+    ],
+    "props": {
+      "tabId": "glosario"
+    }
+  },
   "flex-layout.col#product-bottom-right": {
     "children": [
-      "rich-text#titulo-descargas",
-      "flex-layout.row#descargas",
       "list-context.kitLook"
     ],
     "props": {
       "blockClass": "product-bottom-right",
       "preventVerticalStretch": true
-    }
-  },
-  "rich-text#titulo-descargas": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Descargas",
-      "blockClass": "titulo-descargas"
     }
   },
   "flex-layout.row#descargas": {
@@ -304,24 +375,6 @@
     "blocks": [
       "product-summary.shelf#main"
     ]
-  },
-  "flex-layout.row#descripcion-header": {
-    "children": [
-      "rich-text#titulo-especificaciones",
-      "modal-trigger#glosario"
-    ],
-    "props": {
-      "blockClass": "especificaciones-header",
-      "preventHorizontalStretch": true
-    }
-  },
-  "rich-text#titulo-especificaciones": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Especificaciones Técnicas",
-      "blockClass": "titulo-especificaciones"
-    }
   },
   "flex-layout.row#descripcion-producto": {
     "children": [
@@ -406,38 +459,6 @@
       "collapseContent": false
     }
   },
-  "modal-trigger#glosario": {
-    "children": [
-      "rich-text#glosario",
-      "modal-layout#glosario"
-    ],
-    "props": {
-      "blockClass": "modal-glosario"
-    }
-  },
-  "rich-text#glosario": {
-    "props": {
-      "text": "Glosario",
-      "blockClass": "glosario-button"
-    }
-  },
-  "modal-layout#glosario": {
-    "children": [
-      "modal-header",
-      "modal-content#glosario"
-    ],
-    "props": {
-      "blockClass": "layout-glosario"
-    }
-  },
-  "modal-content#glosario": {
-    "children": [
-      "flex-layout.row#modal-glosario"
-    ],
-    "props": {
-      "blockClass": "content-glosario"
-    }
-  },
   "flex-layout.row#modal-glosario": {
     "children": [
       "flex-layout.col#glosario"
@@ -478,12 +499,14 @@
   "rich-text#titulo-glosario": {
     "props": {
       "text": "**ESPECIFICACIÓN**",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#titulo2-glosario": {
     "props": {
       "text": "**SIGNIFICADO/EXPLICACION**",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -499,12 +522,14 @@
   "rich-text#glosario-2": {
     "props": {
       "text": "HERRAJES",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-22": {
     "props": {
       "text": "Conjunto de piezas de menor tamaño que incluye el mueble.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -520,12 +545,14 @@
   "rich-text#glosario-3": {
     "props": {
       "text": "REBALSE",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-33": {
     "props": {
       "text": "Si un lavamano o bidet tiene rebalse, el desagüe que se instale también debe tener rebalse. Por el contrario, si el sanitario no tiene rebalse, el desagüe tambien debe ser sin rebalse.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -541,12 +568,14 @@
   "rich-text#glosario-4": {
     "props": {
       "text": "RECTIFICADO",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-44": {
     "props": {
       "text": "Si una pieza es rectificada significa que sus bordes fueron cortados de forma recta. Esto influye en la junta mínima recomendada para instalar. Si el producto es rectificado, la junta mínima es 2 mm. Si no es rectificado, la junta mínima es de 3 mm. Y si se trata de una cerámica pasta roja no rectificada, la junta mínima es de 5 mm.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -562,12 +591,14 @@
   "rich-text#glosario-5": {
     "props": {
       "text": "VARIACIÓN TONAL",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-55": {
     "props": {
       "text": "Según el diseño de una serie, las palmetas pueden tener distintos niveles de variación de tonalidad entre sí. Hay productos cuyo diseño son de colores más bien planos (V1), así como hay otros con matices suaves y otros que presentan una variación intensa entre las piezas de una misma caja (V4). La recomendación es elegir el producto viendo un paño del producto y siempre presentar varias cajas en el lugar real donde irá instalado, para confirmar que lo elegido logra una composición armoniosa antes de instalar. ",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -583,12 +614,14 @@
   "rich-text#glosario-6": {
     "props": {
       "text": "BISELADO",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-66": {
     "props": {
       "text": "Corte oblicuo en los bordes de la cerámica.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -604,12 +637,14 @@
   "rich-text#glosario-7": {
     "props": {
       "text": "TRÁFICO",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-77": {
     "props": {
       "text": "Indica el tráfico recomendado para el cual está pensado el piso",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -625,12 +660,14 @@
   "rich-text#glosario-8": {
     "props": {
       "text": "APTO PARA LOSA RADIANTE",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-88": {
     "props": {
       "text": "El producto puede instalarse sobre una superficie que cuenta con sistema de calefacción incorporado.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -660,12 +697,14 @@
   "rich-text#glosario-9": {
     "props": {
       "text": "LIVE PURE",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-99": {
     "props": {
       "text": "Live Pure es un nuevo desarrollo de BOEN: para pisos de roble con acabado natural, ultra mate y con excelente protección. Live Pure protege el piso de polvo, suciedad y líquidos gracias a un tratamiento especial que deja el piso suave y natural, casi como madera no tratada.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -681,12 +720,14 @@
   "rich-text#glosario-10": {
     "props": {
       "text": "LIVE MATT",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-1010": {
     "props": {
       "text": "Live Matt es un acabado de 6 capas de barniz con muy bajo nivel de brillo, que da al piso el aspecto de “aceitado”. El look natural con ventajas de acabajo resistente al desgaste.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -702,12 +743,14 @@
   "rich-text#glosario-11": {
     "props": {
       "text": "LIVE NATURAL",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-1111": {
     "props": {
       "text": "Live Natural es un acabado natural que contiene aceites de girasol, y ceras naturales. El piso está listo para el uso inmediato después de la instalación y cuenta con una excelente protección de líquidos comparado con otros productos.",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -723,12 +766,14 @@
   "rich-text#glosario-12": {
     "props": {
       "text": "DUELAS GENT Y PLANK",
+      "width": "30%",
       "blockClass": "glosario-titulo"
     }
   },
   "rich-text#glosario-1212": {
     "props": {
       "text": "¿Qué es una duela GENT? Las duelas GENT se crean con el fin de aprovechar el 100% de la madera. Su diferencia con las duelas PLANK es que presentan un pequeño corte vertical en la duela, mientras que la PLANK no tiene esos cortes. El corte mínimo es de 70 cm",
+      "width": "70%",
       "blockClass": "glosario-titulo"
     }
   },
@@ -743,22 +788,23 @@
       "blockClass": "espaciador"
     }
   },
-  "disclosure-layout#cotizar-cubiertas": {
-    "children": [
-      "disclosure-trigger#cotizar-cubiertas",
-      "disclosure-content#cotizar-cubiertas"
-    ],
+  "flex-layout.row#product-contenedor-form": {
     "props": {
-      "blockClass": "container-item-producto"
-    }
+      "blockClass": "producto-contenedor-form"
+    },
+    "children": [
+      "flex-layout.col#product-contenedor-form"
+    ]
   },
-  "disclosure-trigger#cotizar-cubiertas": {
-    "children": [
-      "flex-layout.row#product-cotizacion"
-    ],
+  "flex-layout.col#product-contenedor-form": {
     "props": {
-      "blockClass": "trigger-producto"
-    }
+      "blockClass": "col-producto-contenedor-form"
+    },
+    "children": [
+      "flex-layout.row#product-cotizacion",
+      "flex-layout.row#product-instalacion",
+      "flex-layout.row#product-spaceplanner"
+    ]
   },
   "flex-layout.row#product-cotizacion": {
     "props": {
@@ -767,14 +813,23 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "flex-layout.row#product-imagen-texto-cotizacion",
+      "modal-trigger#cotizacion"
+    ]
+  },
+  "flex-layout.row#product-imagen-texto-cotizacion": {
+    "props": {
+      "blockClass": "contenedor-row-imagen-texto-cotizacion",
+      "preventHorizontalStretch": true
+    },
+    "children": [
       "image#producto-cotizacion",
-      "rich-text#texto-cotizacion",
-      "rich-text#boton-cotizacion"
+      "rich-text#texto-cotizacion"
     ]
   },
   "image#producto-cotizacion": {
     "props": {
-      "src": "https://dummyimage.com/30x30/000/fff",
+      "src": "/arquivos/despacho30x30.svg",
       "blockClass": "cotizacion-product"
     }
   },
@@ -786,21 +841,39 @@
       "blockClass": "texto-cotizacion-product"
     }
   },
+  "modal-trigger#cotizacion": {
+    "children": [
+      "rich-text#boton-cotizacion",
+      "modal-layout#cotizacion"
+    ],
+    "props": {
+      "blockClass": "modal-cotizacion"
+    }
+  },
+  "modal-layout#cotizacion": {
+    "children": [
+      "modal-header",
+      "modal-content#cotizacion"
+    ],
+    "props": {
+      "blockClass": "layout-glosario"
+    }
+  },
+  "modal-content#cotizacion": {
+    "children": [
+      "rich-text#texto-shipping",
+      "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": "content-glosario"
+    }
+  },
   "rich-text#boton-cotizacion": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "VER COSTO DE ENVÍO",
       "blockClass": "boton-cotizacion-product"
-    }
-  },
-  "disclosure-content#cotizar-cubiertas": {
-    "children": [
-      "rich-text#texto-shipping",
-      "shipping-simulator"
-    ],
-    "props": {
-      "blockClass": "contenido-producto"
     }
   },
   "rich-text#texto-shipping": {
@@ -814,6 +887,92 @@
   "shipping-simulator": {
     "props": {
       "blockClass": "simulador"
+    }
+  },
+  "flex-layout.row#product-instalacion": {
+    "props": {
+      "blockClass": "contenedor-row-cotizacion",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#product-imagen-texto-instalacion",
+      "rich-text#boton-instalacion"
+    ]
+  },
+  "flex-layout.row#product-imagen-texto-instalacion": {
+    "props": {
+      "blockClass": "contenedor-row-imagen-texto-instalacion",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#producto-instalacion",
+      "rich-text#texto-instalacion"
+    ]
+  },
+  "image#producto-instalacion": {
+    "props": {
+      "src": "/arquivos/instalacion30x30.svg",
+      "blockClass": "cotizacion-product"
+    }
+  },
+  "rich-text#texto-instalacion": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Productos con instalación**\n Solicita la cotización",
+      "blockClass": "texto-cotizacion-product"
+    }
+  },
+  "rich-text#boton-instalacion": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[COTIZAR](/cart)",
+      "blockClass": "boton-cotizacion-product"
+    }
+  },
+  "flex-layout.row#product-spaceplanner": {
+    "props": {
+      "blockClass": "contenedor-row-cotizacion",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#product-imagen-texto-spaceplanner",
+      "rich-text#boton-spaceplanner"
+    ]
+  },
+  "flex-layout.row#product-imagen-texto-spaceplanner": {
+    "props": {
+      "blockClass": "contenedor-row-imagen-texto-spaceplanner",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#producto-spaceplanner",
+      "rich-text#texto-spaceplanner"
+    ]
+  },
+  "image#producto-spaceplanner": {
+    "props": {
+      "src": "/arquivos/splanner30x30.svg",
+      "blockClass": "cotizacion-product"
+    }
+  },
+  "rich-text#texto-spaceplanner": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Productos con instalación**\n Solicita la cotización",
+      "blockClass": "texto-cotizacion-product"
+    }
+  },
+  "rich-text#boton-spaceplanner": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PRUEBALO EN TU ESPACIO](/spaceplanner)",
+      "blockClass": "boton-spaceplanner-product"
     }
   },
   /* Mobile */
@@ -857,7 +1016,7 @@
       "flex-layout.row#Precio",
       "availability-subscriber",
       "flex-layout.col#spacer-producto2",
-      "disclosure-layout#cotizar-cubiertas-mobile"
+      "flex-layout.row#product-cotizacion-mobile"
     ],
     "props": {
       "verticalAlign": "top",
@@ -960,23 +1119,6 @@
       "component": "AvailabilitySubscriber"
     }
   },
-  "disclosure-layout#cotizar-cubiertas-mobile": {
-    "children": [
-      "disclosure-trigger#cotizar-cubiertas-mobile",
-      "disclosure-content#cotizar-cubiertas"
-    ],
-    "props": {
-      "blockClass": "container-item-producto"
-    }
-  },
-  "disclosure-trigger#cotizar-cubiertas-mobile": {
-    "children": [
-      "flex-layout.row#product-cotizacion-mobile"
-    ],
-    "props": {
-      "blockClass": "trigger-producto"
-    }
-  },
   "flex-layout.row#product-cotizacion-mobile": {
     "props": {
       "blockClass": "contenedor-row-cotizacion",
@@ -985,7 +1127,7 @@
     },
     "children": [
       "flex-layout.row#product-cotizacion-contenedor-mobile",
-      "rich-text#boton-cotizacion"
+      "modal-trigger#cotizacion"
     ]
   },
   "flex-layout.row#product-cotizacion-contenedor-mobile": {

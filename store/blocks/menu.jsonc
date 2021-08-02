@@ -18,6 +18,7 @@
         "children": [
             "menu-item#Categorias-Espacios",
             "menu-item#Categorias-Productos",
+            "menu-item#Categorias-Marcas",
             "menu-item#Categorias-new-arrival",
             "menu-item#Categorias-sale",
             "menu-item#Categorias-Inspiracion"
@@ -502,6 +503,112 @@
         }
     },
     /* END PRODUCTOS */
+    /* MARCAS */
+    "vtex.menu@2.x:submenu#Marcas": {
+        "children": [
+            "flex-layout.row#submenu-Marcas-1",
+            "flex-layout.row#submenu-Marcas-2",
+            "flex-layout.row#submenu-Marcas-3",
+            "flex-layout.row#submenu-Marcas-4"
+        ],
+        "props": {
+            "blockClass": "submenu-header"
+        }
+    },
+    "flex-layout.row#submenu-Marcas-1": {
+        "children": [
+            "flex-layout.col#submenu-Marcas-1"
+        ],
+        "props": {
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-Marcas-1": {
+        "children": [
+            "menu-item#Marcas-bionly",
+            "menu-item#Marcas-cersanit",
+            "menu-item#Marcas-fabresa",
+            "menu-item#Marcas-living",
+            "menu-item#Marcas-provenza",
+            "menu-item#Marcas-vidrepur"
+        ],
+        "props": {
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#submenu-Marcas-2": {
+        "children": [
+            "flex-layout.col#submenu-Marcas-2"
+        ],
+        "props": {
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-Marcas-2": {
+        "children": [
+            "menu-item#Marcas-boen",
+            "menu-item#Marcas-dune",
+            "menu-item#Marcas-fondovalle",
+            "menu-item#Marcas-novabell",
+            "menu-item#Marcas-refin",
+            "menu-item#Marcas-villeroy"
+        ],
+        "props": {
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#submenu-Marcas-3": {
+        "children": [
+            "flex-layout.col#submenu-Marcas-3"
+        ],
+        "props": {
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-Marcas-3": {
+        "children": [
+            "menu-item#Marcas-ceasar",
+            "menu-item#Marcas-eliane",
+            "menu-item#Marcas-grohe",
+            "menu-item#Marcas-onix",
+            "menu-item#Marcas-rex"
+        ],
+        "props": {
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#submenu-Marcas-4": {
+        "children": [
+            "flex-layout.col#submenu-Marcas-4"
+        ],
+        "props": {
+            "blockClass": "row-submenu",
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-Marcas-4": {
+        "children": [
+            "menu-item#Marcas-ceramica",
+            "menu-item#Marcas-emil",
+            "menu-item#Marcas-itopker",
+            "menu-item#Marcas-paini"
+        ],
+        "props": {
+            "blockClass": "col-submenu",
+            "preventVerticalStretch": true
+        }
+    },
+    /* END MARCAS */
     /* INSPIRACION */
     "vtex.menu@2.x:submenu#Inspiracion": {
         "children": [
@@ -525,7 +632,7 @@
     },
     "image#menu-inspiracion-1": {
         "props": {
-            "src": "/arquivos/MENU-SP.png",
+            "src": "/arquivos/MENU-SP.svg",
             "link": {
                 "url": "/spaceplanner"
             },
@@ -535,7 +642,7 @@
     },
     "image#menu-inspiracion-2": {
         "props": {
-            "src": "/arquivos/MENU-PROYECTOS.png",
+            "src": "/arquivos/MENU-PROYECTOS.svg",
             "link": {
                 "url": "#"
             },
@@ -545,7 +652,7 @@
     },
     "image#menu-inspiracion-3": {
         "props": {
-            "src": "/arquivos/MENU-BLOG.png",
+            "src": "/arquivos/MENU-BLOGS.svg",
             "link": {
                 "url": "/blog"
             },
@@ -555,7 +662,7 @@
     },
     "image#menu-inspiracion-4": {
         "props": {
-            "src": "/arquivos/MENU-MARCAS.png",
+            "src": "/arquivos/MENU-MARCAS.svg",
             "link": {
                 "url": "/marcas"
             },
@@ -587,7 +694,7 @@
     },
     "image#menu-servicios-1": {
         "props": {
-            "src": "/arquivos/MENU-CUBIERTAS.png",
+            "src": "/arquivos/MENU-CUBIERTAS.svg",
             "link": {
                 "url": "/servicios-cubiertas"
             },
@@ -597,7 +704,7 @@
     },
     "image#menu-servicios-2": {
         "props": {
-            "src": "/arquivos/MENU-INSTALACIÓN.png",
+            "src": "/arquivos/MENU-INSTALACIÓN.svg",
             "link": {
                 "url": "/servicio-instalacion"
             },
@@ -607,7 +714,7 @@
     },
     "image#menu-servicios-3": {
         "props": {
-            "src": "/arquivos/MENU-SERVICIO-TEC.png",
+            "src": "/arquivos/MENU-SERVICIO-TEC.svg",
             "link": {
                 "url": "/servicio-tecnico-mantencion"
             },
@@ -617,7 +724,7 @@
     },
     "image#menu-servicios-4": {
         "props": {
-            "src": "/arquivos/MENU-DESPACHO.png",
+            "src": "/arquivos/MENU-DESPACHO.svg",
             "link": {
                 "url": "/seguimiento-pedido"
             },

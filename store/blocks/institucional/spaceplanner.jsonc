@@ -16,11 +16,11 @@
             "flex-layout.row#spaceplanner-instuticional"
         ]
     },
-    "image#banner-spaceplanner-instuticional":{
-        "props":{
-            "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-web.png",
+    "image#banner-spaceplanner-instuticional": {
+        "props": {
+            "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-web.svg",
             "width": "100%",
-            "blockClass":"banner-spaceplanner-instuticional"
+            "blockClass": "banner-spaceplanner-instuticional"
         }
     },
     "rich-text#titulo-institucional-spaceplanner": {
@@ -31,7 +31,7 @@
             "blockClass": "titulo-institucional"
         }
     },
-    "rich-text#spaceplanner-instuticional-texto":{
+    "rich-text#spaceplanner-instuticional-texto": {
         "props": {
             "text": "Estamos felices de presentar en Chile SPACEPLANNER by ATIKA. Un visualizador de ambientes con el que podrás probar, con tan solo un par de clics y desde tu propio lugar, diferentes colores, materiales, estilos y tendencias en pisos, muros y cubiertas para tu proyecto. Sube una foto y déjate inspirar por tu espacio.",
             "textAlignment": "left",
@@ -39,7 +39,7 @@
             "blockClass": "texto-servicios-institucional"
         }
     },
-    "rich-text#boton-pruebalo-instalacion":{
+    "rich-text#boton-pruebalo-instalacion": {
         "props": {
             "text": "[PRUÉBALO EN TUS ESPACIOS](#)",
             "textAlignment": "left",
@@ -47,7 +47,7 @@
             "blockClass": "boton-spaceplanner-institucional"
         }
     },
-    "rich-text#titulo-spaceplanner-instalacion":{
+    "rich-text#titulo-spaceplanner-instalacion": {
         "props": {
             "text": "¿CÓMO SE USA?",
             "textAlignment": "left",
@@ -55,33 +55,33 @@
             "blockClass": "titulo-elemento-servicios-institucional"
         }
     },
-    "flex-layout.row#spaceplanner-instuticional":{
-        "children":[
+    "flex-layout.row#spaceplanner-instuticional": {
+        "children": [
             "flex-layout.col#spaceplanner-instuticional-1",
             "flex-layout.col#spaceplanner-instuticional-2",
             "flex-layout.col#spaceplanner-instuticional-3",
             "flex-layout.col#spaceplanner-instuticional-4"
         ],
-        "props":{
-            "blockClass":"row-spaceplanner-institucional"
+        "props": {
+            "blockClass": "row-spaceplanner-institucional"
         }
     },
-    "flex-layout.col#spaceplanner-instuticional-1":{
-        "children":[
+    "flex-layout.col#spaceplanner-instuticional-1": {
+        "children": [
             "image#spaceplanner-1",
             "rich-text#spaceplanner-texto-1"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-spaceplanner-institucional"
         }
     },
-    "image#spaceplanner-1":{
-        "props":{
-            "src": "/arquivos/sp-paso-1.png",
-            "blockClass":"elemento-madera-insti"
+    "image#spaceplanner-1": {
+        "props": {
+            "src": "/arquivos/sp-paso-1.svg",
+            "blockClass": "elemento-madera-insti"
         }
     },
-    "rich-text#spaceplanner-texto-1":{
+    "rich-text#spaceplanner-texto-1": {
         "props": {
             "text": "Ingresa a la aplicación , elige un espacio predeterminado o sube una foto del tuyo. Considera que debe verse bien el espacio que buscas intervenir.",
             "textAlignment": "left",
@@ -89,22 +89,22 @@
             "blockClass": "texto-spaceplanner-institucional"
         }
     },
-    "flex-layout.col#spaceplanner-instuticional-2":{
-        "children":[
+    "flex-layout.col#spaceplanner-instuticional-2": {
+        "children": [
             "image#spaceplanner-2",
             "rich-text#spaceplanner-texto-2"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-spaceplanner-institucional"
         }
     },
-    "image#spaceplanner-2":{
-        "props":{
-            "src": "/arquivos/sp-paso-2.png",
-            "blockClass":"elemento-madera-insti"
+    "image#spaceplanner-2": {
+        "props": {
+            "src": "/arquivos/sp-paso-2.svg",
+            "blockClass": "elemento-madera-insti"
         }
     },
-    "rich-text#spaceplanner-texto-2":{
+    "rich-text#spaceplanner-texto-2": {
         "props": {
             "text": "Carga tu foto en SpacePlanner de Atika",
             "textAlignment": "left",
@@ -112,22 +112,22 @@
             "blockClass": "texto-spaceplanner-institucional"
         }
     },
-    "flex-layout.col#spaceplanner-instuticional-3":{
-        "children":[
+    "flex-layout.col#spaceplanner-instuticional-3": {
+        "children": [
             "image#spaceplanner-3",
             "rich-text#spaceplanner-texto-3"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-spaceplanner-institucional"
         }
     },
-    "image#spaceplanner-3":{
-        "props":{
-            "src": "/arquivos/sp-paso-3.png",
-            "blockClass":"elemento-madera-insti"
+    "image#spaceplanner-3": {
+        "props": {
+            "src": "/arquivos/sp-paso-3.svg",
+            "blockClass": "elemento-madera-insti"
         }
     },
-    "rich-text#spaceplanner-texto-3":{
+    "rich-text#spaceplanner-texto-3": {
         "props": {
             "text": "Prueba pisos, muros y cubiertas, seleccionando colores, looks o materiales.",
             "textAlignment": "left",
@@ -135,22 +135,22 @@
             "blockClass": "texto-spaceplanner-institucional"
         }
     },
-    "flex-layout.col#spaceplanner-instuticional-4":{
-        "children":[
+    "flex-layout.col#spaceplanner-instuticional-4": {
+        "children": [
             "image#spaceplanner-4",
             "rich-text#spaceplanner-texto-4"
         ],
-        "props":{
+        "props": {
             "blockClass": "col-spaceplanner-institucional"
         }
     },
-    "image#spaceplanner-4":{
-        "props":{
-            "src": "/arquivos/sp-paso-4.png",
-            "blockClass":"elemento-madera-insti"
+    "image#spaceplanner-4": {
+        "props": {
+            "src": "/arquivos/sp-paso-4.svg",
+            "blockClass": "elemento-madera-insti"
         }
     },
-    "rich-text#spaceplanner-texto-4":{
+    "rich-text#spaceplanner-texto-4": {
         "props": {
             "text": "WOW !! Puedes probar los que más te gusten y cotizarlos. También puedes descargar la imagen o seguir probando.",
             "textAlignment": "left",
@@ -169,29 +169,29 @@
             "rich-text#boton-pruebalo-instalacion"
         ]
     },
-    "image#banner-spaceplanner-instuticional-mobile":{
-        "props":{
+    "image#banner-spaceplanner-instuticional-mobile": {
+        "props": {
             "src": "/arquivos/Pagina-Estatica-SpacePlanner-header-mob.png",
-            "blockClass":"banner-spaceplanner-instuticional-mobile"
+            "blockClass": "banner-spaceplanner-instuticional-mobile"
         }
     },
-    "flex-layout.row#spaceplanner-instuticional-1-mobile":{
-        "children":[
+    "flex-layout.row#spaceplanner-instuticional-1-mobile": {
+        "children": [
             "flex-layout.col#spaceplanner-instuticional-1",
             "flex-layout.col#spaceplanner-instuticional-2"
         ],
-        "props":{
-            "blockClass":"row-spaceplanner-institucional-mobile",
+        "props": {
+            "blockClass": "row-spaceplanner-institucional-mobile",
             "preventHorizontalStretch": true
         }
     },
-    "flex-layout.row#spaceplanner-instuticional-2-mobile":{
-        "children":[
+    "flex-layout.row#spaceplanner-instuticional-2-mobile": {
+        "children": [
             "flex-layout.col#spaceplanner-instuticional-3",
             "flex-layout.col#spaceplanner-instuticional-4"
         ],
-        "props":{
-            "blockClass":"row-spaceplanner-institucional-mobile"
+        "props": {
+            "blockClass": "row-spaceplanner-institucional-mobile"
         }
     }
 }

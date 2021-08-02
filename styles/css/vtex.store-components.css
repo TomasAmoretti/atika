@@ -462,16 +462,26 @@
 }
 
 .subscriberContainer .title::before {
-  content: "SOLÓ APTO COTIZACIÓN";
+  content: "DISPONIBLE SOLO PARA COTIZACIÓN";
   display: block;
   font-weight: 600;
   margin-bottom: 14px;
+  font-size: 14px;
 }
 
 .subscriberContainer .submit :global(.vtex-button__label) {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 0;
+}
+
+.subscribeLabel {
+  font-size: 0;
+}
+
+.subscribeLabel::before {
+  font-size: 12px;
+  content: "Este tipo de productos, requieren la asesoría de un ejecutivo, por favor déjanos tus datos para hacerte llegar una cotización";
 }
 
 .subscriberContainer .submit :global(.vtex-button__label)::after {
@@ -495,7 +505,7 @@
 }
 
 .subscriberContainer .title {
-  font-size: 14px;
+  font-size: 0;
 }
 
 .specificationsTableContainer--specifications-product {

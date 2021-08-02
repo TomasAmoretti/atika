@@ -1,5 +1,5 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop-home",
       "responsive-layout.mobile#mobile-home"
@@ -22,47 +22,47 @@
       "iframe#instagram"
     ]
   },
-  "flex-layout.row#info-home":{
-    "children":[
+  "flex-layout.row#info-home": {
+    "children": [
       "flex-layout.row#info-1",
       "flex-layout.row#info-2",
       "flex-layout.row#info-3",
       "flex-layout.row#info-4"
     ],
-    "props":{
-      "blockClass":"info-home",
+    "props": {
+      "blockClass": "info-home",
       "fullWidth": true
     }
   },
-  "flex-layout.row#info-1":{
-    "children":[
+  "flex-layout.row#info-1": {
+    "children": [
       "image#info-1",
       "flex-layout.col#info-1"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true
     }
   },
-  "image#info-1":{
-    "props":{
-      "src": "/arquivos/despacho.png",
+  "image#info-1": {
+    "props": {
+      "src": "/arquivos/despacho.svg",
       "width": 40,
-      "blockClass":"image-info"
+      "blockClass": "image-info"
     }
   },
-  "flex-layout.col#info-1":{
-    "children":[
+  "flex-layout.col#info-1": {
+    "children": [
       "rich-text#info-1",
       "rich-text#info-1-descriptivo"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
-  "rich-text#info-1":{
+  "rich-text#info-1": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -70,7 +70,7 @@
       "blockClass": "info-1"
     }
   },
-  "rich-text#info-1-descriptivo":{
+  "rich-text#info-1-descriptivo": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -78,35 +78,35 @@
       "blockClass": "info-1-texto"
     }
   },
-  "flex-layout.row#info-2":{
-    "children":[
+  "flex-layout.row#info-2": {
+    "children": [
       "image#info-2",
       "flex-layout.col#info-2"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true
     }
   },
-  "image#info-2":{
-    "props":{
-      "src": "/arquivos/pago.png",
+  "image#info-2": {
+    "props": {
+      "src": "/arquivos/pago.svg",
       "width": 40,
-      "blockClass":"image-info"
+      "blockClass": "image-info"
     }
   },
-  "flex-layout.col#info-2":{
-    "children":[
+  "flex-layout.col#info-2": {
+    "children": [
       "rich-text#info-2",
       "rich-text#info-2-descriptivo"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
-  "rich-text#info-2":{
+  "rich-text#info-2": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -114,7 +114,7 @@
       "blockClass": "info-2"
     }
   },
-  "rich-text#info-2-descriptivo":{
+  "rich-text#info-2-descriptivo": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -122,35 +122,35 @@
       "blockClass": "info-1-texto"
     }
   },
-  "flex-layout.row#info-3":{
-    "children":[
+  "flex-layout.row#info-3": {
+    "children": [
       "image#info-3",
       "flex-layout.col#info-3"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true
     }
   },
-  "image#info-3":{
-    "props":{
-      "src": "/arquivos/tiendas.png",
+  "image#info-3": {
+    "props": {
+      "src": "/arquivos/tiendas.svg",
       "width": 40,
-      "blockClass":"image-info"
+      "blockClass": "image-info"
     }
   },
-  "flex-layout.col#info-3":{
-    "children":[
+  "flex-layout.col#info-3": {
+    "children": [
       "rich-text#info-3",
       "rich-text#info-3-descriptivo"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
-  "rich-text#info-3":{
+  "rich-text#info-3": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -158,7 +158,7 @@
       "blockClass": "info-3"
     }
   },
-  "rich-text#info-3-descriptivo":{
+  "rich-text#info-3-descriptivo": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -166,35 +166,35 @@
       "blockClass": "info-1-texto"
     }
   },
-  "flex-layout.row#info-4":{
-    "children":[
+  "flex-layout.row#info-4": {
+    "children": [
       "image#info-4",
       "flex-layout.col#info-4"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true
     }
   },
-  "image#info-4":{
-    "props":{
-      "src": "/arquivos/splanner.png",
+  "image#info-4": {
+    "props": {
+      "src": "/arquivos/splanner.svg",
       "width": 40,
-      "blockClass":"image-info"
+      "blockClass": "image-info"
     }
   },
-  "flex-layout.col#info-4":{
-    "children":[
+  "flex-layout.col#info-4": {
+    "children": [
       "rich-text#info-4",
       "rich-text#info-4-descriptivo"
     ],
-    "props":{
-      "blockClass":"info-item-home",
+    "props": {
+      "blockClass": "info-item-home",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
-  "rich-text#info-4":{
+  "rich-text#info-4": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -202,7 +202,7 @@
       "blockClass": "info-4"
     }
   },
-  "rich-text#info-4-descriptivo":{
+  "rich-text#info-4-descriptivo": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -210,8 +210,8 @@
       "blockClass": "info-1-texto"
     }
   },
-  "flex-layout.row#categorias":{
-    "children":[
+  "flex-layout.row#categorias": {
+    "children": [
       "image#categoria-1",
       "image#categoria-2",
       "image#categoria-3",
@@ -219,65 +219,65 @@
       "image#categoria-5",
       "image#categoria-6"
     ],
-    "props":{
-      "blockClass":"categorias"
+    "props": {
+      "blockClass": "categorias"
     }
   },
-  "image#categoria-1":{
+  "image#categoria-1": {
     "props": {
       "src": "/arquivos/COCINA.png",
-      "link":{
-        "url":"/143?map=productClusterIds"
+      "link": {
+        "url": "/143?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-cocina"
     }
   },
-  "image#categoria-2":{
+  "image#categoria-2": {
     "props": {
       "src": "/arquivos/BAÑO.png",
-      "link":{
-        "url":"/142?map=productClusterIds"
+      "link": {
+        "url": "/142?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-bano"
     }
   },
-  "image#categoria-3":{
+  "image#categoria-3": {
     "props": {
       "src": "/arquivos/SALA DE ESTAR.png",
-      "link":{
-        "url":"/144?map=productClusterIds"
+      "link": {
+        "url": "/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-estar"
     }
   },
-  "image#categoria-4":{
+  "image#categoria-4": {
     "props": {
       "src": "/arquivos/DORMITORIO.png",
-      "link":{
-        "url":"/144?map=productClusterIds"
+      "link": {
+        "url": "/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-dormitorio"
     }
   },
-  "image#categoria-5":{
+  "image#categoria-5": {
     "props": {
       "src": "/arquivos/EXTERIOR.png",
-      "link":{
-        "url":"/145?map=productClusterIds"
+      "link": {
+        "url": "/145?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-exterior"
     }
   },
-  "image#categoria-6":{
+  "image#categoria-6": {
     "props": {
       "src": "/arquivos/RECINTOS-PUBLICOS.png",
-      "link":{
-        "url":"/146?map=productClusterIds"
+      "link": {
+        "url": "/146?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-publicos"
     }
   },
-  "rich-text#titulo-shelf":{
+  "rich-text#titulo-shelf": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
@@ -285,37 +285,37 @@
       "blockClass": "titulo-shelf"
     }
   },
-  "flex-layout.row#destacados":{
-    "children":[
+  "flex-layout.row#destacados": {
+    "children": [
       "image#destacados",
       "flex-layout.col#destacados"
     ],
-    "props":{
-      "blockClass":"row-destacados",
+    "props": {
+      "blockClass": "row-destacados",
       "preventHorizontalStretch": true
     }
   },
-  "image#destacados":{
+  "image#destacados": {
     "props": {
       "src": "/arquivos/NEW-ARRIVAL.png",
-      "link":{
-        "url":"/140?map=productClusterIds"
+      "link": {
+        "url": "/140?map=productClusterIds"
       },
       "blockClass": "imagen-destacados"
     }
   },
-  "flex-layout.col#destacados":{
-    "children":[
+  "flex-layout.col#destacados": {
+    "children": [
       "shelf#Destacados-2",
       "shelf#Destacados-3"
     ],
-    "props":{
-      "blockClass":"col-destacados",
+    "props": {
+      "blockClass": "col-destacados",
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
     }
   },
-  "rich-text#titulo-inspiracion":{
+  "rich-text#titulo-inspiracion": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
@@ -323,46 +323,46 @@
       "blockClass": "titulo-shelf"
     }
   },
-  "flex-layout.row#inspiracion":{
-    "children":[
+  "flex-layout.row#inspiracion": {
+    "children": [
       "image#inspiracion-1",
       "image#inspiracion-2",
       "image#inspiracion-3"
     ],
-    "props":{
-      "blockClass":"row-inspiracion",
+    "props": {
+      "blockClass": "row-inspiracion",
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
   },
-  "image#inspiracion-1":{
+  "image#inspiracion-1": {
     "props": {
       "src": "/arquivos/INSPIRACIÓN-1-2.png",
-      "link":{
-        "url":"#"
+      "link": {
+        "url": "#"
       },
       "blockClass": "imagen-inspiracion"
     }
   },
-  "image#inspiracion-2":{
+  "image#inspiracion-2": {
     "props": {
       "src": "/arquivos/INSPIRACIÓN-2-2.png",
-      "link":{
-        "url":"#"
+      "link": {
+        "url": "#"
       },
       "blockClass": "imagen-inspiracion"
     }
   },
-  "image#inspiracion-3":{
+  "image#inspiracion-3": {
     "props": {
       "src": "/arquivos/INSPIRACIÓN-3-2.png",
-      "link":{
-        "url":"#"
+      "link": {
+        "url": "#"
       },
       "blockClass": "imagen-inspiracion"
     }
   },
-  "rich-text#titulo-sale":{
+  "rich-text#titulo-sale": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -370,7 +370,7 @@
       "blockClass": "titulo-sale"
     }
   },
-  "rich-text#sale-ver-mas":{
+  "rich-text#sale-ver-mas": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -378,16 +378,16 @@
       "blockClass": "sale-ver-mas"
     }
   },
-  "image#marcas":{
+  "image#marcas": {
     "props": {
       "src": "/arquivos/BANNER-DCTO.png",
-      "link":{
-        "url":"#"
+      "link": {
+        "url": "#"
       },
       "blockClass": "imagen-marcas"
     }
   },
-  "rich-text#titulo-instagram":{
+  "rich-text#titulo-instagram": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -422,75 +422,75 @@
       "iframe#instagram-mobile"
     ]
   },
-  "flex-layout.row#info-home-mobile":{
-    "children":[
+  "flex-layout.row#info-home-mobile": {
+    "children": [
       "flex-layout.col#info-home-1-mobile",
       "flex-layout.col#info-home-2-mobile"
     ],
-    "props":{
-      "blockClass":"info-home-mobile",
+    "props": {
+      "blockClass": "info-home-mobile",
       "fullWidth": true
     }
   },
-  "flex-layout.col#info-home-1-mobile":{
-    "children":[
+  "flex-layout.col#info-home-1-mobile": {
+    "children": [
       "flex-layout.row#info-1-mobile",
       "flex-layout.row#info-3-mobile"
     ],
-    "props":{
-      "blockClass":"info-home-col-mobile"
+    "props": {
+      "blockClass": "info-home-col-mobile"
     }
   },
-  "flex-layout.col#info-home-2-mobile":{
-    "children":[
+  "flex-layout.col#info-home-2-mobile": {
+    "children": [
       "flex-layout.row#info-2-mobile",
       "flex-layout.row#info-4-mobile"
     ],
-    "props":{
-      "blockClass":"info-home-col-mobile"
+    "props": {
+      "blockClass": "info-home-col-mobile"
     }
   },
-  "flex-layout.row#info-1-mobile":{
-    "children":[
+  "flex-layout.row#info-1-mobile": {
+    "children": [
       "image#info-1",
       "rich-text#info-1"
     ],
-    "props":{
-      "blockClass":"info-item-home-mobile",
+    "props": {
+      "blockClass": "info-item-home-mobile",
       "preventHorizontalStretch": true
     }
   },
-  "flex-layout.row#info-2-mobile":{
-    "children":[
+  "flex-layout.row#info-2-mobile": {
+    "children": [
       "image#info-2",
       "rich-text#info-2"
     ],
-    "props":{
-      "blockClass":"info-item-home-mobile",
+    "props": {
+      "blockClass": "info-item-home-mobile",
       "preventHorizontalStretch": true
     }
   },
-  "flex-layout.row#info-3-mobile":{
-    "children":[
+  "flex-layout.row#info-3-mobile": {
+    "children": [
       "image#info-3",
       "rich-text#info-3"
     ],
-    "props":{
-      "blockClass":"info-item-home-mobile",
+    "props": {
+      "blockClass": "info-item-home-mobile",
       "preventHorizontalStretch": true
     }
   },
-  "flex-layout.row#info-4-mobile":{
-    "children":[
+  "flex-layout.row#info-4-mobile": {
+    "children": [
       "image#info-4",
       "rich-text#info-4"
     ],
-    "props":{
-      "blockClass":"info-item-home-mobile",
+    "props": {
+      "blockClass": "info-item-home-mobile",
       "preventHorizontalStretch": true
     }
   },
-  "rich-text#info-1-mobile":{
+  "rich-text#info-1-mobile": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -498,7 +498,7 @@
       "blockClass": "info-1-mobile"
     }
   },
-  "rich-text#info-2-mobile":{
+  "rich-text#info-2-mobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -506,7 +506,7 @@
       "blockClass": "info-2-mobile"
     }
   },
-  "rich-text#info-3-mobile":{
+  "rich-text#info-3-mobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -514,7 +514,7 @@
       "blockClass": "info-3-mobile"
     }
   },
-  "rich-text#info-4-mobile":{
+  "rich-text#info-4-mobile": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -522,108 +522,108 @@
       "blockClass": "info-4-mobile"
     }
   },
-  "flex-layout.row#categorias-mobile":{
-    "children":[
+  "flex-layout.row#categorias-mobile": {
+    "children": [
       "flex-layout.col#categorias-1-mobile",
       "flex-layout.col#categorias-2-mobile"
     ],
-    "props":{
-      "blockClass":"categorias-mobile"
+    "props": {
+      "blockClass": "categorias-mobile"
     }
   },
-  "flex-layout.col#categorias-1-mobile":{
-    "children":[
+  "flex-layout.col#categorias-1-mobile": {
+    "children": [
       "image#categoria-1-mobile",
       "image#categoria-3-mobile",
       "image#categoria-5-mobile"
     ],
-    "props":{
-      "blockClass":"categorias-mobile"
+    "props": {
+      "blockClass": "categorias-mobile"
     }
   },
-  "flex-layout.col#categorias-2-mobile":{
-    "children":[
+  "flex-layout.col#categorias-2-mobile": {
+    "children": [
       "image#categoria-2-mobile",
       "image#categoria-4-mobile",
       "image#categoria-6-mobile"
     ],
-    "props":{
-      "blockClass":"categorias-mobile"
+    "props": {
+      "blockClass": "categorias-mobile"
     }
   },
-  "image#categoria-1-mobile":{
+  "image#categoria-1-mobile": {
     "props": {
       "src": "/arquivos/cocina-mobile.png",
-      "link":{
-        "url":"/143?map=productClusterIds"
+      "link": {
+        "url": "/143?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-cocina-mobile"
     }
   },
-  "image#categoria-2-mobile":{
+  "image#categoria-2-mobile": {
     "props": {
       "src": "/arquivos/baño-mobile.png",
-      "link":{
-        "url":"/142?map=productClusterIds"
+      "link": {
+        "url": "/142?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-bano-mobile"
     }
   },
-  "image#categoria-3-mobile":{
+  "image#categoria-3-mobile": {
     "props": {
       "src": "/arquivos/estar-mobile.png",
-      "link":{
-        "url":"/144?map=productClusterIds"
+      "link": {
+        "url": "/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-estar-mobile"
     }
   },
-  "image#categoria-4-mobile":{
+  "image#categoria-4-mobile": {
     "props": {
       "src": "/arquivos/dormitorios-mobile.png",
-      "link":{
-        "url":"/144?map=productClusterIds"
+      "link": {
+        "url": "/144?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-dormitorio-mobile"
     }
   },
-  "image#categoria-5-mobile":{
+  "image#categoria-5-mobile": {
     "props": {
       "src": "/arquivos/exterior-mobile.png",
-      "link":{
-        "url":"/145?map=productClusterIds"
+      "link": {
+        "url": "/145?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-exterior-mobile"
     }
   },
-  "image#categoria-6-mobile":{
+  "image#categoria-6-mobile": {
     "props": {
       "src": "/arquivos/publicos-mobile.png",
-      "link":{
-        "url":"/146?map=productClusterIds"
+      "link": {
+        "url": "/146?map=productClusterIds"
       },
       "blockClass": "imagen-categoria-publicos-mobile"
     }
   },
-  "image#new-arrival-mobile":{
+  "image#new-arrival-mobile": {
     "props": {
       "src": "/arquivos/NEW-ARRIVAL-mobile.png",
-      "link":{
-        "url":"/140?map=productClusterIds"
+      "link": {
+        "url": "/140?map=productClusterIds"
       },
       "blockClass": "new-arrival-mobile"
     }
   },
-  "image#banner-descuento-mobile":{
+  "image#banner-descuento-mobile": {
     "props": {
       "src": "/arquivos/BANNER-DCTO-mobile.png",
-      "link":{
-        "url":"#"
+      "link": {
+        "url": "#"
       },
       "blockClass": "banner-descuento"
     }
   },
-  "rich-text#titulo-instagram-mobile":{
+  "rich-text#titulo-instagram-mobile": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

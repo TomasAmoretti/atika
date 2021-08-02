@@ -10,7 +10,12 @@
   margin: auto;
   background: black;
   justify-content: flex-end;
-  max-width: 1280px;
+  max-width: 85%;
+}
+
+.flexRow--categorias-nav-right
+  :global(.vtex-menu-2-x-styledLinkContainer--categoria-header) {
+  margin-right: 0;
 }
 
 .flexRowContent--contacto-top {
@@ -25,6 +30,11 @@
   margin: 5px 0;
   display: inline-block;
   width: 222px;
+}
+
+.flexRow--producto-main-mobile {
+  width: 90%;
+  margin: auto;
 }
 
 .flexCol--spacer-mobile {
@@ -52,7 +62,7 @@
 .flexRowContent--header-main {
   display: flex;
   align-items: center;
-  max-width: 90%;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -186,6 +196,12 @@
 @media screen and (max-width: 768px) {
   .flexRowContent--row-price-shelf {
     display: block;
+  }
+
+  .flexRow--breadcrumb-mobile {
+    margin-top: -100px !important;
+    width: 90%;
+    margin: auto;
   }
 }
 
@@ -338,7 +354,7 @@
 }
 
 .flexRow--breadcrumb {
-  max-width: 1280px;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -353,8 +369,12 @@
   text-align: center;
 }
 
-.flexColChild--col-right:first-child {
-  position: absolute;
+.flexColChild--col-right:last-child {
+  margin-bottom: 0;
+}
+
+.flexColChild--col-right {
+  margin-bottom: -40px;
 }
 
 .flexColChild--col-button :global(.vtex-button__label) {
@@ -381,7 +401,7 @@
 }
 
 .flexRow--product-bottom {
-  max-width: 1024px;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -397,6 +417,21 @@
 .flexRowContent--contenedor-row-cotizacion {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.flexColChild--col-producto-contenedor-form {
+  margin-top: 15px;
+}
+
+.flexColChild--col-producto-contenedor-form:last-child {
+  margin-top: 0;
+}
+
+.flexCol--col-producto-contenedor-form {
+  padding: 10px;
+  background: #f4f4f4;
+  margin-top: 30px;
 }
 
 /* MOBILE */
@@ -494,6 +529,10 @@
 
 .flexRowContent--row--glosario {
   border-bottom: solid 1px;
+}
+
+.flexRow--row-modal-glosario {
+  margin-top: 30px;
 }
 
 .flexColChild--col-form :global(.vtex-input-prefix__group) {
@@ -752,9 +791,8 @@
 
 .flexRow--contenedor-marcas {
   margin-top: 70px !important;
-  max-width: 1280px;
-  margin: auto;
-  margin-bottom: 70px;
+  max-width: 60%;
+  margin: auto auto 70px;
 }
 
 .flexRowContent--texto-item-marcas {

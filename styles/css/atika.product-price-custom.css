@@ -45,5 +45,5 @@
 :global(.vtex-product-summary-2-x-element--product-summary) .sellingPriceValue,
 :global(.vtex-product-summary-2-x-element--product-summary)
   .currencyContainer--product-price {
-  font-size: 18px !important;
+  font-size: 17px !important;
 }
