@@ -1,43 +1,43 @@
 {
-    "store.custom#marcasTemplateTemplate-instuticional": {
+    "store.custom#marcasTemplate-instuticional": {
         "blocks": [
-            "responsive-layout.desktop#desktop-marcasTemplateTemplate-instuticional",
-            "responsive-layout.mobile#mobile-marcasTemplateTemplate-instuticional"
+            "responsive-layout.desktop#desktop-marcasTemplate-instuticional",
+            "responsive-layout.mobile#mobile-marcasTemplate-instuticional"
         ]
     },
-    "responsive-layout.desktop#desktop-marcasTemplateTemplate-instuticional": {
+    "responsive-layout.desktop#desktop-marcasTemplate-instuticional": {
         "children": [
-            "image#banner-marcasTemplateTemplate-instuticional",
-            "rich-text#titulo-institucional-marcasTemplateTemplate",
-            "flex-layout.row#marcasTemplateTemplate-contenedor"
+            "image#banner-marcasTemplate-instuticional",
+            "rich-text#titulo-institucional-marcasTemplate",
+            "flex-layout.row#marcasTemplate-contenedor"
         ]
     },
-    "image#banner-marcasTemplateTemplate-instuticional": {
+    "image#banner-marcasTemplate-instuticional": {
         "props": {
-            "src": "/arquivos/Pagina Estatica- marcasTemplateTemplate_header.png",
+            "src": "/arquivos/Pagina Estatica- marcasTemplate_header.png",
             "width": "100%",
-            "blockClass": "banner-marcasTemplateTemplate-instuticional"
+            "blockClass": "banner-marcasTemplate-instuticional"
         }
     },
-    "rich-text#titulo-institucional-marcasTemplateTemplate": {
+    "rich-text#titulo-institucional-marcasTemplate": {
         "props": {
-            "text": "marcasTemplateTemplate",
+            "text": "marcasTemplate",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "titulo-institucional"
         }
     },
-    "flex-layout.row#marcasTemplateTemplate-contenedor": {
+    "flex-layout.row#marcasTemplate-contenedor": {
         "children": [
-            "flex-layout.col#marcasTemplateTemplate-contenedor"
+            "flex-layout.col#marcasTemplate-contenedor"
         ],
         "props": {
-            "blockClass": "contenedor-marcasTemplateTemplate"
+            "blockClass": "contenedor-marcasTemplate"
         }
     },
-    "flex-layout.col#marcasTemplateTemplate-contenedor": {
+    "flex-layout.col#marcasTemplate-contenedor": {
         "children": [
-            "flex-layout.row#marcasTemplateTemplate-item"
+            "flex-layout.row#marcasTemplate-item"
         ],
         "props": {
             "blockClass": "col-contenedor-marcasTemplate",
