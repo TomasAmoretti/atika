@@ -1,0 +1,1825 @@
+{
+    "store.custom#marcasTemplateTemplate-instuticional": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-marcasTemplateTemplate-instuticional",
+            "responsive-layout.mobile#mobile-marcasTemplateTemplate-instuticional"
+        ]
+    },
+    "responsive-layout.desktop#desktop-marcasTemplateTemplate-instuticional": {
+        "children": [
+            "image#banner-marcasTemplateTemplate-instuticional",
+            "rich-text#titulo-institucional-marcasTemplateTemplate",
+            "flex-layout.row#marcasTemplateTemplate-contenedor"
+        ]
+    },
+    "image#banner-marcasTemplateTemplate-instuticional": {
+        "props": {
+            "src": "/arquivos/Pagina Estatica- marcasTemplateTemplate_header.png",
+            "width": "100%",
+            "blockClass": "banner-marcasTemplateTemplate-instuticional"
+        }
+    },
+    "rich-text#titulo-institucional-marcasTemplateTemplate": {
+        "props": {
+            "text": "marcasTemplateTemplate",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "titulo-institucional"
+        }
+    },
+    "flex-layout.row#marcasTemplateTemplate-contenedor": {
+        "children": [
+            "flex-layout.col#marcasTemplateTemplate-contenedor"
+        ],
+        "props": {
+            "blockClass": "contenedor-marcasTemplateTemplate"
+        }
+    },
+    "flex-layout.col#marcasTemplateTemplate-contenedor": {
+        "children": [
+            "flex-layout.row#marcasTemplateTemplate-item"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-marcasTemplate",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#marcasTemplate-item": {
+        "children": [
+            "image#marca-item-1",
+            "flex-layout.col#marcasTemplate-item-1"
+        ],
+        "props": {
+            "blockClass": "item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#marca-item-1": {
+        "props": {
+            "src": "/arquivos/grohe.png",
+            "blockClass": "marca-institucional"
+        }
+    },
+    "flex-layout.col#marcasTemplate-item-1": {
+        "children": [
+            "flex-layout.row#marcasTemplate-texto-item-a-1",
+            "flex-layout.row#marcasTemplate-texto-item-a-2",
+            "flex-layout.row#marcasTemplate-texto-item-a-3",
+            "flex-layout.row#marcasTemplate-texto-item-a-4",
+            "flex-layout.row#marcasTemplate-texto-item-a-5",
+            "flex-layout.row#marcasTemplate-texto-item-a-6",
+            "flex-layout.row#marcasTemplate-texto-item-a-7"
+        ],
+        "props": {
+            "blockClass": "col-item-marcasTemplate",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-1": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-1",
+            "rich-text#marcasTemplate-item-1-right-1"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-1": {
+        "props": {
+            "text": "Marca",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-1": {
+        "props": {
+            "text": "Grohe",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-2": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-2",
+            "rich-text#marcasTemplate-item-1-right-2"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-2": {
+        "props": {
+            "text": "Origen",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-2": {
+        "props": {
+            "text": "Alemania, Hemer \n GROHE Corporate Center y el GROHE Design Studio están situados en el corazón de Düsseldorf",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-3": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-3",
+            "rich-text#marcasTemplate-item-1-right-3"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-3": {
+        "props": {
+            "text": "TRAYECTORIA",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-3": {
+        "props": {
+            "text": "Desde 1911",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-4": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-4",
+            "rich-text#marcasTemplate-item-1-right-4"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-4": {
+        "props": {
+            "text": "PROPUESTA DE VALOR",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-4": {
+        "props": {
+            "text": "Calidad, tecnología, diseño y sostenibilidad. Cuatro valores que describen a GROHE, el fabricante de grifería sanitaria líder en Europa, el cual posee el 8% del mercado mundial de este sector. Parte de LIXIL Group Corporation desde 2014, además presente en más de 130 países. Sus griferías para baños y cocina, y los más exquisitos programas de duchas hechos para que vivas y sientas todo el poder del agua cumplen con los más altos estándares de calidad, puesto que son sometidas a las pruebas de resistencia y durabilidad más estrictas de la industria antes de que salgan al mercado. \n Enfoque persistente en erradicar los desechos y minimizar el uso de energía. Recicla el 99% del agua que utiliza en la fabricación de sus griferías de baño y cocina. Desde 2019 sus cinco plantas y centros logísticos de Alemania apostaron por la electricidad verde y por imprimir metales en 3D, con el fin de ahorrar material y recursos. De este modo, incrementó su eficiencia energética en un 24% y redujo sus emisiones de gases efecto invernadero en un 40% ",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-5": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-5",
+            "rich-text#marcasTemplate-item-1-right-5"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-5": {
+        "props": {
+            "text": "CERTIFICACIONES",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-5": {
+        "props": {
+            "text": "1) Sello de calidad “Made in Germany” \n 2) ISO 9001 \n 3) ISO 14001 \n 4) ISO 45001 \n 5) ISO 50001 \n 6) U.S. Green Building Council (LEED) \n 7) BREEAM \n 8) Estidama – Sostenibilidad \n 9) DGNB - Deutsche Gesellschaft für Nachhaltiges Bauen eV \n 10) Water Efficiency Label (WELL) Clasificación A",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-6": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-6",
+            "rich-text#marcasTemplate-item-1-right-6"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-6": {
+        "props": {
+            "text": "PREMIOS",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-6": {
+        "props": {
+            "text": "En los últimos diez años a recibido más de 300 premios de diseño e innovación, por ejemplo: \n 1) VI Premios Interiores, Grifería Sostenible 2020 \n 2) German Design Award Special 2017 \n 3) Good Design Award 2017 \n 4) Design for Asia Awards 2016 \n 5) Red Dot Award 2019: Best of the Best \n 6) German Innovation Awards 2020 \n Primero en su industria en ganar el premio CSR del gobierno Alemán en 2017 \n Apareció en el ranking de las 50 empresas que están “Cambiando el Mundo” de la revista Fortune",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    "flex-layout.row#marcasTemplate-texto-item-a-7": {
+        "children": [
+            "rich-text#marcasTemplate-item-1-left-7",
+            "rich-text#marcasTemplate-item-1-right-7"
+        ],
+        "props": {
+            "blockClass": "texto-item-marcasTemplate",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#marcasTemplate-item-1-left-7": {
+        "props": {
+            "text": "[ver productos](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-left-item"
+        }
+    },
+    "rich-text#marcasTemplate-item-1-right-7": {
+        "props": {
+            "text": "[ver garantías](#)",
+            "textAlignment": "left",
+            "textPosition": "Left",
+            "blockClass": "marcasTemplate-right-item"
+        }
+    },
+    n ",
+    "textAlignment": "left",
+    "textPosition": "Left",
+    "blockClass": "marcasTemplate-right-item"
+}
+},
+"flex-layout.row#marcasTemplate-texto-item-k-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-11-left-3",
+        "rich-text#marcasTemplate-item-11-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-11-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-11-right-3": {
+    "props": {
+        "text": "Desde 2013",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-k-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-11-left-4",
+        "rich-text#marcasTemplate-item-11-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-11-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-11-right-4": {
+    "props": {
+        "text": "Living Ceramics, aportar soluciones cerámicas únicas para el mundo del interiorismo y la arquitectura, destacando su innovación y diseño como pilares fundamentales, esto le permitió ser la primera firma del sector en acceder a la Red Aede. \n Cada temporada realiza una colaboración con un diseñador de gran nivel, en su búsqueda constante de la excelencia. \n En pocos años ha logrado expandirse a diversos países como Hong-Kong, Nueva Zelanda, Reino Unido, Irlanda, entre otros, debido a su orientación exportadora, aunque manteniendo una sólida presencia en España",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-k-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-11-left-5",
+        "rich-text#marcasTemplate-item-11-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-11-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-11-right-5": {
+    "props": {
+        "text": "1) ISO 9001 \n 2) U.S. Green Building Council Member \n 3) Use of Certificate FSC Paper",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-k-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-11-left-6",
+        "rich-text#marcasTemplate-item-11-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-11-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-11-right-6": {
+    "props": {
+        "text": "1) Sello Pyme innovadora 2019 \n 2) Premio Best in Show 2019 \n 3) Good Design Award 2018 \n 4) Iconic Award 2017",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-k-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-11-left-7",
+        "rich-text#marcasTemplate-item-11-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-11-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-11-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-12": {
+    "children": [
+        "image#marca-item-12",
+        "flex-layout.col#marcasTemplate-item-12"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-12": {
+    "props": {
+        "src": "/arquivos/santagostino.png",
+        "maxWidth": 220,
+        "maxHeight": 40,
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-12": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-l-1",
+        "flex-layout.row#marcasTemplate-texto-item-l-2",
+        "flex-layout.row#marcasTemplate-texto-item-l-3",
+        "flex-layout.row#marcasTemplate-texto-item-l-4",
+        "flex-layout.row#marcasTemplate-texto-item-l-5",
+        "flex-layout.row#marcasTemplate-texto-item-l-6",
+        "flex-layout.row#marcasTemplate-texto-item-l-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-1",
+        "rich-text#marcasTemplate-item-12-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-1": {
+    "props": {
+        "text": "Ceramica Sant'Agostino",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-2",
+        "rich-text#marcasTemplate-item-12-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-2": {
+    "props": {
+        "text": "Italia, Ferrara",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-3",
+        "rich-text#marcasTemplate-item-12-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-3": {
+    "props": {
+        "text": "Desde 1964",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-4",
+        "rich-text#marcasTemplate-item-12-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-4": {
+    "props": {
+        "text": "Creación de productos de cerámica de primer nivel que responden de manera técnica y estilísticamente a las necesidades del mercado que están en constante evolución, sumado a esto, es 100% Made in Italy. \n Proyecto Ecoquality, es un programa llevado a cabo por Ceramica Sant’Agostino, este utiliza tecnología avanzada, con enfoque ético y sostenibilidad, el cuál es objetivamente medible y en constante evolución. Este proyecto produce energía limpia autoproducida y su optimización de consumos en procesos productivos con calidad de producto certificada. El programa ha permitido obtener niveles muy por debajo de emisiones en agua permitidos. Además, el 100% de los residuos de la empresa se reutilizan o se gestiona su separación para que se recicle. ",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-5",
+        "rich-text#marcasTemplate-item-12-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-5": {
+    "props": {
+        "text": "1) ISO 9001 \n 2) ISO 14001 \n 3) ISO 45001 \n 4) ISO 14021 \n 5) OHSAS 18001  \n 6) ECOLABEL \n 7) UNI-CERTIQUALITY y CEN-KEYMARK \n 8) Miembro de Green Building Council Italy \n 9) LEED \n 10) EPD - Environmental Product Declaration  \n 11) Marca CE \n 12) CCC",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-6",
+        "rich-text#marcasTemplate-item-12-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-6": {
+    "props": {
+        "text": "1) Archiproducts Design Awards 2020 \n 2) Ceramic King Award en la categoría 'Modern Tiles' 2019",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-l-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-12-left-7",
+        "rich-text#marcasTemplate-item-12-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-12-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-12-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-13": {
+    "children": [
+        "image#marca-item-13",
+        "flex-layout.col#marcasTemplate-item-13"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-13": {
+    "props": {
+        "src": "/arquivos/emil.png",
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-13": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-m-1",
+        "flex-layout.row#marcasTemplate-texto-item-m-2",
+        "flex-layout.row#marcasTemplate-texto-item-m-3",
+        "flex-layout.row#marcasTemplate-texto-item-m-4",
+        "flex-layout.row#marcasTemplate-texto-item-m-5",
+        "flex-layout.row#marcasTemplate-texto-item-m-6",
+        "flex-layout.row#marcasTemplate-texto-item-m-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-1",
+        "rich-text#marcasTemplate-item-13-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-1": {
+    "props": {
+        "text": "Emil Ceramica",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-2",
+        "rich-text#marcasTemplate-item-13-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-2": {
+    "props": {
+        "text": "Italia, Módena",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-3",
+        "rich-text#marcasTemplate-item-13-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-3": {
+    "props": {
+        "text": "Desde 1961",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-4",
+        "rich-text#marcasTemplate-item-13-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-4": {
+    "props": {
+        "text": "EMILGROUP, marca del Made in Italy por excelencia del sector cerámico, cuenta con cinco filiales y está presente en más de setenta países con 5.500 puntos de venta. \n La clave estratégica, son sus inversiones en producción e innovación. Asimismo, posee un alto enfoque de responsabilidad social con sus trabajadores mediante diferentes convenios para su bienestar como asesoramiento legal, asesoramiento psicológico, asesoramiento sobre seguros y seguro sanitario.  \n Cuenta con un fuerte papel social y cultural en la comunidad donde se sitúa, en adición, ha decidido implementar y mejorar con continuidad su sistema de gestión integrado “Calidad – Salud y Seguridad – Medio Ambiente & Energía” \n EMILGROUP distribuye sus productos por todo el mundo con las marcasTemplate Emil Ceramica, Ergon, Provenza, Viva Made y Level \n EMIL CERAMICA, concentra su principal atención en la gama para asegurar un abanico de posibilidades lo más amplio posible y así satisfacer toda suerte de necesidad",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-5",
+        "rich-text#marcasTemplate-item-13-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-5": {
+    "props": {
+        "text": "1) ISO 9001 \n 2) ISO 14001 \n 3) ISO 50001 \n 4) OHSAS 18001 \n 5) EPD - Environmental Product Declaration  \n 6) U.S Green Building Council Member \n 7) Miembro de Green Building Council Italia \n 8) Confindustria Per La Sostenibilità \n 9) UNI-CERTIQUALITY",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-6",
+        "rich-text#marcasTemplate-item-13-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-6": {
+    "props": {
+        "text": "1) Archiproducts Design Awards 2020 \n 2) Top Employers Italy 2019 \n 3) Top Employers Italy 2020",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-m-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-7",
+        "rich-text#marcasTemplate-item-13-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-13-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-13-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-14": {
+    "children": [
+        "image#marca-item-14",
+        "flex-layout.col#marcasTemplate-item-14"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-14": {
+    "props": {
+        "src": "/arquivos/provenza.jpg",
+        "maxWidth": 210,
+        "maxHeight": 50,
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-14": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-n-1",
+        "flex-layout.row#marcasTemplate-texto-item-n-2",
+        "flex-layout.row#marcasTemplate-texto-item-n-3",
+        "flex-layout.row#marcasTemplate-texto-item-n-4",
+        "flex-layout.row#marcasTemplate-texto-item-n-5",
+        "flex-layout.row#marcasTemplate-texto-item-n-6",
+        "flex-layout.row#marcasTemplate-texto-item-n-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-1",
+        "rich-text#marcasTemplate-item-14-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-1": {
+    "props": {
+        "text": "Provenza",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-13-left-2",
+        "rich-text#marcasTemplate-item-13-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-2": {
+    "props": {
+        "text": "Italia, Módena",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-3",
+        "rich-text#marcasTemplate-item-14-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-3": {
+    "props": {
+        "text": "Desde 1961",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-4",
+        "rich-text#marcasTemplate-item-14-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-4": {
+    "props": {
+        "text": "EMILGROUP, marca del Made in Italy por excelencia del sector cerámico, cuenta con cinco filiales y está presente en más de setenta países con 5.500 puntos de venta. \n La clave estratégica, son sus inversiones en producción e innovación. Asimismo, posee un alto enfoque de responsabilidad social con sus trabajadores mediante diferentes convenios para su bienestar como asesoramiento legal, asesoramiento psicológico, asesoramiento sobre seguros y seguro sanitario.  \n Cuenta con un fuerte papel social y cultural en la comunidad donde se sitúa, en adición, ha decidido implementar y mejorar con continuidad su sistema de gestión integrado “Calidad – Salud y Seguridad – Medio Ambiente & Energía” \n EMILGROUP distribuye sus productos por todo el mundo con las marcasTemplate Emil Ceramica, Ergon, Provenza, Viva Made y Level \n EMIL CERAMICA, concentra su principal atención en la gama para asegurar un abanico de posibilidades lo más amplio posible y así satisfacer toda suerte de necesidad",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-5",
+        "rich-text#marcasTemplate-item-14-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-5": {
+    "props": {
+        "text": "1) ISO 9001 \n 2) ISO 14001 \n 3) ISO 50001 \n 4) OHSAS 18001 \n 5) EPD - Environmental Product Declaration  \n 6) U.S Green Building Council Member \n 7) Miembro de Green Building Council Italia \n 8) Confindustria Per La Sostenibilità \n 9) UNI-CERTIQUALITY",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-6",
+        "rich-text#marcasTemplate-item-14-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-6": {
+    "props": {
+        "text": "1) Archiproducts Design Awards 2020 \n 2) Top Employers Italy 2019 \n 3) Top Employers Italy 2020",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-n-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-14-left-7",
+        "rich-text#marcasTemplate-item-14-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-14-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-14-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-15": {
+    "children": [
+        "image#marca-item-15",
+        "flex-layout.col#marcasTemplate-item-15"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-15": {
+    "props": {
+        "src": "/arquivos/fondovalle.png",
+        "maxHeight": 40,
+        "maxWidth": 240,
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-15": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-o-1",
+        "flex-layout.row#marcasTemplate-texto-item-o-2",
+        "flex-layout.row#marcasTemplate-texto-item-o-3",
+        "flex-layout.row#marcasTemplate-texto-item-o-4",
+        "flex-layout.row#marcasTemplate-texto-item-o-5",
+        "flex-layout.row#marcasTemplate-texto-item-o-6",
+        "flex-layout.row#marcasTemplate-texto-item-o-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-1",
+        "rich-text#marcasTemplate-item-15-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-1": {
+    "props": {
+        "text": "Fondovalle",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-2",
+        "rich-text#marcasTemplate-item-15-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-2": {
+    "props": {
+        "text": "Italia, Módena",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-3",
+        "rich-text#marcasTemplate-item-15-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-3": {
+    "props": {
+        "text": "Desde 1962",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-4",
+        "rich-text#marcasTemplate-item-15-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-4": {
+    "props": {
+        "text": "Marca del Made in Italy, Fondovalle, una de las empresas líderes en el mercado internacional de la producción y comercialización de baldosas y losas de gres porcelánico, con estilo natural y contemporáneo, excelencia respaldada por la experiencia, posicionando en el centro de todo la pasión por la belleza, la arquitectura, el diseño y en particular la calidad como una forma de pensar y una forma de hacer. \n Investigación e innovación tecnológica, salvaguardando el medio ambiente y el territorio, ética social y ambiental, cultura y atención a los detalles son aspectos fundamentales en la empresa, es por esto, que están unidos al programa Life +, el que busca mejorar sus procesos productivos para reducir los residuos, optimizar los recursos energéticos y ayudar a fortalecer un concepto de calidad “sostenible”, a través de la creación de herramientas, tecnología y metodologías de vanguardia.",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-5",
+        "rich-text#marcasTemplate-item-15-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-5": {
+    "props": {
+        "text": "1) QB Certification Mark (UPEC) \n 2) Marca CE \n 3) CCC",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-6",
+        "rich-text#marcasTemplate-item-15-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-6": {
+    "props": {
+        "text": "1) ADI Ceramics & Bathroom Design Award 2018 \n 2) Best of the Best Award 2006-2007, por la Comisión Europea ",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-o-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-15-left-7",
+        "rich-text#marcasTemplate-item-15-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-15-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-15-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-16": {
+    "children": [
+        "image#marca-item-16",
+        "flex-layout.col#marcasTemplate-item-16"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-16": {
+    "props": {
+        "src": "/arquivos/onix.gif",
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-16": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-p-1",
+        "flex-layout.row#marcasTemplate-texto-item-p-2",
+        "flex-layout.row#marcasTemplate-texto-item-p-3",
+        "flex-layout.row#marcasTemplate-texto-item-p-4",
+        "flex-layout.row#marcasTemplate-texto-item-p-6",
+        "flex-layout.row#marcasTemplate-texto-item-p-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-1",
+        "rich-text#marcasTemplate-item-16-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-1": {
+    "props": {
+        "text": "Onix",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-2",
+        "rich-text#marcasTemplate-item-16-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-2": {
+    "props": {
+        "text": "España, Onda, Castellón",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-3",
+        "rich-text#marcasTemplate-item-16-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-3": {
+    "props": {
+        "text": "Desde 1999",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-4",
+        "rich-text#marcasTemplate-item-16-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-4": {
+    "props": {
+        "text": "Líder en Mosaico Vitreo en Europa y presente en más de 100 países, Onix, la empresa que, gracias a su incesante búsqueda estética y creatividad, en conjunto a su constante evolución en tecnología, y a su potente compromiso con el medio ambiente, ya que sus productos están hechos de un 98% de vidrio reciclado, la logran posicionar como una prestigiosa firma española y como referente en el universo de la decoración.",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-6",
+        "rich-text#marcasTemplate-item-16-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-6": {
+    "props": {
+        "text": "1) Premiada con el sello CEPYME500",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-p-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-16-left-7",
+        "rich-text#marcasTemplate-item-16-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-16-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-16-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-17": {
+    "children": [
+        "image#marca-item-17",
+        "flex-layout.col#marcasTemplate-item-17"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-17": {
+    "props": {
+        "src": "/arquivos/eliane.jpg",
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-17": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-q-1",
+        "flex-layout.row#marcasTemplate-texto-item-q-2",
+        "flex-layout.row#marcasTemplate-texto-item-q-3",
+        "flex-layout.row#marcasTemplate-texto-item-q-4",
+        "flex-layout.row#marcasTemplate-texto-item-q-5",
+        "flex-layout.row#marcasTemplate-texto-item-q-6",
+        "flex-layout.row#marcasTemplate-texto-item-q-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-1",
+        "rich-text#marcasTemplate-item-17-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-1": {
+    "props": {
+        "text": "Eliane",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-2",
+        "rich-text#marcasTemplate-item-17-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-2": {
+    "props": {
+        "text": "Brasil, Santa Catarina",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-3",
+        "rich-text#marcasTemplate-item-17-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-3": {
+    "props": {
+        "text": "Desde 1960",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-4",
+        "rich-text#marcasTemplate-item-17-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-4": {
+    "props": {
+        "text": "Eliane. El primer fabricante de porcelanatos gres en Brasil, quien ha construido su historia sobre su crecimiento sostenible. Manteniendo como pilares la ética, disciplina, sencillez e innovación, que hoy le permite estar presente en más de 80 países y contar con más de 25.000 clientes alrededor del mundo.",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-5": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-5",
+        "rich-text#marcasTemplate-item-17-right-5"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-5": {
+    "props": {
+        "text": "CERTIFICACIONES",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-5": {
+    "props": {
+        "text": "1) Garantía de acuerdo con las normas ISO, NBR y ASTM",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-6": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-6",
+        "rich-text#marcasTemplate-item-17-right-6"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-6": {
+    "props": {
+        "text": "PREMIOS",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-6": {
+    "props": {
+        "text": "1) Premio Best in Show – Cerámica de Brasil 2016 \n 2) Premio Sinduscon 2015 \n 3) Premio Ceramic World 2018",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-q-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-17-left-7",
+        "rich-text#marcasTemplate-item-17-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-17-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-17-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-item-18": {
+    "children": [
+        "image#marca-item-18",
+        "flex-layout.col#marcasTemplate-item-18"
+    ],
+    "props": {
+        "blockClass": "item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"image#marca-item-18": {
+    "props": {
+        "src": "/arquivos/fabresa.png",
+        "blockClass": "marca-institucional"
+    }
+},
+"flex-layout.col#marcasTemplate-item-18": {
+    "children": [
+        "flex-layout.row#marcasTemplate-texto-item-r-1",
+        "flex-layout.row#marcasTemplate-texto-item-r-2",
+        "flex-layout.row#marcasTemplate-texto-item-r-3",
+        "flex-layout.row#marcasTemplate-texto-item-r-4",
+        "flex-layout.row#marcasTemplate-texto-item-r-7"
+    ],
+    "props": {
+        "blockClass": "col-item-marcasTemplate",
+        "preventVerticalStretch": true
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-r-1": {
+    "children": [
+        "rich-text#marcasTemplate-item-18-left-1",
+        "rich-text#marcasTemplate-item-18-right-1"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-18-left-1": {
+    "props": {
+        "text": "Marca",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-18-right-1": {
+    "props": {
+        "text": "Fabresa",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-r-2": {
+    "children": [
+        "rich-text#marcasTemplate-item-18-left-2",
+        "rich-text#marcasTemplate-item-18-right-2"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-18-left-2": {
+    "props": {
+        "text": "Origen",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-18-right-2": {
+    "props": {
+        "text": "España, Lucena del Cid, Castellón",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-r-3": {
+    "children": [
+        "rich-text#marcasTemplate-item-18-left-3",
+        "rich-text#marcasTemplate-item-18-right-3"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-18-left-3": {
+    "props": {
+        "text": "TRAYECTORIA",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-18-right-3": {
+    "props": {
+        "text": "Desde 1960",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-r-4": {
+    "children": [
+        "rich-text#marcasTemplate-item-18-left-4",
+        "rich-text#marcasTemplate-item-18-right-4"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-18-left-4": {
+    "props": {
+        "text": "PROPUESTA DE VALOR",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-18-right-4": {
+    "props": {
+        "text": "Fabresa, aportar soluciones cerámicas en formato pequeño. \n Su filosofía radica en la calidad del producto y el servicio al cliente. Para asegurar la calidad, el producto pasa por un proceso de testeado realizado por el Instituto de Tecnología Cerámica. \n Además, posee un fuerte compromiso con el medio ambiente y desarrollo sostenible, con lo cual busca el residuo cero en la fabricación de azulejos.",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"flex-layout.row#marcasTemplate-texto-item-r-7": {
+    "children": [
+        "rich-text#marcasTemplate-item-18-left-7",
+        "rich-text#marcasTemplate-item-18-right-7"
+    ],
+    "props": {
+        "blockClass": "texto-item-marcasTemplate",
+        "preventHorizontalStretch": true
+    }
+},
+"rich-text#marcasTemplate-item-18-left-7": {
+    "props": {
+        "text": "[ver productos](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-left-item"
+    }
+},
+"rich-text#marcasTemplate-item-18-right-7": {
+    "props": {
+        "text": "[ver garantías](#)",
+        "textAlignment": "left",
+        "textPosition": "Left",
+        "blockClass": "marcasTemplate-right-item"
+    }
+},
+"responsive-layout.mobile#mobile-marcasTemplate-instuticional": {
+    "children": [
+        "image#banner-marcasTemplate-instuticional-mobile",
+        "rich-text#titulo-institucional-marcasTemplate",
+        "flex-layout.row#marcasTemplate-contenedor"
+    ]
+},
+"image#banner-marcasTemplate-instuticional-mobile": {
+    "props": {
+        "src": "/arquivos/Pagina Estatica- marcasTemplate_header mobile.png",
+        "blockClass": "banner-marcasTemplate-instuticional"
+    }
+}
+}

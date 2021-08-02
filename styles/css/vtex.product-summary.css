@@ -39,13 +39,14 @@
   display: flex;
   justify-content: end;
   margin-left: 9px;
-  padding-bottom: 15px;
+  padding-bottom: 0;
 }
 
 .brandName {
   font-family: "Source Sans Pro";
   font-weight: 400;
-  min-height: 50px;
+  height: 30px;
+  overflow-y: hidden;
   font-size: 14px;
   color: black;
 }

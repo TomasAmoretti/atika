@@ -87,7 +87,7 @@
 
 /* HOME */
 .container--titulo-shelf {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   padding: 0 20px;
 }
@@ -172,7 +172,7 @@
   font-family: "Source Sans Pro";
   font-weight: 400;
   font-size: 14px;
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   margin-bottom: 10px;
 }

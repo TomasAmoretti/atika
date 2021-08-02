@@ -1,63 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 .searchResultContainer {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 90%;
+  margin: auto;
 }
 
 .gallery {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .notFound--layout {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .galleryTitle--layout {
-    text-align: center;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 28px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 28px;
 }
 
 .selectedCategoryName {
-    color: #C90512;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
+  color: #c90512;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
 
 .filterTitle {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 14px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .categoryItemName {
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
-    font-size: 14px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .filterMessage {
-    font-family: 'Source Sans Pro';
-    font-weight: 700;
-    font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .totalProducts--layout {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 14px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .filterPopupTitle {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    font-size: 14px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .categoryItemChildren {
-    font-family: 'Source Sans Pro';
-    font-size: 13px;
+  font-family: "Source Sans Pro";
+  font-size: 13px;
 }
