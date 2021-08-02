@@ -2225,7 +2225,7 @@ button#btn-go-to-payment {
 
 .table.cart-items tbody tr.item-unavailable {
   margin: 10px 0;
-  border-radius: 10px;
+  border-radius: 0;
   border: none !important;
 }
 
@@ -2950,7 +2950,7 @@ a#cart-to-orderform:hover {
 
 .body-cart-vertical .summary-template-holder {
   width: 30%;
-  margin-top: -44px;
+  margin-top: 5px;
 }
 
 @media (max-width: 998px) {
