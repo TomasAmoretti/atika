@@ -1,27 +1,27 @@
 {
-    "store.blog-post":{
-        "blocks":[
+    "store.blog-post": {
+        "blocks": [
             "blog-breadcrumb.wordpress-breadcrumb",
             "blog-search.wordpress-search",
-            "blog-post-details.wordpress-post-details",
             "blog-post-container.wordpress"
         ]
     },
-    "blog-post-container.wordpress":{
-        "children":[
+    "blog-post-container.wordpress": {
+        "children": [
+            "blog-post-details.wordpress-post-details",
             "blog-post-navigation.wordpress"
         ]
     },
-    "blog-post-details.wordpress-post-details":{
-        "blocks":[
+    "blog-post-details.wordpress-post-details": {
+        "blocks": [
             "blog-related-products.wordpress-related-products"
         ]
     },
-    "blog-related-products.wordpress-related-products":{
-        "props":{
+    "blog-related-products.wordpress-related-products": {
+        "props": {
             "blockClass": "productos-relacionados-blog"
         },
-        "blocks":[
+        "blocks": [
             "product-summary.shelf#main"
         ]
     }
