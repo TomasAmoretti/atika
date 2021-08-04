@@ -1,0 +1,8 @@
+{
+    "store.blog-home#post": {
+        "blocks": [
+            "blog-breadcrumb.wordpress-breadcrumb",
+            "blog-page-details.wordpress-page-details"
+        ]
+    }
+}
