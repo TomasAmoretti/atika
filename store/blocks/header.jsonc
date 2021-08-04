@@ -1,13 +1,13 @@
 {
   "header": {
     "blocks": [
-      "header-layout.desktop", 
+      "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop", 
+      "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
@@ -31,7 +31,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "fullWidth": true,
-      "blockClass":"top-header"
+      "blockClass": "top-header"
     },
     "children": [
       "flex-layout.row#top-desktop-left",
@@ -43,100 +43,100 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "fullWidth": true,
-      "blockClass":"top-header-left"
+      "blockClass": "top-header-left"
     },
     "children": [
       "rich-text#texto-top"
     ]
   },
-  "rich-text#texto-top":{
-    "props":{
+  "rich-text#texto-top": {
+    "props": {
       "text": "MENSAJE PARA LOS CLIENTES / SPACEPLANNER U OTROS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top-texto"
     }
   },
-  "icon#youtube":{
-    "props":{
-      "id":"mpa-youtube"
+  "icon#youtube": {
+    "props": {
+      "id": "mpa-youtube"
     }
   },
-  "flex-layout.row#seguir-pedido-top":{
+  "flex-layout.row#seguir-pedido-top": {
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass":"contacto-top"
+      "blockClass": "contacto-top"
     },
     "children": [
       /*"image#telefono-top",*/
       "rich-text#seguir-pedido-top"
     ]
   },
-  "image#telefono-top":{
-    "props":{
-      "url":{
-        "link":"#"
+  "image#telefono-top": {
+    "props": {
+      "url": {
+        "link": "#"
       },
       "src": "/arquivos/icono-telefono.svg",
       "blockClass": "image-top-header"
     }
   },
-  "rich-text#seguir-pedido-top":{
-    "props":{
+  "rich-text#seguir-pedido-top": {
+    "props": {
       "text": "[Sigue tu pedido](#)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
     }
   },
-  "flex-layout.row#correo-top":{
+  "flex-layout.row#correo-top": {
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass":"contacto-top"
+      "blockClass": "contacto-top"
     },
     "children": [
       /*"image#correo-top",*/
       "rich-text#correo-top"
     ]
   },
-  "image#correo-top":{
-    "props":{
-      "url":{
-        "link":"#"
+  "image#correo-top": {
+    "props": {
+      "url": {
+        "link": "#"
       },
       "src": "/arquivos/icono-mail.svg",
       "blockClass": "image-top-header"
     }
   },
-  "rich-text#correo-top":{
-    "props":{
+  "rich-text#correo-top": {
+    "props": {
       "text": "[Contacto](/contacto)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"
     }
   },
-  "flex-layout.row#tiendas-top":{
+  "flex-layout.row#tiendas-top": {
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass":"contacto-top"
+      "blockClass": "contacto-top"
     },
     "children": [
       /*"image#tiendas-top",*/
       "rich-text#tiendas-top"
     ]
   },
-  "image#tiendas-top":{
-    "props":{
-      "url":{
-        "link":"#"
+  "image#tiendas-top": {
+    "props": {
+      "url": {
+        "link": "#"
       },
       "src": "/arquivos/icono-gps.svg",
       "blockClass": "image-top-header"
     }
   },
-  "rich-text#tiendas-top":{
-    "props":{
+  "rich-text#tiendas-top": {
+    "props": {
       "text": "[Tiendas](/tiendas)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -148,7 +148,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "fullWidth": true,
-      "blockClass":"top-header-left"
+      "blockClass": "top-header-left"
     },
     "children": [
       "flex-layout.row#seguir-pedido-top",
@@ -163,7 +163,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass":"header-main"
+      "blockClass": "header-main"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -187,10 +187,10 @@
       "logo"
     ]
   },
-  "icon#logo":{
-    "props":{
-      "blockClass":"ico-logo",
-      "id":"hpa-logo",
+  "icon#logo": {
+    "props": {
+      "blockClass": "ico-logo",
+      "id": "hpa-logo",
       "href": "/"
     }
   },
@@ -201,12 +201,12 @@
       "url": "/arquivos/logo-atika.svg",
       "width": 205,
       "height": 100,
-      "blockClass":"logo"
+      "blockClass": "logo"
     }
   },
   "login": {
     "props": {
-      "emailAndPasswordTitle": "Ingresar",
+      "emailAndPasswordTitle": "Ingresar con e-mail y contraseña",
       "accessCodeTitle": "Ingresar con codigo de acceso",
       "emailPlaceholder": "Ej: ejemplo@gmail.com",
       "passwordPlaceholder": "Ingresa tu contraseña",
@@ -214,18 +214,18 @@
       "showIconProfile": true,
       "hasGoogleOneTap": true,
       "hideIconLabel": true,
-      "optionsTitle": "Elije una opción para ingresar",
+      "optionsTitle": "Elegir una opción para ingresar",
       "iconProps": {
         "viewBox": "0 0 50 50"
       },
       "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
     }
   },
-  "search-bar":{
-    "props":{
+  "search-bar": {
+    "props": {
       "maxWidth": 600,
       "compactMode": false,
-      "blockClass":"search-desktop"
+      "blockClass": "search-desktop"
     }
   },
   "header-layout.mobile": {
@@ -239,8 +239,8 @@
       "flex-layout.row#mobile",
       "search-bar#mobile"
     ],
-    "props":{
-      "blockClass":"sticky-mobile"
+    "props": {
+      "blockClass": "sticky-mobile"
     }
   },
   "flex-layout.row#top-mobile": {
@@ -248,14 +248,14 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "fullWidth": true,
-      "blockClass":"top-header-mobile"
+      "blockClass": "top-header-mobile"
     },
     "children": [
       "rich-text#top-mobile"
     ]
   },
-  "rich-text#top-mobile":{
-    "props":{
+  "rich-text#top-mobile": {
+    "props": {
       "text": "MENSAJE PARA LOS CLIENTES / SPACEPLANNER U OTROS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -283,36 +283,36 @@
       "title": "Logo",
       "href": "/",
       "url": "/arquivos/logo-atika.svg",
-      "blockClass":"logo"
+      "blockClass": "logo"
     }
   },
-  "menu-item#favoritos-icon":{
-    "props":{
+  "menu-item#favoritos-icon": {
+    "props": {
       "type": "custom",
-        "itemProps": {
+      "itemProps": {
         "href": "/account#/wishlist",
         "text": " "
       },
-          "iconProps": {
-            "id": "mpa-heart",
-            "size": 16,
-            "viewBox": "0 0 18 18",
-            "mutedClassName": "c-action-primary"
-          },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16,
+        "viewBox": "0 0 18 18",
+        "mutedClassName": "c-action-primary"
+      },
       "blockClass": "icon-favoritos"
     }
   },
-  "icon#heart":{
-    "props":{
-      "id":"mpa-heart",
+  "icon#heart": {
+    "props": {
+      "id": "mpa-heart",
       "href": "#",
       "blockClass": "icon-favoritos"
     }
   },
-  "search-bar#mobile":{
-    "props":{
+  "search-bar#mobile": {
+    "props": {
       "displayMode": "search-button",
-      "blockClass":"search-mobile"
+      "blockClass": "search-mobile"
     }
   },
   "flex-layout.col#spacer-2": {
@@ -341,10 +341,10 @@
       "blockClass": "menu-drawer"
     }
   },
-  "search-bar#mobile-drawer":{
-    "props":{
+  "search-bar#mobile-drawer": {
+    "props": {
       "displayMode": "search-button",
-      "blockClass":"search-mobile-drawer"
+      "blockClass": "search-mobile-drawer"
     }
   }
 }
