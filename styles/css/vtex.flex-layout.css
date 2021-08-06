@@ -131,7 +131,7 @@
 .flexRowContent--categorias {
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .flexRow--info-item-home-mobile {
@@ -507,20 +507,18 @@
 .flexRowContent--row-destacados {
   display: flex;
   align-items: center;
-  max-width: 95%;
+  justify-content: space-between;
   margin: auto;
 }
 
 .flexRow--row-destacados {
   max-width: 95%;
   margin: auto;
-  padding: 0 15px;
 }
 
 .flexRow--row-inspiracion {
   max-width: 95%;
   margin: auto;
-  padding: 0 20px;
 }
 
 .flexCol--search-result-filtros {

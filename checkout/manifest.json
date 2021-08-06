@@ -1,7 +1,7 @@
 {
   "name": "checkout",
   "vendor": "atika",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {

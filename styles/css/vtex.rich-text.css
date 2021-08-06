@@ -89,7 +89,6 @@
 .container--titulo-shelf {
   max-width: 95%;
   margin: auto;
-  padding: 0 20px;
 }
 
 .paragraph--info-1,
@@ -186,18 +185,18 @@
 }
 
 .container--sale-ver-mas {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
 .container--titulo-sale {
   margin-top: 40px !important;
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
 .container--titulo-instagram {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -581,7 +580,7 @@
 }
 
 .container--blog-categorias-titulo {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 

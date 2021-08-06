@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
 .searchBlockContainer {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   padding-left: 0;
 }
 
 .latestPostsBlockContainer {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .breadcrumbContainer {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -69,7 +69,7 @@
 
 .listContainer {
   font-family: "Source Sans Pro";
-  max-width: 1280px !important;
+  max-width: 95% !important;
   margin: auto;
   padding: 0;
 }
@@ -103,7 +103,7 @@
 }
 
 .postFlex {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   padding: 0;
 }
@@ -146,7 +146,7 @@
 
 .blocks-gallery-grid {
   padding: 0;
-  max-width: 1260px;
+  max-width: 95%;
   width: 100%;
   margin: auto;
 }
@@ -161,7 +161,7 @@
 }
 
 .postNavigationContainer {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   margin-bottom: 50px;
 }
