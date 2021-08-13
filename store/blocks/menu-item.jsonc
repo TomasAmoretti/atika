@@ -1460,16 +1460,6 @@
       "blockClass": "footer-item"
     }
   },
-  "menu-item#footer-inspiracion": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "#",
-        "text": "Inspiración"
-      },
-      "blockClass": "footer-item"
-    }
-  },
   "menu-item#footer-blog": {
     "props": {
       "type": "custom",
@@ -1556,16 +1546,6 @@
       "itemProps": {
         "href": "/account#/orders",
         "text": "Mis Pedidos"
-      },
-      "blockClass": "footer-item"
-    }
-  },
-  "menu-item#footer-seguimiento": {
-    "props": {
-      "type": "custom",
-      "itemProps": {
-        "href": "#",
-        "text": "Seguimiento de mi Compra"
       },
       "blockClass": "footer-item"
     }
@@ -3180,7 +3160,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/seguimiento-pedido",
+        "href": "/institucional/condiciones-despacho",
         "text": "DESPACHO"
       },
       "blockClass": "item-submenu-mobile"

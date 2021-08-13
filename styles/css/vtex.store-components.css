@@ -107,6 +107,23 @@
   padding: 0;
 }
 
+.confirmationTitle--newsletter {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: inherit;
+  color: #fff;
+  font-family: 'Source Sans Pro Regular';
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.confirmationText--newsletter {
+  color: #fff;
+  font-family: 'Source Sans Pro Regular';
+  font-size: 13px;
+  text-align: inherit;
+}
+
 .imageElementLink--imagen-contacto {
   align-items: center;
   display: flex;
@@ -137,7 +154,7 @@
 .imageElementLink--imagen-categoria-cocina::after {
   content: "COCINA";
   position: relative;
-  left: 34%;
+  left: 70px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;
@@ -150,7 +167,7 @@
 .imageElementLink--imagen-categoria-bano::after {
   content: "BAÑO";
   position: relative;
-  left: 39%;
+  left: 85px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;
@@ -163,7 +180,7 @@
 .imageElementLink--imagen-categoria-estar::after {
   content: "SALA DE ESTAR";
   position: relative;
-  left: 23%;
+  left: 44px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;
@@ -176,7 +193,7 @@
 .imageElementLink--imagen-categoria-dormitorio::after {
   content: "DORMITORIO";
   position: relative;
-  left: 25%;
+  left: 50px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;
@@ -189,7 +206,7 @@
 .imageElementLink--imagen-categoria-exterior::after {
   content: "EXTERIOR";
   position: relative;
-  left: 34%;
+  left: 65px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;
@@ -202,7 +219,7 @@
 .imageElementLink--imagen-categoria-publicos::after {
   content: "RECINTOS PUBLICOS";
   position: relative;
-  left: 11%;
+  left: 18px;
   font-family: "Poppins";
   text-transform: uppercase;
   text-decoration: none;

@@ -726,7 +726,7 @@
         "props": {
             "src": "/arquivos/MENU-DESPACHO.svg",
             "link": {
-                "url": "/seguimiento-pedido"
+                "url": "/institucional/condiciones-despacho"
             },
             "blockClass": "menu-inspiracion",
             "minWidth": 150
@@ -737,8 +737,7 @@
         "children": [
             "menu-item#footer-somos",
             "menu-item#footer-servicios",
-            "menu-item#footer-spaceplanner",
-            "menu-item#footer-inspiracion",
+            "menu-item#footer-spaceplanner",    
             "menu-item#footer-blog"
         ],
         "props": {
@@ -763,7 +762,6 @@
         "children": [
             "menu-item#footer-sesion",
             "menu-item#footer-pedidos",
-            "menu-item#footer-seguimiento",
             "menu-item#footer-despacho"
         ],
         "props": {

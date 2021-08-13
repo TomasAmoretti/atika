@@ -109,7 +109,7 @@
     },
     "rich-text#boton-cuarzo-vermas":{
         "props": {
-            "text": "[VER MÁS](#)",
+            "text": "[VER MÁS](/cuarzo)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-elemento-vermas"
@@ -168,7 +168,7 @@
     },
     "rich-text#boton-marmol-vermas":{
         "props": {
-            "text": "[VER MÁS](#)",
+            "text": "[VER MÁS](/marmol)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-elemento-vermas"
@@ -236,7 +236,7 @@
     },
     "rich-text#boton-granito-vermas":{
         "props": {
-            "text": "[VER MÁS](#)",
+            "text": "[VER MÁS](/granito)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-elemento-vermas"
@@ -295,7 +295,7 @@
     },
     "rich-text#boton-itopker-vermas":{
         "props": {
-            "text": "[VER MÁS](#)",
+            "text": "[VER MÁS](/superficies-ultra-compactas)",
             "textAlignment": "left",
             "textPosition": "Left",
             "blockClass": "boton-elemento-vermas"

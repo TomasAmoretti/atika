@@ -83,7 +83,7 @@
   },
   "rich-text#seguir-pedido-top": {
     "props": {
-      "text": "[Sigue tu pedido](#)",
+      "text": "[Sigue tu pedido](/seguimiento-pedido)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "contacto-top"

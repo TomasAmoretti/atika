@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-.term--breadcrumb {
+.term {
     color: #C90512;
     font-family: 'Source Sans Pro';
 }
 
-.homeIcon--breadcrumb {
+.homeIcon {
     width: 0;
     visibility: hidden;
 }
 
-.homeLink--breadcrumb::before {
+.homeLink::before {
     visibility: visible;
     content: "Home";
     padding-right: 5px;
 }
 
-.homeLink--breadcrumb {
+.homeLink {
     align-items: center;
     display: contents;
 }
 
-.arrow--breadcrumb {
+.arrow {
     padding: 0;
 }
 
-.container--breadcrumb {
+.container {
     font-family: 'Source Sans Pro';
     font-size: 11px;
 }
@@ -42,6 +42,7 @@
     font-family: 'Source Sans Pro';
     font-weight: 600;
     font-size: 13px;
+    text-transform: capitalize;
 }
 
 .container {

@@ -13,7 +13,7 @@
       "rich-text#titulo-shelf",
       "flex-layout.row#destacados",
       "rich-text#titulo-inspiracion",
-      "flex-layout.row#inspiracion",
+      "flex-layout.row#inspiracion",  
       "rich-text#titulo-sale",
       "shelf#Sale",
       "rich-text#sale-ver-mas",
@@ -47,6 +47,9 @@
   "image#info-1": {
     "props": {
       "src": "/arquivos/despacho.svg",
+      "link":{
+        "url": "/seguimiento-pedido"
+      },
       "width": 40,
       "blockClass": "image-info"
     }
@@ -135,6 +138,9 @@
   "image#info-3": {
     "props": {
       "src": "/arquivos/tiendas.svg",
+      "link":{
+        "url": "/tiendas"
+      },
       "width": 40,
       "blockClass": "image-info"
     }
@@ -179,6 +185,9 @@
   "image#info-4": {
     "props": {
       "src": "/arquivos/splanner.svg",
+      "link":{
+        "url": "/spaceplanner"
+      },
       "width": 40,
       "blockClass": "image-info"
     }

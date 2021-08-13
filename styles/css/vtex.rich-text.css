@@ -265,6 +265,11 @@
   margin: 0;
 }
 
+.link--titulo-informativo {
+  color: #000;
+  text-decoration: unset;
+}
+
 .paragraph--titulo-informativo {
   font-family: "Source Sans Pro";
   font-weight: 700;
@@ -473,7 +478,7 @@
 .container--titulo-servicios,
 .container--texto-servicios,
 .container--aclaracion-servicios {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -522,7 +527,7 @@
 }
 
 .container--titulo-institucional-general {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -590,7 +595,7 @@
 }
 
 .container--texto-servicios-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -610,7 +615,7 @@
 }
 
 .container--titulo-elemento-servicios-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
   margin-top: 50px;
 }
@@ -644,7 +649,7 @@
 }
 
 .container--texto-servicios-institucional-instalacion {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -718,12 +723,12 @@
 }
 
 .container--titulo-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
 .container--texto-cubiertas-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -766,7 +771,7 @@
 }
 
 .container--texto-tiendas {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -818,7 +823,7 @@
 }
 
 .container--boton-spaceplanner-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
@@ -841,7 +846,7 @@
 }
 
 .container--titulo-spaceplanner-institucional {
-  max-width: 1280px;
+  max-width: 95%;
   margin: auto;
 }
 
