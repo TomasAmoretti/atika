@@ -15,6 +15,47 @@
           "blockClass": "product-summary"
         }
     },
+    "product-summary.shelf#kit-look": {
+      "children": [
+        "flex-layout.row#contenedor-kit-look"
+      ],
+      "props": {
+        "blockClass": "product-summary"
+      }
+    },
+    "flex-layout.row#contenedor-kit-look":{
+      "children":[
+        "flex-layout.col#contenedor-kit-look-left",
+        "flex-layout.col#contenedor-kit-look-right"
+      ],
+      "props":{
+        "blockClass":"row-shelf-kit-look",
+        "preventVerticalStretch":true,
+        "preventHorizontalStretch":true
+      }
+    },
+    "flex-layout.col#contenedor-kit-look-left":{
+      "children":[
+        "product-summary-image"
+      ],
+      "props":{
+        "blockClass":"row-shelf-kit-look",
+        "preventVerticalStretch":true,
+        "preventHorizontalStretch":true
+      }
+    },
+    "flex-layout.col#contenedor-kit-look-right":{
+      "children":[
+        "vtex.store-components:product-brand#shelf",
+        "product-summary-name",
+        "flex-layout.row#contenedor-shelf"
+      ],
+      "props":{
+        "blockClass":"row-shelf-kit-look",
+        "preventVerticalStretch":true,
+        "preventHorizontalStretch":true
+      }
+    },
     "vtex.product-highlights@2.x:product-highlights#flag-arrival": {
       "props": {
         "type": "collection",

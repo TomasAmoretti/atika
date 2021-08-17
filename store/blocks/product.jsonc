@@ -118,7 +118,7 @@
       "flex-layout.col#spacer-producto2",
       "availability-subscriber",
       "flex-layout.row#cart-button",
-      "rich-text#descripcion-m2",
+      "info-precio-m2",
       "flex-layout.col#product-contenedor-form"
     ],
     "props": {
@@ -215,14 +215,6 @@
       "unavailableText": "SOLO CATALOGO",
       "showTooltipOnSkuNotSelected": true,
       "blockClass": "product-buy-button"
-    }
-  },
-  "rich-text#descripcion-m2": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Ingresa los m2 que necesitas cubrir. Venta por caja \n Se recomienda agregar un 10% adicional a los m2 a cubrir",
-      "blockClass": "titulo-m2"
     }
   },
   "share": {
@@ -373,7 +365,7 @@
   },
   "list-context.kitLook": {
     "blocks": [
-      "product-summary.shelf#main"
+      "product-summary.shelf#kit-look"
     ]
   },
   "flex-layout.row#descripcion-producto": {
@@ -801,9 +793,9 @@
       "blockClass": "col-producto-contenedor-form"
     },
     "children": [
-      "flex-layout.row#product-cotizacion",
+      "flex-layout.row#product-cotizacion"/*,
       "flex-layout.row#product-instalacion",
-      "flex-layout.row#product-spaceplanner"
+      "flex-layout.row#product-spaceplanner"*/
     ]
   },
   "flex-layout.row#product-cotizacion": {

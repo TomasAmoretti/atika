@@ -2,5 +2,7 @@
   "descripcion-larga.title": "Descripcion larga",
   "descripcion-larga.description": "Descripcion larga",
   "ficha-tecnica.title": "Ficha tecnica",
-  "ficha-tecnica.description": "Ficha tecnica con pdf en pagina de producto"
+  "ficha-tecnica.description": "Ficha tecnica con pdf en pagina de producto",
+  "info-precio.title": "Información precio m2",
+  "info-precio.description": "Cuadro de informacion para precio por metro cuadrado"
 }

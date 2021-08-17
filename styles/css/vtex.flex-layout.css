@@ -425,13 +425,21 @@
 }
 
 .flexColChild--col-producto-contenedor-form:last-child {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .flexCol--col-producto-contenedor-form {
   padding: 10px;
   background: #f4f4f4;
   margin-top: 30px;
+}
+
+.flexColChild--product-bottom-right :global(.vtex-product-summary-2-x-containerNormal--product-summary) {
+  max-width: unset!important;
+}
+
+.flexRow--product-bottom :global(.vtex-product-summary-2-x-imageNormal) {
+  width: 50%;
 }
 
 /* MOBILE */
@@ -830,7 +838,7 @@
 
 .flexCol--product-bottom-right {
   padding-top: 29px;
-  width: 75% !important;
+  width: 85%!important;
   margin: auto;
 }
 

@@ -16,5 +16,8 @@
   },
   "garantia":{
     "component": "Garantia"
+  },
+  "info-precio-m2":{
+    "component": "InfoPrecioCuadrado"
   }
 }
