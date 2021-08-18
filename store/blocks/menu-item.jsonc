@@ -230,7 +230,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/lavamanos/sanitarios-y-artefactos-de-bano/lavamanos",
+        "href": "/griferia/griferia-de-lavamanos?initialMap=c&initialQuery=griferia&map=category-1,category-2",
         "text": "Lavamanos"
       },
       "blockClass": "item-submenu"
@@ -260,7 +260,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano&page=2",
+        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano",
         "text": "Muebles de Baño"
       },
       "blockClass": "item-submenu"
@@ -666,7 +666,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas&map=ft",
         "text": "Piedras y Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -882,7 +882,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-de-griferia?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "Limpieza y Mantención de Griferías"
       },
       "blockClass": "item-submenu"
@@ -904,7 +904,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano&page=2",
+        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano",
         "text": "Muebles de Baño"
       },
       "blockClass": "item-submenu"
@@ -1110,7 +1110,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-de-griferia?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "Limpieza y Mantención de Griferías"
       },
       "blockClass": "item-submenu"
@@ -1130,7 +1130,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-y-mantencion-de-cubiertas?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "Limpieza y Mantención de Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -1829,7 +1829,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/lavamanos/sanitarios-y-artefactos-de-bano/lavamanos",
+        "href": "/griferia/griferia-de-lavamanos?initialMap=c&initialQuery=griferia&map=category-1,category-2",
         "text": "LAVAMANOS"
       },
       "blockClass": "item-submenu-mobile"
@@ -1859,7 +1859,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano&page=2",
+        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano",
         "text": "MUEBLES DE BAÑO"
       },
       "blockClass": "item-submenu-mobile"
@@ -2395,7 +2395,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas&map=ft",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2682,7 +2682,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/limpieza-y-mantencion",
+        "href": "/limpieza-y-mantencion/limpieza-de-griferia?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "LIMPIEZA Y MANTENCIÓN"
       },
       "blockClass": "item-submenu-mobile"
@@ -2724,7 +2724,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano&page=2",
+        "href": "/sanitarios-y-artefactos-de-bano/muebles-de-bano?initialMap=c&initialQuery=sanitarios-y-artefactos-de-bano",
         "text": "MUEBLES DE BAÑO"
       },
       "blockClass": "item-submenu-mobile"
@@ -2988,7 +2988,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-de-griferia?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "LIMP. Y MANTEN. DE GRIFERÍAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2998,7 +2998,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-y-mantencion-de-pisos?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "LIMP. Y MANTEN. DE PISOS"
       },
       "blockClass": "item-submenu-mobile"
@@ -3008,7 +3008,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/limpieza-y-mantencion-de-cubiertas?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
         "text": "LIMP. Y MANTEN. DE CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"

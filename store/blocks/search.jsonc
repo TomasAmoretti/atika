@@ -19,6 +19,9 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#banner-one",
+      "flex-layout.row#didyoumean",
+      "flex-layout.row#suggestion",
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
@@ -31,6 +34,9 @@
   },
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#banner-one",
+      "flex-layout.row#didyoumean",
+      "flex-layout.row#suggestion",
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
@@ -45,6 +51,34 @@
     "children": [
       "not-found"
     ]
+  },
+  "flex-layout.row#banner-one": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "search-banner#one"
+    ]
+  },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#suggestion": {
+    "children": [
+      "search-suggestions"
+    ]
+  },
+  "flex-layout.row#didyoumean": {
+    "children": [
+      "did-you-mean"
+    ],
+    "props": {
+      "blockClass": "did-you-mean"
+    }
   },
   "flex-layout.row#top": {
     "children": [
