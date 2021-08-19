@@ -20,8 +20,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-one",
-      "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
@@ -35,8 +33,6 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-one",
-      "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",

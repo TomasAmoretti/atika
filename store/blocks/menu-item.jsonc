@@ -160,7 +160,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
         "text": "Piedras y Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -230,7 +230,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/griferia/griferia-de-lavamanos?initialMap=c&initialQuery=griferia&map=category-1,category-2",
+        "href": "/lavamanos/lavamanos?fuzzy=0&initialMap=ft&initialQuery=lavamanos&map=category-2,ft&operator=and",
         "text": "Lavamanos"
       },
       "blockClass": "item-submenu"
@@ -432,7 +432,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
         "text": "Piedras y Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -1066,7 +1066,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "#",
+        "href": "/limpieza-y-mantencion/Limpieza-y-Mantención-de-Cubiertas",
         "text": "Limpieza y Mantención de Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -1130,7 +1130,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/limpieza-y-mantencion/limpieza-y-mantencion-de-cubiertas?initialMap=c&initialQuery=limpieza-y-mantencion&map=category-1,category-2",
+        "href": "/limpieza-y-mantencion-de-cubiertas?initialMap=c,c&initialQuery=limpieza-y-mantencion/limpieza-y-mantención-de-cubiertas&map=category-2",
         "text": "Limpieza y Mantención de Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -2071,7 +2071,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2395,7 +2395,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2855,7 +2855,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras-y-cubiertas",
+        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "iconPosition": "right",
