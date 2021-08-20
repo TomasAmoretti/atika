@@ -160,7 +160,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas",
         "text": "Piedras y Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -432,7 +432,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas",
         "text": "Piedras y Cubiertas"
       },
       "blockClass": "item-submenu"
@@ -2071,7 +2071,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2395,7 +2395,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "blockClass": "item-submenu-mobile"
@@ -2855,7 +2855,7 @@
     "props": {
       "type": "custom",
       "itemProps": {
-        "href": "/piedras%20y%20cubiertas?_q=piedras%20y%20cubiertas&map=ft",
+        "href": "/piedras%20y%20cubiertas",
         "text": "PIEDRAS Y CUBIERTAS"
       },
       "iconPosition": "right",
