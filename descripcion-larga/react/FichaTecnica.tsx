@@ -46,7 +46,7 @@ const FichaTecnica: StorefrontFunctionComponent<FichaTecnica> = ({}) => {
     return (
       <a
         className={`${handles.fichaTecnica} db tc`}
-        href={`https://sitios.knownonline.com/atika/${fichaTecnica}-FT.pdf`}
+        href={`http://sitios.knownonline.com/atika/${fichaTecnica}-FT.pdf`}
         target="_blank"
       >
         <img

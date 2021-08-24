@@ -47,7 +47,7 @@ const Bim: StorefrontFunctionComponent<Bim> = ({}) => {
   
   if (BimString.indexOf(Bim) != -1){
     return (
-      <a className={`${handles.Bim} db tc`} href={`https://sitios.knownonline.com/atika/BIM-BIONYL.pdf`} target="_blank">
+      <a className={`${handles.Bim} db tc`} href={`http://sitios.knownonline.com/atika/BIM-BIONYL.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/bim.png" alt="Bim" className={`${handles.Bim}`}/>
       </a>
     )

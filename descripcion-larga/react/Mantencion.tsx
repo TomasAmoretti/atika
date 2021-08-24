@@ -49,19 +49,19 @@ const Mantencion: StorefrontFunctionComponent<Mantencion> = ({}) => {
   
   if (MantencionKrono.indexOf(Mantencion) != -1){
     return (
-      <a className={`${handles.Mantencion} db tc`} href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-KRONO-BIONYL.pdf`} target="_blank">
+      <a className={`${handles.Mantencion} db tc`} href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-KRONO-BIONYL.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/limpieza-mantencion.PNG" alt="Mantencion" className={`${handles.Mantencion}`}/>
       </a>
     )
   }else if (MantencionBoen.indexOf(Mantencion) != -1){
     return (
-      <a className={`${handles.Mantencion} db tc`} href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-MADERA-BOEN.pdf`} target="_blank">
+      <a className={`${handles.Mantencion} db tc`} href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-MADERA-BOEN.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/limpieza-mantencion.PNG" alt="Mantencion" className={`${handles.Mantencion}`}/>
       </a>
     )
   }else if (MantencionFloobest.indexOf(Mantencion) != -1){
     return (
-      <a className={`${handles.Mantencion} db tc`} href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-VINILICOS-FLOORBEST.pdf`} target="_blank">
+      <a className={`${handles.Mantencion} db tc`} href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-MANTENCION-ATIKA-VINILICOS-FLOORBEST.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/limpieza-mantencion.PNG" alt="Mantencion" className={`${handles.Mantencion}`}/>
       </a>
     )

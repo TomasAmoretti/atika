@@ -48,7 +48,7 @@ const Instalacion: StorefrontFunctionComponent<Instalacion> = ({}) => {
     return (
       <a
         className={`${handles.Instalacion} db tc`}
-        href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-PORCELANATOS-Y-CERAMICOS.pdf`}
+        href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-PORCELANATOS-Y-CERAMICOS.pdf`}
         target="_blank"
       >
         <img
@@ -63,7 +63,7 @@ const Instalacion: StorefrontFunctionComponent<Instalacion> = ({}) => {
     return (
       <a
         className={`${handles.Instalacion} db tc`}
-        href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-ORGÁNICOS-BIONYL.pdf`}
+        href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-ORGÁNICOS-BIONYL.pdf`}
         target="_blank"
       >
         <img
@@ -78,7 +78,7 @@ const Instalacion: StorefrontFunctionComponent<Instalacion> = ({}) => {
     return (
       <a
         className={`${handles.Instalacion} db tc`}
-        href={`https://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-VINILICOS-FLOORBEST.pdf`}
+        href={`http://sitios.knownonline.com/atika/RECOMENDACIONES-DE-INSTALACIÓN-ATIKA-VINILICOS-FLOORBEST.pdf`}
         target="_blank"
       >
         <img

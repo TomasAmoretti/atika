@@ -48,13 +48,13 @@ const Garantia: StorefrontFunctionComponent<Garantia> = ({}) => {
   
   if (GarantiaKrono.indexOf(Garantia) != -1){
     return (
-      <a className={`${handles.Garantia} db tc`} href={`https://sitios.knownonline.com/atika/GARANTIA-ATIKA-PISOS-ORGANICOS-KRONO.pdf`} target="_blank">
+      <a className={`${handles.Garantia} db tc`} href={`http://sitios.knownonline.com/atika/GARANTIA-ATIKA-PISOS-ORGANICOS-KRONO.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/garantia.PNG" alt="Garantia" className={`${handles.Garantia}`}/>
       </a>
     )
   }else if (GarantiaItopker.indexOf(Garantia) != -1){
     return (
-      <a className={`${handles.Garantia} db tc`} href={`https://sitios.knownonline.com/atika/GARANTÍA-ATIKA-SUPERFICIES-ULTRA-COMPACTAS-ITOPKER-.pdf`} target="_blank">
+      <a className={`${handles.Garantia} db tc`} href={`http://sitios.knownonline.com/atika/GARANTÍA-ATIKA-SUPERFICIES-ULTRA-COMPACTAS-ITOPKER-.pdf`} target="_blank">
         <img title="ficha-tecnica" src="/arquivos/garantia.PNG" alt="Garantia" className={`${handles.Garantia}`}/>
       </a>
     )
