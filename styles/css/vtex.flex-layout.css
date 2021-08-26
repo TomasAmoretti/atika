@@ -373,10 +373,6 @@
   margin-bottom: 0;
 }
 
-.flexColChild--col-right {
-  margin-bottom: -40px;
-}
-
 .flexColChild--col-button :global(.vtex-button__label) {
   padding: 5px 45px;
 }

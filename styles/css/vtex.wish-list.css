@@ -3,6 +3,7 @@
 
 .wishlistIconContainer--whish-product {
   position: relative !important;
+  margin-bottom: -40px;
   margin-left: auto;
   width: 510px !important;
   z-index: 2;
