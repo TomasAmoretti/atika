@@ -117,7 +117,7 @@
 }
 
 .flexColChild--info-item-home {
-  justify-content: end;
+  justify-content: flex-start;
   display: flex;
 }
 
@@ -278,7 +278,7 @@
 .flexRowContent--info-item-home-mobile {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-start;
 }
 
 .flexRowContent--info-home-mobile {
@@ -663,7 +663,7 @@
 }
 
 .flexRowContent--contenedor-form-servicios {
-  justify-content: end;
+  justify-content: flex-start;
 }
 
 .flexRow--formulario-servicios {
@@ -756,7 +756,7 @@
 }
 
 .flexRowContent--contenedor-form-cubiertas-dimensionadas {
-  justify-content: end;
+  justify-content: flex-start;
 }
 
 .flexRowContent--row-tiendas-institucional {

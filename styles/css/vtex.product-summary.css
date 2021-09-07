@@ -37,7 +37,7 @@
 .nameContainer {
   padding-top: 1px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-start;
   margin-left: 9px;
   padding-bottom: 0;
 }

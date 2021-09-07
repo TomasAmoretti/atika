@@ -18,7 +18,7 @@ const InfoPrecioCuadrado: StorefrontFunctionComponent<InfoPrecioCuadradoProps> =
 
   const commercialOffer = seller?.commertialOffer
 
-  if (!commercialOffer || commercialOffer?.AvailableQuantity <= 0) {
+  if (!commercialOffer || commercialOffer?.AvailableQuantity <= 0 || productContextValue?.selectedItem?.unitMultiplier === 1) {
     return null
   }
 
