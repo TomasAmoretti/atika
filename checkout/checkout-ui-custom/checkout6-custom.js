@@ -29,10 +29,16 @@ function quitarDecimales(precio) {
 function quitarDecimalesCart() {
   if (location.hash == '#/cart') {
     setTimeout(() => {
-      let itemsCarrito = document.querySelectorAll("tr.product-item");
+      let itemsCarrito = document.querySelectorAll("span.new-product-price");
       itemsCarrito.forEach((itemDecimal) => {
-        if (itemDecimal.children[0].children[3].innerText.includes(",")) {
-          quitarDecimales(itemDecimal.children[0].children[3]);
+        if (itemDecimal.innerText.includes(",")) {
+          quitarDecimales(itemDecimal);
+        }
+      });
+      let itemsCarritoViejo = document.querySelectorAll("del.old-product-price.muted");
+      itemsCarritoViejo.forEach((itemDecimalViejo) => {
+        if (itemDecimalViejo.innerText.includes(",")) {
+          quitarDecimales(itemDecimalViejo);
         }
       });
       if ((document.querySelector("tbody.totalizers-list td.monetary") != null) && document.querySelector("tbody.totalizers-list td.monetary").innerText.includes(",")) {
@@ -819,17 +825,17 @@ function comprobarCamposEntrega() {
       let e = this;
       e.lang && e.deliveryDateFormat && e.changeShippingTimeInfo()
     }
-    enchancementTotalPrice(e) {
+    /*enchancementTotalPrice(e) {
       if (this.quantityPriceCart) try {
         $.each(e.items, (function (o) {
           let a = $(`.table.cart-items tbody tr.product-item:eq(${o})`);
           if (1 == this.quantity || 0 == a.find("td.product-price").find(".best-price").length) return;
           let n = a.find(".total-selling-price").text(),
             r = `\n          <div class="v-custom-quantity-price vqc-ldelem">\n            <span class="v-custom-quantity-price__list">\n              ${this.listPrice>this.sellingPrice?`<span class="v-custom-quantity-price__list--list">${e.storePreferencesData.currencySymbol} ${(this.listPrice/100).toFixed(2)}</span>`:""}\n            </span>\n          </div>\n        `;
-          a.find("td.product-price").find(".vqc-ldelem").remove(), a.find("td.product-price").addClass("v-custom-quantity-price-active").prepend(r).append(`<div class="v-custom-quantity-price vqc-ldelem"><span class="v-custom-quantity-price__best">${n}</span></div>`), a.find("td.product-price").find("> .best-price").wrap('<div class="v-custom-quantity-price__list--selling"></div>'), a.find("td.product-price").find(".v-custom-quantity-price__list--selling").append(`<span class="vqc-ldelem"> ${this.lang?this.lang.eachLabel:"each"}</span>`)
+          a.find("td.product-price").find(".vqc-ldelem").remove(),console.log("Acaaa :",a.find("td.product-price").find(".best-price")), a.find("td.product-price").addClass("v-custom-quantity-price-active").prepend(r).append(`<div class="v-custom-quantity-price vqc-ldelem"><span class="v-custom-quantity-price__best">${n}</span></div>`), a.find("td.product-price").find("> .best-price").wrap('<div class="v-custom-quantity-price__list--selling"></div>'), a.find("td.product-price").find(".v-custom-quantity-price__list--selling").append(`<span class="vqc-ldelem"> ${this.lang?this.lang.eachLabel:"each"}</span>`)
         }))
       } catch (e) {}
-    }
+    }*/
     condensedTaxes(e) {
       let o = e.totalizers.filter(e => "CustomTax" == e.id);
       if (o && o.length < 2) return !1;
@@ -839,7 +845,7 @@ function comprobarCamposEntrega() {
     }
     update(e) {
       let o = this;
-      this.checkEmpty(e.items), this.addAssemblies(e), this.enchancementTotalPrice(e), this.bundleItems(e), this.buildMiniCart(e), this.condensedTaxes(e), this.setParentIndex(e), this.indexedInItems(e), r((function () {
+      this.checkEmpty(e.items), this.addAssemblies(e), /*this.enchancementTotalPrice(e),*/ this.bundleItems(e), this.buildMiniCart(e), this.condensedTaxes(e), this.setParentIndex(e), this.indexedInItems(e), r((function () {
         e.marketingData && (o.addLabels(e), o.showCustomMsgCoupon(e))
       }), 250)()
     }

@@ -2168,6 +2168,7 @@ button#btn-go-to-payment {
 
 .table.cart-items tbody tr td.product-price {
   display: block !important;
+  text-align: end;
 }
 
 .table.cart-items tbody tr td .field-help {
