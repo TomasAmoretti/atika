@@ -595,6 +595,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 25px;
   }
 
   .flexCol--col-button {

@@ -1007,6 +1007,7 @@
       "sku-selector#mobile",
       "flex-layout.row#Precio",
       "availability-subscriber",
+      "info-precio-m2",
       "flex-layout.col#spacer-producto2",
       "flex-layout.row#product-cotizacion-mobile"
     ],
